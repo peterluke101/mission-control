@@ -5,7 +5,7 @@ import { X, Copy, Check, FileText } from 'lucide-react';
 import { type Document } from '@/lib/data';
 
 const TAG_COLORS: Record<string, string> = {
-  'General': '#00d4ff',
+  'General': '#3DE8C3',
   'Peptide Data Dumps': '#ffaa00',
   'Research Scrubs': '#00ff88',
   'Disclaimers Templates': '#ff44aa',
@@ -91,8 +91,8 @@ export function DocumentModal({ doc, onClose }: DocumentModalProps) {
           </div>
           <button
             onClick={onClose}
-            className="ml-4 p-1.5 rounded-lg transition-colors hover:bg-white/5 flex-shrink-0"
-            style={{ color: '#4a4f65' }}
+            className="ml-4 p-1.5 rounded-lg transition-colors active:bg-white/5 flex-shrink-0 flex items-center justify-center"
+            style={{ color: '#4a4f65', touchAction: 'manipulation', minWidth: '44px', minHeight: '44px' }}
           >
             <X size={18} />
           </button>
@@ -136,11 +136,13 @@ export function DocumentModal({ doc, onClose }: DocumentModalProps) {
         <div className="px-6 py-4 flex justify-end flex-shrink-0" style={{ borderTop: '1px solid #1e2030' }}>
           <button
             onClick={handleCopy}
-            className="flex items-center gap-2 text-xs px-4 py-2 rounded-lg transition-all duration-200 font-medium"
+            className="flex items-center gap-2 text-xs px-4 py-2 rounded-lg transition-all duration-200 font-medium active:scale-95"
             style={{
-              color: copied ? '#00ff88' : '#00d4ff',
-              border: `1px solid ${copied ? 'rgba(0,255,136,0.3)' : 'rgba(0,212,255,0.3)'}`,
-              backgroundColor: copied ? 'rgba(0,255,136,0.08)' : 'rgba(0,212,255,0.08)',
+              color: copied ? '#00ff88' : '#3DE8C3',
+              border: `1px solid ${copied ? 'rgba(0,255,136,0.3)' : 'rgba(61,232,195,0.3)'}`,
+              backgroundColor: copied ? 'rgba(0,255,136,0.08)' : 'rgba(61,232,195,0.08)',
+              touchAction: 'manipulation',
+              minHeight: '44px',
             }}
           >
             {copied ? <Check size={13} /> : <Copy size={13} />}

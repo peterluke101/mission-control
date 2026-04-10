@@ -4,10 +4,10 @@ const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 // Simple mock events
 const MOCK_EVENTS: Record<number, { label: string; color: string }[]> = {
-  3: [{ label: 'Sprint planning', color: '#00d4ff' }],
+  3: [{ label: 'Sprint planning', color: '#3DE8C3' }],
   8: [{ label: 'Design review', color: '#ffaa00' }],
   12: [{ label: 'QA kickoff', color: '#00ff88' }],
-  15: [{ label: 'Team sync', color: '#00d4ff' }],
+  15: [{ label: 'Team sync', color: '#3DE8C3' }],
   18: [{ label: 'Mission Control build', color: '#ff44aa' }],
   22: [{ label: 'Launch prep', color: '#ffaa00' }],
   25: [{ label: 'Retrospective', color: '#00ff88' }],
@@ -69,7 +69,7 @@ export function CalendarGrid() {
                     className="text-xs w-6 h-6 rounded-full flex items-center justify-center font-medium self-start mb-1"
                     style={
                       isToday
-                        ? { backgroundColor: '#00d4ff', color: '#0a0b0f', boxShadow: '0 0 8px rgba(0,212,255,0.5)' }
+                        ? { backgroundColor: '#3DE8C3', color: '#0a0b0f', boxShadow: '0 0 8px rgba(61,232,195,0.5)' }
                         : { color: '#8b92a8' }
                     }
                   >

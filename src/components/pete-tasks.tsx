@@ -140,25 +140,25 @@ export function PeteTasks() {
         className="rounded-xl p-4 md:p-5"
         style={{
           backgroundColor: '#0d0e14',
-          border: '2px solid #00d4ff',
-          boxShadow: '0 0 20px rgba(0,212,255,0.15), inset 0 0 20px rgba(0,212,255,0.03)',
+          border: '2px solid #3DE8C3',
+          boxShadow: '0 0 20px rgba(61,232,195,0.15), inset 0 0 20px rgba(61,232,195,0.03)',
         }}
       >
         <div className="flex items-center gap-2 mb-4">
           <span
             className="w-2.5 h-2.5 rounded-full animate-pulse"
-            style={{ backgroundColor: '#00d4ff' }}
+            style={{ backgroundColor: '#3DE8C3' }}
           />
           <h2
             className="text-sm font-bold uppercase tracking-wider"
-            style={{ color: '#00d4ff', textShadow: '0 0 10px rgba(0,212,255,0.5)' }}
+            style={{ color: '#3DE8C3', textShadow: '0 0 10px rgba(61,232,195,0.5)' }}
           >
             Pete Needs to Action
           </h2>
           {activeTasks.length > 0 && (
             <span
               className="text-xs px-2 py-0.5 rounded-full font-bold"
-              style={{ backgroundColor: '#00d4ff20', color: '#00d4ff', border: '1px solid #00d4ff40' }}
+              style={{ backgroundColor: '#3DE8C320', color: '#3DE8C3', border: '1px solid #3DE8C340' }}
             >
               {activeTasks.length}
             </span>

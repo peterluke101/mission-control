@@ -6,13 +6,13 @@ import { type Task } from '@/lib/data';
 const COLUMNS: { id: Task['status']; label: string; color: string }[] = [
   { id: 'Backlog', label: 'Backlog', color: '#8b92a8' },
   { id: 'In Progress', label: 'In Progress', color: '#ffaa00' },
-  { id: 'Review', label: 'Review', color: '#00d4ff' },
+  { id: 'Review', label: 'Review', color: '#3DE8C3' },
   { id: 'Done', label: 'Done', color: '#00ff88' },
 ];
 
 const PRIORITY_COLORS: Record<Task['priority'], string> = {
   Low: '#8b92a8',
-  Medium: '#00d4ff',
+  Medium: '#3DE8C3',
   High: '#ffaa00',
   Critical: '#ff4466',
 };
@@ -46,7 +46,7 @@ function TaskCard({ task }: { task: Task }) {
           <div className="flex items-center gap-1.5">
             <div
               className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold"
-              style={{ backgroundColor: '#1e2030', color: '#00d4ff' }}
+              style={{ backgroundColor: '#1e2030', color: '#3DE8C3' }}
             >
               {task.assignee.charAt(0)}
             </div>

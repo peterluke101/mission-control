@@ -50,22 +50,20 @@ export function ProjectCard({ project }: { project: Project }) {
         </span>
       </div>
 
-      {/* Progress bar */}
-      <div className="mb-3">
+      {/* Progress bar — HUD Style */}
+      <div className="mb-3 hud-bar-container">
         <div className="flex items-center justify-between mb-1.5">
-          <span className="text-xs" style={{ color: '#8b92a8' }}>Progress</span>
-          <span className="text-xs font-semibold" style={{ color: statusColor }}>
+          <span className="hud-label">
+            {project.progress > 0 ? 'PROGRESS....' : 'PROGRESS'}
+          </span>
+          <span className="text-[11px] hud-pct">
             {project.progress}%
           </span>
         </div>
-        <div className="h-1.5 rounded-full overflow-hidden" style={{ backgroundColor: '#1e2030' }}>
+        <div className="h-[6px] hud-bar-track">
           <div
-            className="h-full rounded-full transition-all duration-500"
-            style={{
-              width: `${project.progress}%`,
-              backgroundColor: statusColor,
-              boxShadow: project.progress > 0 ? `0 0 8px ${statusColor}80` : 'none',
-            }}
+            className="h-full hud-bar-fill"
+            style={{ width: `${project.progress}%` }}
           />
         </div>
       </div>
@@ -93,7 +91,7 @@ export function ProjectCard({ project }: { project: Project }) {
         <div className="flex items-center gap-2">
           <div
             className="w-6 h-6 rounded-full flex items-center justify-center text-[11px] font-bold"
-            style={{ backgroundColor: '#1e2030', color: '#00d4ff' }}
+            style={{ backgroundColor: '#1e2030', color: '#3DE8C3' }}
           >
             {project.lead.charAt(0)}
           </div>

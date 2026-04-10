@@ -1,24 +1,6 @@
 import { teamMembers } from '@/lib/data';
 import { TeamCard } from '@/components/team-card';
 
-const tierConfig = {
-  Leadership: {
-    label: '// COMMAND TIER //',
-    color: '#00d4ff',
-    count: 0,
-  },
-  Builders: {
-    label: '// OPERATIONS TIER //',
-    color: '#7c3aed',
-    count: 0,
-  },
-  'Sub-agents': {
-    label: '// RECON TIER //',
-    color: '#ffaa00',
-    count: 0,
-  },
-};
-
 export default function TeamPage() {
   const leadership = teamMembers.filter((m) => m.category === 'Leadership');
   const builders = teamMembers.filter((m) => m.category === 'Builders');
@@ -27,6 +9,7 @@ export default function TeamPage() {
   const activeCount = teamMembers.filter(
     (m) => m.status === 'Active' || m.status === 'Busy' || m.status === 'Focused'
   ).length;
+  const standbyCount = teamMembers.filter((m) => m.status === 'Standby').length;
 
   return (
     <div className="flex flex-col h-full overflow-hidden">
@@ -43,7 +26,7 @@ export default function TeamPage() {
             Team Roster
           </h1>
           <p className="text-[11px] mt-0.5 font-mono" style={{ color: '#4a4f65' }}>
-            {teamMembers.length} agents deployed · {activeCount} active
+            {teamMembers.length} agents deployed · {activeCount} active · {standbyCount} standby
           </p>
         </div>
 
@@ -51,12 +34,16 @@ export default function TeamPage() {
           {/* Tier legend */}
           <div className="hidden sm:flex items-center gap-4">
             {(['Leadership', 'Builders', 'Sub-agents'] as const).map((tier) => {
-              const cfg = tierConfig[tier];
+              const colors: Record<string, string> = {
+                Leadership: '#3DE8C3',
+                Builders: '#7c3aed',
+                'Sub-agents': '#ffaa00',
+              };
               return (
                 <div key={tier} className="flex items-center gap-1.5">
                   <span
                     className="w-1.5 h-1.5 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: cfg.color }}
+                    style={{ backgroundColor: colors[tier] }}
                   />
                   <span
                     className="text-[10px] font-mono"
@@ -86,6 +73,24 @@ export default function TeamPage() {
         </div>
       </div>
 
+      {/* Stats row (merged from Agents page) */}
+      <div
+        className="flex-shrink-0 grid grid-cols-2 md:grid-cols-4 gap-px"
+        style={{ borderBottom: '1px solid #1e2030' }}
+      >
+        {[
+          { label: 'Total', value: teamMembers.length, color: '#e8eaf0' },
+          { label: 'Active', value: teamMembers.filter(a => a.status === 'Active').length, color: '#00ff88' },
+          { label: 'Busy', value: teamMembers.filter(a => a.status === 'Busy' || a.status === 'Focused').length, color: '#ffaa00' },
+          { label: 'Standby', value: standbyCount, color: '#8b92a8' },
+        ].map((stat) => (
+          <div key={stat.label} className="px-4 md:px-6 py-2.5" style={{ backgroundColor: '#0a0b0f' }}>
+            <p className="text-[10px] font-mono" style={{ color: '#4a4f65' }}>{stat.label}</p>
+            <p className="text-lg font-bold font-mono" style={{ color: stat.color }}>{stat.value}</p>
+          </div>
+        ))}
+      </div>
+
       {/* Scrollable content */}
       <div className="flex-1 overflow-y-auto px-4 md:px-6 py-4 md:py-5">
         <div className="space-y-10 max-w-5xl">
@@ -95,14 +100,14 @@ export default function TeamPage() {
             <div className="flex items-center gap-3 mb-4">
               <span
                 className="tier-header"
-                style={{ color: '#00d4ff', textShadow: '0 0 8px rgba(0,212,255,0.4)' }}
+                style={{ color: '#3DE8C3', textShadow: '0 0 8px rgba(61,232,195,0.4)' }}
               >
                 // COMMAND TIER //
               </span>
               <div
                 className="flex-1 h-px"
                 style={{
-                  background: 'linear-gradient(90deg, rgba(0,212,255,0.3) 0%, rgba(0,212,255,0.05) 50%, transparent 100%)',
+                  background: 'linear-gradient(90deg, rgba(61,232,195,0.3) 0%, rgba(61,232,195,0.05) 50%, transparent 100%)',
                 }}
               />
               <span

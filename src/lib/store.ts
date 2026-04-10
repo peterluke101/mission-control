@@ -22,6 +22,7 @@ export interface Approval {
   priority: ApprovalPriority;
   assignedTo: string;
   status: ApprovalStatus;
+  approvedAt?: string;
   selectedOption?: string;
   options?: ApprovalOption[];
 }
@@ -128,6 +129,8 @@ interface AppState {
   approvals: Approval[];
   setApprovalStatus: (id: string, status: ApprovalStatus) => void;
   setApprovalOption: (id: string, optionValue: string) => void;
+  revokeApproval: (id: string) => void;
+  cleanupApprovedApprovals: () => void;
   pendingApprovalCount: () => number;
 
   // Pete Tasks
@@ -195,11 +198,33 @@ export const useAppStore = create<AppState>()(
       approvals: defaultApprovals,
       setApprovalStatus: (id, status) =>
         set((state) => ({
-          approvals: state.approvals.map((a) => (a.id === id ? { ...a, status } : a)),
+          approvals: state.approvals.map((a) =>
+            a.id === id
+              ? {
+                  ...a,
+                  status,
+                  approvedAt: status === 'APPROVED' ? new Date().toISOString() : undefined,
+                }
+              : a
+          ),
         })),
       setApprovalOption: (id, optionValue) =>
         set((state) => ({
           approvals: state.approvals.map((a) => (a.id === id ? { ...a, selectedOption: optionValue } : a)),
+        })),
+      revokeApproval: (id) =>
+        set((state) => ({
+          approvals: state.approvals.map((a) =>
+            a.id === id ? { ...a, status: 'PENDING' as ApprovalStatus, approvedAt: undefined } : a
+          ),
+        })),
+      cleanupApprovedApprovals: () =>
+        set((state) => ({
+          approvals: state.approvals.filter((a) => {
+            if (a.status !== 'APPROVED' || !a.approvedAt) return true;
+            const elapsed = Date.now() - new Date(a.approvedAt).getTime();
+            return elapsed < 5 * 60 * 1000;
+          }),
         })),
       pendingApprovalCount: () => get().approvals.filter((a) => a.status === 'PENDING').length,
 

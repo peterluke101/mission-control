@@ -4,14 +4,14 @@ import { FileText } from 'lucide-react';
 import { type Document } from '@/lib/data';
 
 const TAG_COLORS: Record<string, string> = {
-  'General': '#00d4ff',
+  'General': '#3DE8C3',
   'Peptide Data Dumps': '#ffaa00',
   'Research Scrubs': '#00ff88',
   'Disclaimers Templates': '#ff44aa',
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
-  Strategy: '#00d4ff',
+  Strategy: '#3DE8C3',
   Product: '#ffaa00',
   Engineering: '#00ff88',
   Marketing: '#ff44aa',
@@ -35,9 +35,12 @@ export function DocumentCard({ doc, onClick }: DocumentCardProps) {
 
   return (
     <div
-      className="rounded-xl p-5 transition-all duration-200 hover:ring-1 hover:ring-[#2a2d42] cursor-pointer"
-      style={{ backgroundColor: '#13151c', border: '1px solid #1e2030' }}
+      role="button"
+      tabIndex={0}
+      className="rounded-xl p-5 transition-all duration-200 active:ring-1 active:ring-[#2a2d42] cursor-pointer"
+      style={{ backgroundColor: '#13151c', border: '1px solid #1e2030', touchAction: 'manipulation' }}
       onClick={onClick}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onClick?.(); }}
     >
       <div className="flex items-start gap-3">
         <div

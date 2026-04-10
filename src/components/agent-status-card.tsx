@@ -4,7 +4,7 @@ import { Cpu } from 'lucide-react';
 import { type TeamMember, type Status } from '@/lib/data';
 
 const tierColors = {
-  Leadership: { accent: '#00d4ff', dim: 'rgba(0,212,255,0.08)', border: 'rgba(0,212,255,0.2)' },
+  Leadership: { accent: '#3DE8C3', dim: 'rgba(61,232,195,0.08)', border: 'rgba(61,232,195,0.2)' },
   Builders:   { accent: '#7c3aed', dim: 'rgba(124,58,237,0.08)', border: 'rgba(124,58,237,0.22)' },
   'Sub-agents': { accent: '#ffaa00', dim: 'rgba(255,170,0,0.08)', border: 'rgba(255,170,0,0.2)' },
 };
@@ -14,6 +14,7 @@ function StatusDot({ status }: { status: Status }) {
     Active:  { color: '#00ff88', cls: 'status-dot-active' },
     Busy:    { color: '#ffaa00', cls: 'status-dot-busy' },
     Focused: { color: '#ffaa00', cls: 'status-dot-busy' },
+    Training: { color: '#3b82f6', cls: 'status-dot-active' },
     Standby: { color: '#4a4f65', cls: 'status-dot-standby' },
     Offline: { color: '#2a2d42', cls: '' },
   };
@@ -31,6 +32,7 @@ export function AgentStatusCard({ member }: { member: TeamMember }) {
     Active:  '#00ff88',
     Busy:    '#ffaa00',
     Focused: '#ffaa00',
+    Training: '#3b82f6',
     Standby: '#4a4f65',
     Offline: '#2a2d42',
   };

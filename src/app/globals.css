@@ -27,7 +27,7 @@
   --sidebar-width: 240px;
 
   /* Mission Control color system */
-  --cyan: #00d4ff;
+  --cyan: #3DE8C3;
   --cyan-dim: rgba(0, 212, 255, 0.08);
   --cyan-border: rgba(0, 212, 255, 0.2);
   --purple: #7c3aed;
@@ -254,7 +254,7 @@ body {
   box-shadow:
     0 0 20px rgba(0, 212, 255, 0.15),
     inset 0 0 20px rgba(0, 212, 255, 0.04),
-    -2px 0 0 0 #00d4ff;
+    -2px 0 0 0 #3DE8C3;
 }
 
 /* ============================================
@@ -287,6 +287,82 @@ body {
 
 .pulse-amber-dot {
   animation: pulse-amber 2s ease-in-out infinite;
+}
+
+/* ============================================
+   PROGRESS BAR ANIMATIONS
+   ============================================ */
+
+/* Shimmer sweep across the filled bar */
+@keyframes bar-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}
+
+/* Glow pulse on the filled portion */
+@keyframes bar-glow-breathe {
+  0%, 100% { box-shadow: 0 0 6px rgba(0, 212, 255, 0.3), 0 0 12px rgba(0, 212, 255, 0.15); }
+  50% { box-shadow: 0 0 10px rgba(0, 212, 255, 0.6), 0 0 20px rgba(0, 212, 255, 0.3); }
+}
+
+/* Percentage number gentle pulse */
+@keyframes pct-pulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* Progress bar track */
+.hud-bar-track {
+  position: relative;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 9999px;
+  background-color: rgba(0, 212, 255, 0.08);
+  overflow: hidden;
+}
+
+/* Progress bar fill */
+.hud-bar-fill {
+  position: relative;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: #3DE8C3;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: bar-glow-breathe 3s ease-in-out infinite;
+}
+
+/* Shimmer sweep on fill */
+.hud-bar-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  animation: bar-shimmer 2.5s ease-in-out infinite;
+}
+
+/* Percentage text */
+.hud-pct {
+  font-family: var(--font-geist-mono), 'Courier New', monospace;
+  font-weight: 700;
+  color: #3DE8C3;
+  text-shadow: 0 0 6px rgba(0, 212, 255, 0.5);
+  animation: pct-pulse 2.5s ease-in-out infinite;
+}
+
+/* Label text */
+.hud-label {
+  font-family: var(--font-geist-mono), 'Courier New', monospace;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #3DE8C3;
+  font-size: 0.6rem;
+}
+
+/* Bar container (no flicker) */
+.hud-bar-container {
 }
 
 /* ============================================
@@ -346,4 +422,12 @@ body {
 /* Prevent iOS tap highlight */
 * {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Approval flash animation */
+@keyframes approvalFlash {
+  0% { opacity: 0; transform: scale(0.95); }
+  20% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.65; transform: scale(1); }
 }

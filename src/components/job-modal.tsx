@@ -101,8 +101,8 @@ export function JobModal({ job, onClose }: JobModalProps) {
           </h2>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-lg transition-colors hover:bg-white/5"
-            style={{ color: '#4a4f65' }}
+            className="p-1.5 rounded-lg transition-colors active:bg-white/5 flex items-center justify-center"
+            style={{ color: '#4a4f65', touchAction: 'manipulation', minWidth: '44px', minHeight: '44px' }}
           >
             <X size={18} />
           </button>
@@ -116,7 +116,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
             <select
               value={form.platform}
               onChange={(e) => setForm({ ...form, platform: e.target.value as JobPlatform })}
-              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
               style={inputStyle}
             >
               {PLATFORMS.map((p) => <option key={p} value={p}>{p}</option>)}
@@ -131,7 +131,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               value={form.title}
               onChange={(e) => setForm({ ...form, title: e.target.value })}
               placeholder="Job title..."
-              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
               style={inputStyle}
             />
           </div>
@@ -145,7 +145,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                 value={form.amount}
                 onChange={(e) => setForm({ ...form, amount: e.target.value })}
                 placeholder="0"
-                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
                 style={inputStyle}
               />
             </div>
@@ -154,7 +154,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               <select
                 value={form.status}
                 onChange={(e) => setForm({ ...form, status: e.target.value as JobStatus })}
-                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
                 style={inputStyle}
               >
                 {STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
@@ -169,7 +169,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               <select
                 value={form.awarded ? 'yes' : 'no'}
                 onChange={(e) => setForm({ ...form, awarded: e.target.value === 'yes' })}
-                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
                 style={inputStyle}
               >
                 <option value="no">No</option>
@@ -183,7 +183,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                 value={form.revenue}
                 onChange={(e) => setForm({ ...form, revenue: e.target.value })}
                 placeholder="0"
-                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+                className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
                 style={inputStyle}
               />
             </div>
@@ -196,7 +196,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               type="date"
               value={form.date}
               onChange={(e) => setForm({ ...form, date: e.target.value })}
-              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#00d4ff]/40"
+              className="w-full text-sm px-3 py-2 rounded-lg outline-none focus:ring-1 focus:ring-[#3DE8C3]/40"
               style={inputStyle}
             />
           </div>
@@ -209,7 +209,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               onChange={(e) => setForm({ ...form, notes: e.target.value })}
               placeholder="Notes..."
               rows={3}
-              className="w-full text-sm px-3 py-2 rounded-lg outline-none resize-none focus:ring-1 focus:ring-[#00d4ff]/40"
+              className="w-full text-sm px-3 py-2 rounded-lg outline-none resize-none focus:ring-1 focus:ring-[#3DE8C3]/40"
               style={inputStyle}
             />
           </div>
@@ -219,18 +219,20 @@ export function JobModal({ job, onClose }: JobModalProps) {
         <div className="px-6 py-4 flex justify-end gap-3 flex-shrink-0" style={{ borderTop: '1px solid #1e2030' }}>
           <button
             onClick={onClose}
-            className="text-xs px-4 py-2 rounded-lg font-medium transition-colors hover:bg-white/5"
-            style={{ color: '#8b92a8', border: '1px solid #1e2030' }}
+            className="text-xs px-4 py-2 rounded-lg font-medium transition-colors active:bg-white/5 active:scale-95"
+            style={{ color: '#8b92a8', border: '1px solid #1e2030', touchAction: 'manipulation', minHeight: '44px' }}
           >
             Cancel
           </button>
           <button
             onClick={handleSubmit}
-            className="text-xs px-4 py-2 rounded-lg font-medium transition-all duration-200"
+            className="text-xs px-4 py-2 rounded-lg font-medium transition-all duration-200 active:scale-95"
             style={{
-              color: '#00d4ff',
-              border: '1px solid rgba(0,212,255,0.3)',
-              backgroundColor: 'rgba(0,212,255,0.08)',
+              color: '#3DE8C3',
+              border: '1px solid rgba(61,232,195,0.3)',
+              backgroundColor: 'rgba(61,232,195,0.08)',
+              touchAction: 'manipulation',
+              minHeight: '44px',
             }}
           >
             {isEdit ? 'Save Changes' : 'Add Job'}

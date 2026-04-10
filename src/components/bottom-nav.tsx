@@ -4,22 +4,21 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard,
-  Users,
-  CheckSquare,
-  Briefcase,
-  FolderKanban,
   FileText,
-  Bot,
+  ClipboardList,
+  DollarSign,
+  Users,
+  Zap,
+  ScrollText,
 } from 'lucide-react';
 
 const tabs = [
+  { href: '/pete', label: 'Pete', icon: Zap },
   { href: '/dashboard', label: 'HQ', icon: LayoutDashboard },
   { href: '/team', label: 'Team', icon: Users },
-  { href: '/tasks', label: 'Tasks', icon: CheckSquare },
-  { href: '/jobs', label: 'Jobs', icon: Briefcase },
-  { href: '/projects', label: 'Projects', icon: FolderKanban },
+  { href: '/work', label: 'Work', icon: ClipboardList },
   { href: '/documents', label: 'Docs', icon: FileText },
-  { href: '/agents', label: 'Agents', icon: Bot },
+  { href: '/logs', label: 'Logs', icon: ScrollText },
 ];
 
 export function BottomNav() {
@@ -42,10 +41,11 @@ export function BottomNav() {
           <Link
             key={href}
             href={href}
-            className="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] py-2 px-1 transition-colors"
+            className="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] py-2 px-1 transition-colors active:opacity-70"
             style={{
-              color: isActive ? '#00d4ff' : '#4a4f65',
-              textShadow: isActive ? '0 0 8px rgba(0,212,255,0.4)' : 'none',
+              color: isActive ? '#3DE8C3' : '#4a4f65',
+              textShadow: isActive ? '0 0 8px rgba(61,232,195,0.4)' : 'none',
+              touchAction: 'manipulation',
             }}
           >
             <Icon size={20} />

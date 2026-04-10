@@ -8,17 +8,17 @@ import { type Job, type JobPlatform, type JobStatus } from '@/lib/data';
 
 const PLATFORM_COLORS: Record<JobPlatform, string> = {
   Upwork: '#00ff88',
-  Freelancer: '#00d4ff',
+  Freelancer: '#3DE8C3',
   Fiverr: '#ffaa00',
   Other: '#8b92a8',
 };
 
 const STATUS_COLORS: Record<JobStatus, string> = {
   Submitted: '#8b92a8',
-  Viewed: '#00d4ff',
+  Viewed: '#3DE8C3',
   Interviewing: '#ffaa00',
   Awarded: '#00ff88',
-  'In Progress': '#22d3ee',
+  'In Progress': '#3DE8C3',
   Completed: '#10b981',
   Lost: '#ff4466',
   Withdrawn: '#ff8800',
@@ -104,8 +104,8 @@ export function JobsTable() {
   const SortIcon = ({ column }: { column: keyof Job }) => {
     if (sortColumn !== column) return <ChevronUp size={10} style={{ color: '#2a2d42' }} />;
     return sortDirection === 'asc'
-      ? <ChevronUp size={10} style={{ color: '#00d4ff' }} />
-      : <ChevronDown size={10} style={{ color: '#00d4ff' }} />;
+      ? <ChevronUp size={10} style={{ color: '#3DE8C3' }} />
+      : <ChevronDown size={10} style={{ color: '#3DE8C3' }} />;
   };
 
   const selectStyle = {
@@ -120,9 +120,9 @@ export function JobsTable() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
         <StatCard label="Total Proposals" value={totalProposals} />
         <StatCard label="Awarded" value={awarded} color="#00ff88" />
-        <StatCard label="In Progress" value={inProgress} color="#22d3ee" />
+        <StatCard label="In Progress" value={inProgress} color="#3DE8C3" />
         <StatCard label="Completed" value={completed} color="#10b981" />
-        <StatCard label="Win Rate" value={`${winRate}%`} color="#00d4ff" />
+        <StatCard label="Win Rate" value={`${winRate}%`} color="#3DE8C3" />
         <StatCard label="Total Revenue" value={`$${totalRevenue.toLocaleString()}`} color="#00ff88" />
       </div>
 
@@ -172,7 +172,7 @@ export function JobsTable() {
                 <p className="text-sm font-medium leading-tight" style={{ color: '#e8eaf0' }}>
                   {job.title}
                 </p>
-                <p className="text-xs font-mono mt-1" style={{ color: '#00d4ff' }}>{job.id}</p>
+                <p className="text-xs font-mono mt-1" style={{ color: '#3DE8C3' }}>{job.id}</p>
               </div>
               <span
                 className="text-[10px] font-semibold px-2 py-0.5 rounded-full flex-shrink-0"
@@ -265,11 +265,11 @@ export function JobsTable() {
                 <tr
                   key={job.id}
                   className="transition-colors duration-150 cursor-pointer hover:bg-white/[0.02]"
-                  style={{ borderBottom: '1px solid #1e2030', backgroundColor: isExpanded ? 'rgba(0,212,255,0.03)' : 'transparent' }}
+                  style={{ borderBottom: '1px solid #1e2030', backgroundColor: isExpanded ? 'rgba(61,232,195,0.03)' : 'transparent' }}
                   onClick={() => setSelectedJob(isExpanded ? null : job.id)}
                 >
                   <td className="px-3 py-2.5">
-                    <span className="text-xs font-mono font-medium" style={{ color: '#00d4ff' }}>{job.id}</span>
+                    <span className="text-xs font-mono font-medium" style={{ color: '#3DE8C3' }}>{job.id}</span>
                   </td>
                   <td className="px-3 py-2.5">
                     <span
@@ -326,7 +326,7 @@ export function JobsTable() {
                         onChange={(e) => setNoteValue(e.target.value)}
                         onBlur={() => handleNoteSave(job.id)}
                         onKeyDown={(e) => { if (e.key === 'Enter') handleNoteSave(job.id); }}
-                        className="text-xs px-2 py-1 rounded outline-none w-full min-w-[120px] focus:ring-1 focus:ring-[#00d4ff]/40"
+                        className="text-xs px-2 py-1 rounded outline-none w-full min-w-[120px] focus:ring-1 focus:ring-[#3DE8C3]/40"
                         style={{ backgroundColor: '#0a0b0f', border: '1px solid #1e2030', color: '#e8eaf0' }}
                       />
                     ) : (

@@ -5,15 +5,12 @@ import { usePathname } from 'next/navigation';
 import {
   Users,
   FileText,
-  CheckSquare,
-  Bot,
-  FolderKanban,
-  Calendar,
   Settings,
   LayoutDashboard,
-  TrendingUp,
   DollarSign,
-  Briefcase,
+  Zap,
+  ClipboardList,
+  ScrollText,
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { cn } from '@/lib/utils';
@@ -24,17 +21,13 @@ export function Sidebar() {
   const pendingCount = approvals.filter((a) => a.status === 'PENDING').length;
 
   const navItems = [
+    { href: '/pete', label: 'Pete', icon: Zap, shortcode: 'CMD', badge: pendingCount > 0 ? pendingCount : null },
     { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard, shortcode: 'HQ', badge: null },
-    { href: '/approvals', label: 'Approvals', icon: CheckSquare, shortcode: 'APR', badge: pendingCount > 0 ? pendingCount : null },
     { href: '/team', label: 'Team', icon: Users, shortcode: 'TMR', badge: null },
+    { href: '/work', label: 'Work', icon: ClipboardList, shortcode: 'WRK', badge: null },
     { href: '/documents', label: 'Documents', icon: FileText, shortcode: 'DOC', badge: null },
-    { href: '/tasks', label: 'Tasks', icon: CheckSquare, shortcode: 'TSK', badge: null },
-    { href: '/jobs', label: 'Jobs', icon: Briefcase, shortcode: 'JOB', badge: null },
-    { href: '/agents', label: 'Agents', icon: Bot, shortcode: 'AGT', badge: null },
-    { href: '/projects', label: 'Projects', icon: FolderKanban, shortcode: 'PRJ', badge: null },
-    { href: '/calendar', label: 'Calendar', icon: Calendar, shortcode: 'CAL', badge: null },
-    { href: '/revenue', label: 'Revenue', icon: DollarSign, shortcode: 'REV', badge: null },
-    { href: '/improvements', label: 'Improvements', icon: TrendingUp, shortcode: 'IMP', badge: null },
+    { href: '/logs', label: 'Logs', icon: ScrollText, shortcode: 'LOG', badge: null },
+    { href: '/money', label: 'Money', icon: DollarSign, shortcode: 'MON', badge: null },
     { href: '/settings', label: 'Settings', icon: Settings, shortcode: 'SYS', badge: null },
   ];
 
@@ -71,16 +64,16 @@ export function Sidebar() {
               className={cn(
                 'group flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 relative overflow-hidden',
                 isActive
-                  ? 'text-[#00d4ff]'
+                  ? 'text-[#3DE8C3]'
                   : 'text-[#8b92a8] hover:text-[#c4c9d9] hover:bg-white/[0.03]'
               )}
               style={
                 isActive
                   ? {
-                      backgroundColor: 'rgba(0,212,255,0.06)',
-                      boxShadow: '0 0 20px rgba(0,212,255,0.1), inset 0 0 20px rgba(0,212,255,0.03), -2px 0 0 0 #00d4ff',
-                      border: '1px solid rgba(0,212,255,0.15)',
-                      textShadow: '0 0 8px rgba(0,212,255,0.4)',
+                      backgroundColor: 'rgba(61,232,195,0.06)',
+                      boxShadow: '0 0 20px rgba(61,232,195,0.1), inset 0 0 20px rgba(61,232,195,0.03), -2px 0 0 0 #3DE8C3',
+                      border: '1px solid rgba(61,232,195,0.15)',
+                      textShadow: '0 0 8px rgba(61,232,195,0.4)',
                     }
                   : { border: '1px solid transparent' }
               }
@@ -102,7 +95,7 @@ export function Sidebar() {
               {isActive && badge === null && (
                 <span
                   className="text-[9px] font-mono tracking-widest opacity-50"
-                  style={{ color: '#00d4ff' }}
+                  style={{ color: '#3DE8C3' }}
                 >
                   {shortcode}
                 </span>
@@ -141,9 +134,9 @@ export function Sidebar() {
           </span>
           <span
             className="text-[9px] font-mono font-bold"
-            style={{ color: '#00d4ff', opacity: 0.6 }}
+            style={{ color: '#3DE8C3', opacity: 0.6 }}
           >
-            v2.0
+            v3.0
           </span>
         </div>
       </div>

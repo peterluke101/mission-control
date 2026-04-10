@@ -1,0 +1,100 @@
+{
+  "updatedAt": "2026-03-31T09:30:00.000Z",
+  "note": "Updated night shift 2:30 AM — real status as of Day 14",
+  "people": [
+    {
+      "id": "pete",
+      "name": "Pete",
+      "role": "Board / Owner",
+      "status": "offline",
+      "currentTask": "Sleeping — review morning brief at 8 AM",
+      "lastActive": "2026-03-31T05:55:00.000Z",
+      "model": "human",
+      "pendingItems": [
+        "netlify login (unblocks portfolio — 5 min)",
+        "KDP upload — 15 min",
+        "Reddit account question — 30 sec",
+        "Gmail 2FA — security alert"
+      ]
+    },
+    {
+      "id": "ares",
+      "name": "Ares ⚡",
+      "role": "CEO / Master Control",
+      "status": "active",
+      "currentTask": "Night shift: SaaS case study, X bug fix, MC JSON update, proposal prep",
+      "lastActive": "2026-03-31T09:30:00.000Z",
+      "model": "anthropic/claude-opus-4-6",
+      "completedTonight": [
+        "SaaS audit case study written",
+        "X triple-post bug fixed (HEARTBEAT.md)",
+        "MC JSON files updated with real data"
+      ]
+    },
+    {
+      "id": "tron",
+      "name": "Tron",
+      "role": "Systems Builder / Programmer",
+      "status": "standby",
+      "currentTask": "MC Phase 1 delivered — standby for QC issues or Phase 2 orders",
+      "lastActive": "2026-03-31T06:00:00.000Z",
+      "model": "gpt-5.4-mini",
+      "recentDelivery": "Goals tab, Activity feed, Org chart card — all built overnight Mar 30→31"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "Creative Director / Design Strategy",
+      "status": "standby",
+      "currentTask": "Available for design critique — MC visual QC when screenshots ready",
+      "lastActive": "2026-03-30T23:00:00.000Z",
+      "model": "grok-4-fast-reasoning"
+    },
+    {
+      "id": "jarod",
+      "name": "Jarod",
+      "role": "VP Social / Research & Writing",
+      "status": "standby",
+      "currentTask": "SaaS case study filed — standby for X post writing, Reddit prep",
+      "lastActive": "2026-03-31T09:30:00.000Z",
+      "model": "grok-4-fast-reasoning",
+      "recentDelivery": "SaaS audit case study (social proof for Upwork proposal)"
+    },
+    {
+      "id": "flynn",
+      "name": "Flynn",
+      "role": "Behavioral Strategy",
+      "status": "standby",
+      "currentTask": "Proposal psychology — available for conversion analysis",
+      "lastActive": "2026-03-31T04:00:00.000Z",
+      "model": "grok-4-fast-reasoning"
+    },
+    {
+      "id": "eve",
+      "name": "Eve Kim",
+      "role": "Infrastructure Engineer",
+      "status": "offline",
+      "currentTask": "Mothballed — reactivate for dedicated infra projects",
+      "lastActive": "2026-03-20T00:00:00.000Z",
+      "model": "archived"
+    },
+    {
+      "id": "daft",
+      "name": "Daft Punk",
+      "role": "Full-Stack Developer",
+      "status": "offline",
+      "currentTask": "Mothballed — reactivate when freelance clients land",
+      "lastActive": "2026-03-20T00:00:00.000Z",
+      "model": "archived"
+    },
+    {
+      "id": "leto",
+      "name": "Leto",
+      "role": "Sales & BD",
+      "status": "offline",
+      "currentTask": "Mothballed — reactivate when sales pipeline exists",
+      "lastActive": "2026-03-20T00:00:00.000Z",
+      "model": "archived"
+    }
+  ]
+}

@@ -116,8 +116,8 @@ export default function DocumentsPage() {
           </p>
         </div>
         <button
-          className="text-xs px-3 py-1.5 rounded-lg transition-all duration-200 hover:bg-[#00d4ff]/10 font-medium"
-          style={{ color: '#00d4ff', border: '1px solid rgba(0,212,255,0.3)' }}
+          className="text-xs px-3 py-1.5 rounded-lg transition-all duration-200 active:scale-95 active:bg-[#3DE8C3]/10 font-medium"
+          style={{ color: '#3DE8C3', border: '1px solid rgba(61,232,195,0.3)', touchAction: 'manipulation', minHeight: '44px' }}
         >
           + New Doc
         </button>
@@ -144,14 +144,14 @@ export default function DocumentsPage() {
                 border: '1px solid #1e2030',
                 color: '#e8eaf0',
               }}
-              onFocus={(e) => (e.currentTarget.style.borderColor = 'rgba(0,212,255,0.4)')}
+              onFocus={(e) => (e.currentTarget.style.borderColor = 'rgba(61,232,195,0.4)')}
               onBlur={(e) => (e.currentTarget.style.borderColor = '#1e2030')}
             />
             {docSearch && (
               <button
                 onClick={() => setDocSearch('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2"
-                style={{ color: '#4a4f65' }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center justify-center"
+                style={{ color: '#4a4f65', touchAction: 'manipulation', minWidth: '44px', minHeight: '44px' }}
               >
                 <X size={13} />
               </button>
@@ -180,12 +180,14 @@ export default function DocumentsPage() {
         <div className="flex flex-wrap gap-2">
           <button
             onClick={resetAll}
-            className="text-xs px-3 py-1 rounded-full transition-all duration-150 font-medium"
-            style={
-              docActiveTags.length === 0 && !docSearch
-                ? { backgroundColor: 'rgba(0,212,255,0.15)', color: '#00d4ff', border: '1px solid rgba(0,212,255,0.4)' }
-                : { backgroundColor: '#1e2030', color: '#4a4f65', border: '1px solid #2a2d42' }
-            }
+            className="text-xs px-3 py-1 rounded-full transition-all duration-150 font-medium active:scale-95"
+            style={{
+              ...(docActiveTags.length === 0 && !docSearch
+                ? { backgroundColor: 'rgba(61,232,195,0.15)', color: '#3DE8C3', border: '1px solid rgba(61,232,195,0.4)' }
+                : { backgroundColor: '#1e2030', color: '#4a4f65', border: '1px solid #2a2d42' }),
+              touchAction: 'manipulation',
+              minHeight: '44px',
+            }}
           >
             All
           </button>
@@ -195,12 +197,14 @@ export default function DocumentsPage() {
               <button
                 key={tag}
                 onClick={() => toggleDocTag(tag)}
-                className="text-xs px-3 py-1 rounded-full transition-all duration-150 font-medium"
-                style={
-                  active
-                    ? { backgroundColor: 'rgba(0,212,255,0.15)', color: '#00d4ff', border: '1px solid rgba(0,212,255,0.4)' }
-                    : { backgroundColor: '#1e2030', color: '#4a4f65', border: '1px solid #2a2d42' }
-                }
+                className="text-xs px-3 py-1 rounded-full transition-all duration-150 font-medium active:scale-95"
+                style={{
+                  ...(active
+                    ? { backgroundColor: 'rgba(61,232,195,0.15)', color: '#3DE8C3', border: '1px solid rgba(61,232,195,0.4)' }
+                    : { backgroundColor: '#1e2030', color: '#4a4f65', border: '1px solid #2a2d42' }),
+                  touchAction: 'manipulation',
+                  minHeight: '44px',
+                }}
               >
                 {tag}
               </button>
@@ -228,11 +232,13 @@ export default function DocumentsPage() {
             {hasActiveFilters && (
               <button
                 onClick={resetAll}
-                className="text-xs px-4 py-2 rounded-lg transition-all duration-200 font-medium"
+                className="text-xs px-4 py-2 rounded-lg transition-all duration-200 font-medium active:scale-95"
                 style={{
-                  color: '#00d4ff',
-                  border: '1px solid rgba(0,212,255,0.3)',
-                  backgroundColor: 'rgba(0,212,255,0.08)',
+                  color: '#3DE8C3',
+                  border: '1px solid rgba(61,232,195,0.3)',
+                  backgroundColor: 'rgba(61,232,195,0.08)',
+                  touchAction: 'manipulation',
+                  minHeight: '44px',
                 }}
               >
                 Clear Filters
