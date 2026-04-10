@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mission Control
 
-## Getting Started
+Mission Control is a centralized web app for managing organizational tasks, projects, goals, revenue tracking, and team workflows.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Problem It Solves
+
+Streamlines fragmented task/project management across multiple tools into one unified interface with data-driven insights.
+
+---
+
+## Tech Stack
+
+- Next.js 16.2.0
+- React 19.2.4
+- Tailwind CSS 4
+- Zustand for state management
+- TypeScript
+- Various UI and utility libraries (lucide-react, clsx, shadcn)
+
+---
+
+## Folder Structure Overview
+
+- `/src/app/` — main React app pages and components
+- `/src/app/api/` — backend API routes
+- `/public/` — static assets
+- `/pro/` — private/pro product documents and scripts
+- `/styles/` — global CSS and theming (Tailwind config separate)
+- `/node_modules/` — dependencies
+
+---
+
+## Setup and Development
+
+
+### Install Dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run App Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Build and Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Build for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Run Production Server
 
-## Deploy on Vercel
+```
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Serve on all interfaces with `-H 0.0.0.0` for accessibility
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Environment Variables
+
+Create `.env.local` with the following placeholders:
+
+```
+GUMROAD_ACCESS_TOKEN=your_token_here
+OTHER_API_KEYS=
+
+# Add any other env vars your local setup requires
+```
+
+---
+
+## Current Status
+
+- Core task and project management functionalities implemented
+- Analytics and revenue tracking partially live
+- UI responsive but ongoing refinements planned
+
+---
+
+## Known Issues & Next Priorities
+
+- Finalize Logbook tab polish and toggle behavior
+- Address More tab functional actions
+- Implement enhanced offline and mobile resilience
+- Expand deployment automation
+- Strengthen documentation and onboarding
+
+---
+
+Please reach out for detailed dev or usage instructions.
