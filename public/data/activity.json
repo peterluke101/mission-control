@@ -1,126 +1,70 @@
 {
-  "updatedAt": "2026-03-31T09:30:00.000Z",
-  "note": "Real activity log — Day 13-14. Updated night shift 2:30 AM.",
+  "updatedAt": "2026-05-13T12:57:00.000Z",
+  "note": "Live feed — most recent first. Manual seed; future entries land here via NanoClaw scheduled reconciliation.",
   "entries": [
     {
-      "id": "a20",
+      "id": "a30",
       "type": "agent",
-      "agent": "Ares ⚡",
-      "message": "Night shift complete: SaaS case study written, X bug fixed, MC JSON updated with real data",
-      "timestamp": "2026-03-31T09:30:00.000Z",
+      "agent": "Ares_106",
+      "message": "Mission Control v1 audit complete: data 6 weeks stale, librarian dead since May 6 (better-sqlite3 + missing ANTHROPIC_API_KEY). Reseeding + replacing librarian with GitHub Action.",
+      "timestamp": "2026-05-13T12:57:00.000Z",
+      "category": "audit"
+    },
+    {
+      "id": "a29",
+      "type": "deploy",
+      "agent": "Ares_106",
+      "message": "Observational Memory v1 merged into nanoclaw main. OBSERVATIONAL_MEMORY=on now live on Pete's instance.",
+      "timestamp": "2026-05-12T22:39:00.000Z",
       "category": "delivery"
     },
     {
-      "id": "a19",
+      "id": "a28",
+      "type": "pr",
+      "agent": "Ares_106",
+      "message": "PR peterluke101/nanoclaw#1 opened (draft) — feat: observational memory v1 (Observer pass). 7 files, +652 lines, 14 new tests, all green.",
+      "timestamp": "2026-05-12T22:34:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a27",
+      "type": "agent",
+      "agent": "Ares_106",
+      "message": "Tech digest from Adam analyzed: 5 items, only Mastra Observational Memory (#2) is real + buildable + valuable. Pushed back on 'low risk' DeFi framing.",
+      "timestamp": "2026-05-12T21:30:00.000Z",
+      "category": "research"
+    },
+    {
+      "id": "a26",
+      "type": "deploy",
+      "agent": "Ares_106",
+      "message": "juvenis-medical PR #39 merged: gold Video pill removed from blog video card (per Pete's photo callout).",
+      "timestamp": "2026-05-12T14:11:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a25",
+      "type": "deploy",
+      "agent": "Ares_106",
+      "message": "juvenis-medical PRs #37 + #38 merged.",
+      "timestamp": "2026-05-12T00:52:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a24",
+      "type": "agent",
+      "agent": "Ares_106",
+      "message": "Headshot compression shipped (PR #36) — 1.4MB → 87KB. SEO bundle (#32/#33/#34) closed as covered.",
+      "timestamp": "2026-05-11T19:00:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a23",
       "type": "system",
-      "agent": "Ares ⚡",
-      "message": "X triple-post bug fixed: HEARTBEAT.md updated with atomic state claim before posting",
-      "timestamp": "2026-03-31T09:20:00.000Z",
-      "category": "bugfix"
-    },
-    {
-      "id": "a18",
-      "type": "agent",
-      "agent": "Jarod",
-      "message": "SaaS audit case study filed: 12-person agency, $3,800/mo → $2,200/mo savings identified. Ready for Upwork proposal.",
-      "timestamp": "2026-03-31T09:10:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a17",
-      "type": "system",
-      "agent": "System",
-      "message": "Night R&D Council filed: 7 approved orders, Week 3 prove-it window declared",
-      "timestamp": "2026-03-31T09:00:00.000Z",
-      "category": "council"
-    },
-    {
-      "id": "a16",
-      "type": "agent",
-      "agent": "Tron",
-      "message": "MC Phase 1 DELIVERED: Goals tab, Activity feed, Org chart card — npm run build passes cleanly",
-      "timestamp": "2026-03-31T06:00:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a15",
-      "type": "agent",
-      "agent": "Ares ⚡",
-      "message": "Morning brief sent to Pete (Day 14)",
-      "timestamp": "2026-03-31T05:35:00.000Z",
-      "category": "brief"
-    },
-    {
-      "id": "a14",
-      "type": "system",
-      "agent": "System",
-      "message": "Services health check: MC(3000) ✅ CS(3001) ✅ RD(3002) ✅",
-      "timestamp": "2026-03-31T05:30:00.000Z",
-      "category": "health"
-    },
-    {
-      "id": "a13",
-      "type": "agent",
-      "agent": "Ares ⚡",
-      "message": "5 Upwork proposal drafts written: WP/Woo, AI workflow, SaaS Audit, PT Clinic, Coaching Platform",
-      "timestamp": "2026-03-30T09:00:00.000Z",
-      "category": "proposals"
-    },
-    {
-      "id": "a12",
-      "type": "agent",
-      "agent": "Jarod",
-      "message": "X reply templates (5) written and filed — engagement mode ready",
-      "timestamp": "2026-03-30T08:30:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a11",
-      "type": "agent",
-      "agent": "Jarod",
-      "message": "SaaS Stack Audit framework complete: pricing, workflow, overlap analysis, utilization check",
-      "timestamp": "2026-03-30T07:00:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a10",
-      "type": "agent",
-      "agent": "Ares ⚡",
-      "message": "Fiverr account created: @peterluke101 — profile setup started, Pete completes manually",
-      "timestamp": "2026-03-30T06:00:00.000Z",
-      "category": "ops"
-    },
-    {
-      "id": "a9",
-      "type": "revenue",
-      "agent": "System",
-      "message": "SALE: Peptide Compass — $29 (Day 7). Running total: $29",
-      "timestamp": "2026-03-23T18:00:00.000Z",
-      "category": "revenue"
-    },
-    {
-      "id": "a8",
-      "type": "agent",
-      "agent": "Tron",
-      "message": "Upwork ID verification passed. Profile live at $75/hr.",
-      "timestamp": "2026-03-25T12:00:00.000Z",
-      "category": "milestone"
-    },
-    {
-      "id": "a7",
-      "type": "agent",
-      "agent": "Ares ⚡",
-      "message": "All 6 Compass Guides live on Gumroad: Peptide, TRT, SARMs, Nootropics, Longevity, Stack",
-      "timestamp": "2026-03-24T10:00:00.000Z",
-      "category": "milestone"
-    },
-    {
-      "id": "a6",
-      "type": "agent",
-      "agent": "Tron",
-      "message": "Mission Control dashboard launched: 8 tabs, dark theme, Tailscale Funnel, launchd auto-restart",
-      "timestamp": "2026-03-22T08:00:00.000Z",
-      "category": "milestone"
+      "agent": "Ares_106",
+      "message": "OSHA 30 refresher routing options summarized for Pete (online self-paced 4–5 days vs in-person 4-day bootcamp).",
+      "timestamp": "2026-05-12T15:56:00.000Z",
+      "category": "advisory"
     }
   ]
 }

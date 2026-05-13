@@ -1,100 +1,112 @@
 {
-  "updatedAt": "2026-03-31T09:30:00.000Z",
-  "note": "Updated night shift 2:30 AM — real status as of Day 14",
+  "updatedAt": "2026-05-13T12:57:00.000Z",
+  "note": "Reseeded May 13. Current roster reflects the client-services pivot. Subagents from agent-system/subagents.md.",
   "people": [
     {
       "id": "pete",
       "name": "Pete",
       "role": "Board / Owner",
-      "status": "offline",
-      "currentTask": "Sleeping — review morning brief at 8 AM",
-      "lastActive": "2026-03-31T05:55:00.000Z",
+      "status": "active",
+      "currentTask": "Reviewing Mission Control v2 audit; deciding A/B/C on DGM-lite path.",
+      "lastActive": "2026-05-13T12:57:00.000Z",
       "model": "human",
       "pendingItems": [
-        "netlify login (unblocks portfolio — 5 min)",
-        "KDP upload — 15 min",
-        "Reddit account question — 30 sec",
-        "Gmail 2FA — security alert"
+        "DGM-lite (Adam digest #3) — A/B/C decision",
+        "Juvenis issue #35 — brand palette reconcile (deferred)",
+        "Dr Paul — AirDrop videos to groups/main/media/dr-paul/",
+        "Peptide Compass Pro — Google Play Developer account + signing key"
       ]
     },
     {
-      "id": "ares",
-      "name": "Ares ⚡",
-      "role": "CEO / Master Control",
+      "id": "ares_106",
+      "name": "Ares_106",
+      "role": "Main agent / production manager",
       "status": "active",
-      "currentTask": "Night shift: SaaS case study, X bug fix, MC JSON update, proposal prep",
-      "lastActive": "2026-03-31T09:30:00.000Z",
-      "model": "anthropic/claude-opus-4-6",
-      "completedTonight": [
-        "SaaS audit case study written",
-        "X triple-post bug fixed (HEARTBEAT.md)",
-        "MC JSON files updated with real data"
-      ]
+      "currentTask": "Mission Control v2 reseed + GitHub Action wire-up.",
+      "lastActive": "2026-05-13T12:57:00.000Z",
+      "model": "anthropic/claude-opus-4-7",
+      "recentDelivery": "Observational Memory v1 (merged into nanoclaw main, OBSERVATIONAL_MEMORY=on live)."
     },
     {
-      "id": "tron",
-      "name": "Tron",
-      "role": "Systems Builder / Programmer",
+      "id": "website-builder",
+      "name": "Website Builder",
+      "role": "Subagent — production website edits, builds",
       "status": "standby",
-      "currentTask": "MC Phase 1 delivered — standby for QC issues or Phase 2 orders",
-      "lastActive": "2026-03-31T06:00:00.000Z",
-      "model": "gpt-5.4-mini",
-      "recentDelivery": "Goals tab, Activity feed, Org chart card — all built overnight Mar 30→31"
+      "currentTask": "Standby for Juvenis blog and Peptide Compass work.",
+      "lastActive": "2026-05-12T14:11:00.000Z",
+      "model": "anthropic/claude-sonnet-4-5"
     },
     {
-      "id": "athena",
-      "name": "Athena",
-      "role": "Creative Director / Design Strategy",
+      "id": "senior-coding-review",
+      "name": "Senior Coding Review",
+      "role": "Subagent — risky code, architecture, final review",
       "status": "standby",
-      "currentTask": "Available for design critique — MC visual QC when screenshots ready",
-      "lastActive": "2026-03-30T23:00:00.000Z",
-      "model": "grok-4-fast-reasoning"
+      "currentTask": "Standby for Observational Memory v2 (Reflector) and DGM-lite design review.",
+      "lastActive": "2026-05-12T22:34:00.000Z",
+      "model": "anthropic/claude-opus-4-7"
     },
     {
-      "id": "jarod",
-      "name": "Jarod",
-      "role": "VP Social / Research & Writing",
+      "id": "design-brand",
+      "name": "Design & Brand",
+      "role": "Subagent — branding, visuals, palette work",
+      "status": "queued",
+      "currentTask": "Queued: Juvenis issue #35 brand palette reconcile.",
+      "lastActive": null,
+      "model": "anthropic/claude-sonnet-4-5"
+    },
+    {
+      "id": "content-copy",
+      "name": "Content & Copy",
+      "role": "Subagent — captions, posts, copy",
       "status": "standby",
-      "currentTask": "SaaS case study filed — standby for X post writing, Reddit prep",
-      "lastActive": "2026-03-31T09:30:00.000Z",
-      "model": "grok-4-fast-reasoning",
-      "recentDelivery": "SaaS audit case study (social proof for Upwork proposal)"
+      "currentTask": "Standby for Freeman LinkedIn cadence.",
+      "lastActive": null,
+      "model": "anthropic/claude-sonnet-4-5"
     },
     {
-      "id": "flynn",
-      "name": "Flynn",
-      "role": "Behavioral Strategy",
+      "id": "social-media",
+      "name": "Social Media",
+      "role": "Subagent — Reels, TikTok, IG planning",
       "status": "standby",
-      "currentTask": "Proposal psychology — available for conversion analysis",
-      "lastActive": "2026-03-31T04:00:00.000Z",
-      "model": "grok-4-fast-reasoning"
+      "currentTask": "Standby for Dr Paul video planning (awaiting source files).",
+      "lastActive": null,
+      "model": "anthropic/claude-sonnet-4-5"
     },
     {
-      "id": "eve",
-      "name": "Eve Kim",
-      "role": "Infrastructure Engineer",
-      "status": "offline",
-      "currentTask": "Mothballed — reactivate for dedicated infra projects",
-      "lastActive": "2026-03-20T00:00:00.000Z",
-      "model": "archived"
+      "id": "qa-testing",
+      "name": "QA / Testing",
+      "role": "Subagent — pre-deploy QA, regression checks",
+      "status": "standby",
+      "currentTask": "Standby — runs before any client-site deployment.",
+      "lastActive": "2026-05-12T14:11:00.000Z",
+      "model": "anthropic/claude-sonnet-4-5"
     },
     {
-      "id": "daft",
-      "name": "Daft Punk",
-      "role": "Full-Stack Developer",
-      "status": "offline",
-      "currentTask": "Mothballed — reactivate when freelance clients land",
-      "lastActive": "2026-03-20T00:00:00.000Z",
-      "model": "archived"
+      "id": "github-deployment",
+      "name": "GitHub & Deployment",
+      "role": "Subagent — branches, PRs, merges, releases",
+      "status": "active",
+      "currentTask": "Active on this PR (Mission Control v2 reseed).",
+      "lastActive": "2026-05-13T12:57:00.000Z",
+      "model": "anthropic/claude-sonnet-4-5"
     },
     {
-      "id": "leto",
-      "name": "Leto",
-      "role": "Sales & BD",
-      "status": "offline",
-      "currentTask": "Mothballed — reactivate when sales pipeline exists",
-      "lastActive": "2026-03-20T00:00:00.000Z",
-      "model": "archived"
+      "id": "client-research",
+      "name": "Client Research",
+      "role": "Subagent — discovery, competitor scans",
+      "status": "standby",
+      "currentTask": "Standby for new client onboardings.",
+      "lastActive": null,
+      "model": "anthropic/claude-sonnet-4-5"
+    },
+    {
+      "id": "client-onboarding",
+      "name": "Client Onboarding",
+      "role": "Subagent — intake, kickoff, profile creation",
+      "status": "standby",
+      "currentTask": "Standby for new client onboardings.",
+      "lastActive": null,
+      "model": "anthropic/claude-sonnet-4-5"
     }
   ]
 }
