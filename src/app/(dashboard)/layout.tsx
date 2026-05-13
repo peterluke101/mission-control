@@ -1,6 +1,7 @@
 import { Sidebar } from '@/components/sidebar';
 import { HeaderBar } from '@/components/header-bar';
 import { BottomNav } from '@/components/bottom-nav';
+import { ChatDock } from '@/components/chat-dock';
 
 export default function DashboardLayout({
   children,
@@ -18,6 +19,8 @@ export default function DashboardLayout({
         {children}
       </main>
       <BottomNav />
+      {/* Chat dock — rendered once for every dashboard page. */}
+      <ChatDock />
     </div>
   );
 }
