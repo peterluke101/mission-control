@@ -10,6 +10,7 @@ import {
   Users,
   Zap,
   ScrollText,
+  Github,
 } from 'lucide-react';
 
 const tabs = [
@@ -17,6 +18,7 @@ const tabs = [
   { href: '/dashboard', label: 'HQ', icon: LayoutDashboard },
   { href: '/team', label: 'Team', icon: Users },
   { href: '/work', label: 'Work', icon: ClipboardList },
+  { href: '/repos', label: 'Repos', icon: Github },
   { href: '/documents', label: 'Docs', icon: FileText },
   { href: '/logs', label: 'Logs', icon: ScrollText },
 ];
