@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-14T18:21:00.000Z",
+  "lastUpdated": "2026-05-14T22:00:00.000Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -13,9 +13,9 @@
       "title": "Mission Control — Chat Dock + Unified Channels",
       "status": "active",
       "priority": "critical",
-      "progress": 92,
+      "progress": 93,
       "owner": "Ares",
-      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged (PR #1). Telegram formatting fix pushed. Tailscale Funnel + dock buffering still pending.",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing merged to NanoClaw main (container rebuild pending). Tailscale Funnel + dock buffering still pending.",
       "subgoals": [
         {
           "id": "g1.1",
@@ -70,7 +70,15 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-05-14T17:30:00.000Z",
-          "note": "Pushed to NanoClaw main. Pete rebuilding container to deploy."
+          "note": "Two formatting fixes shipped to NanoClaw main. Container rebuild pending (Pete)."
+        },
+        {
+          "id": "g1.8",
+          "title": "Per-task model routing (Haiku for Librarian)",
+          "status": "active",
+          "progress": 80,
+          "owner": "Ares",
+          "note": "feat/per-task-model-routing merged to NanoClaw main May 14. npm build succeeded. Container rebuild (./container/build.sh) still pending."
         }
       ]
     },
