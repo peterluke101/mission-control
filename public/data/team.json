@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T16:41:39.922Z",
+  "updatedAt": "2026-05-14T17:01:00.000Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -34,7 +34,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Live scheduled cycles — syncing MC data files from workspace every 20 min",
-      "lastActive": "2026-05-14T16:41:39.922Z",
+      "lastActive": "2026-05-14T17:01:00.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
