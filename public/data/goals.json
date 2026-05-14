@@ -1,156 +1,125 @@
 {
-  "mission": "Create autonomous businesses focused on massive profits",
-  "lastUpdated": "2026-03-31T09:30:00.000Z",
-  "weekTarget": "Week 3 (Day 15-21): Land one Upwork client + one guide sale from new channel",
-  "revenueToDate": 29,
+  "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
+  "lastUpdated": "2026-05-14T15:06:30.820Z",
+  "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
+  "activeProjects": [
+    "Mission Control",
+    "Juvenis Medical",
+    "peterlukedigital"
+  ],
   "goals": [
     {
       "id": "g1",
-      "title": "Land First Freelance Client",
+      "title": "Mission Control — Chat Dock + Unified Channels",
       "status": "active",
       "priority": "critical",
-      "progress": 45,
+      "progress": 85,
       "owner": "Ares",
-      "deadline": "2026-04-07",
-      "note": "Week 3 prove-it window. Revenue drought breaks here.",
+      "note": "Chat dock shipped and live. Telegram ↔ MC dock unified memory deployed (A2). Next: Tailscale Funnel for mobile access + dock-offline buffering follow-up PR.",
       "subgoals": [
         {
           "id": "g1.1",
-          "title": "Submit 20+ targeted Upwork proposals",
-          "status": "active",
-          "progress": 50,
-          "owner": "Ares",
-          "note": "~10 submitted through Day 13. 3 more queued for 6 AM today.",
-          "tasks": [
-            { "title": "WordPress/WooCommerce proposal (personalized)", "status": "queued", "owner": "Ares", "eta": "2026-03-31T13:00:00.000Z" },
-            { "title": "AI workflow/automation proposal", "status": "queued", "owner": "Ares", "eta": "2026-03-31T13:00:00.000Z" },
-            { "title": "SaaS Stack Audit proposal (no-find no-fee)", "status": "queued", "owner": "Ares", "eta": "2026-03-31T13:00:00.000Z" },
-            { "title": "SaaS audit case study written", "status": "completed", "owner": "Jarod", "completedAt": "2026-03-31T09:30:00.000Z" }
-          ]
+          "title": "Chat dock (PR #3 merged)",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares"
         },
         {
           "id": "g1.2",
-          "title": "Portfolio site live at peterlukedigital.com",
-          "status": "blocked",
-          "progress": 85,
+          "title": "A2 unified Telegram ↔ MC memory",
+          "status": "completed",
+          "progress": 100,
           "owner": "Ares",
-          "blockedBy": "Netlify auth token expired — Pete must run `netlify login` in browser (5 min)",
-          "note": "Site is built and correct. Auth is the only blocker."
+          "completedAt": "2026-05-13T19:00:00.000Z"
         },
         {
           "id": "g1.3",
-          "title": "Fiverr profile complete",
-          "status": "blocked",
-          "progress": 20,
-          "owner": "Pete",
-          "blockedBy": "Pete must finish in Chrome: title, photo, skills, languages, first gig"
+          "title": "Tailscale Funnel deploy for mobile access",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Ares"
+        },
+        {
+          "id": "g1.4",
+          "title": "Dock-offline buffering (Telegram → dock history sync)",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Ares"
+        },
+        {
+          "id": "g1.5",
+          "title": "Librarian — auto-update MC data every 20 min",
+          "status": "active",
+          "progress": 50,
+          "owner": "Ares"
         }
       ]
     },
     {
       "id": "g2",
-      "title": "Passive Revenue — Guide Sales",
+      "title": "Juvenis Medical — Website & Social",
       "status": "active",
       "priority": "high",
-      "progress": 70,
+      "progress": 60,
       "owner": "Ares",
+      "note": "Client site live at peptidesandhormones.com. Dr. Paul social strategy active. Google Workspace integration and Buffer MCP approved for build.",
       "subgoals": [
         {
           "id": "g2.1",
-          "title": "6 Guides live on Gumroad @ $29",
-          "status": "completed",
-          "progress": 100,
-          "note": "Peptide Compass: $29 sale Day 7. All 6 live."
+          "title": "Website updates and brand consistency",
+          "status": "active",
+          "progress": 70,
+          "owner": "Ares"
         },
         {
           "id": "g2.2",
-          "title": "KDP Launch — 6 books",
-          "status": "blocked",
-          "progress": 95,
-          "owner": "Pete",
-          "blockedBy": "Pete upload ~15 min. PDFs ready in Drive → Peptide Compass/ folder."
+          "title": "Dr. Paul social content strategy",
+          "status": "active",
+          "progress": 55,
+          "owner": "Ares"
         },
         {
           "id": "g2.3",
-          "title": "Reddit organic distribution",
-          "status": "blocked",
-          "progress": 10,
+          "title": "Google Workspace OAuth integration (Gmail / Calendar / Drive)",
+          "status": "todo",
+          "progress": 0,
           "owner": "Pete",
-          "blockedBy": "One question: Does Pete have a Reddit account? 3 posts staged, r/Nootropics (3.8M subs)."
+          "note": "Awaiting Pete to walk Dr Paul through OAuth consent"
         },
         {
           "id": "g2.4",
-          "title": "3 non-health guides (Blueprint, Solopreneur, AI Tools)",
-          "status": "active",
-          "progress": 15,
+          "title": "Buffer MCP for blog→social auto-posting",
+          "status": "todo",
+          "progress": 5,
           "owner": "Ares",
-          "note": "Approved by Pete Day 10. Not started — freelance revenue first."
+          "note": "Approved May 10. Pete signs up for Buffer, gets API token, Ares builds."
         }
       ]
     },
     {
       "id": "g3",
-      "title": "X (@peterluke101) Growth Engine",
+      "title": "peterlukedigital — Personal Portfolio",
       "status": "active",
       "priority": "medium",
-      "progress": 60,
-      "owner": "Ares",
-      "subgoals": [
-        { "id": "g3.1", "title": "2x daily posting (morning + evening)", "status": "active", "progress": 70, "note": "Heartbeat-driven. Triple-post bug fix applied tonight." },
-        { "id": "g3.2", "title": "Beginner-question format (Pete directive)", "status": "active", "progress": 80 },
-        { "id": "g3.3", "title": "X triple-post bug fix (atomic state write)", "status": "completed", "progress": 100, "completedAt": "2026-03-31T09:30:00.000Z", "owner": "Ares" }
-      ]
-    },
-    {
-      "id": "g4",
-      "title": "Mission Control — Phase 1 Upgrades",
-      "status": "completed",
-      "priority": "low",
-      "progress": 100,
-      "owner": "Tron",
-      "note": "Goals tab, Activity feed, Org chart — delivered. JSON data updated tonight. Visual QC needed.",
-      "subgoals": [
-        { "id": "g4.1", "title": "Goals tab (JSON-backed hierarchy)", "status": "completed", "progress": 100 },
-        { "id": "g4.2", "title": "Activity feed (team log)", "status": "completed", "progress": 100 },
-        { "id": "g4.3", "title": "Org chart card", "status": "completed", "progress": 100 },
-        { "id": "g4.4", "title": "Update JSON files with real data", "status": "completed", "progress": 100, "completedAt": "2026-03-31T09:30:00.000Z", "owner": "Ares" }
-      ]
-    },
-    {
-      "id": "g5",
-      "title": "Government Contracts Pipeline",
-      "status": "paused",
-      "priority": "low",
-      "progress": 5,
-      "owner": "Ares",
-      "note": "Month 2 — need freelance past performance first.",
-      "subgoals": [
-        { "id": "g5.1", "title": "SAM.gov Registration", "status": "todo", "progress": 0, "owner": "Pete" },
-        { "id": "g5.2", "title": "Air Force AI Software Dev RFI (NAICS 541511)", "status": "watching", "progress": 5 },
-        { "id": "g5.3", "title": "Army AI Coding RFI (CDAO_26-01)", "status": "watching", "progress": 5 },
-        { "id": "g5.4", "title": "USPTO Automated AI Solutions RFI", "status": "watching", "progress": 5 }
-      ]
-    },
-    {
-      "id": "g6",
-      "title": "Pete's Art — Fine Art America + Truth Social",
-      "status": "active",
-      "priority": "low",
-      "progress": 40,
+      "progress": 70,
       "owner": "Pete",
+      "note": "Portfolio site for Pete's digital services business.",
       "subgoals": [
-        { "id": "g6.1", "title": "Fine Art America (16 pieces, 17,635 visitors)", "status": "active", "progress": 80 },
-        { "id": "g6.2", "title": "Truth Social — Melania painting post", "status": "blocked", "progress": 10, "blockedBy": "Pete to post (draft ready)" }
+        {
+          "id": "g3.1",
+          "title": "Site live and current",
+          "status": "active",
+          "progress": 75,
+          "owner": "Pete"
+        },
+        {
+          "id": "g3.2",
+          "title": "Services + case studies updated",
+          "status": "todo",
+          "progress": 40,
+          "owner": "Ares"
+        }
       ]
-    }
-  ],
-  "securityAlerts": [
-    {
-      "id": "sec1",
-      "severity": "high",
-      "title": "Gmail Las Vegas security incident — UNRESOLVED (Day 12+)",
-      "action": "Pete: deny login, change password, enable 2FA",
-      "status": "open"
     }
   ]
 }
