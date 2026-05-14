@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T15:41:03.000Z",
+  "updatedAt": "2026-05-14T16:01:13.000Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -16,7 +16,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "MC scrub + Librarian rebuild, Juvenis social, unified channel maintenance",
+      "currentTask": "MC Chat dock live, unified Telegram↔MC memory, Juvenis social + Buffer MCP next",
       "lastActive": "2026-05-14T15:06:30.820Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -34,7 +34,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Live scheduled cycles — syncing MC data files from workspace every 20 min",
-      "lastActive": "2026-05-14T15:41:03.000Z",
+      "lastActive": "2026-05-14T16:01:13.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
