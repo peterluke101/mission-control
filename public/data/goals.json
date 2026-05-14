@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-14T15:31:33.234Z",
+  "lastUpdated": "2026-05-14T18:21:00.000Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -13,9 +13,9 @@
       "title": "Mission Control — Chat Dock + Unified Channels",
       "status": "active",
       "priority": "critical",
-      "progress": 85,
+      "progress": 92,
       "owner": "Ares",
-      "note": "Chat dock shipped and live. Telegram ↔ MC dock unified memory deployed (A2). Next: Tailscale Funnel for mobile access + dock-offline buffering follow-up PR.",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged (PR #1). Telegram formatting fix pushed. Tailscale Funnel + dock buffering still pending.",
       "subgoals": [
         {
           "id": "g1.1",
@@ -49,10 +49,28 @@
         {
           "id": "g1.5",
           "title": "Librarian — auto-update MC data every 20 min",
-          "status": "active",
-          "progress": 75,
+          "status": "completed",
+          "progress": 100,
           "owner": "Ares",
-          "note": "Librarian live and running scheduled cycles."
+          "note": "Live — scheduled cycles running every 20 min."
+        },
+        {
+          "id": "g1.6",
+          "title": "Observational Memory v1 — conversation analysis on agent stop",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-12T20:00:00.000Z",
+          "note": "PR #1 merged. Opt-in via OBSERVATIONAL_MEMORY=on. 315/315 tests pass."
+        },
+        {
+          "id": "g1.7",
+          "title": "Telegram code block formatting — copyable commands",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-14T17:30:00.000Z",
+          "note": "Pushed to NanoClaw main. Pete rebuilding container to deploy."
         }
       ]
     },
@@ -69,8 +87,9 @@
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 70,
-          "owner": "Ares"
+          "progress": 80,
+          "owner": "Ares",
+          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) all merged May 12."
         },
         {
           "id": "g2.2",
