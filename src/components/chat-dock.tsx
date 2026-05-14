@@ -98,6 +98,17 @@ const STORAGE_CONV_ID = 'mc-chat-conversationId';
 const MESSAGE_CAP = 200;
 const HEALTH_INTERVAL_MS = 30_000;
 const HEALTH_STALE_MS = 30_000;
+// Poll the dock-offline buffer (NanoClaw `/chat/pending`) on this cadence so
+// messages that arrived via other surfaces (e.g. you typed in Telegram from
+// your phone while the dock was closed) show up in the dock with at most
+// this much latency. Read-once semantics: each message comes back exactly
+// once, then NanoClaw's buffer is cleared.
+const PENDING_POLL_INTERVAL_MS = 10_000;
+// Mirror prefix marker. Inbound messages from other channels are mirrored
+// to mc-chat with a leading `📥 [Channel Name]\n…`. The dock uses this to
+// decide whether to render an entry as a user message (from elsewhere) or
+// an assistant message (Ares).
+const MIRROR_PREFIX = '📥 [';
 
 // -----------------------------------------------------------------------------
 // Helpers
@@ -260,6 +271,70 @@ export function ChatDock() {
     const id = window.setInterval(ping, HEALTH_INTERVAL_MS);
     const onVis = () => {
       if (!document.hidden) ping();
+    };
+    document.addEventListener('visibilitychange', onVis);
+
+    return () => {
+      stopped = true;
+      window.clearInterval(id);
+      document.removeEventListener('visibilitychange', onVis);
+    };
+  }, []);
+
+  // ---------------------------------------------------------------------------
+  // Pending-buffer polling — drain NanoClaw's dock-offline buffer.
+  //
+  // NanoClaw stashes any mc-chat outbound that arrives while no SSE stream
+  // is open (e.g. Ares's reply to a Telegram message you sent from your
+  // phone, or your own message mirrored from Telegram). Each poll drains
+  // the buffer atomically and the dock appends them to the local thread,
+  // persisting through the same messages → localStorage path the rest of
+  // the dock uses.
+  //
+  // Mirror prefix → user message; everything else → assistant. Skipped
+  // when the tab is hidden so we don't drain the buffer to nowhere.
+  // ---------------------------------------------------------------------------
+  useEffect(() => {
+    let stopped = false;
+
+    async function poll() {
+      if (typeof document !== 'undefined' && document.hidden) return;
+      let data: { messages?: Array<{ text?: unknown; ts?: unknown }> } | null;
+      try {
+        const r = await fetch('/api/chat/pending', { cache: 'no-store' });
+        if (!r.ok) return;
+        data = (await r.json().catch(() => null)) as typeof data;
+      } catch {
+        return;
+      }
+      if (stopped) return;
+      if (!data || !Array.isArray(data.messages) || data.messages.length === 0) {
+        return;
+      }
+
+      const incoming: ChatMessage[] = [];
+      for (const m of data.messages) {
+        if (typeof m.text !== 'string') continue;
+        const ts =
+          typeof m.ts === 'string' ? Date.parse(m.ts) || Date.now() : Date.now();
+        const isUserMirror = m.text.startsWith(MIRROR_PREFIX);
+        incoming.push({
+          id: uuid(),
+          role: isUserMirror ? 'user' : 'assistant',
+          text: m.text,
+          ts,
+        });
+      }
+      if (incoming.length === 0) return;
+      setMessages((prev) => [...prev, ...incoming]);
+    }
+
+    // Initial poll runs immediately so newly-opened tabs see anything
+    // buffered while they were closed.
+    poll();
+    const id = window.setInterval(poll, PENDING_POLL_INTERVAL_MS);
+    const onVis = () => {
+      if (!document.hidden) poll();
     };
     document.addEventListener('visibilitychange', onVis);
 
