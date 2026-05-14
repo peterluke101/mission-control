@@ -456,9 +456,9 @@ export function ChatDock() {
       const decoder = new TextDecoder();
       let buf = '';
 
-      // Read loop. We use the SSE format documented in the prompt:
-      //   data: { "type":"chunk","text":"..." }
-      //   <blank line>
+      // Read loop. We accept BOTH SSE shapes:
+      //   (a) canonical:  `event: done\ndata: {"text":"..."}`  (what NanoClaw emits)
+      //   (b) inline:     `data: {"type":"done","text":"..."}` (legacy/test shape)
       while (true) {
         const { value, done } = await reader.read();
         if (done) break;
@@ -466,19 +466,34 @@ export function ChatDock() {
         const parts = buf.split('\n\n');
         buf = parts.pop() ?? '';
         for (const part of parts) {
-          // An SSE event can have multiple `data:` lines — join them.
-          const lines = part.split('\n').filter((l) => l.startsWith('data: '));
-          if (lines.length === 0) continue;
-          const payload = lines.map((l) => l.slice(6)).join('\n').trim();
+          // Parse both `event:` and `data:` lines. SSE allows multiple data lines per event.
+          let eventName: string | null = null;
+          const dataLines: string[] = [];
+          for (const l of part.split('\n')) {
+            if (l.startsWith('event: ')) eventName = l.slice(7).trim();
+            else if (l.startsWith('event:')) eventName = l.slice(6).trim();
+            else if (l.startsWith('data: ')) dataLines.push(l.slice(6));
+            else if (l.startsWith('data:')) dataLines.push(l.slice(5));
+          }
+          if (dataLines.length === 0) continue;
+          const payload = dataLines.join('\n').trim();
           if (!payload) continue;
-          let evt: SSEEvent | null = null;
+          let parsed: Record<string, unknown>;
           try {
-            evt = JSON.parse(payload) as SSEEvent;
+            parsed = JSON.parse(payload) as Record<string, unknown>;
           } catch {
             // Malformed event — skip rather than break the whole stream.
             continue;
           }
-          if (!evt) continue;
+          // Resolve the event type: prefer SSE `event:` line, fall back to inline `type` field.
+          const inlineType = typeof parsed.type === 'string' ? (parsed.type as string) : null;
+          const resolvedType = (eventName ?? inlineType) as SSEEvent['type'] | null;
+          if (!resolvedType) continue;
+          const evt: SSEEvent = {
+            type: resolvedType,
+            text: typeof parsed.text === 'string' ? (parsed.text as string) : undefined,
+            message: typeof parsed.message === 'string' ? (parsed.message as string) : undefined,
+          };
           if (evt.type === 'chunk' && evt.text) {
             const chunk = evt.text;
             setMessages((prev) =>
