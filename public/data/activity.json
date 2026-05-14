@@ -1,33 +1,17 @@
 {
-  "updatedAt": "2026-05-14T21:21:12.000Z",
+  "updatedAt": "2026-05-14T22:00:00.000Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
     {
       "id": "a0",
-      "type": "system",
-      "agent": "Librarian 📚",
-      "message": "Routine cycle — reviewed May 13–14 conversations. No new deliverables or events to record.",
-      "timestamp": "2026-05-14T21:21:12.000Z",
-      "category": "ops"
+      "type": "milestone",
+      "agent": "Ares ⚡",
+      "message": "Per-task model routing (feat/per-task-model-routing) merged to NanoClaw main. Librarian now routed to Haiku for cost efficiency. Container rebuild pending on Pete's Mac.",
+      "timestamp": "2026-05-14T15:32:00.000Z",
+      "category": "milestone"
     },
     {
       "id": "a1",
-      "type": "system",
-      "agent": "Librarian 📚",
-      "message": "Librarian cycle — fixed activity entry chronological ordering.",
-      "timestamp": "2026-05-14T20:03:26.270Z",
-      "category": "ops"
-    },
-    {
-      "id": "a2",
-      "type": "system",
-      "agent": "Librarian 📚",
-      "message": "Librarian cycle — new events found and recorded: Observational Memory merged, Telegram fix pushed, Juvenis PRs #37-39 shipped.",
-      "timestamp": "2026-05-14T18:21:00.000Z",
-      "category": "ops"
-    },
-    {
-      "id": "a3",
       "type": "delivery",
       "agent": "Ares ⚡",
       "message": "Telegram formatting fix pushed to NanoClaw main — code blocks now send as monospace for easy copy. Pete rebuilding container to deploy.",
@@ -35,7 +19,7 @@
       "category": "delivery"
     },
     {
-      "id": "a4",
+      "id": "a2",
       "type": "ops",
       "agent": "Ares ⚡",
       "message": "MC scrub complete: removed 6 stale agents, 4 old projects. Team reset to Ares + Librarian. Data current as of May 14.",
@@ -43,7 +27,7 @@
       "category": "ops"
     },
     {
-      "id": "a5",
+      "id": "a3",
       "type": "milestone",
       "agent": "Ares ⚡",
       "message": "A2 unified channels deployed: Telegram ↔ MC Chat dock now share memory. Messages mirror between surfaces in real-time.",
@@ -51,7 +35,7 @@
       "category": "milestone"
     },
     {
-      "id": "a6",
+      "id": "a4",
       "type": "delivery",
       "agent": "Ares ⚡",
       "message": "MC Chat dock launched (PR #3): SSE streaming, voice input, file attach. Fixed SSE event-name parsing bug same session.",
@@ -59,7 +43,7 @@
       "category": "delivery"
     },
     {
-      "id": "a7",
+      "id": "a5",
       "type": "milestone",
       "agent": "Ares ⚡",
       "message": "Observational Memory v1 merged to NanoClaw main (PR #1). Opt-in via OBSERVATIONAL_MEMORY=on. 14 new tests, 315/315 pass.",
@@ -67,7 +51,7 @@
       "category": "milestone"
     },
     {
-      "id": "a8",
+      "id": "a6",
       "type": "delivery",
       "agent": "Ares ⚡",
       "message": "Juvenis PR #39 merged — removed non-functional gold Video badge from blog card per Dr. Paul's request.",
@@ -75,11 +59,27 @@
       "category": "delivery"
     },
     {
-      "id": "a9",
+      "id": "a7",
       "type": "delivery",
       "agent": "Ares ⚡",
       "message": "Juvenis PRs #37+38 merged — SEO meta bundle (title/description/OG) and headshot image compression deployed to peptidesandhormones.com.",
       "timestamp": "2026-05-12T00:55:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a8",
+      "type": "system",
+      "agent": "Librarian 📚",
+      "message": "Librarian scheduled and live — auto-updates MC data files every 20 min, 8am–10pm. Model routing set to Haiku for cost efficiency.",
+      "timestamp": "2026-05-14T08:10:00.000Z",
+      "category": "ops"
+    },
+    {
+      "id": "a9",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "NanoClaw git pull + npm run build completed on Pete's Mac post-merge. Container rebuild step still pending to activate per-task model routing + Telegram fixes.",
+      "timestamp": "2026-05-14T15:50:00.000Z",
       "category": "delivery"
     }
   ]
