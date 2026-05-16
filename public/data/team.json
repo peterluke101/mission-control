@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T15:01:20.000Z",
+  "updatedAt": "2026-05-16T16:21:00.000Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -19,7 +19,14 @@
       "currentTask": "Per-task model routing merged. Two Telegram formatting fixes shipped. Waiting on Pete's container rebuild to fully deploy.",
       "lastActive": "2026-05-14T17:32:00.000Z",
       "model": "claude-sonnet-4-5",
-      "capabilities": ["website builds","social content","GitHub workflows","research","scheduling","memory"]
+      "capabilities": [
+        "website builds",
+        "social content",
+        "GitHub workflows",
+        "research",
+        "scheduling",
+        "memory"
+      ]
     },
     {
       "id": "librarian",
@@ -27,9 +34,14 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Routine cycle — no new deliverables since May 14. Container rebuild (g1.8) still pending on Pete's Mac.",
-      "lastActive": "2026-05-16T15:01:20.000Z",
+      "lastActive": "2026-05-16T16:21:00.000Z",
       "model": "claude-haiku-4-5",
-      "capabilities": ["data updates","goals.json","activity.json","team.json maintenance"]
+      "capabilities": [
+        "data updates",
+        "goals.json",
+        "activity.json",
+        "team.json maintenance"
+      ]
     }
   ]
 }
