@@ -1,0 +1,63 @@
+name: Sync GitHub Data
+
+# Pulls live state from GitHub (repos / open issues / open PRs / branches) for
+# peterluke101's projects and writes it to public/data/github.json. The
+# dashboard's repos & issues views render straight from that file.
+#
+# Runs hourly via cron, plus on manual dispatch. Commits back to main only if
+# the JSON actually changed — keeps history tidy and Pages rebuilds quiet.
+
+on:
+  schedule:
+    # Every hour at :07 (off-the-hour to dodge GitHub cron contention).
+    - cron: '7 * * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-github-data.yml'
+      - 'scripts/sync-github-data.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-github-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need write access via the workflow's default token.
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync GitHub state to public/data/github.json
+        env:
+          # Prefer a finer-scoped PAT (MC_SYNC_PAT) so we can read private repos
+          # in the peterluke101 org. Falls back to the default workflow token,
+          # which only sees this repo's own data.
+          GITHUB_TOKEN: ${{ secrets.MC_SYNC_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: peterluke101
+        run: node scripts/sync-github-data.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "mission-control-sync[bot]"
+          git config user.email "mission-control-sync@users.noreply.github.com"
+          if git diff --quiet public/data/github.json; then
+            echo "No change — skipping commit."
+            exit 0
+          fi
+          git add public/data/github.json
+          git commit -m "chore(sync): refresh github.json @ $(date -u +%FT%TZ)"
+          git push

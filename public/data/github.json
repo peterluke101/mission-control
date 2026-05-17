@@ -1,0 +1,715 @@
+{
+  "syncedAt": "2026-05-13T13:00:18.660Z",
+  "owner": "peterluke101",
+  "summary": {
+    "repoCount": 16,
+    "activeRepoCount": 8,
+    "archivedRepoCount": 8,
+    "openIssueCount": 26,
+    "openPRCount": 6
+  },
+  "repos": [
+    {
+      "name": "nanoclaw",
+      "fullName": "peterluke101/nanoclaw",
+      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-12T22:32:40Z",
+      "updatedAt": "2026-05-12T22:31:51Z",
+      "htmlUrl": "https://github.com/peterluke101/nanoclaw",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "claude-template",
+      "fullName": "peterluke101/claude-template",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-12T15:50:32Z",
+      "updatedAt": "2026-05-12T16:42:15Z",
+      "htmlUrl": "https://github.com/peterluke101/claude-template",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "peptide-calc-build",
+      "fullName": "peterluke101/peptide-calc-build",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-12T15:23:29Z",
+      "updatedAt": "2026-05-07T01:24:02Z",
+      "htmlUrl": "https://github.com/peterluke101/peptide-calc-build",
+      "openIssueCount": 17,
+      "openPRCount": 4,
+      "branchCount": 67,
+      "topics": [],
+      "language": "HTML",
+      "issues": [
+        {
+          "number": 180,
+          "title": "Bug: Cost tracker date input hardcoded color-scheme:light — always light in dark mode",
+          "state": "open",
+          "labels": [
+            "bug",
+            "priority:P2"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-14T14:23:51Z",
+          "updatedAt": "2026-04-15T03:09:11Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/180",
+          "commentCount": 0
+        },
+        {
+          "number": 179,
+          "title": "Bug: Service worker does not cache PWA icons or legal pages — broken offline experience",
+          "state": "open",
+          "labels": [
+            "bug"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-14T14:23:41Z",
+          "updatedAt": "2026-04-14T14:23:41Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/179",
+          "commentCount": 0
+        },
+        {
+          "number": 138,
+          "title": "State-based UX — adapt interface to user journey stage",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T12:45:29Z",
+          "updatedAt": "2026-04-15T03:09:19Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/138",
+          "commentCount": 1
+        },
+        {
+          "number": 136,
+          "title": "Tighten homepage hierarchy — reduce module competition",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T12:45:23Z",
+          "updatedAt": "2026-04-15T03:09:17Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/136",
+          "commentCount": 0
+        },
+        {
+          "number": 130,
+          "title": "Delay premium/guide upsell until after first value moment",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T08:25:07Z",
+          "updatedAt": "2026-04-15T03:09:15Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/130",
+          "commentCount": 0
+        },
+        {
+          "number": 128,
+          "title": "Reduce decision friction in task picker",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T08:24:57Z",
+          "updatedAt": "2026-04-15T03:09:14Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/128",
+          "commentCount": 0
+        },
+        {
+          "number": 127,
+          "title": "Make first saved protocol feel rewarding and useful",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T08:24:54Z",
+          "updatedAt": "2026-04-15T03:09:12Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/127",
+          "commentCount": 0
+        },
+        {
+          "number": 112,
+          "title": "Reorganize navigation around user goals, not tool types",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "UX"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-12T03:05:29Z",
+          "updatedAt": "2026-04-12T03:05:29Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/112",
+          "commentCount": 0
+        },
+        {
+          "number": 93,
+          "title": "P2: Reinforce product identity as best peptide tracking dashboard",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "area:copy",
+            "area:ux",
+            "type:cleanup"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:07:24Z",
+          "updatedAt": "2026-04-11T21:07:24Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/93",
+          "commentCount": 0
+        },
+        {
+          "number": 92,
+          "title": "P2: Improve app-store readiness and reviewer-defense materials",
+          "state": "open",
+          "labels": [
+            "priority:P2",
+            "area:app-store",
+            "type:compliance"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:07:16Z",
+          "updatedAt": "2026-04-11T21:07:16Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/92",
+          "commentCount": 0
+        },
+        {
+          "number": 81,
+          "title": "Store Metadata & ASO",
+          "state": "open",
+          "labels": [
+            "app-store"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:03:21Z",
+          "updatedAt": "2026-04-11T21:03:21Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/81",
+          "commentCount": 0
+        },
+        {
+          "number": 80,
+          "title": "Apple App Store Launch",
+          "state": "open",
+          "labels": [
+            "app-store"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:03:20Z",
+          "updatedAt": "2026-04-11T21:03:20Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/80",
+          "commentCount": 0
+        },
+        {
+          "number": 79,
+          "title": "Google Play Store Launch",
+          "state": "open",
+          "labels": [
+            "app-store"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:03:18Z",
+          "updatedAt": "2026-04-11T21:03:18Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/79",
+          "commentCount": 0
+        },
+        {
+          "number": 78,
+          "title": "Paywall UI & Subscription Infrastructure",
+          "state": "open",
+          "labels": [
+            "monetization"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T21:03:17Z",
+          "updatedAt": "2026-04-11T21:03:17Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/78",
+          "commentCount": 0
+        },
+        {
+          "number": 66,
+          "title": "Sprint 8: Flexible Protocols",
+          "state": "open",
+          "labels": [
+            "sprint-8"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-04-11T19:10:55Z",
+          "updatedAt": "2026-04-11T19:10:55Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/66",
+          "commentCount": 0
+        },
+        {
+          "number": 37,
+          "title": "Create foundation for constrained in-app support assistant",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-04-10T22:12:07Z",
+          "updatedAt": "2026-04-10T22:12:07Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/37",
+          "commentCount": 0
+        },
+        {
+          "number": 36,
+          "title": "Refine premium strategy — value from app features, not only guides",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-04-10T22:10:41Z",
+          "updatedAt": "2026-04-10T22:10:41Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/issues/36",
+          "commentCount": 0
+        }
+      ],
+      "pullRequests": [
+        {
+          "number": 222,
+          "title": "chore(ux): trim duplicate Add Peptide signals + dismissible empty-state",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "chore/add-peptide-quick-wins-api",
+          "base": "main",
+          "createdAt": "2026-05-02T17:43:55Z",
+          "updatedAt": "2026-05-02T17:43:58Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/pull/222"
+        },
+        {
+          "number": 159,
+          "title": "feat: Demo Mode v2 — realistic sample data + guided walkthrough",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "claude/happy-cartwright",
+          "base": "main",
+          "createdAt": "2026-04-12T20:53:26Z",
+          "updatedAt": "2026-04-15T03:58:57Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/pull/159"
+        },
+        {
+          "number": 65,
+          "title": "feat: adherence badges, one-tap dose actions, and enhanced stats",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/sprint5-adherence-reminders",
+          "base": "main",
+          "createdAt": "2026-04-11T19:10:54Z",
+          "updatedAt": "2026-04-11T19:11:00Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/pull/65"
+        },
+        {
+          "number": 47,
+          "title": "Add guided multi-step Add Peptide flow (Phase 3)",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feature/guided-add-peptide-flow",
+          "base": "main",
+          "createdAt": "2026-04-11T03:22:49Z",
+          "updatedAt": "2026-04-11T03:22:51Z",
+          "url": "https://github.com/peterluke101/peptide-calc-build/pull/47"
+        }
+      ]
+    },
+    {
+      "name": "juvenis-medical",
+      "fullName": "peterluke101/juvenis-medical",
+      "description": "Juvenis Medical — peptide therapy, hormone optimization & medical weight loss. Fort Lauderdale, FL. peptidesandhormones.com",
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-12T15:22:29Z",
+      "updatedAt": "2026-05-12T14:41:42Z",
+      "htmlUrl": "https://github.com/peterluke101/juvenis-medical",
+      "openIssueCount": 9,
+      "openPRCount": 2,
+      "branchCount": 7,
+      "topics": [],
+      "language": "HTML",
+      "issues": [
+        {
+          "number": 35,
+          "title": "Reconcile brand color palette: live CSS vs CLAUDE.md",
+          "state": "open",
+          "labels": [
+            "documentation",
+            "brand"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-11T22:33:25Z",
+          "updatedAt": "2026-05-11T22:33:25Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/35",
+          "commentCount": 0
+        },
+        {
+          "number": 20,
+          "title": "Content: Resolve \"Coming Soon\" placeholder cards on /blog/",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:33:32Z",
+          "updatedAt": "2026-05-06T12:33:32Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/20",
+          "commentCount": 0
+        },
+        {
+          "number": 19,
+          "title": "SEO: Add lastmod dates to sitemap.xml",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:33:06Z",
+          "updatedAt": "2026-05-06T12:33:06Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/19",
+          "commentCount": 0
+        },
+        {
+          "number": 18,
+          "title": "SEO: Add Physician schema to about.html and LocalBusiness schema to contact.html",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:32:42Z",
+          "updatedAt": "2026-05-06T12:32:42Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/18",
+          "commentCount": 0
+        },
+        {
+          "number": 17,
+          "title": "SEO: Add MedicalProcedure schema to 5 service pages",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:32:08Z",
+          "updatedAt": "2026-05-06T12:32:08Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/17",
+          "commentCount": 0
+        },
+        {
+          "number": 16,
+          "title": "SEO: Add Open Graph and Twitter Card tags site-wide",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:31:40Z",
+          "updatedAt": "2026-05-06T12:31:40Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/16",
+          "commentCount": 0
+        },
+        {
+          "number": 15,
+          "title": "SEO: Add missing meta descriptions to 6 pages",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:31:03Z",
+          "updatedAt": "2026-05-06T12:31:03Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/15",
+          "commentCount": 0
+        },
+        {
+          "number": 5,
+          "title": "fix: Add meta descriptions and image alt texts across all pages",
+          "state": "open",
+          "labels": [
+            "enhancement"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-05T20:00:07Z",
+          "updatedAt": "2026-05-05T20:00:07Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/5",
+          "commentCount": 0
+        },
+        {
+          "number": 3,
+          "title": "feat: Add merchandise shop page",
+          "state": "open",
+          "labels": [
+            "enhancement"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-05T18:32:06Z",
+          "updatedAt": "2026-05-05T18:32:06Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/3",
+          "commentCount": 0
+        }
+      ],
+      "pullRequests": [
+        {
+          "number": 24,
+          "title": "feat(seo): add lastmod dates and missing pages to sitemap.xml",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "seo/sitemap-lastmod",
+          "base": "main",
+          "createdAt": "2026-05-06T15:53:20Z",
+          "updatedAt": "2026-05-06T15:53:20Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/pull/24"
+        },
+        {
+          "number": 4,
+          "title": "feat: Add merchandise shop page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feature/merch-shop-page",
+          "base": "main",
+          "createdAt": "2026-05-05T18:39:08Z",
+          "updatedAt": "2026-05-05T22:01:42Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/pull/4"
+        }
+      ]
+    },
+    {
+      "name": "peterlukedigital-site",
+      "fullName": "peterluke101/peterlukedigital-site",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-27T12:34:33Z",
+      "updatedAt": "2026-04-27T12:34:37Z",
+      "htmlUrl": "https://github.com/peterluke101/peterlukedigital-site",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "Wings-Site",
+      "fullName": "peterluke101/Wings-Site",
+      "description": "Wings website",
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-24T03:30:27Z",
+      "updatedAt": "2026-05-02T16:29:52Z",
+      "htmlUrl": "https://github.com/peterluke101/Wings-Site",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "mission-control",
+      "fullName": "peterluke101/mission-control",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-10T21:07:12Z",
+      "updatedAt": "2026-04-10T21:07:22Z",
+      "htmlUrl": "https://github.com/peterluke101/mission-control",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "peterlukedigital",
+      "fullName": "peterluke101/peterlukedigital",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-03-30T00:34:09Z",
+      "updatedAt": "2026-03-30T00:34:13Z",
+      "htmlUrl": "https://github.com/peterluke101/peterlukedigital",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [],
+      "language": "HTML",
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "Bugs",
+      "fullName": "peterluke101/Bugs",
+      "description": "little bugs",
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-03-08T02:49:34Z",
+      "updatedAt": "2026-05-02T16:29:33Z",
+      "htmlUrl": "https://github.com/peterluke101/Bugs",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "cats",
+      "fullName": "peterluke101/cats",
+      "description": null,
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-03-08T02:47:49Z",
+      "updatedAt": "2026-05-02T16:29:33Z",
+      "htmlUrl": "https://github.com/peterluke101/cats",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "TT",
+      "fullName": "peterluke101/TT",
+      "description": "Love TT",
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-03-08T02:44:23Z",
+      "updatedAt": "2026-05-02T16:29:33Z",
+      "htmlUrl": "https://github.com/peterluke101/TT",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "Taheelpete",
+      "fullName": "peterluke101/Taheelpete",
+      "description": null,
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-02-29T05:39:14Z",
+      "updatedAt": "2026-05-02T16:29:34Z",
+      "htmlUrl": "https://github.com/peterluke101/Taheelpete",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "Heels",
+      "fullName": "peterluke101/Heels",
+      "description": null,
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-02-29T05:20:38Z",
+      "updatedAt": "2026-05-02T16:29:34Z",
+      "htmlUrl": "https://github.com/peterluke101/Heels",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "apes",
+      "fullName": "peterluke101/apes",
+      "description": null,
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-02-28T20:11:29Z",
+      "updatedAt": "2026-05-02T16:29:34Z",
+      "htmlUrl": "https://github.com/peterluke101/apes",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "peterluke101",
+      "fullName": "peterluke101/peterluke101",
+      "description": "Config files for my GitHub profile.",
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2024-02-25T05:07:54Z",
+      "updatedAt": "2024-02-25T05:07:43Z",
+      "htmlUrl": "https://github.com/peterluke101/peterluke101",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": 1,
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    },
+    {
+      "name": "Tarheelpete",
+      "fullName": "peterluke101/Tarheelpete",
+      "description": null,
+      "visibility": "public",
+      "archived": true,
+      "defaultBranch": "main",
+      "pushedAt": "2024-02-25T05:03:53Z",
+      "updatedAt": "2026-05-02T16:29:35Z",
+      "htmlUrl": "https://github.com/peterluke101/Tarheelpete",
+      "openIssueCount": 0,
+      "openPRCount": 0,
+      "branchCount": null,
+      "topics": [],
+      "language": null,
+      "issues": [],
+      "pullRequests": []
+    }
+  ]
+}
