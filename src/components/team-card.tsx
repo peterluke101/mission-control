@@ -15,15 +15,7 @@ const tierColors = {
 // Simulated progress per agent based on current known tasks
 const agentProgress: Record<string, number> = {
   ares: 72,
-  tron: 58,
-  athena: 45,
-  jarod: 30,
-  flynn: 65,
-  evekim: 88,
-  scout: 0,
-  quill: 0,
-  pixel: 0,
-  echo: 0,
+  librarian: 100,
 };
 
 function StatusDot({ status }: { status: Status }) {

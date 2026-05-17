@@ -7,7 +7,7 @@ type SettingsTab = 'settings' | 'improvements';
 const teamNeeds = [
   {
     title: 'X Account Access',
-    description: 'Twitter/X account credentials or access needed for marketing launch. Without this, the X content library Jarod built cannot be published.',
+    description: 'Twitter/X account credentials or access needed for marketing launch. Without this, the X content library Ares built cannot be published.',
     assigned: 'Pete action required',
     urgency: 'LAUNCH BLOCKER' as const,
     color: '#ff5050',
@@ -20,15 +20,15 @@ const teamNeeds = [
     color: '#ff5050',
   },
   {
-    title: 'Eve Kim / Infrastructure',
-    description: 'Eve Kim (Infrastructure Engineer) needs to stand up the web deployment stack when we go live. Staging environment ready; production config pending.',
-    assigned: 'Ares to activate',
+    title: 'Container Rebuild',
+    description: 'Pete to run ./container/build.sh to deploy NanoClaw per-task model routing + Telegram formatting fixes that Ares already shipped.',
+    assigned: 'Pete action required',
     urgency: 'PRE-LAUNCH' as const,
     color: '#ffaa00',
   },
   {
     title: 'PDF Generation Tooling Decision',
-    description: 'Tron needs a direction before building the PDF pipeline. Options: InDesign-based (manual, high polish) vs code-generated (automated, scalable). Revenue implications differ significantly.',
+    description: 'Direction needed before building the PDF pipeline. Options: InDesign-based (manual, high polish) vs code-generated (automated, scalable). Revenue implications differ significantly.',
     assigned: 'Pete decision needed',
     urgency: 'PENDING DECISION' as const,
     color: '#3DE8C3',
@@ -46,7 +46,7 @@ const growthOpportunities = [
 const processImprovements = [
   { title: 'Morning Brief Automation', description: 'Heartbeat system is in progress — Ares auto-checks email, calendar, and alerts on a schedule.', status: 'IN PROGRESS', statusColor: '#3DE8C3' },
   { title: 'Mission Control Live Data Integration', description: 'Currently seeded with static data. Future state: real task completion, agent activity, and revenue metrics pulled live.', status: 'QUEUED', statusColor: '#4a4f65' },
-  { title: 'Automated Research Monitoring', description: 'Set up Jarod to auto-alert on new peptide studies, FDA updates, or competitor releases.', status: 'PLANNED', statusColor: '#4a4f65' },
+  { title: 'Automated Research Monitoring', description: 'Auto-alert pipeline for new peptide studies, FDA updates, or competitor releases.', status: 'PLANNED', statusColor: '#4a4f65' },
 ];
 
 function SettingRow({

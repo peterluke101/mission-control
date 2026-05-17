@@ -11,7 +11,6 @@ const STATUS_COLORS: Record<Project['status'], string> = {
 const PROJECT_META: Record<string, { owner?: string; team?: string[]; metrics?: { label: string; value: string }[] }> = {
   'proj-4': {
     owner: 'Ares',
-    team: ['Tron', 'Athena', 'Jarod', 'Flynn'],
     metrics: [
       { label: 'Proposals Submitted', value: '1' },
       { label: 'Awarded', value: '0' },

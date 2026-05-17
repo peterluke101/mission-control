@@ -126,80 +126,32 @@ export const teamMembers: TeamMember[] = [
     id: 'ares',
     agentId: 'ARES-01',
     name: 'Ares',
-    role: 'Master Control',
+    role: 'Lead Agent / Master Control',
     specialty: 'Strategic Command',
     category: 'Leadership',
     status: 'Active',
-    activity: 'Day 23. Nightly R&D Council complete. Report + memo written. HandoffOS/Playbook is the build — Tron staged, awaiting Pete go. Kimi API down Day 3+. Revenue: $29 cumulative, zero-revenue streak continues.',
+    activity: 'Per-task model routing merged. Two Telegram formatting fixes shipped. Waiting on Pete\'s container rebuild to fully deploy.',
     model: 'claude-sonnet-4-6',
     responsibilities: [
       'Overall mission strategy and direction',
-      'Team coordination and task delegation',
+      'Builds, research, content, and execution',
       'High-level architecture decisions',
     ],
   },
   {
-    id: 'tron',
-    agentId: 'TRON-02',
-    name: 'Tron',
-    role: 'Systems Builder / Master Programmer',
-    specialty: 'Full-Stack Engineering',
-    category: 'Builders',
-    status: 'Standby',
-    activity: 'Staged and waiting for Pete go-ahead on HandoffOS/Playbook build. No active task until Pete approves.',
-    model: 'deepseek-v3',
-    responsibilities: [
-      'Frontend and backend development',
-      'Architecture and infrastructure',
-      'Code quality and system reliability',
-    ],
-  },
-  {
-    id: 'athena',
-    agentId: 'ATHENA-03',
-    name: 'Athena',
-    role: 'Creative Director / Design Lead',
-    specialty: 'Design & Brand',
-    category: 'Builders',
-    status: 'Standby',
-    activity: 'DOWN — Kimi K2.5 API suspended Day 3+. Fully offline until Pete tops up API balance.',
-    model: 'kimi-k2.5',
-    responsibilities: [
-      'Visual identity and brand guidelines',
-      'Creative strategy and design critique',
-      'Council voice — creative/aesthetic perspective',
-    ],
-  },
-  {
-    id: 'jarod',
-    agentId: 'JAROD-04',
-    name: 'Jarod',
-    role: 'VP Social / Research & Writing',
-    specialty: 'Research & Content Strategy',
-    category: 'Builders',
+    id: 'librarian',
+    agentId: 'LIB-02',
+    name: 'Librarian',
+    role: 'Data Steward / MC Archivist',
+    specialty: 'Data Hygiene & Archival',
+    category: 'Sub-agents',
     status: 'Active',
-    activity: 'DOWN — Kimi API suspended Day 3+. Offline until API restored.',
-    model: 'gemini-2.5-flash',
+    activity: 'Routine heartbeat. Maintains goals.json, activity.json, team.json. No new deliverables since May 14.',
+    model: 'claude-haiku-4-5',
     responsibilities: [
-      'Market research and competitive analysis',
-      'Social media strategy and execution',
-      'Long-form content and copy',
-    ],
-  },
-  {
-    id: 'flynn',
-    agentId: 'FLYNN-05',
-    name: 'Flynn',
-    role: 'Behavioral Strategy',
-    specialty: 'Human Nature & Buying Psychology',
-    category: 'Builders',
-    status: 'Training',
-    activity: 'DOWN — Kimi API suspended Day 3+. Offline until API restored.',
-    model: 'claude-sonnet-4-6',
-    responsibilities: [
-      'Consumer decision analysis & buying behavior',
-      'Audience psychology & objection mapping',
-      'Pricing strategy & persuasion architecture',
+      'Maintain goals.json, activity.json, team.json',
+      'Archive stale data and prune drift',
+      'Heartbeat sync cycles',
     ],
   },
 ];
@@ -245,7 +197,7 @@ export const documents: Document[] = [
     category: 'Product',
     wordCount: 3800,
     tags: ['Peptide Data Dumps'],
-    agent: 'Jarod',
+    agent: 'Ares',
     content: 'Premium PDF guide on peptides. 17 peptides researched, 14 chapters, $37 price point on Gumroad. Target audience: biohackers, fitness enthusiasts, and performance-oriented individuals. Core value prop: research-backed, no fluff, actionable protocols. Distribution: Gumroad primary, Reddit organic launch.',
   },
   {
@@ -256,7 +208,7 @@ export const documents: Document[] = [
     category: 'Engineering',
     wordCount: 2150,
     tags: ['General'],
-    agent: 'Tron',
+    agent: 'Ares',
     content: 'Next.js 15 + React 19 + Tailwind v4 + shadcn/ui + Zustand. 2025 gold standard for dashboards. App Router with server components for performance. Zustand for client state — lightweight, no boilerplate. Deployed on Vercel with preview deployments per PR. TypeScript strict mode throughout.',
   },
   {
@@ -267,7 +219,7 @@ export const documents: Document[] = [
     category: 'Research',
     wordCount: 4200,
     tags: ['Research Scrubs'],
-    agent: 'Jarod',
+    agent: 'Ares',
     content: 'Triple agonist GLP-1+GIP+Glucagon. Phase 3: 71.2 lbs average weight loss (28.7% body weight). The Horizon Drug. Mechanism: simultaneous activation of three incretin/metabolic pathways. Superior to semaglutide in head-to-head metabolic markers. Eli Lilly pipeline. Expected FDA review 2026-2027. Massive market opportunity for early education content.',
   },
   {
@@ -278,7 +230,7 @@ export const documents: Document[] = [
     category: 'Design',
     wordCount: 890,
     tags: ['Peptide Data Dumps'],
-    agent: 'Athena',
+    agent: 'Ares',
     content: 'Void Black #09090f, Pulse Cyan #00d4ff, Navigator Gold #f0b429. Space Grotesk + Inter typography. Primary palette conveys precision, performance, and trust. Space Grotesk for headings — technical authority. Inter for body — maximum readability. Dark-first design system. All assets exported as SVG and PNG at 2x.',
   },
   {
@@ -300,7 +252,7 @@ export const documents: Document[] = [
     category: 'Marketing',
     wordCount: 3100,
     tags: ['Research Scrubs'],
-    agent: 'Jarod',
+    agent: 'Ares',
     content: '40 posts ready to fire. Education hooks, hot takes, value drops, product teasers. Targeting biohackers and fitness enthusiasts. Content pillars: peptide education, performance optimization, research breakdowns, and product launch teasers. Engagement strategy: lead with data, follow with application. Post cadence: 2x daily for launch week.',
   },
   {
@@ -311,7 +263,7 @@ export const documents: Document[] = [
     category: 'Research',
     wordCount: 2600,
     tags: ['Research Scrubs'],
-    agent: 'Jarod',
+    agent: 'Ares',
     content: '30 top confusions ranked. #1: reconstitution math. 40 FAQs in friendly-expert tone. Sourced from Reddit r/Peptides, r/PeptidesForPerfomance, and fitness forums. Key confusion areas: dosing calculations, storage protocols, sourcing safety, stacking strategies. All 40 FAQs written and approved for Peptide Compass integration.',
   },
   {
@@ -334,7 +286,7 @@ export const documents: Document[] = [
     wordCount: 2200,
     tags: ['General'],
     agent: 'Ares',
-    content: 'Top pick: AI-powered niche research guide portfolio. Same model as Peptide Compass replicated across 15-20 niches. Candidate niches: nootropics, SARMs, longevity protocols, cold therapy, red light therapy, sleep optimization. Asset factory model: Ares orchestrates, Jarod researches, Quill writes, Athena designs. Target: $5k-10k MRR within 6 months across portfolio.',
+    content: 'Top pick: AI-powered niche research guide portfolio. Same model as Peptide Compass replicated across 15-20 niches. Candidate niches: nootropics, SARMs, longevity protocols, cold therapy, red light therapy, sleep optimization. Asset factory model: Ares handles research, writing, and design end-to-end. Target: $5k-10k MRR within 6 months across portfolio.',
   },
   {
     id: 'doc-11',
@@ -364,7 +316,7 @@ export const documents: Document[] = [
     category: 'Engineering',
     wordCount: 950,
     tags: ['General'],
-    agent: 'Tron',
+    agent: 'Ares',
   },
   {
     id: 'doc-14',
@@ -374,7 +326,7 @@ export const documents: Document[] = [
     category: 'Strategy',
     wordCount: 600,
     tags: ['General'],
-    agent: 'Tron',
+    agent: 'Ares',
   },
   {
     id: 'doc-15',
@@ -384,7 +336,7 @@ export const documents: Document[] = [
     category: 'Strategy',
     wordCount: 1400,
     tags: ['General'],
-    agent: 'Jarod',
+    agent: 'Ares',
   },
   {
     id: 'doc-16',
@@ -394,7 +346,7 @@ export const documents: Document[] = [
     category: 'Marketing',
     wordCount: 540,
     tags: ['Research Scrubs'],
-    agent: 'Jarod',
+    agent: 'Ares',
   },
   {
     id: 'doc-17',
@@ -404,7 +356,7 @@ export const documents: Document[] = [
     category: 'Marketing',
     wordCount: 2500,
     tags: ['Peptide Data Dumps'],
-    agent: 'Jarod',
+    agent: 'Ares',
   },
 ];
 
@@ -412,7 +364,7 @@ export const tasks: Task[] = [
   {
     id: 'task-1',
     title: 'Build Freelance Blueprint Guide',
-    description: 'First non-health guide. Jarod research complete. Ares to write. $29 on Gumroad.',
+    description: 'First non-health guide. Research complete. Ares to write. $29 on Gumroad.',
     status: 'In Progress',
     priority: 'Critical',
     assignee: 'Ares',
@@ -420,10 +372,10 @@ export const tasks: Task[] = [
   {
     id: 'task-2',
     title: 'Art Showcase Video — Rebuild',
-    description: 'Tron rebuilding Pete\'s painting showcase video from scratch. FFmpeg, gallery-quality. 6 acrylic paintings.',
+    description: 'Ares rebuilding Pete\'s painting showcase video from scratch. FFmpeg, gallery-quality. 6 acrylic paintings.',
     status: 'In Progress',
     priority: 'High',
-    assignee: 'Tron',
+    assignee: 'Ares',
   },
   {
     id: 'task-3',
@@ -447,7 +399,7 @@ export const tasks: Task[] = [
     description: 'Gate: 10 paying users first. Landing page live at :8445/landing. Free/Pro $49/Agency $149.',
     status: 'Backlog',
     priority: 'Medium',
-    assignee: 'Tron',
+    assignee: 'Ares',
   },
   {
     id: 'task-6',
@@ -492,10 +444,10 @@ export const tasks: Task[] = [
   {
     id: 'task-11',
     title: 'KDP Cover Resizing — 6 Covers',
-    description: 'Athena task: resize all 6 Compass Guide covers to KDP spec (2560×1600).',
+    description: 'Resize all 6 Compass Guide covers to KDP spec (2560×1600).',
     status: 'Backlog',
     priority: 'Medium',
-    assignee: 'Athena',
+    assignee: 'Ares',
   },
   {
     id: 'task-12',
@@ -503,7 +455,7 @@ export const tasks: Task[] = [
     description: 'Paywall built ($4.99/mo or $39/yr). Needs real Stripe keys to go live.',
     status: 'Backlog',
     priority: 'Medium',
-    assignee: 'Tron',
+    assignee: 'Ares',
   },
   {
     id: 'task-13',
@@ -511,7 +463,7 @@ export const tasks: Task[] = [
     description: 'Needs full description treatment — current listing is bare bones.',
     status: 'Backlog',
     priority: 'Medium',
-    assignee: 'Jarod',
+    assignee: 'Ares',
   },
   {
     id: 'task-14',
@@ -538,16 +490,9 @@ export interface PeteTask {
 
 export const peteTasks: PeteTask[] = [
   {
-    id: 'pete-0',
-    title: '🔴 TOP-UP KIMI K2.5 API — CRITICAL',
-    description: 'Kimi K2.5 account suspended (insufficient balance) since Apr 6. Day 3+ offline. Athena, Jarod, Flynn all down. Top-up required to unblock 3 agents + evening council runs.',
-    actionType: 'NEEDS_ACTION',
-    completed: false,
-  },
-  {
     id: 'pete-handhoff',
     title: '🔴 HandoffOS / Playbook — Go or No-Go',
-    description: 'Tron is staged and waiting. Council aligned on the build. Domain candidate: getplaybook.app — confirm name or give alternative. One word from Pete unblocks the entire track.',
+    description: 'Ares staged and waiting. Domain candidate: getplaybook.app — confirm name or give alternative. One word from Pete unblocks the entire track.',
     actionType: 'APPROVE',
     completed: false,
   },
@@ -582,7 +527,7 @@ export const peteTasks: PeteTask[] = [
   {
     id: 'pete-6',
     title: 'Review 48hr Launch Overhaul',
-    description: 'Flynn Cialdini overhaul complete. $997 + $19.99/mo upsell. All assets on Drive. Awaiting your sign-off.',
+    description: 'Cialdini-style persuasion overhaul complete. $997 + $19.99/mo upsell. All assets on Drive. Awaiting your sign-off.',
     actionType: 'APPROVE',
     completed: false,
   },
@@ -609,7 +554,7 @@ export const projects: Project[] = [
     description: 'Internal command center. Phase 1 DELIVERED (Goals tab, Activity feed, Org chart). 5 apps: MC (:3000), CS (:3001), R&D (:3002), CT (:3003), Sentinel (:3004). All Tailscale Funnel, launchd-managed.',
     status: 'In Progress',
     progress: 98,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Next.js', 'React', 'Internal Tool'],
   },
   {
@@ -618,7 +563,7 @@ export const projects: Project[] = [
     description: 'Premium PDF guide on peptides. LIVE on Gumroad at $29. First sale Mar 23. 47,664 words, 14 chapters, 5 appendices. First product in Compass Guides series.',
     status: 'Complete',
     progress: 100,
-    lead: 'Jarod',
+    lead: 'Ares',
     tags: ['Product', 'Revenue', 'Gumroad', 'LIVE'],
   },
   {
@@ -627,7 +572,7 @@ export const projects: Project[] = [
     description: 'Client website for Bradford Luke ($300 paid). Nautical/military theme, 14 scents. 95% done — waiting on Bradford for product photos + Shopify login.',
     status: 'On Hold',
     progress: 95,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Website', 'Client', 'Paid'],
   },
   {
@@ -726,7 +671,7 @@ export const projects: Project[] = [
     description: 'Mobile-first micro-app. Revenue pulse, action queue, team feed, quick commands. Live on port 3001. PWA-ready for iPhone.',
     status: 'Complete',
     progress: 100,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Internal Tool', 'Mobile', 'PWA'],
   },
   {
@@ -735,7 +680,7 @@ export const projects: Project[] = [
     description: '50 infographics across all 5 guides. Mint teal brand. QC passed. Ready for X, Reddit, Instagram, Pinterest.',
     status: 'Complete',
     progress: 100,
-    lead: 'Athena',
+    lead: 'Ares',
     tags: ['Marketing', 'Content', 'Social Media'],
   },
   {
@@ -744,7 +689,7 @@ export const projects: Project[] = [
     description: 'Peptide tracking PWA. 17 pre-loaded peptides, shot logging, reconstitution calc, body map. Port 3003. Stripe paywall ($4.99/mo or $39/yr) built — needs real Stripe keys.',
     status: 'In Progress',
     progress: 85,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Product', 'PWA', 'App', 'Peptides'],
   },
   {
@@ -753,7 +698,7 @@ export const projects: Project[] = [
     description: 'Universal QC gate. 5 tabs: PDF QC, Posts QC (35+ AI markers), Code QC (13 checks), Ops QC (25 tests), Batch Build. Port 3004. 9.8/10. 96% bug detection rate. Nothing ships without Sentinel pass.',
     status: 'In Progress',
     progress: 92,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Internal Tool', 'QC', 'AI Detection'],
   },
   {
@@ -768,10 +713,10 @@ export const projects: Project[] = [
   {
     id: 'PROJ-20',
     name: '48hr Digital Product Launch',
-    description: 'Done-for-you digital product biz. $997 flat fee + $19.99/mo upsell. Flynn Cialdini overhaul complete. All assets on Drive. Awaiting Pete review.',
+    description: 'Done-for-you digital product biz. $997 flat fee + $19.99/mo upsell. Cialdini-style persuasion overhaul complete. All assets on Drive. Awaiting Pete review.',
     status: 'Queued',
     progress: 70,
-    lead: 'Flynn',
+    lead: 'Ares',
     tags: ['Product', 'Revenue', 'Service'],
   },
   {
@@ -786,7 +731,7 @@ export const projects: Project[] = [
   {
     id: 'PROJ-22',
     name: 'Freelance Blueprint Guide',
-    description: 'First non-health Compass Guide. $29. Jarod research complete. Writing phase next. Part of Pete pivot away from medical content.',
+    description: 'First non-health Compass Guide. $29. Research complete. Writing phase next. Part of Pete pivot away from medical content.',
     status: 'In Progress',
     progress: 30,
     lead: 'Ares',
@@ -804,10 +749,10 @@ export const projects: Project[] = [
   {
     id: 'PROJ-24',
     name: 'Pete\'s Art Video',
-    description: 'Gallery-quality showcase video for Pete\'s 6 acrylic paintings. Tron rebuilding from scratch with FFmpeg. Pop-art expressionist portraits.',
+    description: 'Gallery-quality showcase video for Pete\'s 6 acrylic paintings. Ares rebuilding from scratch with FFmpeg. Pop-art expressionist portraits.',
     status: 'In Progress',
     progress: 20,
-    lead: 'Tron',
+    lead: 'Ares',
     tags: ['Art', 'Video', 'Marketing'],
   },
 ];

@@ -85,10 +85,10 @@ const projects: Project[] = [
     totalTasks: 12,
     items: [
       { id: 'pc-1', task: 'Pete reviews cover mockup + approves tagline + design direction', owner: 'Pete' },
-      { id: 'pc-2', task: 'Athena builds full PDF layout system / sample pages', owner: 'Athena' },
-      { id: 'pc-3', task: 'Tron builds PDF generation pipeline', owner: 'Tron' },
+      { id: 'pc-2', task: 'Build full PDF layout system / sample pages', owner: 'Ares' },
+      { id: 'pc-3', task: 'Build PDF generation pipeline', owner: 'Ares' },
       { id: 'pc-4', task: 'Pete final approval on all content', owner: 'Pete' },
-      { id: 'pc-5', task: 'Gumroad listing setup', owner: 'Athena' },
+      { id: 'pc-5', task: 'Gumroad listing setup', owner: 'Ares' },
       { id: 'pc-6', task: 'Launch', owner: 'Pete' },
     ],
   },
@@ -110,7 +110,7 @@ const projects: Project[] = [
     totalTasks: 7,
     items: [
       { id: 'xa-1', task: 'Pete reviews and schedules Buffer drafts', owner: 'Pete' },
-      { id: 'xa-2', task: 'Add images to all posts (from Athena image research file on Desktop)', owner: 'Athena' },
+      { id: 'xa-2', task: 'Add images to all posts (from image research file on Desktop)', owner: 'Ares' },
       { id: 'xa-3', task: 'Build follower base to 1K', owner: 'Pete' },
     ],
   },
