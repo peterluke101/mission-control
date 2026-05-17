@@ -1,14 +1,57 @@
 {
-  "syncedAt": "2026-05-13T13:00:18.660Z",
+  "syncedAt": "2026-05-17T02:04:00.387Z",
   "owner": "peterluke101",
   "summary": {
     "repoCount": 16,
     "activeRepoCount": 8,
     "archivedRepoCount": 8,
     "openIssueCount": 26,
-    "openPRCount": 6
+    "openPRCount": 8
   },
   "repos": [
+    {
+      "name": "mission-control",
+      "fullName": "peterluke101/mission-control",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-17T02:03:44Z",
+      "updatedAt": "2026-05-17T02:03:48Z",
+      "htmlUrl": "https://github.com/peterluke101/mission-control",
+      "openIssueCount": 0,
+      "openPRCount": 2,
+      "branchCount": 4,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": [
+        {
+          "number": 3,
+          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/mc-chat-dock",
+          "base": "feat/v2-data-pipeline",
+          "createdAt": "2026-05-13T14:24:35Z",
+          "updatedAt": "2026-05-14T05:49:46Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "feat(repos): add Repos & Issues dashboard page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/repos-issues-page",
+          "base": "main",
+          "createdAt": "2026-05-13T13:14:37Z",
+          "updatedAt": "2026-05-13T13:14:37Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/2"
+        }
+      ]
+    },
     {
       "name": "nanoclaw",
       "fullName": "peterluke101/nanoclaw",
@@ -16,12 +59,12 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-05-12T22:32:40Z",
-      "updatedAt": "2026-05-12T22:31:51Z",
+      "pushedAt": "2026-05-14T17:31:14Z",
+      "updatedAt": "2026-05-14T17:31:21Z",
       "htmlUrl": "https://github.com/peterluke101/nanoclaw",
       "openIssueCount": 0,
       "openPRCount": 0,
-      "branchCount": 1,
+      "branchCount": 4,
       "topics": [],
       "language": "TypeScript",
       "issues": [],
@@ -525,24 +568,6 @@
       "branchCount": null,
       "topics": [],
       "language": null,
-      "issues": [],
-      "pullRequests": []
-    },
-    {
-      "name": "mission-control",
-      "fullName": "peterluke101/mission-control",
-      "description": null,
-      "visibility": "public",
-      "archived": false,
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-10T21:07:12Z",
-      "updatedAt": "2026-04-10T21:07:22Z",
-      "htmlUrl": "https://github.com/peterluke101/mission-control",
-      "openIssueCount": 0,
-      "openPRCount": 0,
-      "branchCount": 1,
-      "topics": [],
-      "language": "TypeScript",
       "issues": [],
       "pullRequests": []
     },
