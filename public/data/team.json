@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T02:21:28.337Z",
+  "updatedAt": "2026-05-18T02:41:32.293Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -34,7 +34,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Heartbeat. No new deliverables since last cycle. postready already logged. Container rebuild (g1.8) still pending on Pete's Mac.",
-      "lastActive": "2026-05-18T02:21:28.337Z",
+      "lastActive": "2026-05-18T02:41:32.293Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
