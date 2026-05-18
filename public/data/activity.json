@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-17T23:45:00.000Z",
+  "updatedAt": "2026-05-18T18:21:00.000Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a11",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "postready: 2 new commits May 18 — error pages, CI workflow, Vercel config, and brand kit font additions (Montserrat + Cormorant Garamond).",
+      "timestamp": "2026-05-18T14:25:14.000Z",
+      "category": "delivery"
+    },
     {
       "id": "a10",
       "type": "milestone",
@@ -57,14 +65,6 @@
       "message": "Observational Memory v1 merged to NanoClaw main (PR #1). Opt-in via OBSERVATIONAL_MEMORY=on. 14 new tests, 315/315 pass.",
       "timestamp": "2026-05-12T21:00:00.000Z",
       "category": "milestone"
-    },
-    {
-      "id": "a6",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "Juvenis PR #39 merged — removed non-functional gold Video badge from blog card per Dr. Paul's request.",
-      "timestamp": "2026-05-12T14:15:00.000Z",
-      "category": "delivery"
     },
     {
       "id": "a8",
