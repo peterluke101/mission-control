@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-14T22:00:00.000Z",
+  "updatedAt": "2026-05-17T23:45:00.000Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a10",
+      "type": "milestone",
+      "agent": "Pete",
+      "message": "New project 'postready' created on GitHub — TypeScript SaaS, 5 build phases shipped May 17 (UI shell + auth, core client workflow, admin console, PWA polish, reminders + integrations groundwork).",
+      "timestamp": "2026-05-17T18:21:29.000Z",
+      "category": "milestone"
+    },
     {
       "id": "a0",
       "type": "milestone",
@@ -56,14 +64,6 @@
       "agent": "Ares ⚡",
       "message": "Juvenis PR #39 merged — removed non-functional gold Video badge from blog card per Dr. Paul's request.",
       "timestamp": "2026-05-12T14:15:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a7",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "Juvenis PRs #37+38 merged — SEO meta bundle (title/description/OG) and headshot image compression deployed to peptidesandhormones.com.",
-      "timestamp": "2026-05-12T00:55:00.000Z",
       "category": "delivery"
     },
     {
