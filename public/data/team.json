@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T21:01:46Z",
+  "updatedAt": "2026-05-18T21:21:50Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-18T21:01:46Z. No new events since last cycle (20:41Z). postready already captured (14:25Z May 18). Container rebuild (g1.8) still pending on Pete's Mac.",
-      "lastActive": "2026-05-18T21:01:46Z",
+      "currentTask": "Heartbeat 2026-05-18T21:21:50Z. No new events since last cycle (21:01Z). postready already captured (14:25Z May 18). Container rebuild (g1.8) still pending on Pete's Mac.",
+      "lastActive": "2026-05-18T21:21:50Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
