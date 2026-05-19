@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-19T00:03:09Z",
+  "lastUpdated": "2026-05-19T03:45:00Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure, postready SaaS",
   "activeProjects": [
     "Mission Control",
@@ -79,7 +79,7 @@
           "status": "active",
           "progress": 80,
           "owner": "Ares",
-          "note": "feat/per-task-model-routing merged to NanoClaw main May 14. npm build succeeded. Container rebuild (./container/build.sh) still pending on Pete's Mac."
+          "note": "feat/per-task-model-routing merged to NanoClaw main May 14. npm build succeeded. Container rebuild (./container/build.sh) still pending on Pete Mac."
         }
       ]
     },
@@ -132,7 +132,7 @@
       "priority": "medium",
       "progress": 70,
       "owner": "Pete",
-      "note": "Portfolio site for Pete's digital services business.",
+      "note": "Portfolio site for Pete digital services business.",
       "subgoals": [
         {
           "id": "g3.1",
@@ -155,9 +155,9 @@
       "title": "postready — TypeScript SaaS Platform",
       "status": "active",
       "priority": "high",
-      "progress": 35,
+      "progress": 40,
       "owner": "Pete",
-      "note": "New TypeScript SaaS project. 5 build phases shipped May 17 (UI shell + auth, core client workflow, admin console, PWA polish, reminders + integrations). CI/Vercel + brand kit (Montserrat + Cormorant Garamond) deployed May 18.",
+      "note": "TypeScript SaaS project. Core build + CI/Vercel + brand kit shipped. AI content generation (image + copy) added May 19. Domain configured as postready.net.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -187,8 +187,9 @@
           "id": "g4.4",
           "title": "Feature development and polish",
           "status": "active",
-          "progress": 10,
-          "owner": "Pete"
+          "progress": 25,
+          "owner": "Pete",
+          "note": "AI content generation (image + copy) added May 19. Domain postready.net configured."
         }
       ]
     }
