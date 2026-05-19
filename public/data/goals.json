@@ -1,12 +1,11 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-19T05:20:00Z",
-  "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure, postready SaaS",
+  "lastUpdated": "2026-05-19T19:10:00Z",
+  "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
-    "peterlukedigital",
-    "postready"
+    "peterlukedigital"
   ],
   "goals": [
     {
@@ -130,66 +129,24 @@
       "title": "peterlukedigital — Personal Portfolio",
       "status": "active",
       "priority": "medium",
-      "progress": 70,
+      "progress": 72,
       "owner": "Pete",
-      "note": "Portfolio site for Pete digital services business.",
+      "note": "Portfolio site for Pete digital services business. peterlukedigital-site: case study updated Apr 25-27 — brand kit label added, before-screenshots removed, canonical + sitemap SEO fixes.",
       "subgoals": [
         {
           "id": "g3.1",
           "title": "Site live and current",
           "status": "active",
-          "progress": 75,
+          "progress": 80,
           "owner": "Pete"
         },
         {
           "id": "g3.2",
           "title": "Services + case studies updated",
-          "status": "todo",
-          "progress": 40,
-          "owner": "Ares"
-        }
-      ]
-    },
-    {
-      "id": "g4",
-      "title": "postready — TypeScript SaaS Platform",
-      "status": "active",
-      "priority": "high",
-      "progress": 50,
-      "owner": "Pete",
-      "note": "TypeScript SaaS project. Core build + CI/Vercel + brand kit shipped. Batch upload, AI content generation, and Cloudflare Pages deployment all added May 18–19.",
-      "subgoals": [
-        {
-          "id": "g4.1",
-          "title": "Core build phases (UI shell, auth, workflows, admin, PWA)",
-          "status": "completed",
-          "progress": 100,
-          "owner": "Pete",
-          "completedAt": "2026-05-17T18:21:29.000Z"
-        },
-        {
-          "id": "g4.2",
-          "title": "CI/CD + Vercel deployment config",
-          "status": "completed",
-          "progress": 100,
-          "owner": "Pete",
-          "completedAt": "2026-05-18T14:25:14.000Z"
-        },
-        {
-          "id": "g4.3",
-          "title": "Brand kit (fonts, visual identity)",
-          "status": "completed",
-          "progress": 100,
-          "owner": "Pete",
-          "completedAt": "2026-05-18T14:25:14.000Z"
-        },
-        {
-          "id": "g4.4",
-          "title": "Feature development and polish",
           "status": "active",
-          "progress": 35,
+          "progress": 65,
           "owner": "Pete",
-          "note": "Batch upload for campaign image packets added May 18. AI content gen (image + copy) added May 19. Cloudflare Pages: Edge runtime fix + wrangler dep added May 19."
+          "note": "Case study page updated Apr 2026 — brand kit deliverables clarified, sitemap + canonical SEO fixed (peterlukedigital-site repo, Apr 27)."
         }
       ]
     }
