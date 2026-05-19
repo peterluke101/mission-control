@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T04:45:00Z",
+  "updatedAt": "2026-05-19T05:20:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
     {
@@ -16,6 +16,14 @@
       "agent": "Pete",
       "message": "postready: 2 commits May 19 — AI content generation (image + copy) feature added; NEXT_PUBLIC_SITE_URL pointed at postready.net.",
       "timestamp": "2026-05-19T03:32:30.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a14",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "postready: batch upload for campaign image packets added (May 18, 15:51Z).",
+      "timestamp": "2026-05-18T15:51:23.000Z",
       "category": "delivery"
     },
     {
@@ -73,14 +81,6 @@
       "message": "Librarian scheduled and live — auto-updates MC data files every 20 min, 8am–10pm.",
       "timestamp": "2026-05-14T08:10:00.000Z",
       "category": "ops"
-    },
-    {
-      "id": "a3",
-      "type": "milestone",
-      "agent": "Ares ⚡",
-      "message": "A2 unified channels deployed: Telegram ↔ MC Chat dock now share memory.",
-      "timestamp": "2026-05-13T19:30:00.000Z",
-      "category": "milestone"
     }
   ]
 }
