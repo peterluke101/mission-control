@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-18T18:21:00.000Z",
+  "updatedAt": "2026-05-19T03:45:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a12",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "postready: 2 commits May 19 — AI content generation (image + copy) feature added; NEXT_PUBLIC_SITE_URL pointed at postready.net.",
+      "timestamp": "2026-05-19T03:32:30.000Z",
+      "category": "delivery"
+    },
     {
       "id": "a11",
       "type": "delivery",
@@ -14,16 +22,8 @@
       "id": "a10",
       "type": "milestone",
       "agent": "Pete",
-      "message": "New project 'postready' created on GitHub — TypeScript SaaS, 5 build phases shipped May 17 (UI shell + auth, core client workflow, admin console, PWA polish, reminders + integrations groundwork).",
+      "message": "New project 'postready' created on GitHub — TypeScript SaaS, 5 build phases shipped May 17.",
       "timestamp": "2026-05-17T18:21:29.000Z",
-      "category": "milestone"
-    },
-    {
-      "id": "a0",
-      "type": "milestone",
-      "agent": "Ares ⚡",
-      "message": "Per-task model routing (feat/per-task-model-routing) merged to NanoClaw main. Librarian now routed to Haiku for cost efficiency. Container rebuild pending on Pete's Mac.",
-      "timestamp": "2026-05-14T15:32:00.000Z",
       "category": "milestone"
     },
     {
@@ -35,18 +35,42 @@
       "category": "delivery"
     },
     {
+      "id": "a9",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "NanoClaw git pull + npm run build completed on Pete Mac post-merge. Container rebuild step still pending.",
+      "timestamp": "2026-05-14T15:50:00.000Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a0",
+      "type": "milestone",
+      "agent": "Ares ⚡",
+      "message": "Per-task model routing merged to NanoClaw main. Librarian now routed to Haiku for cost efficiency. Container rebuild pending.",
+      "timestamp": "2026-05-14T15:32:00.000Z",
+      "category": "milestone"
+    },
+    {
       "id": "a2",
       "type": "ops",
       "agent": "Ares ⚡",
-      "message": "MC scrub complete: removed 6 stale agents, 4 old projects. Team reset to Ares + Librarian. Data current as of May 14.",
+      "message": "MC scrub complete: removed 6 stale agents, 4 old projects. Team reset to Ares + Librarian.",
       "timestamp": "2026-05-14T15:06:30.820Z",
+      "category": "ops"
+    },
+    {
+      "id": "a8",
+      "type": "system",
+      "agent": "Librarian 📚",
+      "message": "Librarian scheduled and live — auto-updates MC data files every 20 min, 8am–10pm.",
+      "timestamp": "2026-05-14T08:10:00.000Z",
       "category": "ops"
     },
     {
       "id": "a3",
       "type": "milestone",
       "agent": "Ares ⚡",
-      "message": "A2 unified channels deployed: Telegram ↔ MC Chat dock now share memory. Messages mirror between surfaces in real-time.",
+      "message": "A2 unified channels deployed: Telegram ↔ MC Chat dock now share memory.",
       "timestamp": "2026-05-13T19:30:00.000Z",
       "category": "milestone"
     },
@@ -56,30 +80,6 @@
       "agent": "Ares ⚡",
       "message": "MC Chat dock launched (PR #3): SSE streaming, voice input, file attach. Fixed SSE event-name parsing bug same session.",
       "timestamp": "2026-05-13T17:00:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a5",
-      "type": "milestone",
-      "agent": "Ares ⚡",
-      "message": "Observational Memory v1 merged to NanoClaw main (PR #1). Opt-in via OBSERVATIONAL_MEMORY=on. 14 new tests, 315/315 pass.",
-      "timestamp": "2026-05-12T21:00:00.000Z",
-      "category": "milestone"
-    },
-    {
-      "id": "a8",
-      "type": "system",
-      "agent": "Librarian 📚",
-      "message": "Librarian scheduled and live — auto-updates MC data files every 20 min, 8am–10pm. Model routing set to Haiku for cost efficiency.",
-      "timestamp": "2026-05-14T08:10:00.000Z",
-      "category": "ops"
-    },
-    {
-      "id": "a9",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "NanoClaw git pull + npm run build completed on Pete's Mac post-merge. Container rebuild step still pending to activate per-task model routing + Telegram fixes.",
-      "timestamp": "2026-05-14T15:50:00.000Z",
       "category": "delivery"
     }
   ]
