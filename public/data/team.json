@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T04:21:06Z",
+  "updatedAt": "2026-05-19T04:45:00Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -7,8 +7,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Active dev on postready (TypeScript SaaS) — AI content generation (image + copy) + postready.net domain config shipped May 19. Container rebuild (./container/build.sh) still pending for NanoClaw.",
-      "lastActive": "2026-05-19T03:32:30.000Z",
+      "currentTask": "Active dev on postready — AI content gen + Cloudflare Pages deployment fixes (Edge runtime + wrangler) shipped May 19. Container rebuild (./container/build.sh) still pending for NanoClaw.",
+      "lastActive": "2026-05-19T04:34:21.000Z",
       "model": "human"
     },
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete 2026-05-19T04:21:06Z — no new deliverables since last cycle. Goals/activity unchanged. Heartbeat refresh.",
-      "lastActive": "2026-05-19T04:21:06Z",
+      "currentTask": "Cycle complete 2026-05-19T04:45:00Z — 2 new postready commits (Cloudflare Pages fixes). goals/activity/team updated.",
+      "lastActive": "2026-05-19T04:45:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
