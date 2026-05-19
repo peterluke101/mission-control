@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T04:45:00Z",
+  "updatedAt": "2026-05-19T05:01:04Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete 2026-05-19T04:45:00Z — 2 new postready commits (Cloudflare Pages fixes). goals/activity/team updated.",
-      "lastActive": "2026-05-19T04:45:00Z",
+      "currentTask": "Cycle complete 2026-05-19T05:01:04Z — no new commits since 04:34Z May 19. team.json heartbeat refreshed.",
+      "lastActive": "2026-05-19T05:01:04Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
