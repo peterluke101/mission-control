@@ -1,46 +1,14 @@
 {
-  "updatedAt": "2026-05-19T05:20:00Z",
+  "updatedAt": "2026-05-19T19:02:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
     {
-      "id": "a13",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "postready: Cloudflare Pages deployment fixed — Edge runtime on all routes + wrangler added as dev dependency. Two commits May 19 04:23–04:34Z.",
-      "timestamp": "2026-05-19T04:34:21.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a12",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "postready: 2 commits May 19 — AI content generation (image + copy) feature added; NEXT_PUBLIC_SITE_URL pointed at postready.net.",
-      "timestamp": "2026-05-19T03:32:30.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a14",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "postready: batch upload for campaign image packets added (May 18, 15:51Z).",
-      "timestamp": "2026-05-18T15:51:23.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a11",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "postready: 2 new commits May 18 — error pages, CI workflow, Vercel config, and brand kit font additions (Montserrat + Cormorant Garamond).",
-      "timestamp": "2026-05-18T14:25:14.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a10",
-      "type": "milestone",
-      "agent": "Pete",
-      "message": "New project 'postready' created on GitHub — TypeScript SaaS, 5 build phases shipped May 17.",
-      "timestamp": "2026-05-17T18:21:29.000Z",
-      "category": "milestone"
+      "id": "a15",
+      "type": "ops",
+      "agent": "Librarian 📚",
+      "message": "Postready entries removed from activity log — project not in active scope (3 active: Mission Control, Juvenis Medical, peterlukedigital).",
+      "timestamp": "2026-05-19T19:02:00Z",
+      "category": "ops"
     },
     {
       "id": "a1",
