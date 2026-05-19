@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-19T04:45:00Z",
+  "lastUpdated": "2026-05-19T05:20:00Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure, postready SaaS",
   "activeProjects": [
     "Mission Control",
@@ -155,9 +155,9 @@
       "title": "postready — TypeScript SaaS Platform",
       "status": "active",
       "priority": "high",
-      "progress": 45,
+      "progress": 50,
       "owner": "Pete",
-      "note": "TypeScript SaaS project. Core build + CI/Vercel + brand kit shipped. AI content generation added May 19. Cloudflare Pages deployment fixed (Edge runtime + wrangler) May 19.",
+      "note": "TypeScript SaaS project. Core build + CI/Vercel + brand kit shipped. Batch upload, AI content generation, and Cloudflare Pages deployment all added May 18–19.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -187,9 +187,9 @@
           "id": "g4.4",
           "title": "Feature development and polish",
           "status": "active",
-          "progress": 30,
+          "progress": 35,
           "owner": "Pete",
-          "note": "AI content gen (image + copy) added May 19. Cloudflare Pages: Edge runtime fix + wrangler dep added May 19."
+          "note": "Batch upload for campaign image packets added May 18. AI content gen (image + copy) added May 19. Cloudflare Pages: Edge runtime fix + wrangler dep added May 19."
         }
       ]
     }
