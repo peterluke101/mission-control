@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T17:41:00Z",
+  "updatedAt": "2026-05-19T18:21:26.960Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete 2026-05-19T17:41:00Z — no new deliverables. postready last commit 04:34Z May 19, juvenis last 2026-05-12, peterlukedigital last 2026-03-30. Data current.",
-      "lastActive": "2026-05-19T17:41:00Z",
+      "currentTask": "Cycle complete 2026-05-19T18:21:26.960Z — no new deliverables. postready last commit 04:34Z May 19, juvenis last 2026-05-12, peterlukedigital last 2026-03-30. Data current.",
+      "lastActive": "2026-05-19T18:21:26.960Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
