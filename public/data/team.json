@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T05:20:00Z",
+  "updatedAt": "2026-05-19T05:41:07Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete 2026-05-19T05:20:00Z — added a14 (postready batch upload May 18). goals.json g4.4 updated.",
-      "lastActive": "2026-05-19T05:20:00Z",
+      "currentTask": "Cycle complete 2026-05-19T05:41:07Z — no new deliverables since last cycle (05:20Z). postready (04:34Z) and Juvenis already captured. Container rebuild (g1.8) still pending on Pete's Mac.",
+      "lastActive": "2026-05-19T05:41:07Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
