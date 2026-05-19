@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-19T03:45:00Z",
+  "updatedAt": "2026-05-19T04:45:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a13",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "postready: Cloudflare Pages deployment fixed — Edge runtime on all routes + wrangler added as dev dependency. Two commits May 19 04:23–04:34Z.",
+      "timestamp": "2026-05-19T04:34:21.000Z",
+      "category": "delivery"
+    },
     {
       "id": "a12",
       "type": "delivery",
@@ -73,14 +81,6 @@
       "message": "A2 unified channels deployed: Telegram ↔ MC Chat dock now share memory.",
       "timestamp": "2026-05-13T19:30:00.000Z",
       "category": "milestone"
-    },
-    {
-      "id": "a4",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "MC Chat dock launched (PR #3): SSE streaming, voice input, file attach. Fixed SSE event-name parsing bug same session.",
-      "timestamp": "2026-05-13T17:00:00.000Z",
-      "category": "delivery"
     }
   ]
 }
