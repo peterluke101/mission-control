@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T17:21:41Z",
+  "updatedAt": "2026-05-20T17:41:29Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": "ares",
-      "name": "Ares ⚡",
+      "name": "Ares \u26a1",
       "role": "Lead Agent / Master Control",
       "status": "active",
       "currentTask": "Per-task model routing merged. Two Telegram formatting fixes shipped. Waiting on Pete container rebuild to fully deploy.",
@@ -30,11 +30,11 @@
     },
     {
       "id": "librarian",
-      "name": "Librarian 📚",
+      "name": "Librarian \ud83d\udcda",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat cycle 2026-05-20T17:21:41Z — no new deliverables. No new conversations since 2026-05-14. Goals, todos, and project states unchanged. Data current.",
-      "lastActive": "2026-05-20T17:21:41Z",
+      "currentTask": "Heartbeat cycle 2026-05-20T17:41:29Z \u2014 no new deliverables. No new conversations since 2026-05-14. Goals, todos, and project states unchanged. Data current.",
+      "lastActive": "2026-05-20T17:41:29Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
