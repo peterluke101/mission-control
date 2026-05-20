@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T05:01:43.718Z",
+  "updatedAt": "2026-05-20T05:21:35.020Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat cycle 2026-05-20T05:01:43.718Z — no new deliverables. Container rebuild still pending on Pete Mac. Todos (Google Workspace OAuth, Buffer MCP) unchanged.",
-      "lastActive": "2026-05-20T05:01:43.718Z",
+      "currentTask": "Heartbeat cycle 2026-05-20T05:21:35.020Z — no new deliverables. No new conversations since 2026-05-14. Container rebuild (g1.8) still pending Pete's Mac. Todos (Google Workspace OAuth, Buffer MCP) unchanged. Data current.",
+      "lastActive": "2026-05-20T05:21:35.020Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
