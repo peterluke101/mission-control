@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T02:01:40.891Z",
+  "updatedAt": "2026-05-20T02:21:29.600Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -34,7 +34,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Heartbeat cycle 2026-05-20T02:01:40.891Z — no new deliverables. Container rebuild still pending on Pete Mac. Todos (Google Workspace OAuth, Buffer MCP) unchanged. Last real update: goals/activity 2026-05-19T19:10:00Z.",
-      "lastActive": "2026-05-20T02:01:40.891Z",
+      "lastActive": "2026-05-20T02:21:29.600Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
