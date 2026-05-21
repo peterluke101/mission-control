@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T17:01:35Z",
+  "updatedAt": "2026-05-21T17:21:12Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -34,7 +34,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Heartbeat cycle 2026-05-21T17:01:35Z — no new deliverables. No new conversations since 2026-05-14. Goals, todos, and project states unchanged. Data current.",
-      "lastActive": "2026-05-21T17:01:35Z",
+      "lastActive": "2026-05-21T17:21:12Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
