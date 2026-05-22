@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-19T19:10:00Z",
+  "lastUpdated": "2026-05-22T15:30:00Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -13,9 +13,9 @@
       "title": "Mission Control — Chat Dock + Unified Channels",
       "status": "active",
       "priority": "critical",
-      "progress": 93,
+      "progress": 96,
       "owner": "Ares",
-      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing merged to NanoClaw main (container rebuild pending). Tailscale Funnel + dock buffering still pending.",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. Tailscale Funnel + dock buffering still pending.",
       "subgoals": [
         {
           "id": "g1.1",
@@ -70,15 +70,16 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-05-14T17:30:00.000Z",
-          "note": "Two formatting fixes shipped to NanoClaw main. Container rebuild pending (Pete)."
+          "note": "Two formatting fixes shipped to NanoClaw main. Deployed May 19."
         },
         {
           "id": "g1.8",
           "title": "Per-task model routing (Haiku for Librarian)",
-          "status": "active",
-          "progress": 80,
+          "status": "completed",
+          "progress": 100,
           "owner": "Ares",
-          "note": "feat/per-task-model-routing merged to NanoClaw main May 14. npm build succeeded. Container rebuild (./container/build.sh) still pending on Pete Mac."
+          "completedAt": "2026-05-19T07:47:00.000Z",
+          "note": "feat/per-task-model-routing merged May 14. Container rebuilt May 19 (PID 84553). Librarian now running claude-haiku-4-5. iMessage bridge added May 22."
         }
       ]
     },
@@ -87,9 +88,9 @@
       "title": "Juvenis Medical — Website & Social",
       "status": "active",
       "priority": "high",
-      "progress": 60,
+      "progress": 65,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. Dr. Paul social strategy active. Google Workspace integration and Buffer MCP approved for build.",
+      "note": "Client site live at peptidesandhormones.com. GEO (AI visibility) strategy plan delivered May 20 for Dr. Paul Goodkin, Fort Lauderdale. PostReady social scheduler in use. Google Workspace integration and Buffer MCP approved for build.",
       "subgoals": [
         {
           "id": "g2.1",
@@ -103,8 +104,9 @@
           "id": "g2.2",
           "title": "Dr. Paul social content strategy",
           "status": "active",
-          "progress": 55,
-          "owner": "Ares"
+          "progress": 65,
+          "owner": "Ares",
+          "note": "GEO action plan delivered May 20 — research-backed AI visibility strategy for Dr. Paul Goodkin / Juvenis Medical, Fort Lauderdale. PostReady scheduler confirmed in use."
         },
         {
           "id": "g2.3",
