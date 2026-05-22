@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-05-19T19:02:00Z",
+  "updatedAt": "2026-05-22T15:30:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a19",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "iMessage AppleScript bridge built for Pete's Mac Mini — enables Ares to send texts on Pete's behalf via IPC watcher. Install in progress May 22.",
+      "timestamp": "2026-05-22T13:10:00Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a18",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "Peptide Compass Pro — full 46-peptide frequency audit complete. 7 fixes merged (PRs #226, #227): FOXO4-DRI, Ipamorelin, SS-31, PT-141, Melanotan II, TB-500, Thymosin Alpha-1. Cache bumped to v36.",
+      "timestamp": "2026-05-21T15:30:00Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a17",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "GEO strategy plan delivered for Juvenis Medical — research-backed AI visibility action plan for Dr. Paul Goodkin, Fort Lauderdale. Covers ChatGPT/Perplexity citation signals, directory listings, structured data, content strategy.",
+      "timestamp": "2026-05-20T23:32:00Z",
+      "category": "delivery"
+    },
+    {
+      "id": "a16",
+      "type": "milestone",
+      "agent": "Ares ⚡",
+      "message": "NanoClaw container rebuilt May 19 — per-task model routing live, Librarian now running claude-haiku-4-5, Telegram formatting fix deployed. All pending infra work complete.",
+      "timestamp": "2026-05-19T14:50:00Z",
+      "category": "milestone"
+    },
     {
       "id": "a15",
       "type": "ops",
@@ -16,14 +48,6 @@
       "agent": "Ares ⚡",
       "message": "Telegram formatting fix pushed to NanoClaw main — code blocks now send as monospace for easy copy. Pete rebuilding container to deploy.",
       "timestamp": "2026-05-14T17:30:00.000Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a9",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "NanoClaw git pull + npm run build completed on Pete Mac post-merge. Container rebuild step still pending.",
-      "timestamp": "2026-05-14T15:50:00.000Z",
       "category": "delivery"
     },
     {
