@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T04:21:24Z",
+  "updatedAt": "2026-05-22T04:41:57.449Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -41,7 +41,8 @@
         "goals.json",
         "activity.json",
         "team.json maintenance"
-      ]
+      ],
+      "lastSeen": "2026-05-22T04:41:57.449Z"
     }
   ]
 }
