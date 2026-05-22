@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T15:02:03.716Z",
+  "updatedAt": "2026-05-22T15:30:00Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -7,7 +7,7 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage watcher debugging (May 22). Container rebuild (./container/build.sh) still pending for NanoClaw per-task model routing.",
+      "currentTask": "iMessage bridge install (Mac Mini, May 22). Rebuilt NanoClaw container May 19 — all infra current.",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "human"
     },
@@ -16,7 +16,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Per-task model routing merged. Two Telegram formatting fixes shipped. Waiting on Pete container rebuild to fully deploy.",
+      "currentTask": "iMessage AppleScript bridge built (May 22). GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -33,8 +33,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-22T15:02:03.716Z — Pete active May 22 (iMessage watcher debug). No new project deliverables since May 14. Goals and todos unchanged.",
-      "lastActive": "2026-05-22T15:02:03.716Z",
+      "currentTask": "Heartbeat 2026-05-22T15:30:00Z — updated goals/activity/team. g1.8 complete (container rebuilt May 19). 4 new activity entries. Peptide audit + GEO plan reflected.",
+      "lastActive": "2026-05-22T15:30:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -42,7 +42,7 @@
         "activity.json",
         "team.json maintenance"
       ],
-      "lastSeen": "2026-05-22T15:02:03.716Z"
+      "lastSeen": "2026-05-22T15:30:00Z"
     }
   ]
 }
