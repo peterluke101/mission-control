@@ -1,5 +1,4 @@
 {
-  "updatedAt": "2026-05-22T20:21:46.804Z",
   "note": "Active team as of May 2026. Streamlined to core agents.",
   "people": [
     {
@@ -33,16 +32,14 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-22T20:21:46.804Z — data current. goals.json and activity.json unchanged (last push 15:30Z). No new deliverables.",
-      "lastActive": "2026-05-22T20:21:46.804Z",
+      "currentTask": "Heartbeat undefined — data current. goals.json and activity.json unchanged (last push 15:30Z). No new deliverables.",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
         "goals.json",
         "activity.json",
         "team.json maintenance"
-      ],
-      "lastSeen": "2026-05-22T20:21:46.804Z"
+      ]
     }
   ]
 }
