@@ -6,7 +6,7 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage bridge install (Mac Mini, May 22). Rebuilt NanoClaw container May 19 — all infra current.",
+      "currentTask": "iMessage bridge install (Mac Mini, May 22) — path debugging in progress. Container rebuilt May 19 — all infra current.",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "human"
     },
@@ -15,7 +15,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge built (May 22). GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
+      "currentTask": "iMessage AppleScript bridge debug (May 22) — watcher mount path issue. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-22T23:04:25Z — data current. No new deliverables since 15:30Z.",
-      "lastActive": "2026-05-22T23:04:25Z",
+      "currentTask": "Heartbeat 2026-05-22T23:24:00Z — data current. No new deliverables since 15:30Z. goals/activity unchanged.",
+      "lastActive": "2026-05-22T23:24:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
