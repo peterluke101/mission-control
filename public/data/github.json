@@ -1,14 +1,57 @@
 {
-  "syncedAt": "2026-05-23T06:41:59.097Z",
+  "syncedAt": "2026-05-23T09:08:56.046Z",
   "owner": "peterluke101",
   "summary": {
-    "repoCount": 14,
-    "activeRepoCount": 6,
+    "repoCount": 16,
+    "activeRepoCount": 8,
     "archivedRepoCount": 8,
-    "openIssueCount": 17,
-    "openPRCount": 4
+    "openIssueCount": 26,
+    "openPRCount": 8
   },
   "repos": [
+    {
+      "name": "mission-control",
+      "fullName": "peterluke101/mission-control",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-23T06:41:59Z",
+      "updatedAt": "2026-05-23T06:42:03Z",
+      "htmlUrl": "https://github.com/peterluke101/mission-control",
+      "openIssueCount": 0,
+      "openPRCount": 2,
+      "branchCount": 4,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": [
+        {
+          "number": 3,
+          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/mc-chat-dock",
+          "base": "feat/v2-data-pipeline",
+          "createdAt": "2026-05-13T14:24:35Z",
+          "updatedAt": "2026-05-14T05:49:46Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "feat(repos): add Repos & Issues dashboard page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/repos-issues-page",
+          "base": "main",
+          "createdAt": "2026-05-13T13:14:37Z",
+          "updatedAt": "2026-05-13T13:14:37Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/2"
+        }
+      ]
+    },
     {
       "name": "peptide-calc-build",
       "fullName": "peterluke101/peptide-calc-build",
@@ -341,6 +384,156 @@
       "language": null,
       "issues": [],
       "pullRequests": []
+    },
+    {
+      "name": "juvenis-medical",
+      "fullName": "peterluke101/juvenis-medical",
+      "description": "Juvenis Medical — peptide therapy, hormone optimization & medical weight loss. Fort Lauderdale, FL. peptidesandhormones.com",
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-12T15:22:29Z",
+      "updatedAt": "2026-05-12T14:41:42Z",
+      "htmlUrl": "https://github.com/peterluke101/juvenis-medical",
+      "openIssueCount": 9,
+      "openPRCount": 2,
+      "branchCount": 7,
+      "topics": [],
+      "language": "HTML",
+      "issues": [
+        {
+          "number": 35,
+          "title": "Reconcile brand color palette: live CSS vs CLAUDE.md",
+          "state": "open",
+          "labels": [
+            "documentation",
+            "brand"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-11T22:33:25Z",
+          "updatedAt": "2026-05-11T22:33:25Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/35",
+          "commentCount": 0
+        },
+        {
+          "number": 20,
+          "title": "Content: Resolve \"Coming Soon\" placeholder cards on /blog/",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:33:32Z",
+          "updatedAt": "2026-05-06T12:33:32Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/20",
+          "commentCount": 0
+        },
+        {
+          "number": 19,
+          "title": "SEO: Add lastmod dates to sitemap.xml",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:33:06Z",
+          "updatedAt": "2026-05-06T12:33:06Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/19",
+          "commentCount": 0
+        },
+        {
+          "number": 18,
+          "title": "SEO: Add Physician schema to about.html and LocalBusiness schema to contact.html",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:32:42Z",
+          "updatedAt": "2026-05-06T12:32:42Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/18",
+          "commentCount": 0
+        },
+        {
+          "number": 17,
+          "title": "SEO: Add MedicalProcedure schema to 5 service pages",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:32:08Z",
+          "updatedAt": "2026-05-06T12:32:08Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/17",
+          "commentCount": 0
+        },
+        {
+          "number": 16,
+          "title": "SEO: Add Open Graph and Twitter Card tags site-wide",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:31:40Z",
+          "updatedAt": "2026-05-06T12:31:40Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/16",
+          "commentCount": 0
+        },
+        {
+          "number": 15,
+          "title": "SEO: Add missing meta descriptions to 6 pages",
+          "state": "open",
+          "labels": [],
+          "author": "peterluke101",
+          "createdAt": "2026-05-06T12:31:03Z",
+          "updatedAt": "2026-05-06T12:31:03Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/15",
+          "commentCount": 0
+        },
+        {
+          "number": 5,
+          "title": "fix: Add meta descriptions and image alt texts across all pages",
+          "state": "open",
+          "labels": [
+            "enhancement"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-05T20:00:07Z",
+          "updatedAt": "2026-05-05T20:00:07Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/5",
+          "commentCount": 0
+        },
+        {
+          "number": 3,
+          "title": "feat: Add merchandise shop page",
+          "state": "open",
+          "labels": [
+            "enhancement"
+          ],
+          "author": "peterluke101",
+          "createdAt": "2026-05-05T18:32:06Z",
+          "updatedAt": "2026-05-05T18:32:06Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/issues/3",
+          "commentCount": 0
+        }
+      ],
+      "pullRequests": [
+        {
+          "number": 24,
+          "title": "feat(seo): add lastmod dates and missing pages to sitemap.xml",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "seo/sitemap-lastmod",
+          "base": "main",
+          "createdAt": "2026-05-06T15:53:20Z",
+          "updatedAt": "2026-05-06T15:53:20Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/pull/24"
+        },
+        {
+          "number": 4,
+          "title": "feat: Add merchandise shop page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feature/merch-shop-page",
+          "base": "main",
+          "createdAt": "2026-05-05T18:39:08Z",
+          "updatedAt": "2026-05-05T22:01:42Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/pull/4"
+        }
+      ]
     },
     {
       "name": "peterlukedigital-site",
