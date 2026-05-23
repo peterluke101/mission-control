@@ -6,7 +6,7 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage bridge install (Mac Mini, May 22) — watcher started at 14:05Z, mount path debugging in progress.",
+      "currentTask": "iMessage bridge install (Mac Mini, May 22) — status pending resolution.",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "human"
     },
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-23T05:01:36Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress.",
-      "lastActive": "2026-05-23T05:01:36Z",
+      "currentTask": "Heartbeat 2026-05-22T15:45:00Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress.",
+      "lastActive": "2026-05-22T15:45:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-23T05:01:36Z"
+  "updatedAt": "2026-05-22T15:45:00Z"
 }
