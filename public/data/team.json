@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-23T23:21:43.645Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress (mount path pending Pete).",
-      "lastActive": "2026-05-23T23:21:43.645Z",
+      "currentTask": "Heartbeat 2026-05-23T23:41:40.111Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress (mount path pending Pete).",
+      "lastActive": "2026-05-23T23:41:40.111Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-23T23:21:43.645Z"
+  "updatedAt": "2026-05-23T23:41:40.111Z"
 }
