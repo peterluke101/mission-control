@@ -7,7 +7,7 @@
       "role": "Owner / Director",
       "status": "active",
       "currentTask": "iMessage bridge install (Mac Mini, May 22) — mount path verification pending.",
-      "lastActive": "2026-05-22T14:08:00.000Z",
+      "lastActive": "2026-05-22T14:08:00Z",
       "model": "human"
     },
     {
@@ -16,7 +16,7 @@
       "role": "Lead Agent / Master Control",
       "status": "active",
       "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
-      "lastActive": "2026-05-22T14:08:00.000Z",
+      "lastActive": "2026-05-22T14:08:00Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-23T19:01:42Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress.",
-      "lastActive": "2026-05-23T19:01:42Z",
+      "currentTask": "Heartbeat 2026-05-23T19:41:53Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress.",
+      "lastActive": "2026-05-23T19:41:53Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-23T19:01:42Z"
+  "updatedAt": "2026-05-23T19:41:53Z"
 }
