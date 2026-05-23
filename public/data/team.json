@@ -6,16 +6,16 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage bridge install (Mac Mini, May 22) \u2014 path debugging in progress. Container rebuilt May 19 \u2014 all infra current.",
+      "currentTask": "iMessage bridge install (Mac Mini, May 22) — path debugging in progress. Container rebuilt May 19 — all infra current.",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "human"
     },
     {
       "id": "ares",
-      "name": "Ares \u26a1",
+      "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge debug (May 22) \u2014 watcher mount path issue. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
+      "currentTask": "iMessage AppleScript bridge debug (May 22) — watcher mount path issue. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
       "lastActive": "2026-05-22T14:08:00.000Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -29,11 +29,11 @@
     },
     {
       "id": "librarian",
-      "name": "Librarian \ud83d\udcda",
+      "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-23T03:21:52Z \u2014 data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress on Pete Mac.",
-      "lastActive": "2026-05-23T03:21:52Z",
+      "currentTask": "Heartbeat 2026-05-23T03:41:00Z — data current. No new deliverables since 15:30Z May 22. iMessage bridge still in-progress on Pete Mac.",
+      "lastActive": "2026-05-23T03:41:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
