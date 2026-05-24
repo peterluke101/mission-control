@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-22T15:30:00Z",
+  "updatedAt": "2026-05-24T15:42:22Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a20",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "PostReady — full landing page redesign shipped May 23: modern hero, platform strip, features & trust sections, hero image, Cloudflare Pages CI deploy pipeline added.",
+      "timestamp": "2026-05-23T23:39:00Z",
+      "category": "delivery"
+    },
     {
       "id": "a19",
       "type": "delivery",
