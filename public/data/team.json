@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-24T16:42:12.946Z — data current. goals.json and activity.json unchanged since May 22.",
-      "lastActive": "2026-05-24T16:42:12.946Z",
+      "currentTask": "Heartbeat 2026-05-24T17:02:09.879Z — data current. goals.json and activity.json unchanged. PostReady ci:trigger deploy (May 24 16:30Z) is ops-only, no new deliverable.",
+      "lastActive": "2026-05-24T17:02:09.879Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-24T16:42:12.946Z"
+  "updatedAt": "2026-05-24T17:02:09.879Z"
 }
