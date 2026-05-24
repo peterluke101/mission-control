@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady LinkedIn icon fix shipped (May 24).",
-      "lastActive": "2026-05-24T20:16:00Z",
+      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady: landing page redesign + LinkedIn icon fix + JSX CI lint fix shipped (May 24).",
+      "lastActive": "2026-05-24T20:37:39Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-24T21:40:52.430Z — data current. activity.json (a20: PostReady redesign May 23) and goals.json unchanged. No new deliverables or state changes since last push.",
-      "lastActive": "2026-05-24T21:40:52.430Z",
+      "currentTask": "Heartbeat 2026-05-24T22:00:40Z — data current. activity.json (a20: PostReady redesign May 23) and goals.json unchanged. PostReady JSX CI lint fix (c4e3ba89, May 24 20:37Z) is minor follow-up to a20 — not a new deliverable.",
+      "lastActive": "2026-05-24T22:00:40Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-24T21:40:52.430Z"
+  "updatedAt": "2026-05-24T22:00:40Z"
 }
