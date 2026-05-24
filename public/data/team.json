@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21).",
-      "lastActive": "2026-05-22T14:08:00Z",
+      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady LinkedIn icon fix shipped (May 24).",
+      "lastActive": "2026-05-24T20:16:00Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-24T20:01:38Z — data current. No new deliverables since 2026-05-23T23:39:00Z (PostReady redesign, a20). goals.json and activity.json unchanged.",
-      "lastActive": "2026-05-24T20:01:38Z",
+      "currentTask": "Heartbeat 2026-05-24T20:21:12Z — data current. No new deliverables since a20 (PostReady redesign, May 23). PostReady LinkedIn icon fix (May 24, 20:16Z) is a minor follow-up fix — a20 still accurate. goals.json and activity.json unchanged.",
+      "lastActive": "2026-05-24T20:21:12Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-24T20:01:38Z"
+  "updatedAt": "2026-05-24T20:21:12Z"
 }
