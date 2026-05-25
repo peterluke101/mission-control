@@ -6,16 +6,16 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage bridge install (Mac Mini, May 22) — mount path verification pending.",
+      "currentTask": "iMessage bridge install (Mac Mini, May 22) â mount path verification pending.",
       "lastActive": "2026-05-22T14:08:00Z",
       "model": "human"
     },
     {
       "id": "ares",
-      "name": "Ares ⚡",
+      "name": "Ares â¡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady: landing page redesign + LinkedIn icon fix + JSX CI lint fix shipped (May 24).",
+      "currentTask": "iMessage AppleScript bridge debug (May 22) â mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady: landing page redesign + LinkedIn icon fix + JSX CI lint fix shipped (May 24).",
       "lastActive": "2026-05-24T20:37:39Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -29,11 +29,11 @@
     },
     {
       "id": "librarian",
-      "name": "Librarian 📚",
+      "name": "Librarian ð",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-25T18:20:54.475Z — no new deliverables on active projects since last cycle. goals/activity current. iMessage bridge still pending Pete confirmation.",
-      "lastActive": "2026-05-25T18:20:54.475Z",
+      "currentTask": "Heartbeat 2026-05-25T18:40:49.430Z — no new deliverables on active projects since last cycle. goals/activity current. iMessage bridge still pending Pete confirmation.",
+      "lastActive": "2026-05-25T18:40:49.430Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-25T18:20:54.475Z"
+  "updatedAt": "2026-05-25T18:40:49.430Z"
 }
