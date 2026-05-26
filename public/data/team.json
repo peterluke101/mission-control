@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "PostReady — CF Pages deploy fixed May 26 (wrangler.toml fix), video worker secrets redeployed, login password toggle added (PRs #7, #8). iMessage bridge install (Mac Mini) pending.",
-      "lastActive": "2026-05-26T15:34:28Z",
+      "currentTask": "PostReady — image cropping + delete features shipped May 26 evening (PRs #21, #9). iMessage bridge install (Mac Mini) pending.",
+      "lastActive": "2026-05-26T18:25:01Z",
       "model": "human"
     },
     {
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-26T18:21:12.555Z — data current. No new deliverables since a23 (PostReady PRs #7/#8 May 26). Goals current for 3 tracked projects.",
-      "lastActive": "2026-05-26T18:21:12.555Z",
+      "currentTask": "Heartbeat 2026-05-26T18:30:00Z — a24 added (PostReady PRs #21/#9). Data current for 3 tracked projects.",
+      "lastActive": "2026-05-26T18:30:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-26T18:21:12.555Z"
+  "updatedAt": "2026-05-26T18:30:00Z"
 }
