@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-24T15:42:22Z",
+  "updatedAt": "2026-05-26T02:22:44.935Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a21",
+      "type": "delivery",
+      "agent": "Ares ⚡",
+      "message": "PostReady — May 24 polish: copy cleanup (\"agency\"/\"clinic\" language removed), all platform icons switched to inline SVG/base64 data URIs, JSX CI lint fix to unblock build gate. 10 commits, CI passing.",
+      "timestamp": "2026-05-24T20:37:39Z",
+      "category": "delivery"
+    },
     {
       "id": "a20",
       "type": "delivery",
@@ -72,14 +80,6 @@
       "agent": "Ares ⚡",
       "message": "MC scrub complete: removed 6 stale agents, 4 old projects. Team reset to Ares + Librarian.",
       "timestamp": "2026-05-14T15:06:30.820Z",
-      "category": "ops"
-    },
-    {
-      "id": "a8",
-      "type": "system",
-      "agent": "Librarian 📚",
-      "message": "Librarian scheduled and live — auto-updates MC data files every 20 min, 8am–10pm.",
-      "timestamp": "2026-05-14T08:10:00.000Z",
       "category": "ops"
     }
   ]
