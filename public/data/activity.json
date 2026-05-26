@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-26T04:41:54.692Z",
+  "updatedAt": "2026-05-26T16:21:40.923Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a23",
+      "type": "delivery",
+      "agent": "Pete",
+      "message": "PostReady — May 26 afternoon: CF Pages deploy fixed (wrangler.toml [vars] block removed, PR #7), video worker secrets redeployed, login password show/hide toggle added (PR #8).",
+      "timestamp": "2026-05-26T15:34:28Z",
+      "category": "delivery"
+    },
     {
       "id": "a22",
       "type": "delivery",
@@ -73,14 +81,6 @@
       "message": "Telegram formatting fix pushed to NanoClaw main — code blocks now send as monospace for easy copy. Pete rebuilding container to deploy.",
       "timestamp": "2026-05-14T17:30:00.000Z",
       "category": "delivery"
-    },
-    {
-      "id": "a0",
-      "type": "milestone",
-      "agent": "Ares ⚡",
-      "message": "Per-task model routing merged to NanoClaw main. Librarian now routed to Haiku for cost efficiency. Container rebuild pending.",
-      "timestamp": "2026-05-14T15:32:00.000Z",
-      "category": "milestone"
     }
   ]
 }
