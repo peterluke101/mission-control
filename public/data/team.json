@@ -15,7 +15,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "iMessage AppleScript bridge debug (May 22) — mount path resolution pending Pete confirmation. GEO strategy delivered for Juvenis (May 20). Peptide Compass Pro 7-fix audit merged (May 21). PostReady: landing page redesign + LinkedIn icon fix + JSX CI lint fix shipped (May 24).",
+      "currentTask": "PostReady polish complete (May 24) — icon data URIs, copy cleanup, JSX CI fix. iMessage bridge pending Pete confirmation. GEO strategy delivered for Juvenis (May 20).",
       "lastActive": "2026-05-24T20:37:39Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-26T01:40:55.549Z — no new deliverables on active projects. goals/activity current. iMessage bridge still pending Pete confirmation.",
-      "lastActive": "2026-05-26T01:40:55.549Z",
+      "currentTask": "Heartbeat 2026-05-26T02:23:02.644Z — pushed a21 (PostReady May 24 polish). activity.json current.",
+      "lastActive": "2026-05-26T02:23:02.644Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-26T01:40:55.549Z"
+  "updatedAt": "2026-05-26T02:23:02.644Z"
 }
