@@ -1,46 +1,14 @@
 {
-  "updatedAt": "2026-05-26T18:30:00Z",
+  "updatedAt": "2026-05-26T19:30:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
     {
-      "id": "a24",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "PostReady — May 26 evening: platform-specific image cropping added (PR #21), asset & post-pack deletion feature shipped (PR #9).",
-      "timestamp": "2026-05-26T18:25:01Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a23",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "PostReady — May 26 afternoon: CF Pages deploy fixed (wrangler.toml [vars] block removed, PR #7), video worker secrets redeployed, login password show/hide toggle added (PR #8).",
-      "timestamp": "2026-05-26T15:34:28Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a22",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "PostReady — video generation feature shipped May 26: Cloudflare Worker backend, admin UI, and client-facing UI for AI video generation. Fix commits followed (Veo model ID, env vars in wrangler.toml).",
-      "timestamp": "2026-05-26T02:05:15Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a21",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "PostReady — May 24 polish: copy cleanup (\"agency\"/\"clinic\" language removed), all platform icons switched to inline SVG/base64 data URIs, JSX CI lint fix to unblock build gate. 10 commits, CI passing.",
-      "timestamp": "2026-05-24T20:37:39Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a20",
-      "type": "delivery",
-      "agent": "Pete",
-      "message": "PostReady — full landing page redesign shipped May 23: modern hero, platform strip, features & trust sections, hero image, Cloudflare Pages CI deploy pipeline added.",
-      "timestamp": "2026-05-23T23:39:00Z",
-      "category": "delivery"
+      "id": "a25",
+      "type": "ops",
+      "agent": "Librarian 📚",
+      "message": "Activity log cleanup — PostReady (a20–a24) and Peptide Compass Pro (a18) entries removed. Only Mission Control, Juvenis Medical, and peterlukedigital are in active project scope.",
+      "timestamp": "2026-05-26T19:30:00Z",
+      "category": "ops"
     },
     {
       "id": "a19",
@@ -48,14 +16,6 @@
       "agent": "Ares ⚡",
       "message": "iMessage AppleScript bridge built for Pete's Mac Mini — enables Ares to send texts on Pete's behalf via IPC watcher. Install in progress May 22.",
       "timestamp": "2026-05-22T13:10:00Z",
-      "category": "delivery"
-    },
-    {
-      "id": "a18",
-      "type": "delivery",
-      "agent": "Ares ⚡",
-      "message": "Peptide Compass Pro — full 46-peptide frequency audit complete. 7 fixes merged (PRs #226, #227): FOXO4-DRI, Ipamorelin, SS-31, PT-141, Melanotan II, TB-500, Thymosin Alpha-1. Cache bumped to v36.",
-      "timestamp": "2026-05-21T15:30:00Z",
       "category": "delivery"
     },
     {
