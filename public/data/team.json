@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "iMessage bridge install (Mac Mini, May 22) — mount path verification pending.",
-      "lastActive": "2026-05-22T14:08:00Z",
+      "currentTask": "PostReady — video generation feature shipped May 26 (Cloudflare Worker + admin UI). iMessage bridge install (Mac Mini) pending confirmation.",
+      "lastActive": "2026-05-26T03:20:22Z",
       "model": "human"
     },
     {
@@ -15,7 +15,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "PostReady polish complete (May 24) — icon data URIs, copy cleanup, JSX CI fix. iMessage bridge pending Pete confirmation. GEO strategy delivered for Juvenis (May 20).",
+      "currentTask": "PostReady polish complete (May 24) — icon data URIs, copy cleanup, JSX CI fix. Video generation feature shipped by Pete May 26. iMessage bridge pending Pete confirmation. GEO strategy delivered for Juvenis (May 20).",
       "lastActive": "2026-05-24T20:37:39Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-26T04:20:53Z — data current. No new deliverables since a21 (PostReady May 24 polish). PostReady wrangler.toml ops fix (May 26 03:20Z) — ops-only, not a deliverable.",
-      "lastActive": "2026-05-26T04:20:53Z",
+      "currentTask": "Heartbeat 2026-05-26T04:41:54.692Z — added a22 (PostReady video generation May 26). activity.json + team.json updated.",
+      "lastActive": "2026-05-26T04:41:54.692Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-26T04:20:53Z"
+  "updatedAt": "2026-05-26T04:41:54.692Z"
 }
