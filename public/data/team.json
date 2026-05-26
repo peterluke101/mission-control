@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "PostReady — image cropping + delete features shipped May 26 evening (PRs #21, #9). iMessage bridge install (Mac Mini) pending.",
-      "lastActive": "2026-05-26T18:25:01Z",
+      "currentTask": "iMessage bridge install (Mac Mini) pending confirmation. Overseeing Mission Control, Juvenis Medical, and peterlukedigital.",
+      "lastActive": "2026-05-22T13:10:00Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "PostReady polish complete (May 24) — icons, copy, CI. Video gen + CF Pages fixes + password toggle shipped by Pete May 26 (PRs #7, #8). iMessage bridge pending Pete confirmation. GEO strategy delivered for Juvenis (May 20).",
-      "lastActive": "2026-05-24T20:37:39Z",
+      "currentTask": "GEO strategy delivered for Juvenis Medical (May 20). iMessage AppleScript bridge built May 22 — pending Pete confirmation. Buffer MCP and Google Workspace OAuth approved for build.",
+      "lastActive": "2026-05-22T13:10:00Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-26T19:01:27.566Z — a24 current (PostReady PRs #21/#9). All 3 project files current.",
-      "lastActive": "2026-05-26T19:01:27.566Z",
+      "currentTask": "Heartbeat 2026-05-26T19:30:00Z — cleaned PostReady/PCP entries from activity log. 3 active projects current.",
+      "lastActive": "2026-05-26T19:30:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-26T19:01:27.566Z"
+  "updatedAt": "2026-05-26T19:30:00Z"
 }
