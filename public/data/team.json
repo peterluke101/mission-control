@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-05-26T04:41:54.692Z — added a22 (PostReady video generation May 26). activity.json + team.json updated.",
-      "lastActive": "2026-05-26T04:41:54.692Z",
+      "currentTask": "Heartbeat ${now} — no new deliverables since a22 (PostReady video gen May 26). Data current.",
+      "lastActive": "2026-05-26T05:00:59.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-26T04:41:54.692Z"
+  "updatedAt": "2026-05-26T05:00:59.000Z"
 }
