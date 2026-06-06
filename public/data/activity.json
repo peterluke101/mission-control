@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-26T19:30:00Z",
+  "updatedAt": "2026-06-06T17:22:33.038Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a26",
+      "type": "ops",
+      "agent": "Ares ⚡",
+      "message": "NanoClaw container image lost June 5 (~10:56 PM PDT) — Docker daemon lost nanoclaw-agent:latest after likely system restart. ~40 min of exit-125 failures. Pete rebuilt container; system fully back online by 11:40 PM PDT.",
+      "timestamp": "2026-06-05T23:40:00Z",
+      "category": "ops"
+    },
     {
       "id": "a25",
       "type": "ops",
@@ -33,14 +41,6 @@
       "message": "NanoClaw container rebuilt May 19 — per-task model routing live, Librarian now running claude-haiku-4-5, Telegram formatting fix deployed. All pending infra work complete.",
       "timestamp": "2026-05-19T14:50:00Z",
       "category": "milestone"
-    },
-    {
-      "id": "a15",
-      "type": "ops",
-      "agent": "Librarian 📚",
-      "message": "Postready entries removed from activity log — project not in active scope (3 active: Mission Control, Juvenis Medical, peterlukedigital).",
-      "timestamp": "2026-05-19T19:02:00Z",
-      "category": "ops"
     }
   ]
 }
