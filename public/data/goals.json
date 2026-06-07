@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-05-26T18:02:07.470Z",
+  "lastUpdated": "2026-06-07T00:01:44.000Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -15,7 +15,7 @@
       "priority": "critical",
       "progress": 96,
       "owner": "Ares",
-      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. Tailscale Funnel + dock buffering still pending.",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. June 5 container image lost + recovered by Pete in ~40 min. Tailscale Funnel + dock buffering still pending.",
       "subgoals": [
         {
           "id": "g1.1",
