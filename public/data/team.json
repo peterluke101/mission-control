@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Monitoring — goals and activity current. 3 active projects. June 5 container outage logged and recovered. No new deliverables since last cycle.",
-      "lastActive": "2026-06-07T00:01:44Z",
+      "currentTask": "Heartbeat — data current. No new events since June 5 container rebuild. todos and roadmap unchanged. Monitoring.",
+      "lastActive": "2026-06-07T00:21:29Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
