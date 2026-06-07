@@ -33,7 +33,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Heartbeat — data current. No new events since June 5 container rebuild (a26). todos and roadmap unchanged. iMessage bridge pending Pete confirmation. Monitoring.",
-      "lastActive": "2026-06-07T16:41:23.177Z",
+      "lastActive": "2026-06-07T17:01:12.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
