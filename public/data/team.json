@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Overseeing Mission Control, Juvenis Medical, and peterlukedigital. iMessage bridge install pending confirmation.",
-      "lastActive": "2026-05-22T13:10:00Z",
+      "currentTask": "Overseeing Mission Control, Juvenis Medical, and peterlukedigital. Rebuilt NanoClaw container June 5 after Docker image loss. iMessage bridge install pending confirmation.",
+      "lastActive": "2026-06-05T23:40:00Z",
       "model": "human"
     },
     {
@@ -16,7 +16,7 @@
       "role": "Lead Agent / Master Control",
       "status": "active",
       "currentTask": "GEO strategy delivered for Juvenis Medical (May 20). iMessage bridge built May 22 — pending Pete confirmation. Buffer MCP and Google Workspace OAuth approved for build.",
-      "lastActive": "2026-05-22T13:10:00Z",
+      "lastActive": "2026-06-05T23:10:00Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
         "website builds",
@@ -32,7 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat undefined — goals/activity current. 3 active projects. No new events since June 5 container rebuild.",
+      "currentTask": "Monitoring — goals and activity current. 3 active projects. June 5 container outage logged and recovered. No new deliverables since last cycle.",
+      "lastActive": "2026-06-07T00:01:44Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
