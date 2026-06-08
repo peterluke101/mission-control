@@ -12,10 +12,10 @@
     },
     {
       "id": "ares",
-      "name": "Ares ⚡",
+      "name": "Ares \u26a1",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "GEO strategy delivered for Juvenis Medical (May 20). iMessage bridge built May 22 — pending Pete confirmation. Buffer MCP and Google Workspace OAuth approved for build.",
+      "currentTask": "GEO strategy delivered for Juvenis Medical (May 20). iMessage bridge built May 22 \u2014 pending Pete confirmation. Buffer MCP and Google Workspace OAuth approved for build.",
       "lastActive": "2026-06-07T02:21:23.725Z",
       "model": "claude-sonnet-4-5",
       "capabilities": [
@@ -29,11 +29,11 @@
     },
     {
       "id": "librarian",
-      "name": "Librarian 📚",
+      "name": "Librarian \ud83d\udcda",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat — data current. No new events since a26 (June 5 container rebuild). All files accurate. Monitoring.",
-      "lastActive": "2026-06-08T18:21:29.617Z",
+      "currentTask": "Heartbeat \u2014 data current. No new events since a26 (June 5 container rebuild). All files accurate. Monitoring.",
+      "lastActive": "2026-06-08T18:41:38.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
