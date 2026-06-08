@@ -33,7 +33,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "Heartbeat — data current. No new events since a26 (June 5 container rebuild). All files accurate. Monitoring.",
-      "lastActive": "2026-06-08T17:41:24.476Z",
+      "lastActive": "2026-06-08T18:01:39.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
