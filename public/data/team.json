@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat — data current. No new events since June 5 container rebuild (a26). Monitoring.",
-      "lastActive": "2026-06-08T15:02:04.321Z",
+      "currentTask": "Heartbeat — data current. No new events since a26 (June 5 container rebuild). iMessage bridge pending Pete confirmation. Monitoring.",
+      "lastActive": "2026-06-08T15:21:40.739Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
