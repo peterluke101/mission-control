@@ -1,12 +1,12 @@
 {
-  "syncedAt": "2026-06-28T00:11:52.710Z",
+  "syncedAt": "2026-06-28T05:25:28.966Z",
   "owner": "peterluke101",
   "summary": {
     "repoCount": 16,
     "activeRepoCount": 8,
     "archivedRepoCount": 8,
     "openIssueCount": 26,
-    "openPRCount": 9
+    "openPRCount": 8
   },
   "repos": [
     {
@@ -16,11 +16,11 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-06-27T23:38:02Z",
-      "updatedAt": "2026-06-27T23:06:28Z",
+      "pushedAt": "2026-06-28T00:47:59Z",
+      "updatedAt": "2026-06-28T00:48:03Z",
       "htmlUrl": "https://github.com/peterluke101/juvenis-medical",
       "openIssueCount": 9,
-      "openPRCount": 3,
+      "openPRCount": 2,
       "branchCount": 8,
       "topics": [],
       "language": "HTML",
@@ -134,18 +134,6 @@
       ],
       "pullRequests": [
         {
-          "number": 41,
-          "title": "Mobile fix: keep appointment CTA on one line + fix contact page overflow",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "claude/dr-paul-juvenis-messages-fpa7hy",
-          "base": "main",
-          "createdAt": "2026-06-27T23:38:19Z",
-          "updatedAt": "2026-06-27T23:38:19Z",
-          "url": "https://github.com/peterluke101/juvenis-medical/pull/41"
-        },
-        {
           "number": 24,
           "title": "feat(seo): add lastmod dates and missing pages to sitemap.xml",
           "state": "open",
@@ -178,8 +166,8 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-06-27T22:12:36Z",
-      "updatedAt": "2026-06-27T22:12:40Z",
+      "pushedAt": "2026-06-28T00:11:53Z",
+      "updatedAt": "2026-06-28T00:11:56Z",
       "htmlUrl": "https://github.com/peterluke101/mission-control",
       "openIssueCount": 0,
       "openPRCount": 2,
