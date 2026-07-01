@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current as of 2026-07-01. June 30 Peptide Compass Pro activity excluded (not in scope). Three active projects steady.",
-      "lastActive": "2026-07-01T03:41:46.231Z",
+      "currentTask": "Cycle complete — data current as of 2026-07-01T04:00Z. New conversation archive (Jun 30 8:51 PM) is Peptide Compass Pro audit only (out of scope). Three active projects steady.",
+      "lastActive": "2026-07-01T04:03:59.416Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
