@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current. All recent conversations (Jul 1 1006, 1801, 1940, 2051) contain only Peptide Compass Pro work — out of scope. No new deliverables for Mission Control, Juvenis, or peterlukedigital. Heartbeat 2026-07-01T20:41:43Z.",
-      "lastActive": "2026-07-01T20:41:43Z",
+      "currentTask": "Cycle complete — data current. Recent Jul 1 conversations contain Peptide Compass Pro work only (out of scope). No new deliverables for Mission Control, Juvenis, or peterlukedigital. Heartbeat 2026-07-01T21:01:28Z.",
+      "lastActive": "2026-07-01T21:01:28Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
