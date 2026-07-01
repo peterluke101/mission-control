@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-07-01T16:35:05.403Z",
+  "syncedAt": "2026-07-01T19:05:20.811Z",
   "owner": "peterluke101",
   "summary": {
     "repoCount": 16,
@@ -10,18 +10,61 @@
   },
   "repos": [
     {
+      "name": "mission-control",
+      "fullName": "peterluke101/mission-control",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-07-01T19:02:36Z",
+      "updatedAt": "2026-07-01T19:03:11Z",
+      "htmlUrl": "https://github.com/peterluke101/mission-control",
+      "openIssueCount": 0,
+      "openPRCount": 2,
+      "branchCount": 4,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": [
+        {
+          "number": 3,
+          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/mc-chat-dock",
+          "base": "feat/v2-data-pipeline",
+          "createdAt": "2026-05-13T14:24:35Z",
+          "updatedAt": "2026-05-14T05:49:46Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "feat(repos): add Repos & Issues dashboard page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/repos-issues-page",
+          "base": "main",
+          "createdAt": "2026-05-13T13:14:37Z",
+          "updatedAt": "2026-05-13T13:14:37Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/2"
+        }
+      ]
+    },
+    {
       "name": "peptide-calc-build",
       "fullName": "peterluke101/peptide-calc-build",
       "description": null,
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-07-01T15:48:27Z",
-      "updatedAt": "2026-07-01T15:48:32Z",
+      "pushedAt": "2026-07-01T17:17:14Z",
+      "updatedAt": "2026-07-01T17:17:20Z",
       "htmlUrl": "https://github.com/peterluke101/peptide-calc-build",
       "openIssueCount": 17,
       "openPRCount": 5,
-      "branchCount": 89,
+      "branchCount": 91,
       "topics": [],
       "language": "HTML",
       "issues": [
@@ -315,49 +358,6 @@
           "createdAt": "2026-04-11T03:22:49Z",
           "updatedAt": "2026-04-11T03:22:51Z",
           "url": "https://github.com/peterluke101/peptide-calc-build/pull/47"
-        }
-      ]
-    },
-    {
-      "name": "mission-control",
-      "fullName": "peterluke101/mission-control",
-      "description": null,
-      "visibility": "public",
-      "archived": false,
-      "defaultBranch": "main",
-      "pushedAt": "2026-07-01T15:42:12Z",
-      "updatedAt": "2026-07-01T15:42:16Z",
-      "htmlUrl": "https://github.com/peterluke101/mission-control",
-      "openIssueCount": 0,
-      "openPRCount": 2,
-      "branchCount": 4,
-      "topics": [],
-      "language": "TypeScript",
-      "issues": [],
-      "pullRequests": [
-        {
-          "number": 3,
-          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "feat/mc-chat-dock",
-          "base": "feat/v2-data-pipeline",
-          "createdAt": "2026-05-13T14:24:35Z",
-          "updatedAt": "2026-05-14T05:49:46Z",
-          "url": "https://github.com/peterluke101/mission-control/pull/3"
-        },
-        {
-          "number": 2,
-          "title": "feat(repos): add Repos & Issues dashboard page",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "feat/repos-issues-page",
-          "base": "main",
-          "createdAt": "2026-05-13T13:14:37Z",
-          "updatedAt": "2026-05-13T13:14:37Z",
-          "url": "https://github.com/peterluke101/mission-control/pull/2"
         }
       ]
     },
