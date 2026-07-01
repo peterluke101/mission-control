@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current. MacBook migration (Jun 30) logged. Peptide Compass Pro activity excluded (not in scope).",
-      "lastActive": "2026-07-01T03:02:00Z",
+      "currentTask": "Cycle complete — data current as of 2026-07-01. June 30 Peptide Compass Pro activity excluded (not in scope). Three active projects steady.",
+      "lastActive": "2026-07-01T03:22:58.227Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
