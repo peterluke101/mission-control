@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — a28 added (Juvenis PRs #40+#41). goals.json g2.1 updated. All data current.",
-      "lastActive": "2026-07-01T02:30:00Z",
+      "currentTask": "Cycle complete — data current. No new events in active projects. Peptide Compass Pro activity excluded (not in scope).",
+      "lastActive": "2026-07-01T02:48:34.180Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
