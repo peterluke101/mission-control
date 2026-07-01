@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current as of 2026-07-01T04:59:30.465Z. Conversations reviewed (Jun 30 archives — repeated April session history, no new events). No changes required.",
-      "lastActive": "2026-07-01T04:59:30.465Z",
+      "currentTask": "Cycle complete — activity.json restored (was empty, rebuilt a27/a28/a29). Data current as of 2026-07-01T05:17:52.560Z.",
+      "lastActive": "2026-07-01T05:17:52.560Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
