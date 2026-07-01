@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T02:30:00Z",
+  "updatedAt": "2026-07-01T03:02:00Z",
   "note": "Activity log — active projects only. Librarian keeps this current.",
   "entries": [
+    {
+      "id": "a29",
+      "type": "ops",
+      "agent": "Pete",
+      "message": "Pete migrated from Mac Mini to MacBook. NanoClaw confirmed running at ~/Projects/nanoclaw on new machine. .env updated, service restarted (Jun 30).",
+      "timestamp": "2026-06-30T22:50:00Z",
+      "category": "ops"
+    },
     {
       "id": "a28",
       "type": "delivery",
