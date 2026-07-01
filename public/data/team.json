@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current. No new project events since a29 (NanoClaw path confirmed, Jun 30). Conversation 1006 (Jul 1 10:06 AM archive) contains only Peptide Compass Pro work (PR #251 Explore Peptides feature) — out of scope. Heartbeat 2026-07-01T20:23:04.023Z.",
-      "lastActive": "2026-07-01T20:23:04.023Z",
+      "currentTask": "Cycle complete — data current. All recent conversations (Jul 1 1006, 1801, 1940, 2051) contain only Peptide Compass Pro work — out of scope. No new deliverables for Mission Control, Juvenis, or peterlukedigital. Heartbeat 2026-07-01T20:41:43Z.",
+      "lastActive": "2026-07-01T20:41:43Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
