@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-01T02:00:00Z",
+  "lastUpdated": "2026-07-01T02:30:00Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -96,9 +96,9 @@
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 80,
+          "progress": 85,
           "owner": "Ares",
-          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) all merged May 12."
+          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) merged May 12. PR #40: Zoho online booking replaced with phone-call CTAs site-wide (Jun 27). PR #41: mobile appointment CTA overflow fix (Jun 28)."
         },
         {
           "id": "g2.2",
