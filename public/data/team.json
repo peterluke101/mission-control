@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Overseeing Mission Control, Juvenis Medical, and peterlukedigital. Rebuilt NanoClaw container June 5 after Docker image loss. iMessage bridge install pending confirmation.",
-      "lastActive": "2026-06-05T23:40:00Z",
+      "currentTask": "Upgraded Ares to claude-sonnet-5 (June 30). Peptide Compass Pro: use-pill badge improvements (PRs #229+230 merged July 1). Mission Control, Juvenis, and peterlukedigital ongoing.",
+      "lastActive": "2026-06-30T23:55:00Z",
       "model": "human"
     },
     {
@@ -15,9 +15,9 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "GEO strategy delivered for Juvenis Medical (May 20). iMessage bridge built May 22 — pending Pete confirmation. Buffer MCP and Google Workspace OAuth approved for build.",
-      "lastActive": "2026-06-07T02:21:23.725Z",
-      "model": "claude-sonnet-4-5",
+      "currentTask": "Model upgraded to claude-sonnet-5 (June 30). Peptide Compass Pro use-pill improvements shipped (PRs #229+230). Buffer MCP and Google Workspace OAuth approved for build.",
+      "lastActive": "2026-07-01T01:30:00Z",
+      "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
         "social content",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat — data current. No new events since a26 (June 5 container rebuild). Goals and activity accurate. Monitoring.",
-      "lastActive": "2026-07-01T01:24:59Z",
+      "currentTask": "Heartbeat — Ares model updated to claude-sonnet-5. Activity log updated with a27. Monitoring.",
+      "lastActive": "2026-07-01T02:00:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
