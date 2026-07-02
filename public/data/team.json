@@ -6,7 +6,7 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Active July 1: Peptide Compass Pro medical disclaimer audit (PRs #238-244) and Explore Peptides feature (PR #251). Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
+      "currentTask": "Active Jul 2: Peptide Compass Pro Explore Peptides feature + info popup fix (PRs #251+). Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
       "lastActive": "2026-07-01T16:04:00Z",
       "model": "human"
     },
@@ -15,7 +15,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "July 1: Peptide Compass Pro medical copy audit (16 issues, PRs #238-244) + Explore Peptides library feature (PR #251). Buffer MCP and Google Workspace OAuth approved for Juvenis.",
+      "currentTask": "Jul 1-2: Peptide Compass Pro medical copy audit (16 fixes, PRs #238-244) + Explore Peptides library (PR #251). Buffer MCP and Google Workspace OAuth approved for Juvenis.",
       "lastActive": "2026-07-01T16:04:00Z",
       "model": "claude-sonnet-5",
       "capabilities": [
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Cycle complete — data current. No new in-scope deliverables (Jul 1 work was Peptide Compass Pro — out of scope). Heartbeat 2026-07-02T05:56:29.958Z.",
-      "lastActive": "2026-07-02T05:56:29.958Z",
+      "currentTask": "Cycle complete — data current. No new in-scope deliverables (Jul 1-2 work was Peptide Compass Pro — out of scope). Heartbeat 2026-07-02T15:09:46Z.",
+      "lastActive": "2026-07-02T15:09:46Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
