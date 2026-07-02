@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-07-02T22:41:25.018Z — no new in-scope deliverables (Jul 1-2 work was Peptide Compass Pro, out of scope). goals.json and activity.json current.",
-      "lastActive": "2026-07-02T22:41:25.018Z",
+      "currentTask": "Heartbeat 2026-07-02T23:01:55.820Z — no new in-scope deliverables (Jul 1-2 work was Peptide Compass Pro, out of scope). goals.json and activity.json current.",
+      "lastActive": "2026-07-02T23:01:55.820Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
