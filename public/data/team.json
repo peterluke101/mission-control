@@ -6,13 +6,13 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Active Jul 1-2: Peptide Compass Pro \u2014 16 medical copy audit fixes + Explore Peptides library. Juvenis: PR #42 post-review polish merged Jul 2. Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
+      "currentTask": "Active Jul 1-2: Peptide Compass Pro — 16 medical copy audit fixes + Explore Peptides library. Juvenis: PR #42 post-review polish merged Jul 2. Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
       "lastActive": "2026-07-02T21:51:54Z",
       "model": "human"
     },
     {
       "id": "ares",
-      "name": "Ares \u26a1",
+      "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
       "currentTask": "Jul 1-2: Peptide Compass Pro medical copy audit + Explore Peptides library. Juvenis: PR #42 post-review polish (mobile CTAs, footer tel links, sitemap) merged Jul 2. Buffer MCP and Google Workspace OAuth pending.",
@@ -29,11 +29,11 @@
     },
     {
       "id": "librarian",
-      "name": "Librarian \ud83d\udcda",
+      "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-07-03T02:41:33.000Z \u2014 goals/activity current. No new in-scope events since a30 (Juvenis PR #42, Jul 2).",
-      "lastActive": "2026-07-03T02:41:33.000Z",
+      "currentTask": "Heartbeat 2026-07-03T05:00:41Z — goals/activity current. No new in-scope events since a30 (Juvenis PR #42, Jul 2).",
+      "lastActive": "2026-07-03T05:00:41Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
