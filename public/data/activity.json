@@ -1,5 +1,14 @@
 [
   {
+    "id": "a30",
+    "type": "delivery",
+    "project": "Juvenis Medical",
+    "title": "PR #42: Post-review polish — mobile CTAs, tappable footer, tel/sitemap cleanup",
+    "description": "Follow-up to PRs #40+41. Hero CTA label shortens to 'Call · (954) 982-8378' under 480px, footer phone numbers converted to tappable tel: links, sitemap cleanup. Merged Jul 2.",
+    "date": "2026-07-02T21:51:54Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a29",
     "type": "infrastructure",
     "project": "Mission Control",
