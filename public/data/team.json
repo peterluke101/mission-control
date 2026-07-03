@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Active Jul 1-2: Peptide Compass Pro — 16 medical copy audit fixes (PRs #238-250) + Explore Peptides discovery library (PR #251) + info popup fix. Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
-      "lastActive": "2026-07-01T16:04:00Z",
+      "currentTask": "Active Jul 1-2: Peptide Compass Pro — 16 medical copy audit fixes + Explore Peptides library. Juvenis: PR #42 post-review polish merged Jul 2. Ongoing: Mission Control, Juvenis Medical, peterlukedigital.",
+      "lastActive": "2026-07-02T21:51:54Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 1-2: Peptide Compass Pro medical copy audit (16 fixes, PRs #238-250) + Explore Peptides discovery library (PR #251) + info popup fix. Juvenis: appointment booking overhaul live (PRs #40+41). Buffer MCP and Google Workspace OAuth pending.",
-      "lastActive": "2026-07-01T16:04:00Z",
+      "currentTask": "Jul 1-2: Peptide Compass Pro medical copy audit + Explore Peptides library. Juvenis: PR #42 post-review polish (mobile CTAs, footer tel links, sitemap) merged Jul 2. Buffer MCP and Google Workspace OAuth pending.",
+      "lastActive": "2026-07-02T21:51:54Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-07-03T01:22:19.844Z — no new in-scope deliverables. Jul 1–3 work was Peptide Compass Pro (out of scope). goals/activity current.",
-      "lastActive": "2026-07-03T01:22:19.844Z",
+      "currentTask": "Heartbeat 2026-07-03T01:41:59.877Z — added a30 (Juvenis PR #42 Jul 2 polish). goals/activity current.",
+      "lastActive": "2026-07-03T01:41:59.877Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
