@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "Heartbeat 2026-07-03T01:41:59.877Z — added a30 (Juvenis PR #42 Jul 2 polish). goals/activity current.",
-      "lastActive": "2026-07-03T01:41:59.877Z",
+      "currentTask": "Heartbeat 2026-07-03T02:01:38.370Z — goals/activity current. No new in-scope events since a30 (Juvenis PR #42, Jul 2).",
+      "lastActive": "2026-07-03T02:01:38.370Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
