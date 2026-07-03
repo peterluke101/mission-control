@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-01T02:30:00Z",
+  "lastUpdated": "2026-07-03T01:41:59.877Z",
   "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
   "activeProjects": [
     "Mission Control",
@@ -90,15 +90,15 @@
       "priority": "high",
       "progress": 65,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO (AI visibility) strategy plan delivered May 20 for Dr. Paul Goodkin, Fort Lauderdale. PostReady social scheduler in use. Google Workspace integration and Buffer MCP approved for build.",
+      "note": "Client site live at peptidesandhormones.com. GEO (AI visibility) strategy plan delivered May 20 for Dr. Paul Goodkin, Fort Lauderdale. PostReady social scheduler in use. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2.",
       "subgoals": [
         {
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 85,
+          "progress": 90,
           "owner": "Ares",
-          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) merged May 12. PR #40: Zoho online booking replaced with phone-call CTAs site-wide (Jun 27). PR #41: mobile appointment CTA overflow fix (Jun 28)."
+          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) merged May 12. PR #40: Zoho online booking replaced with phone-call CTAs site-wide (Jun 27). PR #41: mobile appointment CTA overflow fix (Jun 28). PR #42: Post-review polish — legible mobile CTAs, tappable footer numbers, tel/sitemap cleanup (Jul 2)."
         },
         {
           "id": "g2.2",
