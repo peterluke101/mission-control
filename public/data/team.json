@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-04T04:18:15.571Z — goals/activity current. No new in-scope events since a30 (Juvenis PR #42, Jul 2). Peptide Compass Pro activity (PRs #238-251) is out of scope for three active projects.",
-      "lastActive": "2026-07-04T04:18:15.571Z",
+      "currentTask": "2026-07-04T16:01:17Z — goals/activity current. No new in-scope events since a30 (Juvenis PR #42, Jul 2). Repos unchanged. Heartbeat only.",
+      "lastActive": "2026-07-04T16:01:17Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-04T04:18:15.571Z"
+  "updatedAt": "2026-07-04T16:01:17Z"
 }
