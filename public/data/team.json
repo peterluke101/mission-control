@@ -15,7 +15,7 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 1-2: Peptide Compass Pro medical copy audit + Explore Peptides library. Juvenis: PR #42 post-review polish (mobile CTAs, footer tel links, sitemap) merged Jul 2. Buffer MCP and Google Workspace OAuth pending.",
+      "currentTask": "Jul 1-2: Juvenis PR #42 post-review polish (mobile CTAs, footer tel links, sitemap) merged Jul 2. Buffer MCP and Google Workspace OAuth pending.",
       "lastActive": "2026-07-02T21:51:54Z",
       "model": "claude-sonnet-5",
       "capabilities": [
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-05T23:21:46Z — Heartbeat run. No new in-scope events since a30 (Juvenis PR #42, Jul 2). No new commits on any active repo. Monitoring.",
-      "lastActive": "2026-07-05T23:21:46Z",
+      "currentTask": "2026-07-05T23:42:22.576Z — Heartbeat run. No new in-scope events since a30 (Juvenis PR #42, Jul 2). No new commits on any active repo. Monitoring.",
+      "lastActive": "2026-07-05T23:42:22.576Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-05T23:21:46Z"
+  "updatedAt": "2026-07-05T23:42:22.576Z"
 }
