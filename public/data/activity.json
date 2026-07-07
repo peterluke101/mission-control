@@ -1,5 +1,14 @@
 [
   {
+    "id": "a33",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #438 — Adaptive time copy for multi-scene Create Video",
+    "description": "Fixed Create Video intro banner that quoted a hard '5–8 min' estimate — wrong for multi-scene renders (which stitch multiple scenes). Copy now adapts to scene count. Merged Jul 7.",
+    "date": "2026-07-07T19:40:53Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a32",
     "type": "delivery",
     "project": "PostReady",
