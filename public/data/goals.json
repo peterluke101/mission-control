@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 65,
+      "progress": 68,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 (PRs #428-438): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. PR #439: render pipeline stability — no more silent hangs, per-scene progress. Blog + Campaigns hidden pre-launch. Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 (PRs #428-438): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. PR #439: render pipeline stability. PR #440: landing hero mobile polish (Jul 7). Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -196,5 +196,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updatedAt": "2026-07-07T23:41:21.925Z"
 }
