@@ -1,5 +1,14 @@
 [
   {
+    "id": "a31",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: Prompt Studio + major UX wave (PRs #418–427)",
+    "description": "10 PRs merged Jul 7: Prompt Studio in Create Post + Create Video, voiceover clip-duration sync, reference-image picker, Start Over button, batch prompt rows, unique download filenames, Seedream image size cap. Product live in beta at postready-beta.vercel.app. One paying client (Juvenis Medical).",
+    "date": "2026-07-07T02:36:15Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a30",
     "type": "delivery",
     "project": "Juvenis Medical",
