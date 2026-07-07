@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Jul 7: PostReady — Prompt Studio + UX wave (10 PRs merged). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-07T02:36:15Z",
+      "currentTask": "Jul 7: PostReady — Prompt Studio + UX wave (PRs #418-427) + multi-scene video (PRs #428-438). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
+      "lastActive": "2026-07-07T19:40:53Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 7: PostReady PRs #418-427 — Prompt Studio (Create Post, Create Video, Batch), voiceover sync, reference-image picker. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-07T02:36:15Z",
+      "currentTask": "Jul 7: PostReady PRs #418-438 — Prompt Studio, multi-scene video, adaptive time copy. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-07T19:40:53Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-07T19:23:11.000Z — Recorded a32: PostReady PRs #428-437 (multi-scene video + pre-launch cleanup). Goals g4 updated 55→65.",
-      "lastActive": "2026-07-07T19:23:11.000Z",
+      "currentTask": "2026-07-07T19:55:00Z — Recorded a33: PostReady PR #438 (adaptive time copy for multi-scene video). Updated g4.4 completedAt, weekTarget, team timestamps.",
+      "lastActive": "2026-07-07T19:55:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-07T19:23:11.000Z"
+  "updatedAt": "2026-07-07T19:55:00Z"
 }
