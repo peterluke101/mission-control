@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-07T05:44:28.187Z",
-  "weekTarget": "PostReady beta: Prompt Studio + UX wave. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-07T19:23:26.000Z",
+  "weekTarget": "PostReady wave 2: multi-scene video live, pre-launch cleanup done. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 55,
+      "progress": 65,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Stack: Next.js + Vercel. Agency posts social packs, clients copy/paste directly — no agency account access needed.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 afternoon (PRs #428-437): scene builder → per-scene render → stitch → VO + captions. Blog + Campaigns hidden pre-launch. Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -184,6 +184,15 @@
           "status": "todo",
           "progress": 0,
           "owner": "Pete"
+        },
+        {
+          "id": "g4.4",
+          "title": "Multi-scene video generation",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-07T19:08:53Z",
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. PRs #430-432."
         }
       ]
     }
