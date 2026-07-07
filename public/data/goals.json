@@ -1,11 +1,12 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-03T01:41:59.877Z",
-  "weekTarget": "Active client delivery — Juvenis Medical, peterlukedigital, Mission Control infrastructure",
+  "lastUpdated": "2026-07-07T05:44:28.187Z",
+  "weekTarget": "PostReady beta: Prompt Studio + UX wave. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
-    "peterlukedigital"
+    "peterlukedigital",
+    "PostReady"
   ],
   "goals": [
     {
@@ -90,7 +91,7 @@
       "priority": "high",
       "progress": 65,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO (AI visibility) strategy plan delivered May 20 for Dr. Paul Goodkin, Fort Lauderdale. PostReady social scheduler in use. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2.",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. PostReady portal (postready-beta.vercel.app) active — Juvenis is the first paying client. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2.",
       "subgoals": [
         {
           "id": "g2.1",
@@ -149,6 +150,40 @@
           "progress": 65,
           "owner": "Pete",
           "note": "Case study page updated Apr 2026 — brand kit deliverables clarified, sitemap + canonical SEO fixed (peterlukedigital-site repo, Apr 27)."
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "title": "PostReady — Social Content Portal",
+      "status": "active",
+      "priority": "high",
+      "progress": 55,
+      "owner": "Ares",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Stack: Next.js + Vercel. Agency posts social packs, clients copy/paste directly — no agency account access needed.",
+      "subgoals": [
+        {
+          "id": "g4.1",
+          "title": "Beta portal live with post packs",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares"
+        },
+        {
+          "id": "g4.2",
+          "title": "Prompt Studio — AI-assisted prompt writing",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-07T02:36:15Z",
+          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes."
+        },
+        {
+          "id": "g4.3",
+          "title": "Full client onboarding (beyond Juvenis)",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Pete"
         }
       ]
     }
