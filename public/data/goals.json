@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-07T19:23:26.000Z",
-  "weekTarget": "PostReady wave 2: multi-scene video live, pre-launch cleanup done. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-07T19:55:00Z",
+  "weekTarget": "PostReady wave 2: multi-scene video live (PRs #428–438), pre-launch cleanup done. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -160,7 +160,7 @@
       "priority": "high",
       "progress": 65,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 afternoon (PRs #428-437): scene builder → per-scene render → stitch → VO + captions. Blog + Campaigns hidden pre-launch. Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 (PRs #428-438): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. Blog + Campaigns hidden pre-launch. Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -191,8 +191,8 @@
           "status": "completed",
           "progress": 100,
           "owner": "Ares",
-          "completedAt": "2026-07-07T19:08:53Z",
-          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. PRs #430-432."
+          "completedAt": "2026-07-07T19:40:53Z",
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy for variable render time. PRs #428-438."
         }
       ]
     }
