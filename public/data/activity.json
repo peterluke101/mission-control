@@ -1,5 +1,14 @@
 [
   {
+    "id": "a34",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #439 — Multi-scene stability (no more silent hangs + per-scene progress)",
+    "description": "Follow-up to multi-scene phase 1. Bounds every step in the render pipeline to prevent silent hangs; adds per-scene progress reporting during render. Merged Jul 7.",
+    "date": "2026-07-07T21:10:15Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a33",
     "type": "delivery",
     "project": "PostReady",
