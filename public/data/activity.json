@@ -1,5 +1,14 @@
 [
   {
+    "id": "a35",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #440 — Landing hero mobile fix (squished rocket + oversized headline)",
+    "description": "Mobile-only fix for ZippityHero on postready-beta landing page: corrected squished rocket image aspect ratio and oversized headline text. Scoped to base/mobile Tailwind breakpoint, sm:/lg: untouched. Merged Jul 7.",
+    "date": "2026-07-07T23:21:54Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a34",
     "type": "delivery",
     "project": "PostReady",
