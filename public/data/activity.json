@@ -1,5 +1,14 @@
 [
   {
+    "id": "a32",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: Multi-scene video + pre-launch cleanup (PRs #428–437)",
+    "description": "10 PRs merged Jul 7 afternoon: Multi-scene video phase 1 — scene builder → per-scene render → stitch → VO + captions, reference photo for character consistency across scenes, save-folder memory. Blog + Campaigns hidden behind feature flags pre-launch (reversible). Build fixes: lazy-load sharp, stale worker binary.",
+    "date": "2026-07-07T19:08:53Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a31",
     "type": "delivery",
     "project": "PostReady",
