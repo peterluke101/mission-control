@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-08T01:00:37Z",
-  "weekTarget": "PostReady wave 2: multi-scene video + stitch stability live (PRs #428-443). Prompt Studio, parallel render, deliver-survivors, storyboard generator, stitch retry-loop fix all shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-08T16:42:00Z",
+  "weekTarget": "PostReady wave 2: multi-scene video + stitch stability live (PRs #428-443), landing page mobile UX polished (PR #451). Prompt Studio, parallel render, deliver-survivors, storyboard generator, stitch retry-loop fix all shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 74,
+      "progress": 76,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443): scene builder → per-scene render → stitch → VO + captions, parallel fan-out/fan-in render, deliver-survivors, storyboard generator + hardened single-shot guard, stitch retry-loop fix (PR #443). Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443): scene builder → per-scene render → stitch → VO + captions, parallel fan-out/fan-in render, deliver-survivors, storyboard generator + hardened single-shot guard, stitch retry-loop fix (PR #443). Landing page mobile UX polished Jul 8: 'how it works' numbered + stacked flow (PR #451). Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -193,9 +193,18 @@
           "owner": "Ares",
           "completedAt": "2026-07-08T00:26:26Z",
           "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. Pipeline stability + per-scene progress (PR #439). Parallel fan-out/fan-in render + timeouts + deliver-survivors (PR #441). Storyboard generator + hardened single-shot guard (PR #442). Stitch retry-loop fix + bounded step (PR #443). PRs #428-443."
+        },
+        {
+          "id": "g4.5",
+          "title": "Landing page mobile UX polish",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-08T16:33:29Z",
+          "note": "Hero squish/headline fix (PR #440). 'How it works' numbered + stacked flow for mobile (PR #451)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-08T01:00:37Z"
+  "updatedAt": "2026-07-08T16:42:00Z"
 }
