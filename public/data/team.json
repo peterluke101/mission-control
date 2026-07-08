@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-08 — All data current. PostReady at PR #443 (a38, Jul 8 00:49Z). Juvenis at PR #42 (a30, Jul 2). peterlukedigital unchanged. No new deliverables since last push.",
-      "lastActive": "2026-07-08T03:01:55.108Z",
+      "currentTask": "2026-07-08 — All data current. PostReady at PR #443 (a38, Jul 8 00:49Z). Juvenis at PR #42 (a30, Jul 2). peterlukedigital unchanged. No new deliverables.",
+      "lastActive": "2026-07-08T03:21:06.729Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T03:01:55.108Z"
+  "updatedAt": "2026-07-08T03:21:06.729Z"
 }
