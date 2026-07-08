@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Jul 8: PostReady — storyboard generator + hardened single-shot guard (PR #442). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-08T00:26:26Z",
+      "currentTask": "Jul 8: PostReady landing page mobile UX polish (PR #451 — how it works, numbered + stacked). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
+      "lastActive": "2026-07-08T16:33:29Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 8: PostReady PRs #418-443 — Prompt Studio, multi-scene video, parallel render, storyboard generator, stitch retry-loop fix (PR #443). Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-08T00:49:18Z",
+      "currentTask": "Jul 8: PostReady PRs #418-451 — Prompt Studio, multi-scene video, parallel render, storyboard generator, stitch stability, landing page mobile UX. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-08T16:33:29Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-08 — Cycle ran. All data current: PostReady at PR #443 (Jul 8), Juvenis at PR #42 (Jul 2). No new deliverables since last update.",
-      "lastActive": "2026-07-08T16:27:27Z",
+      "currentTask": "2026-07-08 — Cycle ran. a39 recorded (PostReady PR #451, landing mobile UX, Jul 8). g4 progress 74→76%. All data current.",
+      "lastActive": "2026-07-08T16:42:00Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T16:27:27Z"
+  "updatedAt": "2026-07-08T16:42:00Z"
 }
