@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 8: PostReady PRs #418-442 — Prompt Studio, multi-scene video, parallel render, storyboard generator. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-08T00:26:26Z",
+      "currentTask": "Jul 8: PostReady PRs #418-443 — Prompt Studio, multi-scene video, parallel render, storyboard generator, stitch retry-loop fix (PR #443). Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-08T00:49:18Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-08T00:42:16.043Z — Added a37: PostReady PR #442 (storyboard generator + single-shot guard, Jul 8). g4 progress 68→72. All data current.",
-      "lastActive": "2026-07-08T00:42:16.043Z",
+      "currentTask": "2026-07-08T01:00:37Z — Updated goals: g4 72→74% + PR #443 stitch fix. activity.json already current (a38). All data current.",
+      "lastActive": "2026-07-08T01:00:37Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T00:42:16.043Z"
+  "updatedAt": "2026-07-08T01:00:37Z"
 }
