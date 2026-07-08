@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Jul 7: PostReady — multi-scene video (PRs #428-439) + stability fix. Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-07T21:10:15Z",
+      "currentTask": "Jul 7: PostReady — parallel multi-scene render (PR #441). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
+      "lastActive": "2026-07-07T23:54:19Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 7: PostReady PRs #418-439 — Prompt Studio, multi-scene video, render stability. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-07T21:10:15Z",
+      "currentTask": "Jul 7: PostReady PRs #418-441 — Prompt Studio, multi-scene video, render stability, parallel render. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-07T23:54:19Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-08T00:01:35.442Z — Heartbeat. Data current — no new events since a35 (PostReady PR #440, Jul 7 23:21Z). Juvenis latest PR #42 (Jul 2). peterlukedigital last commit Apr 27. All goals current.",
-      "lastActive": "2026-07-08T00:01:35.442Z",
+      "currentTask": "2026-07-08T00:22:13.776Z — Captured a36: PostReady PR #441 (parallel render + timeouts + deliver-survivors, Jul 7). Goals g4/g4.4 updated (prior cycle). All data current.",
+      "lastActive": "2026-07-08T00:22:13.776Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T00:01:35.442Z"
+  "updatedAt": "2026-07-08T00:22:13.776Z"
 }
