@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-08T00:21:41.288Z",
-  "weekTarget": "PostReady wave 2: multi-scene video live (PRs #428–439), pre-launch cleanup done. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-08T00:42:16.043Z",
+  "weekTarget": "PostReady wave 2: multi-scene video + storyboard generator live (PRs #428–442), parallel render + deliver-survivors shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 68,
+      "progress": 72,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7 (PRs #428-439): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. PR #440: landing hero mobile polish. PR #441: parallel render (fan-out/fan-in), real per-scene timeouts, deliver-survivors. Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7 (PRs #428-442): scene builder → per-scene render → stitch → VO + captions, parallel fan-out/fan-in render, deliver-survivors, storyboard generator + hardened single-shot guard. Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -191,11 +191,11 @@
           "status": "completed",
           "progress": 100,
           "owner": "Ares",
-          "completedAt": "2026-07-07T19:40:53Z",
-          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. Pipeline stability + per-scene progress (PR #439). Parallel fan-out/fan-in render + timeouts + deliver-survivors (PR #441). PRs #428-441."
+          "completedAt": "2026-07-08T00:26:26Z",
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. Pipeline stability + per-scene progress (PR #439). Parallel fan-out/fan-in render + timeouts + deliver-survivors (PR #441). 'Write my scenes for me' storyboard generator + hardened single-shot guard (PR #442). PRs #428-442."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-08T00:21:41.288Z"
+  "updatedAt": "2026-07-08T00:42:16.043Z"
 }
