@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-07T21:22:16.997Z",
+  "lastUpdated": "2026-07-08T00:21:41.288Z",
   "weekTarget": "PostReady wave 2: multi-scene video live (PRs #428–439), pre-launch cleanup done. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
@@ -160,7 +160,7 @@
       "priority": "high",
       "progress": 68,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video phase 1 shipped Jul 7 (PRs #428-438): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. PR #439: render pipeline stability. PR #440: landing hero mobile polish (Jul 7). Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7 (PRs #428-439): scene builder → per-scene render → stitch → VO + captions, adaptive time copy. PR #440: landing hero mobile polish. PR #441: parallel render (fan-out/fan-in), real per-scene timeouts, deliver-survivors. Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -192,10 +192,10 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-07T19:40:53Z",
-          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy for variable render time. Pipeline stability + per-scene progress (PR #439). PRs #428-439."
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. Pipeline stability + per-scene progress (PR #439). Parallel fan-out/fan-in render + timeouts + deliver-survivors (PR #441). PRs #428-441."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-07T23:41:21.925Z"
+  "updatedAt": "2026-07-08T00:21:41.288Z"
 }
