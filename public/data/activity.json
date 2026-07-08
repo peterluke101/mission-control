@@ -1,5 +1,14 @@
 [
   {
+    "id": "a36",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #441 — Parallel multi-scene render (fan-out/fan-in + timeouts + deliver-survivors)",
+    "description": "Upgrades multi-scene render to parallel fan-out/fan-in: all scenes render concurrently instead of serially. Adds real per-scene timeouts and deliver-survivors logic — if one scene fails, completed scenes are still delivered. Merged Jul 7.",
+    "date": "2026-07-07T23:54:19Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a35",
     "type": "delivery",
     "project": "PostReady",
