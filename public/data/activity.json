@@ -1,5 +1,14 @@
 [
   {
+    "id": "a37",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #442 — Multi-scene storyboard generator + hardened single-shot guard",
+    "description": "'Write my scenes for me' storyboard generator added: users describe their video idea, AI generates a full scene breakdown. Hardened single-shot guard prevents accidental multi-scene renders for basic prompts. Merged Jul 8.",
+    "date": "2026-07-08T00:26:26Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a36",
     "type": "delivery",
     "project": "PostReady",
@@ -79,14 +88,5 @@
     "description": "PR #40: Replaced Zoho online booking with phone-call CTAs site-wide. PR #41: Fixed mobile appointment CTA overflow. Both merged and live.",
     "date": "2026-06-28T00:00:00Z",
     "actor": "Ares"
-  },
-  {
-    "id": "a27",
-    "type": "infrastructure",
-    "project": "Mission Control",
-    "title": "Ares main agent upgraded to claude-sonnet-5",
-    "description": "Pete updated ANTHROPIC_MODEL in NanoClaw .env from claude-opus-4-7 (or equivalent) to claude-sonnet-5. Container restarted. Ares now runs on claude-sonnet-5.",
-    "date": "2026-06-30T00:00:00Z",
-    "actor": "Pete"
   }
 ]
