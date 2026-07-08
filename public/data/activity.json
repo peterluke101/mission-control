@@ -1,5 +1,14 @@
 [
   {
+    "id": "a38",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #443 — Multi-scene stitch step bounded (no retry-loop stall)",
+    "description": "Fixed destructive retry-loop stall in the multi-scene stitch step (stitchClips → fal-ai/ffmpeg-api/merge-videos). STITCH_STEP_CONFIG had retries+timeouts misconfigured — same class as the scene-render bug fixed in PR #441. Bounds stitch to prevent hang after parallel render completes. Merged Jul 8.",
+    "date": "2026-07-08T00:49:18Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a37",
     "type": "delivery",
     "project": "PostReady",
@@ -79,14 +88,5 @@
     "description": "Pete confirmed ~/Projects/nanoclaw as the active NanoClaw installation path on MacBook.",
     "date": "2026-06-30T20:00:00Z",
     "actor": "Pete"
-  },
-  {
-    "id": "a28",
-    "type": "delivery",
-    "project": "Juvenis Medical",
-    "title": "Appointment booking overhaul shipped (PRs #40 + #41)",
-    "description": "PR #40: Replaced Zoho online booking with phone-call CTAs site-wide. PR #41: Fixed mobile appointment CTA overflow. Both merged and live.",
-    "date": "2026-06-28T00:00:00Z",
-    "actor": "Ares"
   }
 ]
