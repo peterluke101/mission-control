@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Jul 7: PostReady — parallel multi-scene render (PR #441). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-07T23:54:19Z",
+      "currentTask": "Jul 8: PostReady — storyboard generator + hardened single-shot guard (PR #442). Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
+      "lastActive": "2026-07-08T00:26:26Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 7: PostReady PRs #418-441 — Prompt Studio, multi-scene video, render stability, parallel render. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-07T23:54:19Z",
+      "currentTask": "Jul 8: PostReady PRs #418-442 — Prompt Studio, multi-scene video, parallel render, storyboard generator. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-08T00:26:26Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-08T00:22:13.776Z — Captured a36: PostReady PR #441 (parallel render + timeouts + deliver-survivors, Jul 7). Goals g4/g4.4 updated (prior cycle). All data current.",
-      "lastActive": "2026-07-08T00:22:13.776Z",
+      "currentTask": "2026-07-08T00:42:16.043Z — Added a37: PostReady PR #442 (storyboard generator + single-shot guard, Jul 8). g4 progress 68→72. All data current.",
+      "lastActive": "2026-07-08T00:42:16.043Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T00:22:13.776Z"
+  "updatedAt": "2026-07-08T00:42:16.043Z"
 }
