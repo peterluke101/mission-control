@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-09 — PR #454 (PostReady landing mockup enlargement) recorded as a41. All data current.",
-      "lastActive": "2026-07-09T00:41:42Z",
+      "currentTask": "2026-07-09 — PostReady PR #454 (a41) is latest; Juvenis PR #42 (Jul 2); peterlukedigital unchanged. All data current.",
+      "lastActive": "2026-07-09T03:28:28.273Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-09T00:41:42Z"
+  "updatedAt": "2026-07-09T03:28:28.273Z"
 }
