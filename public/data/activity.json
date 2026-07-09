@@ -1,5 +1,14 @@
 [
   {
+    "id": "a40",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #453 — Landing 'say it once' + marquee/hero/create-screen polish (launch prep)",
+    "description": "Launch-prep landing polish: messaging tightened to 'say it once' principle across headline, hero copy, marquee, and create-screen. Removes redundant explanatory text and tightens the value prop for first-time visitors. Merged Jul 8.",
+    "date": "2026-07-08T23:52:25Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a39",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: Prompt Studio + major UX wave (PRs #418–427)",
     "description": "10 PRs merged Jul 7: Prompt Studio in Create Post + Create Video, voiceover clip-duration sync, reference-image picker, Start Over button, batch prompt rows, unique download filenames, Seedream image size cap. Product live in beta at postready-beta.vercel.app. One paying client (Juvenis Medical).",
     "date": "2026-07-07T02:36:15Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a30",
-    "type": "delivery",
-    "project": "Juvenis Medical",
-    "title": "PR #42: Post-review polish — mobile CTAs, tappable footer, tel/sitemap cleanup",
-    "description": "Follow-up to PRs #40+41. Hero CTA label shortens to 'Call · (954) 982-8378' under 480px, footer phone numbers converted to tappable tel: links, sitemap cleanup. Merged Jul 2.",
-    "date": "2026-07-02T21:51:54Z",
     "actor": "Ares"
   }
 ]
