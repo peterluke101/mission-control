@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 8: PostReady PRs #418-451 — Prompt Studio, multi-scene video, parallel render, storyboard generator, stitch stability, landing page mobile UX. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-08T16:33:29Z",
+      "currentTask": "Jul 8-9: PostReady PRs #418-454 — Prompt Studio, multi-scene video, parallel render, storyboard generator, stitch stability, landing page mobile UX polish (how it works, say it once, mockup enlargement). Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-09T00:07:37Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -33,7 +33,7 @@
       "role": "Data Steward / MC Archivist",
       "status": "active",
       "currentTask": "2026-07-09 — PR #454 (PostReady landing mockup enlargement) recorded as a41. All data current.",
-      "lastActive": "2026-07-09T00:21:53.994Z",
+      "lastActive": "2026-07-09T00:41:42Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-09T00:21:53.994Z"
+  "updatedAt": "2026-07-09T00:41:42Z"
 }
