@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-08T16:42:00Z",
-  "weekTarget": "PostReady wave 2: multi-scene video + stitch stability live (PRs #428-443), landing page mobile UX polished (PR #451). Prompt Studio, parallel render, deliver-survivors, storyboard generator, stitch retry-loop fix all shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-09T00:21:53.994Z",
+  "weekTarget": "PostReady wave 2: multi-scene video + stitch stability live (PRs #428-443), landing page desktop + mobile UX polished (PRs #440, #451, #453, #454). Prompt Studio, parallel render, deliver-survivors, storyboard generator all shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 76,
+      "progress": 78,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443): scene builder → per-scene render → stitch → VO + captions, parallel fan-out/fan-in render, deliver-survivors, storyboard generator + hardened single-shot guard, stitch retry-loop fix (PR #443). Landing page mobile UX polished Jul 8: 'how it works' numbered + stacked flow (PR #451). Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443): scene builder → per-scene render → stitch → VO + captions, parallel fan-out/fan-in render, deliver-survivors, storyboard generator + hardened single-shot guard, stitch retry-loop fix (PR #443). Landing polish Jul 8-9: mobile UX 'how it works' numbered + stacked (PR #451), 'say it once' messaging polish (PR #453), mockup image enlargement for desktop legibility (PR #454). Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -201,10 +201,10 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-08T16:33:29Z",
-          "note": "Hero squish/headline fix (PR #440). 'How it works' numbered + stacked flow for mobile (PR #451)."
+          "note": "Hero squish/headline fix (PR #440). 'How it works' numbered + stacked flow for mobile (PR #451). 'Say it once' messaging + marquee/hero polish (PR #453). Mockup images enlarged for desktop legibility (PR #454)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-08T16:42:00Z"
+  "updatedAt": "2026-07-09T00:21:53.994Z"
 }
