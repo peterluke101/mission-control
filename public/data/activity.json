@@ -1,5 +1,14 @@
 [
   {
+    "id": "a41",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #454 — Landing 'how it works' mockup images enlarged for legibility",
+    "description": "Desktop UX fix on postready-beta landing page 'how it works' section: reduced inner frame padding (p-4/p-6 → p-3) so create-form, image+caption, and post-to-all mockup screenshots fill their cards. Widened section container from max-w-6xl to max-w-7xl for more horizontal room. Makes step illustrations legible at a glance. Merged Jul 9.",
+    "date": "2026-07-09T00:07:37Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a40",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: Multi-scene video + pre-launch cleanup (PRs #428–437)",
     "description": "10 PRs merged Jul 7 afternoon: Multi-scene video phase 1 — scene builder → per-scene render → stitch → VO + captions, reference photo for character consistency across scenes, save-folder memory. Blog + Campaigns hidden behind feature flags pre-launch (reversible). Build fixes: lazy-load sharp, stale worker binary.",
     "date": "2026-07-07T19:08:53Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a31",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: Prompt Studio + major UX wave (PRs #418–427)",
-    "description": "10 PRs merged Jul 7: Prompt Studio in Create Post + Create Video, voiceover clip-duration sync, reference-image picker, Start Over button, batch prompt rows, unique download filenames, Seedream image size cap. Product live in beta at postready-beta.vercel.app. One paying client (Juvenis Medical).",
-    "date": "2026-07-07T02:36:15Z",
     "actor": "Ares"
   }
 ]
