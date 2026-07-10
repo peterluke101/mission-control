@@ -1,5 +1,14 @@
 [
   {
+    "id": "a47",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #460 — FAQ: accurate generation times",
+    "description": "Added FAQ section with accurate generation time estimates: images ~40 seconds, videos ~2.5 minutes. Sets realistic user expectations on the landing page. Merged Jul 10.",
+    "date": "2026-07-10T04:07:33Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a46",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #443 — Multi-scene stitch step bounded (no retry-loop stall)",
     "description": "Fixed destructive retry-loop stall in the multi-scene stitch step (stitchClips → fal-ai/ffmpeg-api/merge-videos). STITCH_STEP_CONFIG had retries+timeouts misconfigured — same class as the scene-render bug fixed in PR #441. Bounds stitch to prevent hang after parallel render completes. Merged Jul 8.",
     "date": "2026-07-08T00:49:18Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a37",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #442 — Multi-scene storyboard generator + hardened single-shot guard",
-    "description": "'Write my scenes for me' storyboard generator added: users describe their video idea, AI generates a full scene breakdown. Hardened single-shot guard prevents accidental multi-scene renders for basic prompts. Merged Jul 8.",
-    "date": "2026-07-08T00:26:26Z",
     "actor": "Ares"
   }
 ]
