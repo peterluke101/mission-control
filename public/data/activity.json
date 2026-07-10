@@ -1,5 +1,50 @@
 [
   {
+    "id": "a46",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #459 — Replace pea green with emerald sitewide",
+    "description": "Colour-refresh across landing page: swaps olive/pea green (#819F4F) for the brighter emerald (#1fa463) that appears on the 'Posted to 8 platforms' button. Applied to solid fills, icon tints, gradient partners, and glow shadows sitewide. Merged Jul 9.",
+    "date": "2026-07-09T15:49:20Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a45",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #458 — Hero demo cursor clicks 'Post to all 8'",
+    "description": "Adds the tap moment to the hero's animated demo: an animated MousePointer2 cursor glides in, clicks 'Post to all 8', and the button flips green — mirroring the OneTapDemo UX pattern. Makes the hero self-explanatory without a caption. Merged Jul 9.",
+    "date": "2026-07-09T15:36:17Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a44",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #457 — Faster hero demo + tighter 'gap' section copy",
+    "description": "Two landing micro-polish: hero 'Post to all 8' button now flips 1 s after post assembles (was ~3.4 s dead pause); 'gap' section copy tightened for clarity. Merged Jul 9.",
+    "date": "2026-07-09T15:12:43Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a43",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #456 — Animated 'one tap → posts everywhere' demo section",
+    "description": "New 'One tap. Every platform.' landing section showing the product's core workflow as live animated UI: sushi post assembled on left, real platform logos lighting up on right. No static screenshot — fully interactive animation. Merged Jul 9.",
+    "date": "2026-07-09T04:16:34Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a42",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #455 — Real post imagery in proof grid (sushi packs + Cobra shot)",
+    "description": "Proof grid and 'Built for businesses' storefront now use real ZippityOne output (sushi post packs grid, Cobra Sushi restaurant shot) instead of clip-art placeholders. Makes social proof immediately credible. Merged Jul 9.",
+    "date": "2026-07-09T03:36:29Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a41",
     "type": "delivery",
     "project": "PostReady",
@@ -42,51 +87,6 @@
     "title": "PostReady: PR #442 — Multi-scene storyboard generator + hardened single-shot guard",
     "description": "'Write my scenes for me' storyboard generator added: users describe their video idea, AI generates a full scene breakdown. Hardened single-shot guard prevents accidental multi-scene renders for basic prompts. Merged Jul 8.",
     "date": "2026-07-08T00:26:26Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a36",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #441 — Parallel multi-scene render (fan-out/fan-in + timeouts + deliver-survivors)",
-    "description": "Upgrades multi-scene render to parallel fan-out/fan-in: all scenes render concurrently instead of serially. Adds real per-scene timeouts and deliver-survivors logic — if one scene fails, completed scenes are still delivered. Merged Jul 7.",
-    "date": "2026-07-07T23:54:19Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a35",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #440 — Landing hero mobile fix (squished rocket + oversized headline)",
-    "description": "Mobile-only fix for ZippityHero on postready-beta landing page: corrected squished rocket image aspect ratio and oversized headline text. Scoped to base/mobile Tailwind breakpoint, sm:/lg: untouched. Merged Jul 7.",
-    "date": "2026-07-07T23:21:54Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a34",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #439 — Multi-scene stability (no more silent hangs + per-scene progress)",
-    "description": "Follow-up to multi-scene phase 1. Bounds every step in the render pipeline to prevent silent hangs; adds per-scene progress reporting during render. Merged Jul 7.",
-    "date": "2026-07-07T21:10:15Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a33",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #438 — Adaptive time copy for multi-scene Create Video",
-    "description": "Fixed Create Video intro banner that quoted a hard '5–8 min' estimate — wrong for multi-scene renders (which stitch multiple scenes). Copy now adapts to scene count. Merged Jul 7.",
-    "date": "2026-07-07T19:40:53Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a32",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: Multi-scene video + pre-launch cleanup (PRs #428–437)",
-    "description": "10 PRs merged Jul 7 afternoon: Multi-scene video phase 1 — scene builder → per-scene render → stitch → VO + captions, reference photo for character consistency across scenes, save-folder memory. Blog + Campaigns hidden behind feature flags pre-launch (reversible). Build fixes: lazy-load sharp, stale worker binary.",
-    "date": "2026-07-07T19:08:53Z",
     "actor": "Ares"
   }
 ]
