@@ -1,5 +1,50 @@
 [
   {
+    "id": "a61",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #476 — FAQ: add image reuse question",
+    "description": "Added 'Can I save and reuse an image?' FAQ entry to FaqSection.tsx. Addresses a common user question about asset reuse across posts. Merged Jul 11.",
+    "date": "2026-07-11T04:18:52Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a60",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #475 — Landing platforms pill: 'one click' copy",
+    "description": "Changed 'one pack' to 'one click' in the platforms pill text on the ZippityOne landing page. Clearer action-oriented copy. Merged Jul 11.",
+    "date": "2026-07-11T04:12:32Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a59",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #474 — Landing: center-align 'Everything you create' header",
+    "description": "Center-aligned the 'Everything you create' section header on the ZippityOne landing page for visual consistency. Layout-only change. Merged Jul 11.",
+    "date": "2026-07-11T04:06:27Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a58",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #473 — Landing copy: platforms line reframed as question + 'post pack out'",
+    "description": "Rewrote the platforms pill/line into a conversational question. Heading updated to 'post pack out' framing for tone. Copy-only change in ZippityOne landing page. Merged Jul 11.",
+    "date": "2026-07-11T03:48:10Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a57",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #472 — Landing hero: fix cramped spacing below hero",
+    "description": "Fixed cramped vertical spacing between the hero section and the section immediately below it on the ZippityOne landing page. CSS-only spacing fix. Merged Jul 11.",
+    "date": "2026-07-11T03:44:50Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a56",
     "type": "delivery",
     "project": "PostReady",
@@ -42,51 +87,6 @@
     "title": "PostReady: PR #467 — Prompt helper (video): cinematic motion-first prompts",
     "description": "Rewrote the video branch of refineGenerationPrompt. The helper now produces structured cinematic prompts: hook moment, visual metaphor, camera choreography, colour story, CTA beat. Elevates AI video output quality significantly. Merged Jul 11.",
     "date": "2026-07-11T02:59:13Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a51",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #466 — Prompt helper: cinematic, magazine-quality image prompts",
-    "description": "Upgraded refineGenerationPrompt image branch from a generic paragraph to a structured cinematic-photography template covering shot, moment, mood, colour, composition, and aspect ratio. Merged Jul 11.",
-    "date": "2026-07-11T02:51:25Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a50",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #465 — Landing how-it-works: drop redundant card, enlarge create cards",
-    "description": "Trimmed from three cards to two (removed post-to-all card as redundant given the hero demo), enlarged remaining create-screen mockup cards for better legibility. Tightens conversion flow. Merged Jul 11.",
-    "date": "2026-07-11T02:49:22Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a49",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #464 — FAQ two-level accordion",
-    "description": "Restructures the FAQ into a two-level collapsible accordion: top-level categories with nested questions. Improves scannability and reduces vertical scroll on mobile. Merged Jul 11.",
-    "date": "2026-07-11T02:26:28Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a48",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #462 — Landing hero: fuller 8-platform post demo",
-    "description": "Swaps the button-flip hero for a full HeroPostDemo — animated coffee-shop post card showing one tap to 8 platforms. Emerald palette preserved. Merged Jul 10.",
-    "date": "2026-07-10T04:28:59Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a47",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #460 — FAQ: accurate generation times",
-    "description": "Added FAQ section with accurate generation time estimates: images ~40 seconds, videos ~2.5 minutes. Sets realistic user expectations on the landing page. Merged Jul 10.",
-    "date": "2026-07-10T04:07:33Z",
     "actor": "Ares"
   }
 ]
