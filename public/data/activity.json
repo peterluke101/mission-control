@@ -1,5 +1,32 @@
 [
   {
+    "id": "a65",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #480 — Landing pain-point: swap in stronger owner photo",
+    "description": "Replaced owner photo in the pain-point section with a stronger hero shot. Visual-only swap. Merged Jul 11.",
+    "date": "2026-07-11T04:58:45Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a64",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #479 — Landing pain-point: owner photo + image-left/text-right layout",
+    "description": "Added owner photo to pain-point section with image-left/text-right two-column layout. Social proof + visual trust signal. Merged Jul 11.",
+    "date": "2026-07-11T04:52:07Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a63",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #478 — Landing pain-point: one hard-hitting beat",
+    "description": "Tightened pain-point section to a single hard-hitting statement. Copy-only. Merged Jul 11.",
+    "date": "2026-07-11T04:43:54Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a62",
     "type": "delivery",
     "project": "PostReady",
@@ -58,35 +85,8 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #471 — FAQ copy: setup simplification + cancel reassurance",
-    "description": "Simplified 'Is this easy to use?' setup line. Added explicit cancel reassurance to 'Can I cancel anytime?'. Copy-only. Merged Jul 11.",
+    "description": "Simplified setup line. Added explicit cancel reassurance to 'Can I cancel anytime?'. Copy-only. Merged Jul 11.",
     "date": "2026-07-11T03:31:05Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a55",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #470 — Landing: reorder sections for narrative flow",
-    "description": "Reordered ZippityOne landing sections: How it works → proof grid → one-tap demo → marquee. Section order only. Merged Jul 11.",
-    "date": "2026-07-11T03:26:05Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a54",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #469 — Rename to Pro Prompt + surface in how-it-works",
-    "description": "Renamed prompt-assist to 'Pro Prompt' in Create and Video flows. Added to how-it-works demo card. Merged Jul 11.",
-    "date": "2026-07-11T03:21:10Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a53",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #468 — How-it-works: equal cards + cinematic prompt example",
-    "description": "Equalized card heights. Card 1 now shows full cinematic photography prompt from Pro Prompt helper. Merged Jul 11.",
-    "date": "2026-07-11T03:04:53Z",
     "actor": "Ares"
   }
 ]
