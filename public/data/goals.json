@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-11T03:01:26Z",
-  "weekTarget": "PostReady landing polish complete (PRs #453-467): animated demo, real imagery, emerald refresh, FAQ accordion, how-it-works trim. Prompt helper upgraded to cinematic structured templates for both image (PR #466) and video (PR #467). Multi-scene video pipeline stable. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-11T03:21:28Z",
+  "weekTarget": "PostReady landing polish complete (PRs #453-469): animated demo, real imagery, emerald refresh, FAQ accordion, how-it-works trim + equal cards, Pro Prompt branding. Prompt helper upgraded to cinematic structured templates for both image (PR #466) and video (PR #467). Multi-scene video pipeline stable. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -80,7 +80,7 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-05-19T07:47:00.000Z",
-          "note": "feat/per-task-model-routing merged May 14. Container rebuilt May 19 (PID 84553). Librarian now running claude-haiku-4-5. iMessage bridge added May 22."
+          "note": "feat/per-task-model-routing merged May 14. Container rebuilt May 19. Librarian now running claude-haiku-4-5. iMessage bridge added May 22."
         }
       ]
     },
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 88,
+      "progress": 90,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 Jul 9: real imagery (PR #455), animated one-tap demo (PR #456), hero click/timing (PRs #457-458), emerald refresh (PR #459). FAQ + generation times (PR #460, Jul 10). Fuller HeroPostDemo (PR #462, Jul 10). FAQ two-level accordion (PR #464, Jul 11). Landing how-it-works trimmed to two enlarged cards (PR #465, Jul 11). Prompt helper upgraded: cinematic structured image prompts (PR #466, Jul 11), cinematic motion-first video prompts (PR #467, Jul 11). Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11: real imagery (PR #455), animated one-tap demo (PR #456), hero click/timing (PRs #457-458), emerald refresh (PR #459). FAQ + generation times (PR #460, Jul 10). Fuller HeroPostDemo (PR #462, Jul 10). FAQ two-level accordion (PR #464, Jul 11). How-it-works trimmed to 2 equal cards (PRs #465+468, Jul 11). Cinematic prompt helpers: image (PR #466) and video (PR #467). Pro Prompt rename + surfaced in how-it-works (PR #469, Jul 11). Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -176,7 +176,7 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-07T02:36:15Z",
-          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Image and video prompt helper upgraded to cinematic structured templates (PRs #466-467, Jul 11)."
+          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Image and video prompt helper upgraded to cinematic structured templates (PRs #466-467, Jul 11). Renamed to Pro Prompt (PR #469, Jul 11)."
         },
         {
           "id": "g4.3",
@@ -205,15 +205,15 @@
         },
         {
           "id": "g4.6",
-          "title": "Landing page polish wave 2 — real imagery + animated demo + prompt helper",
+          "title": "Landing page polish wave 2 — real imagery + animated demo + Pro Prompt + how-it-works finalized",
           "status": "completed",
           "progress": 100,
           "owner": "Ares",
-          "completedAt": "2026-07-11T02:59:13Z",
-          "note": "Real sushi imagery + Cobra Sushi shot (PR #455). Animated 'one tap → everywhere' demo (PR #456). Hero click timing + gap copy (PR #457). Cursor click animation (PR #458). Emerald sitewide (PR #459). FAQ + generation times (PR #460). Fuller HeroPostDemo (PR #462). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Image prompt helper → cinematic photography template (PR #466). Video prompt helper → cinematic motion-first template (PR #467). PRs #455-467."
+          "completedAt": "2026-07-11T03:21:10Z",
+          "note": "Real sushi imagery + Cobra Sushi shot (PR #455). Animated one-tap demo (PR #456). Hero click timing + gap copy (PR #457). Cursor click animation (PR #458). Emerald sitewide (PR #459). FAQ + generation times (PR #460). Fuller HeroPostDemo (PR #462). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Cinematic image prompts (PR #466). Cinematic video prompts (PR #467). Equal-height cards + cinematic example prompt (PR #468). Pro Prompt rename + surfaced in how-it-works (PR #469). PRs #455-469."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-11T03:01:26Z"
+  "updatedAt": "2026-07-11T03:21:28Z"
 }
