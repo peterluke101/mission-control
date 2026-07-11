@@ -15,8 +15,8 @@
       "name": "Ares ⚡",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 9-10: PostReady PRs #455-460 — Landing polish wave 2: real imagery, animated demo, hero click, emerald refresh, FAQ generation times. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-10T04:07:33Z",
+      "currentTask": "Jul 10: PostReady PRs #455-460 + #462 — Landing polish: real imagery, animated demo, emerald refresh, FAQ. PR #462: fuller hero post demo live. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-10T04:28:59Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian 📚",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-10 — Added PR #460 (PostReady FAQ) to activity feed. Updated PostReady goals note. All other projects current.",
-      "lastActive": "2026-07-10T04:30:00.000Z",
+      "currentTask": "2026-07-10 — Added PR #462 (PostReady hero demo) to activity feed. Updated g4/g4.6 notes. All other projects current.",
+      "lastActive": "2026-07-10T18:45:00.000Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-10T04:30:00.000Z"
+  "updatedAt": "2026-07-10T18:45:00.000Z"
 }
