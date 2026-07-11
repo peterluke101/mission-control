@@ -1,10 +1,28 @@
 [
   {
+    "id": "a54",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #469 — Rename prompt-assist to Pro Prompt + surface in how-it-works",
+    "description": "Renamed the sparkle prompt-assist button to 'Pro Prompt' in both Create (ClientGenerateFlow.tsx) and Video (ClientVideoFlow.tsx via PromptHelper.tsx) flows. Surfaced the Pro Prompt button in the how-it-works demo card so landing visitors see the feature. Consistent branding for the AI prompt upgrade CTA. Merged Jul 11.",
+    "date": "2026-07-11T03:21:10Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a53",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #468 — Landing how-it-works: equalize cards + richer prompt example",
+    "description": "Equalized the two how-it-works cards to matching height (equal flex-basis). Card 1 text-area grows to fill height. Replaced the example prompt in Card 1 with the full cinematic photography paragraph from the Pro Prompt helper, giving landing visitors an immediate sense of the output quality. Merged Jul 11.",
+    "date": "2026-07-11T03:04:53Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a52",
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #467 — Prompt helper (video): cinematic motion-first prompts",
-    "description": "Rewrote the video branch of mediumRules in refineGenerationPrompt. Instead of a generic motion descriptor, the helper now produces structured cinematic prompts: hook moment, visual metaphor, camera choreography, colour story, CTA beat. Elevates AI video output quality significantly. Merged Jul 11.",
+    "description": "Rewrote the video branch of refineGenerationPrompt. The helper now produces structured cinematic prompts: hook moment, visual metaphor, camera choreography, colour story, CTA beat. Elevates AI video output quality significantly. Merged Jul 11.",
     "date": "2026-07-11T02:59:13Z",
     "actor": "Ares"
   },
@@ -13,7 +31,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #466 — Prompt helper: cinematic, magazine-quality image prompts",
-    "description": "Upgraded refineGenerationPrompt image branch (src/lib/openai.ts) from a single generic paragraph to a structured cinematic-photography template covering shot, moment, mood, colour, composition, and aspect ratio. Produces consistently higher-quality AI image outputs. Merged Jul 11.",
+    "description": "Upgraded refineGenerationPrompt image branch from a generic paragraph to a structured cinematic-photography template covering shot, moment, mood, colour, composition, and aspect ratio. Merged Jul 11.",
     "date": "2026-07-11T02:51:25Z",
     "actor": "Ares"
   },
@@ -21,8 +39,8 @@
     "id": "a50",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #465 — Landing 'how it works': drop redundant card, enlarge create cards",
-    "description": "Reworked the landing 'How it works' section: trimmed from three cards to two (removed the post-to-all card as redundant given the hero demo), and enlarged the two remaining create-screen mockup cards for better legibility. Tightens the conversion flow. Merged Jul 11.",
+    "title": "PostReady: PR #465 — Landing how-it-works: drop redundant card, enlarge create cards",
+    "description": "Trimmed from three cards to two (removed post-to-all card as redundant given the hero demo), enlarged remaining create-screen mockup cards for better legibility. Tightens conversion flow. Merged Jul 11.",
     "date": "2026-07-11T02:49:22Z",
     "actor": "Ares"
   },
@@ -31,7 +49,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #464 — FAQ two-level accordion",
-    "description": "Restructures the FAQ section into a two-level collapsible accordion: top-level categories with nested questions. Improves scannability and reduces vertical scroll on mobile. Merged Jul 11.",
+    "description": "Restructures the FAQ into a two-level collapsible accordion: top-level categories with nested questions. Improves scannability and reduces vertical scroll on mobile. Merged Jul 11.",
     "date": "2026-07-11T02:26:28Z",
     "actor": "Ares"
   },
@@ -40,7 +58,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #462 — Landing hero: fuller 8-platform post demo",
-    "description": "Swaps the button-flip hero for a full HeroPostDemo — animated coffee-shop post card showing one tap → 8 platforms. Supersedes PR #461. Emerald palette preserved. Merged Jul 10.",
+    "description": "Swaps the button-flip hero for a full HeroPostDemo — animated coffee-shop post card showing one tap to 8 platforms. Emerald palette preserved. Merged Jul 10.",
     "date": "2026-07-10T04:28:59Z",
     "actor": "Ares"
   },
@@ -58,7 +76,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #459 — Replace pea green with emerald sitewide",
-    "description": "Colour-refresh across landing page: swaps olive/pea green (#819F4F) for the brighter emerald (#1fa463) that appears on the 'Posted to 8 platforms' button. Applied to solid fills, icon tints, gradient partners, and glow shadows sitewide. Merged Jul 9.",
+    "description": "Colour-refresh: swaps olive/pea green for brighter emerald (#1fa463) across solid fills, icon tints, gradient partners, and glow shadows sitewide. Merged Jul 9.",
     "date": "2026-07-09T15:49:20Z",
     "actor": "Ares"
   },
@@ -66,27 +84,9 @@
     "id": "a45",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #458 — Hero demo cursor clicks 'Post to all 8'",
-    "description": "Adds the tap moment to the hero's animated demo: an animated MousePointer2 cursor glides in, clicks 'Post to all 8', and the button flips green — mirroring the OneTapDemo UX pattern. Makes the hero self-explanatory without a caption. Merged Jul 9.",
+    "title": "PostReady: PR #458 — Hero demo cursor clicks Post to all 8",
+    "description": "Animated MousePointer2 cursor glides in, clicks the Post to all 8 button which flips green. Makes the hero self-explanatory without a caption. Merged Jul 9.",
     "date": "2026-07-09T15:36:17Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a44",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #457 — Faster hero demo + tighter 'gap' section copy",
-    "description": "Two landing micro-polish: hero 'Post to all 8' button now flips 1 s after post assembles (was ~3.4 s dead pause); 'gap' section copy tightened for clarity. Merged Jul 9.",
-    "date": "2026-07-09T15:12:43Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a43",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #456 — Animated 'one tap → posts everywhere' demo section",
-    "description": "New 'One tap. Every platform.' landing section showing the product's core workflow as live animated UI: sushi post assembled on left, real platform logos lighting up on right. No static screenshot — fully interactive animation. Merged Jul 9.",
-    "date": "2026-07-09T04:16:34Z",
     "actor": "Ares"
   }
 ]
