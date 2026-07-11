@@ -1,5 +1,23 @@
 [
   {
+    "id": "a56",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #471 — FAQ copy: simplify setup line + add cancel reassurance",
+    "description": "Two copy-only tweaks in FaqSection.tsx. \"Is this easy to use?\" simplified — removed \"Setup takes about two minutes\" in favour of \"Setup is quick.\" \"Can I cancel anytime?\" extended with explicit cancel reassurance copy. No structural or component changes.",
+    "date": "2026-07-11T03:31:05Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a55",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #470 — Landing: reorder sections for stronger narrative flow",
+    "description": "Reordered middle sections of ZippityOne landing (page.tsx) for better story arc: How it works → proof grid → one-tap demo → marquee. No internal content or copy changed — section order only.",
+    "date": "2026-07-11T03:26:05Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a54",
     "type": "delivery",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #460 — FAQ: accurate generation times",
     "description": "Added FAQ section with accurate generation time estimates: images ~40 seconds, videos ~2.5 minutes. Sets realistic user expectations on the landing page. Merged Jul 10.",
     "date": "2026-07-10T04:07:33Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a46",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #459 — Replace pea green with emerald sitewide",
-    "description": "Colour-refresh: swaps olive/pea green for brighter emerald (#1fa463) across solid fills, icon tints, gradient partners, and glow shadows sitewide. Merged Jul 9.",
-    "date": "2026-07-09T15:49:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a45",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #458 — Hero demo cursor clicks Post to all 8",
-    "description": "Animated MousePointer2 cursor glides in, clicks the Post to all 8 button which flips green. Makes the hero self-explanatory without a caption. Merged Jul 9.",
-    "date": "2026-07-09T15:36:17Z",
     "actor": "Ares"
   }
 ]
