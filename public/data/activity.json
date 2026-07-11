@@ -1,5 +1,14 @@
-{
-  "0": {
+[
+  {
+    "id": "a49",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #464 — FAQ two-level accordion",
+    "description": "Restructures the FAQ section into a two-level collapsible accordion: top-level categories with nested questions. Improves scannability and reduces vertical scroll on mobile. Merged Jul 11.",
+    "date": "2026-07-11T02:26:28Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a48",
     "type": "delivery",
     "project": "PostReady",
@@ -8,7 +17,7 @@
     "date": "2026-07-10T04:28:59Z",
     "actor": "Ares"
   },
-  "1": {
+  {
     "id": "a47",
     "type": "delivery",
     "project": "PostReady",
@@ -17,7 +26,7 @@
     "date": "2026-07-10T04:07:33Z",
     "actor": "Ares"
   },
-  "2": {
+  {
     "id": "a46",
     "type": "delivery",
     "project": "PostReady",
@@ -26,7 +35,7 @@
     "date": "2026-07-09T15:49:20Z",
     "actor": "Ares"
   },
-  "3": {
+  {
     "id": "a45",
     "type": "delivery",
     "project": "PostReady",
@@ -35,7 +44,7 @@
     "date": "2026-07-09T15:36:17Z",
     "actor": "Ares"
   },
-  "4": {
+  {
     "id": "a44",
     "type": "delivery",
     "project": "PostReady",
@@ -44,7 +53,7 @@
     "date": "2026-07-09T15:12:43Z",
     "actor": "Ares"
   },
-  "5": {
+  {
     "id": "a43",
     "type": "delivery",
     "project": "PostReady",
@@ -53,7 +62,7 @@
     "date": "2026-07-09T04:16:34Z",
     "actor": "Ares"
   },
-  "6": {
+  {
     "id": "a42",
     "type": "delivery",
     "project": "PostReady",
@@ -62,7 +71,7 @@
     "date": "2026-07-09T03:36:29Z",
     "actor": "Ares"
   },
-  "7": {
+  {
     "id": "a41",
     "type": "delivery",
     "project": "PostReady",
@@ -71,7 +80,7 @@
     "date": "2026-07-09T00:07:37Z",
     "actor": "Ares"
   },
-  "8": {
+  {
     "id": "a40",
     "type": "delivery",
     "project": "PostReady",
@@ -79,26 +88,5 @@
     "description": "Launch-prep landing polish: messaging tightened to 'say it once' principle across headline, hero copy, marquee, and create-screen. Removes redundant explanatory text and tightens the value prop for first-time visitors. Merged Jul 8.",
     "date": "2026-07-08T23:52:25Z",
     "actor": "Ares"
-  },
-  "9": {
-    "id": "a39",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #451 — Landing 'how it works' mobile clarity (numbered + stacked flow)",
-    "description": "Mobile UX fix on postready-beta landing page: 'how it works' section rewritten with numbered steps and stacked layout for small screens — clarifies the 3-step flow that was hard to parse on mobile. Merged Jul 8.",
-    "date": "2026-07-08T16:33:29Z",
-    "actor": "Ares"
-  },
-  "updatedAt": "2026-07-11T02:40:00.000Z",
-  "items": [
-    {
-      "id": "a49",
-      "type": "delivery",
-      "project": "PostReady",
-      "title": "PostReady: PR #464 — FAQ two-level accordion",
-      "description": "Restructures the FAQ section into a two-level collapsible accordion: top-level categories with nested questions. Improves scannability and reduces vertical scroll on mobile. Merged Jul 11.",
-      "date": "2026-07-11T02:26:28Z",
-      "actor": "Ares"
-    }
-  ]
-}
+  }
+]
