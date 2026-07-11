@@ -1,5 +1,23 @@
 [
   {
+    "id": "a68",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #483 — Hero: fast-rotating 'time back' tagline",
+    "description": "Added fast-rotating 'time back' tagline below the trust line in the hero section. Copy/animation. Merged Jul 11.",
+    "date": "2026-07-11T15:35:48Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a67",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #482 — Landing: uniform 5-business-card sizing + alignment",
+    "description": "Made the 5 business cards in the audience section uniform size and aligned. Layout-only fix. Merged Jul 11.",
+    "date": "2026-07-11T15:22:28Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a66",
     "type": "delivery",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #474 — Landing: center-align 'Everything you create' header",
     "description": "Center-aligned section header on ZippityOne landing page for visual consistency. Layout-only. Merged Jul 11.",
     "date": "2026-07-11T04:06:27Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a58",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #473 — Landing copy: platforms line reframed + 'post pack out'",
-    "description": "Rewrote platforms pill into a conversational question. Heading updated to 'post pack out' framing. Copy-only. Merged Jul 11.",
-    "date": "2026-07-11T03:48:10Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a57",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #472 — Landing hero: fix cramped spacing below hero",
-    "description": "Fixed cramped vertical spacing between hero and the section below on ZippityOne landing. CSS-only. Merged Jul 11.",
-    "date": "2026-07-11T03:44:50Z",
     "actor": "Ares"
   }
 ]
