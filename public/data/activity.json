@@ -1,5 +1,14 @@
 [
   {
+    "id": "a66",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #481 — Landing: 5-business card strip in audience section",
+    "description": "Replaced single card in the audience section with a 5-business card strip for richer visual social proof. Layout enhancement. Merged Jul 11.",
+    "date": "2026-07-11T05:21:27Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a65",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #472 — Landing hero: fix cramped spacing below hero",
     "description": "Fixed cramped vertical spacing between hero and the section below on ZippityOne landing. CSS-only. Merged Jul 11.",
     "date": "2026-07-11T03:44:50Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a56",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #471 — FAQ copy: setup simplification + cancel reassurance",
-    "description": "Simplified setup line. Added explicit cancel reassurance to 'Can I cancel anytime?'. Copy-only. Merged Jul 11.",
-    "date": "2026-07-11T03:31:05Z",
     "actor": "Ares"
   }
 ]
