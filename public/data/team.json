@@ -1,47 +1,32 @@
 {
-  "note": "Active team as of May 2026. Streamlined to core agents.",
-  "people": [
+  "updatedAt": "2026-07-11T05:10:00Z",
+  "members": [
     {
       "id": "pete",
       "name": "Pete",
-      "role": "Owner / Director",
+      "role": "Owner",
+      "type": "human",
       "status": "active",
-      "currentTask": "Jul 11: PostReady landing wave 2 complete (PRs #453-477). Hero headline punch, Pro Prompt rename, FAQ polish, section reorder. Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-11T04:22:01Z",
-      "model": "human"
+      "avatar": "👤",
+      "model": null
     },
     {
       "id": "ares",
-      "name": "Ares",
-      "role": "Lead Agent / Master Control",
+      "name": "Ares ⚡",
+      "role": "Lead Agent",
+      "type": "agent",
       "status": "active",
-      "currentTask": "Jul 11: PostReady PR #477 — hero headline comma punch. Landing polish wave 2 fully complete (PRs #453-477). Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-11T04:22:01Z",
-      "model": "claude-sonnet-5",
-      "capabilities": [
-        "website builds",
-        "social content",
-        "GitHub workflows",
-        "research",
-        "scheduling",
-        "memory"
-      ]
+      "avatar": "⚡",
+      "model": "claude-sonnet-4-5"
     },
     {
       "id": "librarian",
-      "name": "Librarian",
-      "role": "Data Steward / MC Archivist",
+      "name": "Librarian 📚",
+      "role": "Data Steward",
+      "type": "agent",
       "status": "active",
-      "currentTask": "2026-07-11 — Added a62 (PostReady PR #477: hero headline comma punch). All data current.",
-      "lastActive": "2026-07-11T04:40:00Z",
-      "model": "claude-haiku-4-5",
-      "capabilities": [
-        "data updates",
-        "goals.json",
-        "activity.json",
-        "team.json maintenance"
-      ]
+      "avatar": "📚",
+      "model": "claude-haiku-4-5"
     }
-  ],
-  "updatedAt": "2026-07-11T04:40:00Z"
+  ]
 }
