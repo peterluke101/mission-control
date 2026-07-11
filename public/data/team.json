@@ -6,8 +6,8 @@
       "name": "Pete",
       "role": "Owner / Director",
       "status": "active",
-      "currentTask": "Jul 11: PostReady FAQ two-level accordion (PR #464). Landing polish complete. Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
-      "lastActive": "2026-07-11T02:26:28Z",
+      "currentTask": "Jul 11: PostReady prompt helper upgrades (PRs #466-467 — cinematic image + video templates). Landing polish complete. Ongoing: Juvenis Medical, Mission Control, peterlukedigital.",
+      "lastActive": "2026-07-11T02:59:13Z",
       "model": "human"
     },
     {
@@ -15,8 +15,8 @@
       "name": "Ares",
       "role": "Lead Agent / Master Control",
       "status": "active",
-      "currentTask": "Jul 11: PostReady PR #464 — FAQ two-level accordion. PRs #455-464 landing polish complete. Buffer MCP + Google Workspace OAuth pending.",
-      "lastActive": "2026-07-11T02:26:28Z",
+      "currentTask": "Jul 11: PostReady PRs #465-467 — landing how-it-works trim, cinematic image prompts, cinematic video prompts. Buffer MCP + Google Workspace OAuth pending.",
+      "lastActive": "2026-07-11T02:59:13Z",
       "model": "claude-sonnet-5",
       "capabilities": [
         "website builds",
@@ -32,8 +32,8 @@
       "name": "Librarian",
       "role": "Data Steward / MC Archivist",
       "status": "active",
-      "currentTask": "2026-07-11 — Added PR #464 (PostReady FAQ accordion) as a49. Updated g4 notes + weekTarget. All projects current.",
-      "lastActive": "2026-07-11T02:40:00.000Z",
+      "currentTask": "2026-07-11 — Added a50-a52 (PostReady PRs #465-467: landing trim, cinematic image prompts, cinematic video prompts). Updated g4 notes + weekTarget + progress 87→88%. All projects current.",
+      "lastActive": "2026-07-11T03:01:26Z",
       "model": "claude-haiku-4-5",
       "capabilities": [
         "data updates",
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-11T02:40:00.000Z"
+  "updatedAt": "2026-07-11T03:01:26Z"
 }
