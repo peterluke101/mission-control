@@ -1,5 +1,14 @@
 [
   {
+    "id": "a48",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #462 — Landing hero: fuller 8-platform post demo",
+    "description": "Swaps the button-flip hero for a full HeroPostDemo — animated coffee-shop post card showing one tap → 8 platforms. Supersedes PR #461. Emerald palette preserved. Merged Jul 10.",
+    "date": "2026-07-10T04:28:59Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a47",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #451 — Landing 'how it works' mobile clarity (numbered + stacked flow)",
     "description": "Mobile UX fix on postready-beta landing page: 'how it works' section rewritten with numbered steps and stacked layout for small screens — clarifies the 3-step flow that was hard to parse on mobile. Merged Jul 8.",
     "date": "2026-07-08T16:33:29Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a38",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #443 — Multi-scene stitch step bounded (no retry-loop stall)",
-    "description": "Fixed destructive retry-loop stall in the multi-scene stitch step (stitchClips → fal-ai/ffmpeg-api/merge-videos). STITCH_STEP_CONFIG had retries+timeouts misconfigured — same class as the scene-render bug fixed in PR #441. Bounds stitch to prevent hang after parallel render completes. Merged Jul 8.",
-    "date": "2026-07-08T00:49:18Z",
     "actor": "Ares"
   }
 ]
