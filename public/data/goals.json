@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-11T02:40:00.000Z",
-  "weekTarget": "PostReady landing polish shipped (PRs #455-460, #462, #464). Multi-scene video + stitch stability live (PRs #428-443). Prompt Studio, parallel render, deliver-survivors, storyboard generator all shipped. Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-11T03:01:26Z",
+  "weekTarget": "PostReady landing polish complete (PRs #453-467): animated demo, real imagery, emerald refresh, FAQ accordion, how-it-works trim. Prompt helper upgraded to cinematic structured templates for both image (PR #466) and video (PR #467). Multi-scene video pipeline stable. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 87,
+      "progress": 88,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 Jul 9: real sushi post imagery (PR #455), animated one-tap demo section (PR #456), hero demo click + timing (PRs #457-458), emerald colour refresh sitewide (PR #459). FAQ with accurate generation times Jul 10 (PR #460). PR #462: Fuller 8-platform animated hero demo (Jul 10). PR #464: FAQ two-level accordion (Jul 11). Stack: Next.js + Vercel.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 Jul 9: real imagery (PR #455), animated one-tap demo (PR #456), hero click/timing (PRs #457-458), emerald refresh (PR #459). FAQ + generation times (PR #460, Jul 10). Fuller HeroPostDemo (PR #462, Jul 10). FAQ two-level accordion (PR #464, Jul 11). Landing how-it-works trimmed to two enlarged cards (PR #465, Jul 11). Prompt helper upgraded: cinematic structured image prompts (PR #466, Jul 11), cinematic motion-first video prompts (PR #467, Jul 11). Stack: Next.js + Vercel.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -176,7 +176,7 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-07T02:36:15Z",
-          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes."
+          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Image and video prompt helper upgraded to cinematic structured templates (PRs #466-467, Jul 11)."
         },
         {
           "id": "g4.3",
@@ -205,15 +205,15 @@
         },
         {
           "id": "g4.6",
-          "title": "Landing page polish wave 2 — real imagery + animated demo",
+          "title": "Landing page polish wave 2 — real imagery + animated demo + prompt helper",
           "status": "completed",
           "progress": 100,
           "owner": "Ares",
-          "completedAt": "2026-07-09T15:49:20Z",
-          "note": "Real sushi post pack imagery in proof grid + Cobra Sushi restaurant shot (PR #455). New animated 'one tap → posts everywhere' demo section (PR #456). Hero demo click timing fix + 'gap' copy tightened (PR #457). Cursor click animation added to hero demo (PR #458). Pea green → emerald colour refresh sitewide (PR #459). FAQ section with accurate generation times (PR #460, Jul 10). Hero replaced with fuller HeroPostDemo (PR #462, Jul 10) — full animated 8-platform demo, supersedes button-flip PR #458. FAQ two-level accordion (PR #464, Jul 11)."
+          "completedAt": "2026-07-11T02:59:13Z",
+          "note": "Real sushi imagery + Cobra Sushi shot (PR #455). Animated 'one tap → everywhere' demo (PR #456). Hero click timing + gap copy (PR #457). Cursor click animation (PR #458). Emerald sitewide (PR #459). FAQ + generation times (PR #460). Fuller HeroPostDemo (PR #462). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Image prompt helper → cinematic photography template (PR #466). Video prompt helper → cinematic motion-first template (PR #467). PRs #455-467."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-11T02:40:00.000Z"
+  "updatedAt": "2026-07-11T03:01:26Z"
 }
