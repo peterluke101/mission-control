@@ -1,10 +1,19 @@
 [
   {
+    "id": "a62",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #477 — Hero headline: 'Posting sucked, until ZippityOne.' (comma punch)",
+    "description": "Added comma after 'sucked' in the hero headline for natural spoken cadence. High-visibility copy refinement on ZippityOne landing page. Merged Jul 11.",
+    "date": "2026-07-11T04:22:01Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a61",
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #476 — FAQ: add image reuse question",
-    "description": "Added 'Can I save and reuse an image?' FAQ entry to FaqSection.tsx. Addresses a common user question about asset reuse across posts. Merged Jul 11.",
+    "description": "Added 'Can I save and reuse an image?' FAQ entry to FaqSection.tsx. Merged Jul 11.",
     "date": "2026-07-11T04:18:52Z",
     "actor": "Ares"
   },
@@ -13,7 +22,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #475 — Landing platforms pill: 'one click' copy",
-    "description": "Changed 'one pack' to 'one click' in the platforms pill text on the ZippityOne landing page. Clearer action-oriented copy. Merged Jul 11.",
+    "description": "Changed 'one pack' to 'one click' in platforms pill. Clearer action-oriented copy. Merged Jul 11.",
     "date": "2026-07-11T04:12:32Z",
     "actor": "Ares"
   },
@@ -22,7 +31,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #474 — Landing: center-align 'Everything you create' header",
-    "description": "Center-aligned the 'Everything you create' section header on the ZippityOne landing page for visual consistency. Layout-only change. Merged Jul 11.",
+    "description": "Center-aligned section header on ZippityOne landing page for visual consistency. Layout-only. Merged Jul 11.",
     "date": "2026-07-11T04:06:27Z",
     "actor": "Ares"
   },
@@ -30,8 +39,8 @@
     "id": "a58",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #473 — Landing copy: platforms line reframed as question + 'post pack out'",
-    "description": "Rewrote the platforms pill/line into a conversational question. Heading updated to 'post pack out' framing for tone. Copy-only change in ZippityOne landing page. Merged Jul 11.",
+    "title": "PostReady: PR #473 — Landing copy: platforms line reframed + 'post pack out'",
+    "description": "Rewrote platforms pill into a conversational question. Heading updated to 'post pack out' framing. Copy-only. Merged Jul 11.",
     "date": "2026-07-11T03:48:10Z",
     "actor": "Ares"
   },
@@ -40,7 +49,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #472 — Landing hero: fix cramped spacing below hero",
-    "description": "Fixed cramped vertical spacing between the hero section and the section immediately below it on the ZippityOne landing page. CSS-only spacing fix. Merged Jul 11.",
+    "description": "Fixed cramped vertical spacing between hero and the section below on ZippityOne landing. CSS-only. Merged Jul 11.",
     "date": "2026-07-11T03:44:50Z",
     "actor": "Ares"
   },
@@ -48,8 +57,8 @@
     "id": "a56",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #471 — FAQ copy: simplify setup line + add cancel reassurance",
-    "description": "Two copy-only tweaks in FaqSection.tsx. \"Is this easy to use?\" simplified — removed \"Setup takes about two minutes\" in favour of \"Setup is quick.\" \"Can I cancel anytime?\" extended with explicit cancel reassurance copy. No structural or component changes.",
+    "title": "PostReady: PR #471 — FAQ copy: setup simplification + cancel reassurance",
+    "description": "Simplified 'Is this easy to use?' setup line. Added explicit cancel reassurance to 'Can I cancel anytime?'. Copy-only. Merged Jul 11.",
     "date": "2026-07-11T03:31:05Z",
     "actor": "Ares"
   },
@@ -57,8 +66,8 @@
     "id": "a55",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #470 — Landing: reorder sections for stronger narrative flow",
-    "description": "Reordered middle sections of ZippityOne landing (page.tsx) for better story arc: How it works → proof grid → one-tap demo → marquee. No internal content or copy changed — section order only.",
+    "title": "PostReady: PR #470 — Landing: reorder sections for narrative flow",
+    "description": "Reordered ZippityOne landing sections: How it works → proof grid → one-tap demo → marquee. Section order only. Merged Jul 11.",
     "date": "2026-07-11T03:26:05Z",
     "actor": "Ares"
   },
@@ -66,8 +75,8 @@
     "id": "a54",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #469 — Rename prompt-assist to Pro Prompt + surface in how-it-works",
-    "description": "Renamed the sparkle prompt-assist button to 'Pro Prompt' in both Create (ClientGenerateFlow.tsx) and Video (ClientVideoFlow.tsx via PromptHelper.tsx) flows. Surfaced the Pro Prompt button in the how-it-works demo card so landing visitors see the feature. Consistent branding for the AI prompt upgrade CTA. Merged Jul 11.",
+    "title": "PostReady: PR #469 — Rename to Pro Prompt + surface in how-it-works",
+    "description": "Renamed prompt-assist to 'Pro Prompt' in Create and Video flows. Added to how-it-works demo card. Merged Jul 11.",
     "date": "2026-07-11T03:21:10Z",
     "actor": "Ares"
   },
@@ -75,18 +84,9 @@
     "id": "a53",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #468 — Landing how-it-works: equalize cards + richer prompt example",
-    "description": "Equalized the two how-it-works cards to matching height (equal flex-basis). Card 1 text-area grows to fill height. Replaced the example prompt in Card 1 with the full cinematic photography paragraph from the Pro Prompt helper, giving landing visitors an immediate sense of the output quality. Merged Jul 11.",
+    "title": "PostReady: PR #468 — How-it-works: equal cards + cinematic prompt example",
+    "description": "Equalized card heights. Card 1 now shows full cinematic photography prompt from Pro Prompt helper. Merged Jul 11.",
     "date": "2026-07-11T03:04:53Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a52",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #467 — Prompt helper (video): cinematic motion-first prompts",
-    "description": "Rewrote the video branch of refineGenerationPrompt. The helper now produces structured cinematic prompts: hook moment, visual metaphor, camera choreography, colour story, CTA beat. Elevates AI video output quality significantly. Merged Jul 11.",
-    "date": "2026-07-11T02:59:13Z",
     "actor": "Ares"
   }
 ]
