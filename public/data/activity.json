@@ -1,5 +1,14 @@
 [
   {
+    "id": "a69",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #484 — Pricing: Starter 30/5, Pro 60/10, Business unlimited",
+    "description": "Updated ZippityOne tier quotas in both enforced limits and pricing-page display, kept in sync. Prices unchanged ($49/$149/$279) — only included AI images/video clips per month changed. Merged Jul 11.",
+    "date": "2026-07-11T23:13:33Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a68",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #475 — Landing platforms pill: 'one click' copy",
     "description": "Changed 'one pack' to 'one click' in platforms pill. Clearer action-oriented copy. Merged Jul 11.",
     "date": "2026-07-11T04:12:32Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a59",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #474 — Landing: center-align 'Everything you create' header",
-    "description": "Center-aligned section header on ZippityOne landing page for visual consistency. Layout-only. Merged Jul 11.",
-    "date": "2026-07-11T04:06:27Z",
     "actor": "Ares"
   }
 ]
