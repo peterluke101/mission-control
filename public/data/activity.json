@@ -1,5 +1,32 @@
 [
   {
+    "id": "a52",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #467 — Prompt helper (video): cinematic motion-first prompts",
+    "description": "Rewrote the video branch of mediumRules in refineGenerationPrompt. Instead of a generic motion descriptor, the helper now produces structured cinematic prompts: hook moment, visual metaphor, camera choreography, colour story, CTA beat. Elevates AI video output quality significantly. Merged Jul 11.",
+    "date": "2026-07-11T02:59:13Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a51",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #466 — Prompt helper: cinematic, magazine-quality image prompts",
+    "description": "Upgraded refineGenerationPrompt image branch (src/lib/openai.ts) from a single generic paragraph to a structured cinematic-photography template covering shot, moment, mood, colour, composition, and aspect ratio. Produces consistently higher-quality AI image outputs. Merged Jul 11.",
+    "date": "2026-07-11T02:51:25Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a50",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #465 — Landing 'how it works': drop redundant card, enlarge create cards",
+    "description": "Reworked the landing 'How it works' section: trimmed from three cards to two (removed the post-to-all card as redundant given the hero demo), and enlarged the two remaining create-screen mockup cards for better legibility. Tightens the conversion flow. Merged Jul 11.",
+    "date": "2026-07-11T02:49:22Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a49",
     "type": "delivery",
     "project": "PostReady",
@@ -60,33 +87,6 @@
     "title": "PostReady: PR #456 — Animated 'one tap → posts everywhere' demo section",
     "description": "New 'One tap. Every platform.' landing section showing the product's core workflow as live animated UI: sushi post assembled on left, real platform logos lighting up on right. No static screenshot — fully interactive animation. Merged Jul 9.",
     "date": "2026-07-09T04:16:34Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a42",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #455 — Real post imagery in proof grid (sushi packs + Cobra shot)",
-    "description": "Proof grid and 'Built for businesses' storefront now use real ZippityOne output (sushi post packs grid, Cobra Sushi restaurant shot) instead of clip-art placeholders. Makes social proof immediately credible. Merged Jul 9.",
-    "date": "2026-07-09T03:36:29Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a41",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #454 — Landing 'how it works' mockup images enlarged for legibility",
-    "description": "Desktop UX fix on postready-beta landing page 'how it works' section: reduced inner frame padding (p-4/p-6 → p-3) so create-form, image+caption, and post-to-all mockup screenshots fill their cards. Widened section container from max-w-6xl to max-w-7xl for more horizontal room. Makes step illustrations legible at a glance. Merged Jul 9.",
-    "date": "2026-07-09T00:07:37Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a40",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #453 — Landing 'say it once' + marquee/hero/create-screen polish (launch prep)",
-    "description": "Launch-prep landing polish: messaging tightened to 'say it once' principle across headline, hero copy, marquee, and create-screen. Removes redundant explanatory text and tightens the value prop for first-time visitors. Merged Jul 8.",
-    "date": "2026-07-08T23:52:25Z",
     "actor": "Ares"
   }
 ]
