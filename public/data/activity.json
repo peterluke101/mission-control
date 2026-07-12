@@ -1,5 +1,14 @@
 [
   {
+    "id": "a85",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #501 — Shotstack: render reframed clips at quality:high",
+    "description": "Upgraded Shotstack renders for reframed video clips to quality:high, improving output fidelity when per-platform crops are applied at publish time. Merged Jul 12.",
+    "date": "2026-07-12T17:48:04Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a84",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #491 — Video reframe Phase 1: per-platform offsets + available for generated videos",
     "description": "Added per-platform reframe offsets so generated videos are automatically repositioned for each target platform. Also surfaced the reframe tool on already-generated videos. Merged Jul 12.",
     "date": "2026-07-12T01:05:00Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a75",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #490 — Fix: guarantee X posts fit 280 chars (trim at publish + generate to fit)",
-    "description": "X/Twitter rejects posts over 280 chars for non-Premium accounts. Fixed with a hard trim at publish time and a generate-to-fit mode so captions never exceed the limit. Merged Jul 12.",
-    "date": "2026-07-12T00:41:12Z",
     "actor": "Ares"
   }
 ]
