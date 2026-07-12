@@ -1,10 +1,55 @@
 [
   {
+    "id": "a74",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #489 — Fix: stop wide/vertical outpaint from adding a picture frame",
+    "description": "Bug fix: prevented the wide/vertical outpaint mode from wrapping generated images in an unwanted picture frame. Merged Jul 12.",
+    "date": "2026-07-12T00:12:42Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a73",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #488 — Prompt Studio: reference-image upload (vision) + editable crafted prompt",
+    "description": "Prompt Studio now accepts a reference image via vision API to inform prompt crafting, and the crafted prompt is fully editable before use. Merged Jul 11.",
+    "date": "2026-07-11T23:49:07Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a72",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #487 — Landing: 'Built for businesses and creators' + creators in audience list",
+    "description": "Updated landing headline to 'Built for businesses and creators' and added creators to the audience strip. Broader positioning. Merged Jul 11.",
+    "date": "2026-07-11T23:36:16Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a71",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #486 — Video preview: drag-to-reframe within overscan buffer",
+    "description": "Added drag-to-reframe UX in video preview — users can pan within an overscan buffer to choose the crop before finalizing. Merged Jul 11.",
+    "date": "2026-07-11T23:36:00Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a70",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #485 — Video upload: per-platform preview with UI safe-zone overlays",
+    "description": "Added per-platform video preview with safe-zone overlay so users see exactly how their video will appear on each target platform before posting. Merged Jul 11.",
+    "date": "2026-07-11T23:29:16Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a69",
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #484 — Pricing: Starter 30/5, Pro 60/10, Business unlimited",
-    "description": "Updated ZippityOne tier quotas in both enforced limits and pricing-page display, kept in sync. Prices unchanged ($49/$149/$279) — only included AI images/video clips per month changed. Merged Jul 11.",
+    "description": "Updated ZippityOne tier quotas in both enforced limits and pricing-page display, kept in sync. Prices unchanged ($49/$149/$279). Merged Jul 11.",
     "date": "2026-07-11T23:13:33Z",
     "actor": "Ares"
   },
@@ -42,51 +87,6 @@
     "title": "PostReady: PR #480 — Landing pain-point: swap in stronger owner photo",
     "description": "Replaced owner photo in the pain-point section with a stronger hero shot. Visual-only swap. Merged Jul 11.",
     "date": "2026-07-11T04:58:45Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a64",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #479 — Landing pain-point: owner photo + image-left/text-right layout",
-    "description": "Added owner photo to pain-point section with image-left/text-right two-column layout. Social proof + visual trust signal. Merged Jul 11.",
-    "date": "2026-07-11T04:52:07Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a63",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #478 — Landing pain-point: one hard-hitting beat",
-    "description": "Tightened pain-point section to a single hard-hitting statement. Copy-only. Merged Jul 11.",
-    "date": "2026-07-11T04:43:54Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a62",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #477 — Hero headline: 'Posting sucked, until ZippityOne.' (comma punch)",
-    "description": "Added comma after 'sucked' in the hero headline for natural spoken cadence. High-visibility copy refinement on ZippityOne landing page. Merged Jul 11.",
-    "date": "2026-07-11T04:22:01Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a61",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #476 — FAQ: add image reuse question",
-    "description": "Added 'Can I save and reuse an image?' FAQ entry to FaqSection.tsx. Merged Jul 11.",
-    "date": "2026-07-11T04:18:52Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a60",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #475 — Landing platforms pill: 'one click' copy",
-    "description": "Changed 'one pack' to 'one click' in platforms pill. Clearer action-oriented copy. Merged Jul 11.",
-    "date": "2026-07-11T04:12:32Z",
     "actor": "Ares"
   }
 ]
