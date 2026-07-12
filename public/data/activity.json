@@ -1,5 +1,23 @@
 [
   {
+    "id": "a83",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #498 — Video reframe Phase 2b: per-platform crop at publish via Shotstack",
+    "description": "Reframe offsets are now applied at publish time via Shotstack, so each platform receives a properly cropped video without manual export steps. Merged Jul 12.",
+    "date": "2026-07-12T17:21:57Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a82",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #497 — Fix TikTok frequent reconnect: single-flight token refresh (reuse X lock)",
+    "description": "Applied the same single-flight token refresh pattern from PR #496 to TikTok, reusing the X rotation lock to prevent concurrent reconnect races on TikTok as well. Merged Jul 12.",
+    "date": "2026-07-12T17:07:01Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a81",
     "type": "fix",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #489 — Fix: stop wide/vertical outpaint from adding a picture frame",
     "description": "Bug fix: prevented the wide/vertical outpaint mode from wrapping generated images in an unwanted picture frame. Merged Jul 12.",
     "date": "2026-07-12T00:12:42Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a73",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #488 — Prompt Studio: reference-image upload (vision) + editable crafted prompt",
-    "description": "Prompt Studio now accepts a reference image via vision API to inform prompt crafting, and the crafted prompt is fully editable before use. Merged Jul 11.",
-    "date": "2026-07-11T23:49:07Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a72",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #487 — Landing: built for businesses and creators + creators in audience list",
-    "description": "Updated landing headline to include creators and added creators to the audience strip. Broader positioning. Merged Jul 11.",
-    "date": "2026-07-11T23:36:16Z",
     "actor": "Ares"
   }
 ]
