@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-11T05:35:00Z",
-  "weekTarget": "PostReady landing polish wave 2-3 complete (PRs #453-481): animated demo, real imagery, emerald refresh, FAQ accordion + copy, how-it-works trim + equal cards, Pro Prompt branding, cinematic prompt helpers, hero spacing, platform pill copy, hero headline punch (PR #477). Pain-point section: hard-hitting copy + owner photo (PRs #478-480). 5-business card strip (PR #481). Uniform card sizing + aligned (PR #482). Fast-rotating 'time back' hero tagline (PR #483). Pricing quota sync: Starter 30/5, Pro 60/10, Business unlimited (PR #484). Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-12T00:20:00Z",
+  "weekTarget": "PostReady wave 3 + product features (PRs #477-#489): pain-point section, social proof strip, pricing quota sync, video per-platform preview + safe-zone overlays, drag-to-reframe, Prompt Studio reference-image upload (vision) + editable crafted prompt, landing creators positioning, outpaint frame fix. Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -158,9 +158,9 @@
       "title": "PostReady — Social Content Portal",
       "status": "active",
       "priority": "high",
-      "progress": 94,
+      "progress": 96,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11: real imagery (PR #455), animated one-tap demo (PR #456), hero click/timing (PRs #457-458), emerald refresh (PR #459). FAQ + generation times (PR #460, Jul 10). Fuller HeroPostDemo (PR #462, Jul 10). FAQ two-level accordion (PR #464, Jul 11). How-it-works trimmed to 2 equal cards (PRs #465+468, Jul 11). Cinematic prompt helpers: image (PR #466) and video (PR #467). Pro Prompt rename + surfaced in how-it-works (PR #469, Jul 11). Landing section reorder (PR #470). FAQ copy polish (PR #471). Landing hero spacing fix (PR #472). Platforms pill copy tweaks (PRs #473-475). FAQ image reuse Q (PR #476). Hero headline comma punch (PR #477). Pain-point section: hard-hitting copy (PR #478), owner photo + image-left layout (PR #479), stronger owner photo (PR #480). Stack: Next.js + Vercel. Pricing quota sync: Starter 30/5, Pro 60/10, Business unlimited (PR #484, Jul 11).",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 + product features (PRs #477-#489): pain-point section, pricing quota sync, video per-platform preview + safe-zone overlays (PR #485), drag-to-reframe (PR #486), landing creators positioning (PR #487), Prompt Studio reference-image upload via vision + editable crafted prompt (PR #488, Jul 11), outpaint frame fix (PR #489, Jul 12). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -176,7 +176,7 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-07T02:36:15Z",
-          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Image and video prompt helper upgraded to cinematic structured templates (PRs #466-467, Jul 11). Renamed to Pro Prompt (PR #469, Jul 11)."
+          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Cinematic structured templates (PRs #466-467). Renamed to Pro Prompt (PR #469). Reference-image upload (vision) + editable crafted prompt (PR #488, Jul 11)."
         },
         {
           "id": "g4.3",
@@ -192,7 +192,7 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-08T00:26:26Z",
-          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. Pipeline stability + per-scene progress (PR #439). Parallel fan-out/fan-in render + timeouts + deliver-survivors (PR #441). Storyboard generator + hardened single-shot guard (PR #442). Stitch retry-loop fix + bounded step (PR #443). PRs #428-443."
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. PRs #428-443."
         },
         {
           "id": "g4.5",
@@ -210,18 +210,18 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-11T04:18:52Z",
-          "note": "Real sushi imagery + Cobra Sushi shot (PR #455). Animated one-tap demo (PR #456). Hero click timing + gap copy (PR #457). Cursor click animation (PR #458). Emerald sitewide (PR #459). FAQ + generation times (PR #460). Fuller HeroPostDemo (PR #462). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Cinematic image prompts (PR #466). Cinematic video prompts (PR #467). Equal-height cards + cinematic example prompt (PR #468). Pro Prompt rename + surfaced in how-it-works (PR #469). Landing section reorder (PR #470). FAQ copy polish (PR #471). Landing hero spacing fix (PR #472). Platforms pill copy → 'one click' (PR #473-475). FAQ image reuse question (PR #476). PRs #455-476."
+          "note": "Real sushi imagery (PR #455). Animated one-tap demo (PR #456). Emerald sitewide (PR #459). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Cinematic prompts (PRs #466-467). Pro Prompt rename (PR #469). PRs #455-476."
         },
         {
           "id": "g4.7",
-          "title": "Landing page polish wave 3 — pain-point section + social proof",
+          "title": "Landing page polish wave 3 + product features",
           "status": "active",
-          "progress": 75,
+          "progress": 90,
           "owner": "Ares",
-          "note": "Hero headline comma punch (PR #477). Pain-point section: tightened to one hard-hitting beat (PR #478), owner photo + image-left/text-right layout (PR #479), stronger owner photo swap (PR #480). PR #481: 5-business card strip (Jul 11). PR #482: uniform card sizes + aligned (Jul 11). PR #483: fast-rotating 'time back' hero tagline (Jul 11). PR #484: pricing quota sync — Starter 30/5, Pro 60/10, Business unlimited (Jul 11)."
+          "note": "Hero headline comma punch (PR #477). Pain-point section copy + owner photo + layout (PRs #478-480). 5-business card strip (PR #481). Uniform card sizing (PR #482). Fast-rotating 'time back' hero tagline (PR #483). Pricing quota sync Starter 30/5, Pro 60/10, Business unlimited (PR #484). Video per-platform preview + safe-zone overlays (PR #485). Drag-to-reframe within overscan buffer (PR #486). Landing 'Built for businesses and creators' + creators audience (PR #487). Prompt Studio reference-image upload (vision) + editable crafted prompt (PR #488). Outpaint frame fix (PR #489, Jul 12)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-11T23:20:00Z"
+  "updatedAt": "2026-07-12T00:20:00Z"
 }
