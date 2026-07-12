@@ -1,5 +1,41 @@
 [
   {
+    "id": "a80",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #495 — Video reframe Phase 2a: persist per-platform offsets on save",
+    "description": "Reframe offsets now persist per-platform when saved, so users's framing choices are remembered across sessions. Merged Jul 12.",
+    "date": "2026-07-12T16:17:16Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a79",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #494 — Auto-caption videos by captioning an extracted frame",
+    "description": "Video uploads now auto-generate captions using vision on an extracted frame, reducing manual caption entry for uploaded video content. Merged Jul 12.",
+    "date": "2026-07-12T16:09:23Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a78",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #493 — Video reframe: pause/play, scrub bar, copy-framing-to-all",
+    "description": "Added pause/play controls (with auto-pause on drag), a scrub bar for navigating video frames, and a copy-framing-to-all button for efficient multi-platform setup. Merged Jul 12.",
+    "date": "2026-07-12T15:54:06Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a77",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #492 — Length coach: redirect long-form videos to YouTube",
+    "description": "Added a length coach that detects long-form video uploads and guides users toward YouTube, reinforcing that ZippityOne is short-form first. Merged Jul 12.",
+    "date": "2026-07-12T15:53:00Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a76",
     "type": "delivery",
     "project": "PostReady",
@@ -51,42 +87,6 @@
     "title": "PostReady: PR #486 — Video preview: drag-to-reframe within overscan buffer",
     "description": "Added drag-to-reframe UX in video preview — users can pan within an overscan buffer to choose the crop before finalizing. Merged Jul 11.",
     "date": "2026-07-11T23:36:00Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a70",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #485 — Video upload: per-platform preview with UI safe-zone overlays",
-    "description": "Added per-platform video preview with safe-zone overlay so users see exactly how their video will appear on each target platform before posting. Merged Jul 11.",
-    "date": "2026-07-11T23:29:16Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a69",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #484 — Pricing: Starter 30/5, Pro 60/10, Business unlimited",
-    "description": "Updated ZippityOne tier quotas in both enforced limits and pricing-page display, kept in sync. Prices unchanged ($49/$149/$279). Merged Jul 11.",
-    "date": "2026-07-11T23:13:33Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a68",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #483 — Hero: fast-rotating 'time back' tagline",
-    "description": "Added fast-rotating 'time back' tagline below the trust line in the hero section. Copy/animation. Merged Jul 11.",
-    "date": "2026-07-11T15:35:48Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a67",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #482 — Landing: uniform 5-business-card sizing + alignment",
-    "description": "Made the 5 business cards in the audience section uniform size and aligned. Layout-only fix. Merged Jul 11.",
-    "date": "2026-07-11T15:22:28Z",
     "actor": "Ares"
   }
 ]
