@@ -1,5 +1,14 @@
 [
   {
+    "id": "a75",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #490 — Fix: guarantee X posts fit 280 chars (trim at publish + generate to fit)",
+    "description": "X/Twitter rejects posts over 280 chars for non-Premium accounts. Fixed with a hard trim at publish time and a generate-to-fit mode so ZippityOne captions never exceed the limit. Merged Jul 12.",
+    "date": "2026-07-12T00:41:12Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a74",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #481 — Landing: 5-business card strip in audience section",
     "description": "Replaced single card in the audience section with a 5-business card strip for richer visual social proof. Layout enhancement. Merged Jul 11.",
     "date": "2026-07-11T05:21:27Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a65",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #480 — Landing pain-point: swap in stronger owner photo",
-    "description": "Replaced owner photo in the pain-point section with a stronger hero shot. Visual-only swap. Merged Jul 11.",
-    "date": "2026-07-11T04:58:45Z",
     "actor": "Ares"
   }
 ]
