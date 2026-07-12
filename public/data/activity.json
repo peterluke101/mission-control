@@ -1,5 +1,14 @@
 [
   {
+    "id": "a86",
+    "type": "delivery",
+    "project": "PostReady",
+    "title": "PostReady: PR #503 — Swap landing wordmark to the rocket lockup",
+    "description": "Replaced the lightning-bolt ZippityOne wordmark with the new rocket speech-bubble lockup on the landing page. Cropped tight from marketing render to match original aspect ratio with transparent background. Merged Jul 12.",
+    "date": "2026-07-12T20:57:05Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a85",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #492 — Length coach: redirect long-form videos to YouTube",
     "description": "Added a length coach that detects long-form video uploads and guides users toward YouTube, reinforcing that ZippityOne is short-form first. Merged Jul 12.",
     "date": "2026-07-12T15:53:00Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a76",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #491 — Video reframe Phase 1: per-platform offsets + available for generated videos",
-    "description": "Added per-platform reframe offsets so generated videos are automatically repositioned for each target platform. Also surfaced the reframe tool on already-generated videos. Merged Jul 12.",
-    "date": "2026-07-12T01:05:00Z",
     "actor": "Ares"
   }
 ]
