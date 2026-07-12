@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-12T17:22:00Z",
-  "weekTarget": "PostReady wave 3 complete + Phase 2 reframe: PRs #477-#498. Wave 3 (PRs #477-#495): pain-point section, social proof strip, pricing quota sync, video per-platform preview + safe-zone overlays, drag-to-reframe, Prompt Studio reference-image upload (vision) + editable crafted prompt, landing creators positioning, X 280-char trim (PR #490), outpaint frame fix (PR #489), video reframe Phase 1 per-platform offsets (PR #491), length coach → YouTube (PR #492), pause/play + scrub + copy-to-all (PR #493), auto-caption from extracted frame (PR #494), Phase 2a persist offsets (PR #495). Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). Juvenis site polished. Mission Control infrastructure ongoing.",
+  "lastUpdated": "2026-07-12T17:45:00Z",
+  "weekTarget": "PostReady wave 3 complete + Phase 2 reframe: PRs #477-#499. Wave 3 (PRs #477-#495): pain-point section, social proof strip, pricing quota sync, video per-platform preview + safe-zone overlays, drag-to-reframe, Prompt Studio reference-image upload (vision) + editable crafted prompt, landing creators positioning, X 280-char trim (PR #490), outpaint frame fix (PR #489), video reframe Phase 1 per-platform offsets (PR #491), length coach → YouTube (PR #492), pause/play + scrub + copy-to-all (PR #493), auto-caption from extracted frame (PR #494), Phase 2a persist offsets (PR #495). Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX: video upload 500MB limit clear message (PR #499, Jul 12). Juvenis site polished. Mission Control infrastructure ongoing.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -160,7 +160,7 @@
       "priority": "high",
       "progress": 99,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495): pain-point section, pricing quota sync, video per-platform preview + safe-zone overlays (PR #485), drag-to-reframe (PR #486), landing creators positioning (PR #487), Prompt Studio reference-image upload via vision + editable crafted prompt (PR #488), outpaint frame fix (PR #489), X 280-char trim (PR #490), video reframe Phase 1 per-platform offsets (PR #491), length coach → YouTube (PR #492), pause/play + scrub bar + copy-framing-to-all (PR #493), auto-caption from extracted frame (PR #494), Phase 2a persist reframe offsets (PR #495). Platform reliability: X token refresh race fix (PR #496, Jul 12), TikTok token refresh race fix (PR #497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited.",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495): pain-point section, pricing quota sync, video per-platform preview + safe-zone overlays (PR #485), drag-to-reframe (PR #486), landing creators positioning (PR #487), Prompt Studio reference-image upload via vision + editable crafted prompt (PR #488), outpaint frame fix (PR #489), X 280-char trim (PR #490), video reframe Phase 1 per-platform offsets (PR #491), length coach → YouTube (PR #492), pause/play + scrub bar + copy-framing-to-all (PR #493), auto-caption from extracted frame (PR #494), Phase 2a persist reframe offsets (PR #495). Platform reliability: X token refresh race fix (PR #496, Jul 12), TikTok token refresh race fix (PR #497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX: video upload 500MB limit clear message (PR #499, Jul 12). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited.",
       "subgoals": [
         {
           "id": "g4.1",
@@ -219,10 +219,10 @@
           "progress": 100,
           "owner": "Ares",
           "completedAt": "2026-07-12T17:22:00Z",
-          "note": "Wave 3 complete (PRs #477-495, Jul 12). Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix — reuse X lock (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12)."
+          "note": "Wave 3 complete (PRs #477-495, Jul 12). Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix — reuse X lock (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: video upload 500MB limit clear message (PR #499, Jul 12)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-12T17:22:00Z"
+  "updatedAt": "2026-07-12T17:45:00Z"
 }
