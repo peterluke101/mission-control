@@ -1,10 +1,19 @@
 [
   {
+    "id": "a81",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #496 — Fix X frequent reconnect: single-flight token refresh (rotation race)",
+    "description": "Fixed a race condition in X/Twitter token rotation that caused frequent reconnect cycles. Applied single-flight pattern to the token refresh so concurrent requests share one refresh instead of racing. Merged Jul 12.",
+    "date": "2026-07-12T17:01:12Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a80",
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #495 — Video reframe Phase 2a: persist per-platform offsets on save",
-    "description": "Reframe offsets now persist per-platform when saved, so users's framing choices are remembered across sessions. Merged Jul 12.",
+    "description": "Reframe offsets now persist per-platform when saved, so users framing choices are remembered across sessions. Merged Jul 12.",
     "date": "2026-07-12T16:17:16Z",
     "actor": "Ares"
   },
@@ -22,7 +31,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #493 — Video reframe: pause/play, scrub bar, copy-framing-to-all",
-    "description": "Added pause/play controls (with auto-pause on drag), a scrub bar for navigating video frames, and a copy-framing-to-all button for efficient multi-platform setup. Merged Jul 12.",
+    "description": "Added pause/play controls with auto-pause on drag, a scrub bar for navigating video frames, and a copy-framing-to-all button for efficient multi-platform setup. Merged Jul 12.",
     "date": "2026-07-12T15:54:06Z",
     "actor": "Ares"
   },
@@ -40,7 +49,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #491 — Video reframe Phase 1: per-platform offsets + available for generated videos",
-    "description": "Added per-platform reframe offsets so generated videos are automatically repositioned for each target platform (e.g. portrait TikTok vs landscape YouTube). Also surfaced the reframe tool on already-generated videos. Merged Jul 12.",
+    "description": "Added per-platform reframe offsets so generated videos are automatically repositioned for each target platform. Also surfaced the reframe tool on already-generated videos. Merged Jul 12.",
     "date": "2026-07-12T01:05:00Z",
     "actor": "Ares"
   },
@@ -49,7 +58,7 @@
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #490 — Fix: guarantee X posts fit 280 chars (trim at publish + generate to fit)",
-    "description": "X/Twitter rejects posts over 280 chars for non-Premium accounts. Fixed with a hard trim at publish time and a generate-to-fit mode so ZippityOne captions never exceed the limit. Merged Jul 12.",
+    "description": "X/Twitter rejects posts over 280 chars for non-Premium accounts. Fixed with a hard trim at publish time and a generate-to-fit mode so captions never exceed the limit. Merged Jul 12.",
     "date": "2026-07-12T00:41:12Z",
     "actor": "Ares"
   },
@@ -75,18 +84,9 @@
     "id": "a72",
     "type": "delivery",
     "project": "PostReady",
-    "title": "PostReady: PR #487 — Landing: 'Built for businesses and creators' + creators in audience list",
-    "description": "Updated landing headline to 'Built for businesses and creators' and added creators to the audience strip. Broader positioning. Merged Jul 11.",
+    "title": "PostReady: PR #487 — Landing: built for businesses and creators + creators in audience list",
+    "description": "Updated landing headline to include creators and added creators to the audience strip. Broader positioning. Merged Jul 11.",
     "date": "2026-07-11T23:36:16Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a71",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #486 — Video preview: drag-to-reframe within overscan buffer",
-    "description": "Added drag-to-reframe UX in video preview — users can pan within an overscan buffer to choose the crop before finalizing. Merged Jul 11.",
-    "date": "2026-07-11T23:36:00Z",
     "actor": "Ares"
   }
 ]
