@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T21:26:58.393Z",
+  "updatedAt": "2026-07-12T23:00:20.224Z",
   "members": [
     {
       "id": "pete",
@@ -27,7 +27,7 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-12T21:26:58.393Z"
+      "lastActive": "2026-07-12T23:00:20.224Z"
     }
   ]
 }
