@@ -1,5 +1,14 @@
 [
   {
+    "id": "a84",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #499 — Video upload: clear message when clip exceeds 500MB",
+    "description": "Added a clear user-facing error message when a video upload exceeds the 500MB limit, preventing silent failures and improving the upload UX. Merged Jul 12.",
+    "date": "2026-07-12T17:33:17Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a83",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #490 — Fix: guarantee X posts fit 280 chars (trim at publish + generate to fit)",
     "description": "X/Twitter rejects posts over 280 chars for non-Premium accounts. Fixed with a hard trim at publish time and a generate-to-fit mode so captions never exceed the limit. Merged Jul 12.",
     "date": "2026-07-12T00:41:12Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a74",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #489 — Fix: stop wide/vertical outpaint from adding a picture frame",
-    "description": "Bug fix: prevented the wide/vertical outpaint mode from wrapping generated images in an unwanted picture frame. Merged Jul 12.",
-    "date": "2026-07-12T00:12:42Z",
     "actor": "Ares"
   }
 ]
