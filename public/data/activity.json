@@ -1,5 +1,14 @@
 [
   {
+    "id": "a87",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #502 — Tone-map HDR uploads to SDR at upload time (fal serverless ffmpeg)",
+    "description": "Fixed washed-out/faded video posts caused by iPhone Dolby Vision HDR uploads. Added HDR→SDR tone-mapping at upload time via fal serverless ffmpeg, so raw HDR is converted before posting to X, Instagram, and TikTok. Merged Jul 13.",
+    "date": "2026-07-13T23:15:51Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a86",
     "type": "delivery",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #493 — Video reframe: pause/play, scrub bar, copy-framing-to-all",
     "description": "Added pause/play controls with auto-pause on drag, a scrub bar for navigating video frames, and a copy-framing-to-all button for efficient multi-platform setup. Merged Jul 12.",
     "date": "2026-07-12T15:54:06Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a77",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #492 — Length coach: redirect long-form videos to YouTube",
-    "description": "Added a length coach that detects long-form video uploads and guides users toward YouTube, reinforcing that ZippityOne is short-form first. Merged Jul 12.",
-    "date": "2026-07-12T15:53:00Z",
     "actor": "Ares"
   }
 ]
