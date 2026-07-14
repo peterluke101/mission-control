@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T17:01:28.000Z",
+  "updatedAt": "2026-07-14T17:21:49.116Z",
   "members": [
     {
       "id": "pete",
@@ -29,8 +29,8 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-14T17:01:28.000Z",
-      "currentTask": "Heartbeat sync"
+      "lastActive": "2026-07-14T17:21:49.116Z",
+      "currentTask": "Updated data for PR #507"
     }
   ]
 }
