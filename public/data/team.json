@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T23:41:59Z",
+  "updatedAt": "2026-07-14T00:01:39Z",
   "members": [
     {
       "id": "pete",
@@ -29,7 +29,7 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-13T23:41:59Z",
+      "lastActive": "2026-07-14T00:01:39Z",
       "currentTask": "Heartbeat sync"
     }
   ]
