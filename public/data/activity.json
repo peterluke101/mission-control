@@ -1,10 +1,19 @@
 [
   {
+    "id": "a90",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #506 — Poll Mux for SDR MP4 (fix HDR swap never firing)",
+    "description": "Fixed a race condition where the Mux HDR→SDR swap was silently never firing. Switched to polling Mux for the SDR MP4 asset to ensure HDR normalization actually completes before publish. Merged Jul 14.",
+    "date": "2026-07-14T01:33:32Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a89",
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #505 — Fix Mux HDR swap: drop bogus static_renditions.status check",
-    "description": "Fixed a bug in the Mux HDR→SDR normalization introduced in PR #504 where a spurious static_renditions.status check was causing incorrect behavior. Dropped the bogus check so HDR-to-SDR swapping works correctly. Merged Jul 14.",
+    "description": "Fixed a bug in the Mux HDR→SDR normalization where a spurious static_renditions.status check was causing incorrect behavior. Dropped the bogus check so HDR-to-SDR swapping works correctly. Merged Jul 14.",
     "date": "2026-07-14T01:08:20Z",
     "actor": "Ares"
   },
@@ -31,7 +40,7 @@
     "type": "delivery",
     "project": "PostReady",
     "title": "PostReady: PR #503 — Swap landing wordmark to the rocket lockup",
-    "description": "Replaced the lightning-bolt ZippityOne wordmark with the new rocket speech-bubble lockup on the landing page. Cropped tight from marketing render to match original aspect ratio with transparent background. Merged Jul 12.",
+    "description": "Replaced the lightning-bolt ZippityOne wordmark with the new rocket speech-bubble lockup on the landing page. Merged Jul 12.",
     "date": "2026-07-12T20:57:05Z",
     "actor": "Ares"
   },
@@ -67,7 +76,7 @@
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #497 — Fix TikTok frequent reconnect: single-flight token refresh (reuse X lock)",
-    "description": "Applied the same single-flight token refresh pattern from PR #496 to TikTok, reusing the X rotation lock to prevent concurrent reconnect races on TikTok as well. Merged Jul 12.",
+    "description": "Applied the same single-flight token refresh pattern from PR #496 to TikTok, reusing the X rotation lock to prevent concurrent reconnect races on TikTok. Merged Jul 12.",
     "date": "2026-07-12T17:07:01Z",
     "actor": "Ares"
   },
@@ -76,17 +85,8 @@
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #496 — Fix X frequent reconnect: single-flight token refresh (rotation race)",
-    "description": "Fixed a race condition in X/Twitter token rotation that caused frequent reconnect cycles. Applied single-flight pattern to the token refresh so concurrent requests share one refresh instead of racing. Merged Jul 12.",
+    "description": "Fixed a race condition in X/Twitter token rotation that caused frequent reconnect cycles. Applied single-flight pattern to the token refresh. Merged Jul 12.",
     "date": "2026-07-12T17:01:12Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a80",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #495 — Video reframe Phase 2a: persist per-platform offsets on save",
-    "description": "Reframe offsets now persist per-platform when saved, so users framing choices are remembered across sessions. Merged Jul 12.",
-    "date": "2026-07-12T16:17:16Z",
     "actor": "Ares"
   }
 ]
