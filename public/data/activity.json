@@ -1,5 +1,14 @@
 [
   {
+    "id": "a91",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #507 — Replace GPT double hyphens with em dashes in generated copy",
+    "description": "Copy quality fix: GPT-generated post text now correctly uses em dashes (—) instead of double hyphens (--). Improves readability and typographic polish across all generated content. Merged Jul 14.",
+    "date": "2026-07-14T16:42:39Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a90",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #497 — Fix TikTok frequent reconnect: single-flight token refresh (reuse X lock)",
     "description": "Applied the same single-flight token refresh pattern from PR #496 to TikTok, reusing the X rotation lock to prevent concurrent reconnect races on TikTok. Merged Jul 12.",
     "date": "2026-07-12T17:07:01Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a81",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #496 — Fix X frequent reconnect: single-flight token refresh (rotation race)",
-    "description": "Fixed a race condition in X/Twitter token rotation that caused frequent reconnect cycles. Applied single-flight pattern to the token refresh. Merged Jul 12.",
-    "date": "2026-07-12T17:01:12Z",
     "actor": "Ares"
   }
 ]
