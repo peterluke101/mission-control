@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T18:01:15.483Z",
+  "updatedAt": "2026-07-14T18:21:26.496Z",
   "members": [
     {
       "id": "pete",
@@ -18,7 +18,7 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-14T01:33:32Z",
+      "lastActive": "2026-07-14T16:42:39Z",
       "currentTask": "Monitoring projects"
     },
     {
@@ -29,7 +29,7 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-14T18:01:15.483Z",
+      "lastActive": "2026-07-14T18:21:26.496Z",
       "currentTask": "Data current — no new events"
     }
   ]
