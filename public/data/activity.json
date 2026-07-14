@@ -1,5 +1,14 @@
 [
   {
+    "id": "a88",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #504 — Switch HDR→SDR normalization to Mux (replaces fal serverless)",
+    "description": "Replaced the fal serverless ffmpeg approach from PR #502 with Mux for HDR→SDR normalization at upload time, improving reliability and platform consistency for iPhone Dolby Vision video uploads. Merged Jul 14.",
+    "date": "2026-07-14T00:05:05Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a87",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #494 — Auto-caption videos by captioning an extracted frame",
     "description": "Video uploads now auto-generate captions using vision on an extracted frame, reducing manual caption entry for uploaded video content. Merged Jul 12.",
     "date": "2026-07-12T16:09:23Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a78",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #493 — Video reframe: pause/play, scrub bar, copy-framing-to-all",
-    "description": "Added pause/play controls with auto-pause on drag, a scrub bar for navigating video frames, and a copy-framing-to-all button for efficient multi-platform setup. Merged Jul 12.",
-    "date": "2026-07-12T15:54:06Z",
     "actor": "Ares"
   }
 ]
