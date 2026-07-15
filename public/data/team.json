@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T16:22:04Z",
+  "updatedAt": "2026-07-15T16:42:30Z",
   "members": [
     {
       "id": "pete",
@@ -7,32 +7,32 @@
       "role": "Owner",
       "type": "human",
       "status": "active",
-      "avatar": "👤",
+      "avatar": "\ud83d\udc64",
       "model": null
     },
     {
       "id": "ares",
-      "name": "Ares ⚡",
+      "name": "Ares \u26a1",
       "role": "Lead Agent",
       "type": "agent",
       "status": "active",
-      "avatar": "⚡",
+      "avatar": "\u26a1",
       "model": "claude-sonnet-4-5",
       "lastActive": "2026-07-15T02:54:20Z",
       "currentTask": "Monitoring projects"
     },
     {
       "id": "librarian",
-      "name": "Librarian 📚",
+      "name": "Librarian \ud83d\udcda",
       "role": "Data Steward",
       "type": "agent",
       "status": "active",
-      "avatar": "📚",
+      "avatar": "\ud83d\udcda",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-15T16:22:04Z",
-      "currentTask": "Heartbeat — data current through PR #519 (Jul 15)",
-      "lastSeen": "2026-07-15T16:22:04Z"
+      "lastActive": "2026-07-15T16:42:30Z",
+      "currentTask": "Heartbeat \u2014 data current through PR #520 (Jul 15)",
+      "lastSeen": "2026-07-15T16:42:30Z"
     }
   ],
-  "lastActive": "2026-07-15T16:22:04Z"
+  "lastActive": "2026-07-15T16:42:30Z"
 }
