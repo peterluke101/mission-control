@@ -1,5 +1,23 @@
 [
   {
+    "id": "a93",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #509 — Revert #508: save returns to the pack page",
+    "description": "Reverted PR #508 (save landing on Post Packs list) — save now returns to the pack page as before. Quick course-correction shipped Jul 15.",
+    "date": "2026-07-15T02:18:40Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a92",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #508 — After saving a generated image, land on the Post Packs list",
+    "description": "UX improvement: after saving a generated image, the user is now redirected to the Post Packs list instead of staying on the current page. Merged Jul 15.",
+    "date": "2026-07-15T02:09:06Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a91",
     "type": "improvement",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #499 — Video upload: clear message when clip exceeds 500MB",
     "description": "Added a clear user-facing error message when a video upload exceeds the 500MB limit, preventing silent failures and improving the upload UX. Merged Jul 12.",
     "date": "2026-07-12T17:33:17Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a83",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #498 — Video reframe Phase 2b: per-platform crop at publish via Shotstack",
-    "description": "Reframe offsets are now applied at publish time via Shotstack, so each platform receives a properly cropped video without manual export steps. Merged Jul 12.",
-    "date": "2026-07-12T17:21:57Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a82",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #497 — Fix TikTok frequent reconnect: single-flight token refresh (reuse X lock)",
-    "description": "Applied the same single-flight token refresh pattern from PR #496 to TikTok, reusing the X rotation lock to prevent concurrent reconnect races on TikTok. Merged Jul 12.",
-    "date": "2026-07-12T17:07:01Z",
     "actor": "Ares"
   }
 ]
