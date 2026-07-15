@@ -1,9 +1,18 @@
 [
   {
+    "id": "a98",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #520 \u2014 Landing page: Create \u00b7 Save \u00b7 Post section cleanup",
+    "description": "Cleaned up the landing page Create \u2192 Save \u2192 Post section for clearer messaging and visual consistency. Merged Jul 15.",
+    "date": "2026-07-15T16:13:47Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a97",
     "type": "feature",
     "project": "PostReady",
-    "title": "PostReady: PR #519 — Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam",
+    "title": "PostReady: PR #519 \u2014 Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam",
     "description": "Shipped Video Phase 0+1: single-clip upload progress indicator, cost + timings display, and VIDEO_MODEL seam to abstract the video provider. Consolidates PRs #514 and #515. Merged Jul 15.",
     "date": "2026-07-15T15:28:00Z",
     "actor": "Ares"
@@ -12,7 +21,7 @@
     "id": "a96",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #512 — Tab-aware shapes hint on the Create page",
+    "title": "PostReady: PR #512 \u2014 Tab-aware shapes hint on the Create page",
     "description": "Added a tab-aware shapes hint on the Create page to guide users toward available shape/framing options based on the active tab context. Merged Jul 15.",
     "date": "2026-07-15T03:52:44Z",
     "actor": "Ares"
@@ -21,8 +30,8 @@
     "id": "a95",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #511 — Save lands on the Post Packs grid (final answer)",
-    "description": "After several iterations (PR #508 sent to pack list, PR #509 reverted to pack page), save now lands on the Post Packs grid — the definitive UX decision. Merged Jul 15.",
+    "title": "PostReady: PR #511 \u2014 Save lands on the Post Packs grid (final answer)",
+    "description": "After several iterations (PR #508 sent to pack list, PR #509 reverted to pack page), save now lands on the Post Packs grid \u2014 the definitive UX decision. Merged Jul 15.",
     "date": "2026-07-15T02:54:20Z",
     "actor": "Ares"
   },
@@ -30,7 +39,7 @@
     "id": "a94",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #510 — Richer Pro Prompt structure + auto-seed Prompt Studio from typed idea",
+    "title": "PostReady: PR #510 \u2014 Richer Pro Prompt structure + auto-seed Prompt Studio from typed idea",
     "description": "Enhanced Pro Prompt with a richer 5-layer structure (ambition, setting with signature detail, people/energy, lighting, composition/framing) and auto-seeds Prompt Studio from the user's typed idea, reducing friction at prompt-writing entry. Merged Jul 15.",
     "date": "2026-07-15T02:33:42Z",
     "actor": "Ares"
@@ -39,8 +48,8 @@
     "id": "a93",
     "type": "fix",
     "project": "PostReady",
-    "title": "PostReady: PR #509 — Revert #508: save returns to the pack page",
-    "description": "Reverted PR #508 (save landing on Post Packs list) — save now returns to the pack page as before. Quick course-correction shipped Jul 15.",
+    "title": "PostReady: PR #509 \u2014 Revert #508: save returns to the pack page",
+    "description": "Reverted PR #508 (save landing on Post Packs list) \u2014 save now returns to the pack page as before. Quick course-correction shipped Jul 15.",
     "date": "2026-07-15T02:18:40Z",
     "actor": "Ares"
   },
@@ -48,7 +57,7 @@
     "id": "a92",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #508 — After saving a generated image, land on the Post Packs list",
+    "title": "PostReady: PR #508 \u2014 After saving a generated image, land on the Post Packs list",
     "description": "UX improvement: after saving a generated image, the user is now redirected to the Post Packs list instead of staying on the current page. Merged Jul 15.",
     "date": "2026-07-15T02:09:06Z",
     "actor": "Ares"
@@ -57,8 +66,8 @@
     "id": "a91",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #507 — Replace GPT double hyphens with em dashes in generated copy",
-    "description": "Copy quality fix: GPT-generated post text now correctly uses em dashes (—) instead of double hyphens (--). Improves readability and typographic polish across all generated content. Merged Jul 14.",
+    "title": "PostReady: PR #507 \u2014 Replace GPT double hyphens with em dashes in generated copy",
+    "description": "Copy quality fix: GPT-generated post text now correctly uses em dashes (\u2014) instead of double hyphens (--). Improves readability and typographic polish across all generated content. Merged Jul 14.",
     "date": "2026-07-14T16:42:39Z",
     "actor": "Ares"
   },
@@ -66,8 +75,8 @@
     "id": "a90",
     "type": "fix",
     "project": "PostReady",
-    "title": "PostReady: PR #506 — Poll Mux for SDR MP4 (fix HDR swap never firing)",
-    "description": "Fixed a race condition where the Mux HDR→SDR swap was silently never firing. Switched to polling Mux for the SDR MP4 asset to ensure HDR normalization actually completes before publish. Merged Jul 14.",
+    "title": "PostReady: PR #506 \u2014 Poll Mux for SDR MP4 (fix HDR swap never firing)",
+    "description": "Fixed a race condition where the Mux HDR\u2192SDR swap was silently never firing. Switched to polling Mux for the SDR MP4 asset to ensure HDR normalization actually completes before publish. Merged Jul 14.",
     "date": "2026-07-14T01:33:32Z",
     "actor": "Ares"
   },
@@ -75,18 +84,9 @@
     "id": "a89",
     "type": "fix",
     "project": "PostReady",
-    "title": "PostReady: PR #505 — Fix Mux HDR swap: drop bogus static_renditions.status check",
-    "description": "Fixed a bug in the Mux HDR→SDR normalization where a spurious static_renditions.status check was causing incorrect behavior. Dropped the bogus check so HDR-to-SDR swapping works correctly. Merged Jul 14.",
+    "title": "PostReady: PR #505 \u2014 Fix Mux HDR swap: drop bogus static_renditions.status check",
+    "description": "Fixed a bug in the Mux HDR\u2192SDR normalization where a spurious static_renditions.status check was causing incorrect behavior. Dropped the bogus check so HDR-to-SDR swapping works correctly. Merged Jul 14.",
     "date": "2026-07-14T01:08:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a88",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #504 — Switch HDR→SDR normalization to Mux (replaces fal serverless)",
-    "description": "Replaced the fal serverless ffmpeg approach from PR #502 with Mux for HDR→SDR normalization at upload time, improving reliability and platform consistency for iPhone Dolby Vision video uploads. Merged Jul 14.",
-    "date": "2026-07-14T00:05:05Z",
     "actor": "Ares"
   }
 ]
