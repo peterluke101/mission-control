@@ -1,1 +1,228 @@
-
+{
+  "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
+  "lastUpdated": "2026-07-15T16:13:47Z",
+  "weekTarget": "PostReady wave 3 complete + Phase 2 reframe + landing branding + HDR fix pipeline + Pro Prompt v2 complete through PR #512 (tab-aware shapes hint, PR #512). Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Wave 3 (PRs #477-#495): pain-point section, social proof strip, pricing quota sync, video per-platform preview + safe-zone overlays, drag-to-reframe, Prompt Studio reference-image upload (vision) + editable crafted prompt, landing creators positioning, X 280-char trim, outpaint frame fix, video reframe Phase 1 per-platform offsets, length coach → YouTube, pause/play + scrub + copy-to-all, auto-caption from extracted frame, Phase 2a persist offsets. Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX: 500MB limit clear message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502) → Mux (PR #504) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507). Save UX: post-save lands on pack page (PR #508), reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Landing page: Create · Save · Post section cleanup (PR #520, Jul 15). Juvenis site polished. Mission Control infrastructure ongoing.",
+  "activeProjects": [
+    "Mission Control",
+    "Juvenis Medical",
+    "peterlukedigital",
+    "PostReady"
+  ],
+  "goals": [
+    {
+      "id": "g1",
+      "title": "Mission Control — Chat Dock + Unified Channels",
+      "status": "active",
+      "priority": "critical",
+      "progress": 96,
+      "owner": "Ares",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. June 5 container image lost + recovered. June 30 main agent upgraded to claude-sonnet-5. Tailscale Funnel + dock buffering still pending.",
+      "subgoals": [
+        {
+          "id": "g1.1",
+          "title": "Chat dock (PR #3 merged)",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares"
+        },
+        {
+          "id": "g1.2",
+          "title": "A2 unified Telegram ↔ MC memory",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-13T19:00:00.000Z"
+        },
+        {
+          "id": "g1.3",
+          "title": "Tailscale Funnel deploy for mobile access",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Ares"
+        },
+        {
+          "id": "g1.4",
+          "title": "Dock-offline buffering (Telegram → dock history sync)",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Ares"
+        },
+        {
+          "id": "g1.5",
+          "title": "Librarian — auto-update MC data every 20 min",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "note": "Live — scheduled cycles running every 20 min."
+        },
+        {
+          "id": "g1.6",
+          "title": "Observational Memory v1 — conversation analysis on agent stop",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-12T20:00:00.000Z",
+          "note": "PR #1 merged. Opt-in via OBSERVATIONAL_MEMORY=on. 315/315 tests pass."
+        },
+        {
+          "id": "g1.7",
+          "title": "Telegram code block formatting — copyable commands",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-14T17:30:00.000Z",
+          "note": "Two formatting fixes shipped to NanoClaw main. Deployed May 19."
+        },
+        {
+          "id": "g1.8",
+          "title": "Per-task model routing (Haiku for Librarian)",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-05-19T07:47:00.000Z",
+          "note": "feat/per-task-model-routing merged May 14. Container rebuilt May 19. Librarian now running claude-haiku-4-5. iMessage bridge added May 22."
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "Juvenis Medical — Website & Social",
+      "status": "active",
+      "priority": "high",
+      "progress": 65,
+      "owner": "Ares",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. PostReady portal (postready-beta.vercel.app) active — Juvenis is the first paying client. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2.",
+      "subgoals": [
+        {
+          "id": "g2.1",
+          "title": "Website updates and brand consistency",
+          "status": "active",
+          "progress": 90,
+          "owner": "Ares",
+          "note": "PRs #37+38 (SEO bundle + headshot compression) and #39 (video badge removal) merged May 12. PR #40: Zoho online booking replaced with phone-call CTAs site-wide (Jun 27). PR #41: mobile appointment CTA overflow fix (Jun 28). PR #42: Post-review polish — legible mobile CTAs, tappable footer numbers, tel/sitemap cleanup (Jul 2)."
+        },
+        {
+          "id": "g2.2",
+          "title": "Dr. Paul social content strategy",
+          "status": "active",
+          "progress": 65,
+          "owner": "Ares",
+          "note": "GEO action plan delivered May 20 — research-backed AI visibility strategy for Dr. Paul Goodkin / Juvenis Medical, Fort Lauderdale. PostReady scheduler confirmed in use."
+        },
+        {
+          "id": "g2.3",
+          "title": "Google Workspace OAuth integration (Gmail / Calendar / Drive)",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Pete",
+          "note": "Awaiting Pete to walk Dr Paul through OAuth consent"
+        },
+        {
+          "id": "g2.4",
+          "title": "Buffer MCP for blog→social auto-posting",
+          "status": "todo",
+          "progress": 5,
+          "owner": "Ares",
+          "note": "Approved May 10. Pete signs up for Buffer, gets API token, Ares builds."
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "title": "peterlukedigital — Personal Portfolio",
+      "status": "active",
+      "priority": "medium",
+      "progress": 72,
+      "owner": "Pete",
+      "note": "Portfolio site for Pete digital services business. peterlukedigital-site: case study updated Apr 25-27 — brand kit label added, before-screenshots removed, canonical + sitemap SEO fixes.",
+      "subgoals": [
+        {
+          "id": "g3.1",
+          "title": "Site live and current",
+          "status": "active",
+          "progress": 80,
+          "owner": "Pete"
+        },
+        {
+          "id": "g3.2",
+          "title": "Services + case studies updated",
+          "status": "active",
+          "progress": 65,
+          "owner": "Pete",
+          "note": "Case study page updated Apr 2026 — brand kit deliverables clarified, sitemap + canonical SEO fixed (peterlukedigital-site repo, Apr 27)."
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "title": "PostReady — Social Content Portal",
+      "status": "active",
+      "priority": "high",
+      "progress": 99,
+      "owner": "Ares",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495). Platform reliability: X + TikTok token refresh race fixes (PRs #496-497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: 500MB limit message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502, Jul 13) → Mux (PR #504, Jul 14) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507, Jul 14). Save UX: post-save to pack page (PR #508, Jul 15) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint (PR #512, Jul 15). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited. Video Phase 0+1 shipped PR #519 (Jul 15): single-clip progress, cost, timings, VIDEO_MODEL seam. Landing page Create · Save · Post section cleanup (PR #520, Jul 15).",
+      "subgoals": [
+        {
+          "id": "g4.1",
+          "title": "Beta portal live with post packs",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares"
+        },
+        {
+          "id": "g4.2",
+          "title": "Prompt Studio — AI-assisted prompt writing",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-07T02:36:15Z",
+          "note": "Prompt Studio v1 shipped across Create Post, Create Video, and Batch modes. Cinematic structured templates (PRs #466-467). Renamed to Pro Prompt (PR #469). Reference-image upload (vision) + editable crafted prompt (PR #488, Jul 11). Richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15)."
+        },
+        {
+          "id": "g4.3",
+          "title": "Full client onboarding (beyond Juvenis)",
+          "status": "todo",
+          "progress": 0,
+          "owner": "Pete"
+        },
+        {
+          "id": "g4.4",
+          "title": "Multi-scene video generation",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-08T00:26:26Z",
+          "note": "Scene builder → per-scene render → stitch → VO + captions. Reference photo for character consistency. Adaptive time copy. PRs #428-443."
+        },
+        {
+          "id": "g4.5",
+          "title": "Landing page mobile UX polish (wave 1)",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-08T16:33:29Z",
+          "note": "Hero squish/headline fix (PR #440). How it works numbered + stacked flow for mobile (PR #451). Say it once messaging + marquee/hero polish (PR #453). Mockup images enlarged for desktop legibility (PR #454)."
+        },
+        {
+          "id": "g4.6",
+          "title": "Landing page polish wave 2 — real imagery + animated demo + Pro Prompt + how-it-works finalized",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-11T04:18:52Z",
+          "note": "Real sushi imagery (PR #455). Animated one-tap demo (PR #456). Emerald sitewide (PR #459). FAQ two-level accordion (PR #464). How-it-works trimmed to 2 cards (PR #465). Cinematic prompts (PRs #466-467). Pro Prompt rename (PR #469). PRs #455-476."
+        },
+        {
+          "id": "g4.7",
+          "title": "Landing page polish wave 3 + product features + Phase 2 reframe + landing branding + HDR pipeline + UX fixes + Pro Prompt v2",
+          "status": "completed",
+          "progress": 100,
+          "owner": "Ares",
+          "completedAt": "2026-07-15T02:54:20Z",
+          "note": "Wave 3 complete (PRs #477-495). X + TikTok token refresh race fixes (PRs #496-497). Phase 2b Shotstack crop at publish (PR #498). UX: 500MB message (PR #499), quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR: fal (PR #502) → Mux (PR #504) → static_renditions fix (PR #505) → poll Mux SDR MP4 (PR #506). Em dash copy fix (PR #507). Save UX: to pack page (PR #508) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint on Create page (PR #512, Jul 15)."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-07-15T16:13:47Z"
+}
