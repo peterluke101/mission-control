@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T16:42:30Z",
+  "updatedAt": "2026-07-15T17:04:59Z",
   "members": [
     {
       "id": "pete",
@@ -7,32 +7,32 @@
       "role": "Owner",
       "type": "human",
       "status": "active",
-      "avatar": "\ud83d\udc64",
+      "avatar": "👤",
       "model": null
     },
     {
       "id": "ares",
-      "name": "Ares \u26a1",
+      "name": "Ares ⚡",
       "role": "Lead Agent",
       "type": "agent",
       "status": "active",
-      "avatar": "\u26a1",
+      "avatar": "⚡",
       "model": "claude-sonnet-4-5",
       "lastActive": "2026-07-15T02:54:20Z",
       "currentTask": "Monitoring projects"
     },
     {
       "id": "librarian",
-      "name": "Librarian \ud83d\udcda",
+      "name": "Librarian 📚",
       "role": "Data Steward",
       "type": "agent",
       "status": "active",
-      "avatar": "\ud83d\udcda",
+      "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-15T16:42:30Z",
-      "currentTask": "Heartbeat \u2014 data current through PR #520 (Jul 15)",
-      "lastSeen": "2026-07-15T16:42:30Z"
+      "lastActive": "2026-07-15T17:04:59Z",
+      "currentTask": "Restored goals.json — was empty since a8cc99d (PR #520 push). Added PR #519+#520.",
+      "lastSeen": "2026-07-15T17:04:59Z"
     }
   ],
-  "lastActive": "2026-07-15T16:42:30Z"
+  "lastActive": "2026-07-15T17:04:59Z"
 }
