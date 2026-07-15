@@ -1,5 +1,14 @@
 [
   {
+    "id": "a100",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #523 — Batch parity: library image picker, add-text toggle, manual-mode default",
+    "description": "Brought Batch mode to parity with single-post: library image picker, add-text toggle, and manual-mode default. Merged Jul 15.",
+    "date": "2026-07-15T22:40:31Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a99",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #507 — Replace GPT double hyphens with em dashes in generated copy",
     "description": "Copy quality fix: GPT-generated post text now correctly uses em dashes (—) instead of double hyphens (--). Improves readability and typographic polish across all generated content. Merged Jul 14.",
     "date": "2026-07-14T16:42:39Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a90",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #506 — Poll Mux for SDR MP4 (fix HDR swap never firing)",
-    "description": "Fixed a race condition where the Mux HDR→SDR swap was silently never firing. Switched to polling Mux for the SDR MP4 asset to ensure HDR normalization actually completes before publish. Merged Jul 14.",
-    "date": "2026-07-14T01:33:32Z",
     "actor": "Ares"
   }
 ]
