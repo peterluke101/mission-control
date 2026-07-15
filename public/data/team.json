@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T03:41:03Z",
+  "updatedAt": "2026-07-15T04:01:00Z",
   "members": [
     {
       "id": "pete",
@@ -29,8 +29,8 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-15T03:41:03Z",
-      "currentTask": "Heartbeat — no new events"
+      "lastActive": "2026-07-15T04:01:00Z",
+      "currentTask": "Captured PR #512 tab-aware shapes hint"
     }
   ]
 }
