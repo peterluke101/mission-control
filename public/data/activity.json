@@ -1,5 +1,14 @@
 [
   {
+    "id": "a95",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #511 — Save lands on the Post Packs grid (final answer)",
+    "description": "After several iterations (PR #508 sent to pack list, PR #509 reverted to pack page), save now lands on the Post Packs grid — the definitive UX decision. Merged Jul 15.",
+    "date": "2026-07-15T02:54:20Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a94",
     "type": "improvement",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #503 — Swap landing wordmark to the rocket lockup",
     "description": "Replaced the lightning-bolt ZippityOne wordmark with the new rocket speech-bubble lockup on the landing page. Merged Jul 12.",
     "date": "2026-07-12T20:57:05Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a85",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #501 — Shotstack: render reframed clips at quality:high",
-    "description": "Upgraded Shotstack renders for reframed video clips to quality:high, improving output fidelity when per-platform crops are applied at publish time. Merged Jul 12.",
-    "date": "2026-07-12T17:48:04Z",
     "actor": "Ares"
   }
 ]
