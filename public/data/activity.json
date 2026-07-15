@@ -1,5 +1,14 @@
 [
   {
+    "id": "a94",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #510 — Richer Pro Prompt structure + auto-seed Prompt Studio from typed idea",
+    "description": "Enhanced Pro Prompt with a richer 5-layer structure (ambition, setting with signature detail, people/energy, lighting, composition/framing) and auto-seeds Prompt Studio from the user's typed idea, reducing friction at prompt-writing entry. Merged Jul 15.",
+    "date": "2026-07-15T02:33:42Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a93",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #501 — Shotstack: render reframed clips at quality:high",
     "description": "Upgraded Shotstack renders for reframed video clips to quality:high, improving output fidelity when per-platform crops are applied at publish time. Merged Jul 12.",
     "date": "2026-07-12T17:48:04Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a84",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #499 — Video upload: clear message when clip exceeds 500MB",
-    "description": "Added a clear user-facing error message when a video upload exceeds the 500MB limit, preventing silent failures and improving the upload UX. Merged Jul 12.",
-    "date": "2026-07-12T17:33:17Z",
     "actor": "Ares"
   }
 ]
