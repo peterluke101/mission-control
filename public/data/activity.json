@@ -1,5 +1,14 @@
 [
   {
+    "id": "a96",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #512 — Tab-aware shapes hint on the Create page",
+    "description": "Added a tab-aware shapes hint on the Create page to guide users toward available shape/framing options based on the active tab context. Merged Jul 15.",
+    "date": "2026-07-15T03:52:44Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a95",
     "type": "improvement",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #502 — Tone-map HDR uploads to SDR at upload time (fal serverless ffmpeg)",
     "description": "Fixed washed-out/faded video posts caused by iPhone Dolby Vision HDR uploads. Added HDR→SDR tone-mapping at upload time via fal serverless ffmpeg, so raw HDR is converted before posting to X, Instagram, and TikTok. Merged Jul 13.",
     "date": "2026-07-13T23:15:51Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a86",
-    "type": "delivery",
-    "project": "PostReady",
-    "title": "PostReady: PR #503 — Swap landing wordmark to the rocket lockup",
-    "description": "Replaced the lightning-bolt ZippityOne wordmark with the new rocket speech-bubble lockup on the landing page. Merged Jul 12.",
-    "date": "2026-07-12T20:57:05Z",
     "actor": "Ares"
   }
 ]
