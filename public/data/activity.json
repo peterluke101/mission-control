@@ -1,11 +1,29 @@
 [
   {
+    "id": "a105",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #528 — Seasonal $9/mo save offer in the cancel flow",
+    "description": "Added a seasonal save offer ($9/mo) in the cancel flow to reduce churn at the cancellation step. Merged Jul 16.",
+    "date": "2026-07-16T19:39:35Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a103",
     "type": "feature",
     "project": "PostReady",
     "title": "PostReady: PR #527 — Weekly token keep-alive cron + honest 'Connection expired' banner",
     "description": "Added a weekly cron job to keep OAuth tokens alive so users don't hit silent expiry. Added an honest 'Connection expired' banner when tokens do lapse, replacing silent failure. Merged Jul 16.",
     "date": "2026-07-16T18:50:24Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a104",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #526 — Mobile: uncramped Create tabs + clearer batch type picker",
+    "description": "Fixed cramped Create tab layout on mobile and improved the batch type picker for clarity. Merged Jul 16.",
+    "date": "2026-07-16T18:26:53Z",
     "actor": "Ares"
   },
   {
@@ -40,7 +58,7 @@
     "type": "feature",
     "project": "PostReady",
     "title": "PostReady: PR #522 — Video source-frame QC: best-of-3 frames judged by vision",
-    "description": "AI-generated video QC: renders 3 candidate source frames in parallel, uses GPT-4o vision to inspect each for hands/fingers, faces, limbs, and artifacts, then animates the cleanest frame. Wall-clock unchanged (parallel); adds ~/bin/bash.06/video. VIDEO_FRAME_CANDIDATES env flag (default 3, set 1 to disable). Fail-soft: any QC failure falls back to first frame. Merged Jul 15.",
+    "description": "AI-generated video QC: renders 3 candidate source frames in parallel, uses GPT-4o vision to inspect each for hands/fingers, faces, limbs, and artifacts, then animates the cleanest frame. Merged Jul 15.",
     "date": "2026-07-15T22:00:39Z",
     "actor": "Ares"
   },
@@ -58,7 +76,7 @@
     "type": "feature",
     "project": "PostReady",
     "title": "PostReady: PR #519 — Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam",
-    "description": "Shipped Video Phase 0+1: single-clip upload progress indicator, cost + timings display, and VIDEO_MODEL seam to abstract the video provider. Consolidates PRs #514 and #515. Merged Jul 15.",
+    "description": "Shipped Video Phase 0+1: single-clip upload progress indicator, cost + timings display, and VIDEO_MODEL seam to abstract the video provider. Merged Jul 15.",
     "date": "2026-07-15T15:28:00Z",
     "actor": "Ares"
   },
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #512 — Tab-aware shapes hint on the Create page",
     "description": "Added a tab-aware shapes hint on the Create page to guide users toward available shape/framing options based on the active tab context. Merged Jul 15.",
     "date": "2026-07-15T03:52:44Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a95",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #511 — Save lands on the Post Packs grid (final answer)",
-    "description": "After several iterations (PR #508 sent to pack list, PR #509 reverted to pack page), save now lands on the Post Packs grid — the definitive UX decision. Merged Jul 15.",
-    "date": "2026-07-15T02:54:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a94",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #510 — Richer Pro Prompt structure + auto-seed Prompt Studio from typed idea",
-    "description": "Enhanced Pro Prompt with a richer 5-layer structure (ambition, setting with signature detail, people/energy, lighting, composition/framing) and auto-seeds Prompt Studio from the user's typed idea, reducing friction at prompt-writing entry. Merged Jul 15.",
-    "date": "2026-07-15T02:33:42Z",
     "actor": "Ares"
   }
 ]
