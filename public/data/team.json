@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T20:42:10.063Z",
+  "updatedAt": "2026-07-16T21:21:34.694Z",
   "members": [
     {
       "id": "pete",
@@ -29,9 +29,9 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-16T21:02:31.171Z",
+      "lastActive": "2026-07-16T21:21:34.694Z",
       "currentTask": "Monitoring projects",
-      "lastSeen": "2026-07-16T21:02:31.171Z"
+      "lastSeen": "2026-07-16T21:21:34.694Z"
     }
   ],
   "lastActive": "2026-07-16T20:42:10.063Z"
