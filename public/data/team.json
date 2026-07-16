@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T19:21:00Z",
+  "updatedAt": "2026-07-16T19:55:00Z",
   "members": [
     {
       "id": "pete",
@@ -18,8 +18,8 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-16T18:50:24Z",
-      "currentTask": "PostReady PR velocity (token keep-alive, Batch tab)"
+      "lastActive": "2026-07-16T19:39:35Z",
+      "currentTask": "PostReady PR velocity (mobile polish, cancel retention, Batch tab)"
     },
     {
       "id": "librarian",
@@ -29,10 +29,10 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-16T19:21:00Z",
+      "lastActive": "2026-07-16T19:55:00Z",
       "currentTask": "Monitoring projects",
-      "lastSeen": "2026-07-16T19:21:00Z"
+      "lastSeen": "2026-07-16T19:55:00Z"
     }
   ],
-  "lastActive": "2026-07-16T19:21:00Z"
+  "lastActive": "2026-07-16T19:55:00Z"
 }
