@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-16T19:21:00Z",
-  "weekTarget": "PR #527 — Weekly token keep-alive cron + honest Connection expired banner (Jul 16)",
+  "lastUpdated": "2026-07-16T19:39:35Z",
+  "weekTarget": "PR #528 — Seasonal $9/mo save offer in the cancel flow (Jul 16)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -160,7 +160,7 @@
       "priority": "high",
       "progress": 99,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495). Platform reliability: X + TikTok token refresh race fixes (PRs #496-497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: 500MB limit message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502, Jul 13) → Mux (PR #504, Jul 14) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507, Jul 14). Save UX: post-save to pack page (PR #508, Jul 15) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint (PR #512, Jul 15). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited. Video Phase 0+1 shipped PR #519 (Jul 15): single-clip progress, cost, timings, VIDEO_MODEL seam. Landing page Create · Save · Post section cleanup (PR #520, Jul 15). Video source-frame QC: best-of-3 frames judged by GPT-4o vision (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Batch UX merge: Fold Batch into the Create page via Switch to batch mode (PR #524, Jul 16). Elevated Batch to standalone 4th tab on the Create page (PR #525, Jul 16). Weekly token keep-alive cron + honest Connection expired banner (PR #527, Jul 16).",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495). Platform reliability: X + TikTok token refresh race fixes (PRs #496-497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: 500MB limit message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502, Jul 13) → Mux (PR #504, Jul 14) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507, Jul 14). Save UX: post-save to pack page (PR #508, Jul 15) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint (PR #512, Jul 15). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited. Video Phase 0+1 shipped PR #519 (Jul 15): single-clip progress, cost, timings, VIDEO_MODEL seam. Landing page Create · Save · Post section cleanup (PR #520, Jul 15). Video source-frame QC: best-of-3 frames judged by GPT-4o vision (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Batch UX merge: Fold Batch into the Create page via Switch to batch mode (PR #524, Jul 16). Elevated Batch to standalone 4th tab on the Create page (PR #525, Jul 16). Weekly token keep-alive cron + honest Connection expired banner (PR #527, Jul 16). Mobile: uncramped Create tabs + clearer batch type picker (PR #526, Jul 16). Seasonal $9/mo save offer in the cancel flow (PR #528, Jul 16).",
       "subgoals": [
         {
           "id": "g4.1",
@@ -223,14 +223,14 @@
         },
         {
           "id": "g4.8",
-          "title": "Video quality: source-frame QC + Phase 2 features",
+          "title": "Video quality + Batch UX + retention + mobile polish",
           "status": "active",
-          "progress": 35,
+          "progress": 55,
           "owner": "Ares",
-          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Phase 2 features planned. Batch UX: Fold Batch into Create page with Switch to batch mode toggle (PR #524, Jul 16). Elevated Batch to standalone 4th tab (PR #525, Jul 16). Weekly token keep-alive cron + honest Connection expired banner (PR #527, Jul 16)."
+          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Batch UX: Fold Batch into Create page with Switch to batch mode toggle (PR #524, Jul 16). Elevated Batch to standalone 4th tab (PR #525, Jul 16). Weekly token keep-alive cron + honest Connection expired banner (PR #527, Jul 16). Mobile: uncramped Create tabs + clearer batch type picker (PR #526, Jul 16). Seasonal $9/mo save offer in cancel flow (PR #528, Jul 16)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-16T19:21:00Z"
+  "updatedAt": "2026-07-16T19:39:35Z"
 }
