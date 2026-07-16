@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
   "lastUpdated": "2026-07-15T22:40:31Z",
-  "weekTarget": "PostReady wave 3 complete + Phase 2 reframe + landing branding + HDR fix pipeline + Pro Prompt v2 complete through PR #512 (tab-aware shapes hint, PR #512). Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Video QC: best-of-3 frames via GPT-4o vision (PR #522, Jul 15). Wave 3 (PRs #477-#495): pain-point section, social proof strip, pricing quota sync, video per-platform preview + safe-zone overlays, drag-to-reframe, Prompt Studio reference-image upload (vision) + editable crafted prompt, landing creators positioning, X 280-char trim, outpaint frame fix, video reframe Phase 1 per-platform offsets, length coach → YouTube, pause/play + scrub + copy-to-all, auto-caption from extracted frame, Phase 2a persist offsets. Platform reliability: X token refresh race fix (PR #496), TikTok token refresh race fix (PR #497). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX: 500MB limit clear message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502) → Mux (PR #504) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507). Save UX: post-save lands on pack page (PR #508), reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Landing page: Create · Save · Post section cleanup (PR #520, Jul 15). Juvenis site polished. Mission Control infrastructure ongoing. Batch parity (PR #523, Jul 15).",
+  "weekTarget": "PR #524 — Fold Batch into Create page (Jul 16)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -160,7 +160,7 @@
       "priority": "high",
       "progress": 99,
       "owner": "Ares",
-      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495). Platform reliability: X + TikTok token refresh race fixes (PRs #496-497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: 500MB limit message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502, Jul 13) → Mux (PR #504, Jul 14) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507, Jul 14). Save UX: post-save to pack page (PR #508, Jul 15) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint (PR #512, Jul 15). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited. Video Phase 0+1 shipped PR #519 (Jul 15): single-clip progress, cost, timings, VIDEO_MODEL seam. Landing page Create · Save · Post section cleanup (PR #520, Jul 15). Video source-frame QC: best-of-3 frames judged by GPT-4o vision (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15).",
+      "note": "Live beta at postready-beta.vercel.app. One paying client (Juvenis Medical). Prompt Studio v1 shipped Jul 7 (PRs #418-427). Multi-scene video shipped Jul 7-8 (PRs #428-443). Landing polish wave 2 complete Jul 9-11 (PRs #455-476). Wave 3 complete Jul 12 (PRs #477-#495). Platform reliability: X + TikTok token refresh race fixes (PRs #496-497, Jul 12). Phase 2b: per-platform crop at publish via Shotstack (PR #498, Jul 12). UX polish: 500MB limit message (PR #499), Shotstack quality:high (PR #501), rocket wordmark (PR #503). HDR→SDR pipeline: fal (PR #502, Jul 13) → Mux (PR #504, Jul 14) → static_renditions fix (PR #505) → poll Mux for SDR MP4 (PR #506). Copy quality: em dash fix (PR #507, Jul 14). Save UX: post-save to pack page (PR #508, Jul 15) → reverted (PR #509, Jul 15). Pro Prompt v2: richer 5-layer structure + auto-seed from typed idea (PR #510, Jul 15). Save UX final: save lands on Post Packs grid (PR #511, Jul 15). Tab-aware shapes hint (PR #512, Jul 15). Stack: Next.js + Vercel. Pricing: Starter 30/5, Pro 60/10, Business unlimited. Video Phase 0+1 shipped PR #519 (Jul 15): single-clip progress, cost, timings, VIDEO_MODEL seam. Landing page Create · Save · Post section cleanup (PR #520, Jul 15). Video source-frame QC: best-of-3 frames judged by GPT-4o vision (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Batch UX merge: Fold Batch into the Create page via Switch to batch mode (PR #524, Jul 16).",
       "subgoals": [
         {
           "id": "g4.1",
@@ -225,12 +225,12 @@
           "id": "g4.8",
           "title": "Video quality: source-frame QC + Phase 2 features",
           "status": "active",
-          "progress": 25,
+          "progress": 35,
           "owner": "Ares",
-          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Phase 2 features planned."
+          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Phase 2 features planned. Batch UX merge: Fold Batch into the Create page with Switch to batch mode toggle (PR #524, Jul 16)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-15T22:40:31Z"
+  "updatedAt": "2026-07-16T16:30:16Z"
 }
