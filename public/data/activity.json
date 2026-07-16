@@ -1,5 +1,14 @@
 [
   {
+    "id": "a103",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #527 — Weekly token keep-alive cron + honest 'Connection expired' banner",
+    "description": "Added a weekly cron job to keep OAuth tokens alive so users don't hit silent expiry. Added an honest 'Connection expired' banner when tokens do lapse, replacing silent failure. Merged Jul 16.",
+    "date": "2026-07-16T18:50:24Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a102",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #510 — Richer Pro Prompt structure + auto-seed Prompt Studio from typed idea",
     "description": "Enhanced Pro Prompt with a richer 5-layer structure (ambition, setting with signature detail, people/energy, lighting, composition/framing) and auto-seeds Prompt Studio from the user's typed idea, reducing friction at prompt-writing entry. Merged Jul 15.",
     "date": "2026-07-15T02:33:42Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a93",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #509 — Revert #508: save returns to the pack page",
-    "description": "Reverted PR #508 (save landing on Post Packs list) — save now returns to the pack page as before. Quick course-correction shipped Jul 15.",
-    "date": "2026-07-15T02:18:40Z",
     "actor": "Ares"
   }
 ]
