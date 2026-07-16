@@ -1,5 +1,14 @@
 [
   {
+    "id": "a101",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #524 — Fold Batch into the Create page ('Switch to batch' mode)",
+    "description": "Merged the standalone Batch page into the Create page with a 'Switch to batch' mode toggle, simplifying navigation and reducing page count. Shipped Jul 16.",
+    "date": "2026-07-16T16:30:16Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a100",
     "type": "improvement",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #508 — After saving a generated image, land on the Post Packs list",
     "description": "UX improvement: after saving a generated image, the user is now redirected to the Post Packs list instead of staying on the current page. Merged Jul 15.",
     "date": "2026-07-15T02:09:06Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a91",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #507 — Replace GPT double hyphens with em dashes in generated copy",
-    "description": "Copy quality fix: GPT-generated post text now correctly uses em dashes (—) instead of double hyphens (--). Improves readability and typographic polish across all generated content. Merged Jul 14.",
-    "date": "2026-07-14T16:42:39Z",
     "actor": "Ares"
   }
 ]
