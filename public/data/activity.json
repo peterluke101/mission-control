@@ -1,5 +1,14 @@
 [
   {
+    "id": "a102",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #525 — Batch as a proper 4th tab on the Create page",
+    "description": "Elevated Batch to a standalone 4th tab on the Create page (vs the earlier toggle approach of PR #524), giving it full first-class status alongside Single, Pack, and Video. Merged Jul 16.",
+    "date": "2026-07-16T16:44:17Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a101",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #509 — Revert #508: save returns to the pack page",
     "description": "Reverted PR #508 (save landing on Post Packs list) — save now returns to the pack page as before. Quick course-correction shipped Jul 15.",
     "date": "2026-07-15T02:18:40Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a92",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #508 — After saving a generated image, land on the Post Packs list",
-    "description": "UX improvement: after saving a generated image, the user is now redirected to the Post Packs list instead of staying on the current page. Merged Jul 15.",
-    "date": "2026-07-15T02:09:06Z",
     "actor": "Ares"
   }
 ]
