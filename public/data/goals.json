@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-15T22:40:31Z",
-  "weekTarget": "PR #524 — Fold Batch into Create page (Jul 16)",
+  "lastUpdated": "2026-07-16T16:44:17Z",
+  "weekTarget": "PR #525 — Batch as a proper 4th tab on the Create page (Jul 16)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -227,10 +227,10 @@
           "status": "active",
           "progress": 35,
           "owner": "Ares",
-          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Phase 2 features planned. Batch UX merge: Fold Batch into the Create page with Switch to batch mode toggle (PR #524, Jul 16)."
+          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Phase 2 features planned. Batch UX: Fold Batch into Create page with Switch to batch mode toggle (PR #524, Jul 16). Elevated Batch to standalone 4th tab (PR #525, Jul 16)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-16T16:30:16Z"
+  "updatedAt": "2026-07-16T16:44:17Z"
 }
