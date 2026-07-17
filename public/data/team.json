@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T21:43:02.000Z",
+  "updatedAt": "2026-07-17T22:01:53Z",
   "members": [
     {
       "id": "pete",
@@ -18,7 +18,7 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-17T21:23:20Z",
+      "lastActive": "2026-07-17T21:58:49Z",
       "currentTask": "PostReady dashboard branding: client logo in header, business name above Sign out (PRs #552-#553 shipped Jul 17)"
     },
     {
@@ -29,7 +29,7 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-17T21:43:02.000Z",
+      "lastActive": "2026-07-17T22:01:53Z",
       "currentTask": "Monitoring data — goals/activity current through PR #553 (Jul 17)",
       "lastSeen": "2026-07-17T21:43:02.000Z"
     }
