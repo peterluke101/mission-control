@@ -1,32 +1,5 @@
 [
   {
-    "id": "a117",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #541 — Fix: Add scene divider from dangling when row wraps",
-    "description": "Fixed a layout bug where the Add scene divider element would dangle incorrectly when the scene row wrapped to a new line.",
-    "date": "2026-07-17T16:50:28Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a118",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #542 — Tidy Batch tab — compact per-prompt refs, align columns",
-    "description": "Tidied the Batch tab UI: compacted per-prompt reference display and aligned columns for a cleaner, more readable batch queue layout.",
-    "date": "2026-07-17T17:14:25Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a119",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #543 — Drop 'We email you when done' pill from Batch tab",
-    "description": "Removed the 'We email you when done' informational pill from the Batch tab to reduce clutter and simplify the batch run UI.",
-    "date": "2026-07-17T17:18:33Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a120",
     "type": "feature",
     "project": "PostReady",
@@ -67,7 +40,7 @@
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #548 — Stop AI images rendering garbled signs, logos and brand badges",
-    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text. Evoke famous places by light and skyline only; ban readable text, logos, badges, and signs in prompts.",
+    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text.",
     "date": "2026-07-17T18:45:36Z",
     "actor": "Ares"
   },
@@ -76,7 +49,7 @@
     "type": "improvement",
     "project": "PostReady",
     "title": "PostReady: PR #549 — Rewrite Pro Prompt as a Seedream-tuned visual-spec compiler (Phase 1)",
-    "description": "Rewrote Pro Prompt's image-side to match Seedream 4.5 prompting style: concise, front-loaded (subject + action first), explicit object counts, positive geometry contracts per domain, one light source, quoted exact text only when wanted, and one short scene-specific restriction instead of long negative lists.",
+    "description": "Rewrote Pro Prompt image-side to match Seedream 4.5 prompting style: front-loaded subject+action, explicit object counts, positive geometry contracts, one light source, quoted exact text only when wanted.",
     "date": "2026-07-17T19:14:04Z",
     "actor": "Ares"
   },
@@ -87,6 +60,33 @@
     "title": "PostReady: PR #550 — Show/hide eye toggle on password fields",
     "description": "Added show/hide eye toggle button to password input fields, letting users reveal or mask their password as they type.",
     "date": "2026-07-17T20:37:20Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a127",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #551 — Stop captions all sounding the same",
+    "description": "Updated caption generation to vary tone, structure, and phrasing so batch captions no longer sound repetitive or formulaic.",
+    "date": "2026-07-17T21:09:26Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a128",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #552 — Show business name above Sign out, not owner name",
+    "description": "Dashboard header now displays the client business name above the Sign out link instead of the owner's personal name, improving multi-client clarity.",
+    "date": "2026-07-17T21:11:16Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a129",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #553 — Show client logo in dashboard header",
+    "description": "The dashboard header now displays the client's logo, personalizing the portal for each business using PostReady.",
+    "date": "2026-07-17T21:23:20Z",
     "actor": "Ares"
   }
 ]
