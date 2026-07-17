@@ -1,41 +1,5 @@
 [
   {
-    "id": "a106",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #529 — Mobile P1: thumb-zone action bars, preamble compression, loading discipline",
-    "description": "Implemented Mobile P1 audit improvements: fixed thumb-zone action bars for Create and pack pages on phones, compressed preamble text to desktop-only, and tightened loading discipline across five live mobile screens.",
-    "date": "2026-07-16T23:53:13Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a107",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #530 — Mobile P2+P3: labeled card actions, honest tab labels, tighter copy",
-    "description": "Continued mobile polish: labeled card action buttons for clarity, relabeled tabs to be honest about their scope, and tightened copy throughout the mobile experience.",
-    "date": "2026-07-17T05:04:28Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a108",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #531 — Create tabs: hint rows → pill chips; unlimited banners removed",
-    "description": "Replaced hint-row banners on Create tabs with compact pill chips and removed unlimited-plan banners, reducing visual noise and tightening the Create page header.",
-    "date": "2026-07-17T05:36:05Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a109",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #532 — Batch: two-column workspace (queue left, sticky run panel right)",
-    "description": "Redesigned the Batch page with a two-column layout: post queue on the left, sticky run panel fixed on the right for always-visible controls.",
-    "date": "2026-07-17T05:45:53Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a110",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +51,42 @@
     "title": "PostReady: PR #538 — Derive video shape from connected accounts",
     "description": "Video shape (aspect ratio) now derives automatically from connected social accounts, removing manual selection and defaulting to the correct format for each destination.",
     "date": "2026-07-17T06:28:27Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a116",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #540 — Tidy Create Video form — merge helpers, rail photos, collapse direction",
+    "description": "Cleaned up the Create Video form: merged helper text into labels, added rail photo thumbnails for visual reference, and collapsed the direction field to reduce visual noise.",
+    "date": "2026-07-17T16:40:59Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a117",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #541 — Fix: Add scene divider from dangling when row wraps",
+    "description": "Fixed a layout bug where the Add scene divider element would dangle incorrectly when the scene row wrapped to a new line.",
+    "date": "2026-07-17T16:50:28Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a118",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #542 — Tidy Batch tab — compact per-prompt refs, align columns",
+    "description": "Tidied the Batch tab UI: compacted per-prompt reference display and aligned columns for a cleaner, more readable batch queue layout.",
+    "date": "2026-07-17T17:14:25Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a119",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #543 — Drop 'We email you when done' pill from Batch tab",
+    "description": "Removed the 'We email you when done' informational pill from the Batch tab to reduce clutter and simplify the batch run UI.",
+    "date": "2026-07-17T17:18:33Z",
     "actor": "Ares"
   }
 ]
