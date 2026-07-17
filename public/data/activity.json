@@ -1,14 +1,5 @@
 [
   {
-    "id": "a107",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #530 — Mobile P2+P3: labeled card actions, honest tab labels, tighter copy",
-    "description": "Continued mobile polish: labeled card action buttons for clarity, relabeled tabs to be honest about their scope, and tightened copy throughout the mobile experience.",
-    "date": "2026-07-17T05:04:28Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a106",
     "type": "improvement",
     "project": "PostReady",
@@ -18,75 +9,84 @@
     "actor": "Ares"
   },
   {
-    "id": "a105",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #528 — Seasonal $9/mo save offer in the cancel flow",
-    "description": "Added a seasonal save offer ($9/mo) in the cancel flow to reduce churn at the cancellation step. Merged Jul 16.",
-    "date": "2026-07-16T19:39:35Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a103",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #527 — Weekly token keep-alive cron + honest 'Connection expired' banner",
-    "description": "Added a weekly cron job to keep OAuth tokens alive so users don't hit silent expiry. Added an honest 'Connection expired' banner when tokens do lapse, replacing silent failure. Merged Jul 16.",
-    "date": "2026-07-16T18:50:24Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a104",
+    "id": "a107",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #526 — Mobile: uncramped Create tabs + clearer batch type picker",
-    "description": "Fixed cramped Create tab layout on mobile and improved the batch type picker for clarity. Merged Jul 16.",
-    "date": "2026-07-16T18:26:53Z",
+    "title": "PostReady: PR #530 — Mobile P2+P3: labeled card actions, honest tab labels, tighter copy",
+    "description": "Continued mobile polish: labeled card action buttons for clarity, relabeled tabs to be honest about their scope, and tightened copy throughout the mobile experience.",
+    "date": "2026-07-17T05:04:28Z",
     "actor": "Ares"
   },
   {
-    "id": "a102",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #525 — Batch as a proper 4th tab on the Create page",
-    "description": "Elevated Batch to a standalone 4th tab on the Create page (vs the earlier toggle approach of PR #524), giving it full first-class status alongside Single, Pack, and Video. Merged Jul 16.",
-    "date": "2026-07-16T16:44:17Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a101",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #524 — Fold Batch into the Create page ('Switch to batch' mode)",
-    "description": "Merged the standalone Batch page into the Create page with a 'Switch to batch' mode toggle, simplifying navigation and reducing page count. Shipped Jul 16.",
-    "date": "2026-07-16T16:30:16Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a100",
+    "id": "a108",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #523 — Batch parity: library image picker, add-text toggle, manual-mode default",
-    "description": "Brought Batch mode to parity with single-post: library image picker, add-text toggle, and manual-mode default. Merged Jul 15.",
-    "date": "2026-07-15T22:40:31Z",
+    "title": "PostReady: PR #531 — Create tabs: hint rows → pill chips; unlimited banners removed",
+    "description": "Replaced hint-row banners on Create tabs with compact pill chips and removed unlimited-plan banners, reducing visual noise and tightening the Create page header.",
+    "date": "2026-07-17T05:36:05Z",
     "actor": "Ares"
   },
   {
-    "id": "a99",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #522 — Video source-frame QC: best-of-3 frames judged by vision",
-    "description": "AI-generated video QC: renders 3 candidate source frames in parallel, uses GPT-4o vision to inspect each for hands/fingers, faces, limbs, and artifacts, then animates the cleanest frame. Merged Jul 15.",
-    "date": "2026-07-15T22:00:39Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a98",
+    "id": "a109",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #520 — Landing page: Create · Save · Post section cleanup",
-    "description": "Cleaned up the landing page Create → Save → Post section for clearer messaging and visual consistency. Merged Jul 15.",
-    "date": "2026-07-15T16:13:47Z",
+    "title": "PostReady: PR #532 — Batch: two-column workspace (queue left, sticky run panel right)",
+    "description": "Redesigned the Batch page with a two-column layout: post queue on the left, sticky run panel fixed on the right for always-visible controls.",
+    "date": "2026-07-17T05:45:53Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a110",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #533 — Create Video: two-column workspace (form left, sticky delivery right)",
+    "description": "Redesigned Create Video with a two-column layout: creative form on the left, sticky delivery panel locked on the right for a cleaner, always-accessible UX.",
+    "date": "2026-07-17T05:52:29Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a111",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #534 — Create Post: two-column workspace (brief left, result right)",
+    "description": "Redesigned Create Post with a two-column layout: post brief on the left, generated result on the right — matching the two-column pattern across Batch and Video pages.",
+    "date": "2026-07-17T06:00:42Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a112",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #535 — Fix: Quick/Extended duration pills overflow in video delivery panel",
+    "description": "Fixed Quick/Extended duration pill buttons overflowing the video delivery panel on smaller viewports.",
+    "date": "2026-07-17T06:06:11Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a113",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #536 — Fix: destination picker → uniform two-column grid",
+    "description": "Fixed the destination picker layout to render a consistent uniform two-column grid across all viewport sizes.",
+    "date": "2026-07-17T06:09:31Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a114",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #537 — Video: replace destination picker with two-tile shape control",
+    "description": "Replaced the destination picker on the video page with a cleaner two-tile shape control for selecting video format/aspect ratio.",
+    "date": "2026-07-17T06:13:50Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a115",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #538 — Derive video shape from connected accounts",
+    "description": "Video shape (aspect ratio) now derives automatically from connected social accounts, removing manual selection and defaulting to the correct format for each destination.",
+    "date": "2026-07-17T06:28:27Z",
     "actor": "Ares"
   }
 ]
