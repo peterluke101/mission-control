@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-17T17:32:42Z",
-  "weekTarget": "PostReady UX tightening: two-column workspaces + smart video shape + form/batch tab polish + per-prompt text overlay (PRs #529-#544, Jul 16-17)",
+  "lastUpdated": "2026-07-17T18:10:45Z",
+  "weekTarget": "PostReady UX tightening: two-column workspaces + smart video shape + form/batch tab polish + per-prompt text overlay + Batch/Create Post alignment fixes (PRs #529-#546, Jul 16-17)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -225,12 +225,12 @@
           "id": "g4.8",
           "title": "Video quality + Batch UX + retention + mobile polish + UX tightening",
           "status": "active",
-          "progress": 97,
+          "progress": 98,
           "owner": "Ares",
-          "note": "Two-column workspace shipped across Create/Batch/Video (PRs #531-#534). Video shape auto-derived from accounts (PR #538). Mobile polish waves 1-3 complete (PRs #529-530). UX tightening Jul 17: Create Video form cleaned (PR #540), scene divider wrap fix (PR #541), Batch tab compacted (PR #542), email pill removed (PR #543). Per-prompt text-on-image for Batch (PR #544)."
+          "note": "Two-column workspace shipped across Create/Batch/Video (PRs #531-#534). Video shape auto-derived from accounts (PR #538). Mobile polish waves 1-3 complete (PRs #529-530). UX tightening Jul 17: Create Video form cleaned (PR #540), scene divider wrap fix (PR #541), Batch tab compacted (PR #542), email pill removed (PR #543). Per-prompt text-on-image for Batch (PR #544). Batch prompt card alignment (PR #545). Create Post preview stacked (PR #546, Jul 17)."
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-17T17:41:17Z"
+  "updatedAt": "2026-07-17T18:10:45Z"
 }
