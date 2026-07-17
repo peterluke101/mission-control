@@ -1,5 +1,14 @@
 [
   {
+    "id": "a107",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #530 — Mobile P2+P3: labeled card actions, honest tab labels, tighter copy",
+    "description": "Continued mobile polish: labeled card action buttons for clarity, relabeled tabs to be honest about their scope, and tightened copy throughout the mobile experience.",
+    "date": "2026-07-17T05:04:28Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a106",
     "type": "improvement",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #520 — Landing page: Create · Save · Post section cleanup",
     "description": "Cleaned up the landing page Create → Save → Post section for clearer messaging and visual consistency. Merged Jul 15.",
     "date": "2026-07-15T16:13:47Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a97",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #519 — Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam",
-    "description": "Shipped Video Phase 0+1: single-clip upload progress indicator, cost + timings display, and VIDEO_MODEL seam to abstract the video provider. Merged Jul 15.",
-    "date": "2026-07-15T15:28:00Z",
     "actor": "Ares"
   }
 ]
