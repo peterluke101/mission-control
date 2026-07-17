@@ -1,14 +1,5 @@
 [
   {
-    "id": "a122",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #546 — Stack the Create Post preview so it fits the result rail",
-    "description": "Stacked the Create Post preview layout so the generated result fits cleanly within the result rail on all viewports.",
-    "date": "2026-07-17T18:10:45Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a123",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +78,15 @@
     "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
     "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
     "date": "2026-07-17T21:58:49Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a132",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #556 — Bolder platform gradients + gradient on available cards",
+    "description": "Strengthened per-platform gradient intensity on connected social cards and extended the gradient treatment to available (not-yet-connected) platform cards.",
+    "date": "2026-07-17T22:09:20Z",
     "actor": "Ares"
   }
 ]
