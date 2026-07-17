@@ -1,14 +1,5 @@
 [
   {
-    "id": "a113",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #536 — Fix: destination picker → uniform two-column grid",
-    "description": "Fixed the destination picker layout to render a consistent uniform two-column grid across all viewport sizes.",
-    "date": "2026-07-17T06:09:31Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a114",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +78,15 @@
     "title": "PostReady: PR #546 — Stack the Create Post preview so it fits the result rail",
     "description": "Stacked the Create Post preview layout so the generated result fits cleanly within the result rail on all viewports.",
     "date": "2026-07-17T18:10:45Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a123",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #547 — Expand the Create Post preview once an image exists",
+    "description": "The Create Post preview panel now expands automatically once a generated image is present, surfacing the result more prominently in the result rail.",
+    "date": "2026-07-17T18:32:18Z",
     "actor": "Ares"
   }
 ]
