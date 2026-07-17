@@ -1,5 +1,14 @@
 [
   {
+    "id": "a106",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #529 — Mobile P1: thumb-zone action bars, preamble compression, loading discipline",
+    "description": "Implemented Mobile P1 audit improvements: fixed thumb-zone action bars for Create and pack pages on phones, compressed preamble text to desktop-only, and tightened loading discipline across five live mobile screens.",
+    "date": "2026-07-16T23:53:13Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a105",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #519 — Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam",
     "description": "Shipped Video Phase 0+1: single-clip upload progress indicator, cost + timings display, and VIDEO_MODEL seam to abstract the video provider. Merged Jul 15.",
     "date": "2026-07-15T15:28:00Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a96",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #512 — Tab-aware shapes hint on the Create page",
-    "description": "Added a tab-aware shapes hint on the Create page to guide users toward available shape/framing options based on the active tab context. Merged Jul 15.",
-    "date": "2026-07-15T03:52:44Z",
     "actor": "Ares"
   }
 ]
