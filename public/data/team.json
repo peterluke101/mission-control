@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T20:40:57Z",
+  "updatedAt": "2026-07-17T21:01:44.126Z",
   "members": [
     {
       "id": "pete",
@@ -18,8 +18,8 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-17T19:14:04Z",
-      "currentTask": "PostReady Pro Prompt upgrade: Seedream-tuned visual-spec compiler Phase 1 + garbled-text guard (PRs #548-#549 shipped Jul 17)"
+      "lastActive": "2026-07-17T20:37:20Z",
+      "currentTask": "PostReady UX polish: show/hide eye toggle on password fields (PR #550 shipped Jul 17)"
     },
     {
       "id": "librarian",
@@ -29,11 +29,11 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-17T20:40:57Z",
-      "currentTask": "Monitoring data — goals/activity current through PR #549 (Jul 17)",
-      "lastSeen": "2026-07-17T20:40:57Z"
+      "lastActive": "2026-07-17T21:01:44.126Z",
+      "currentTask": "Monitoring data — goals/activity current through PR #550 (Jul 17)",
+      "lastSeen": "2026-07-17T21:01:44.126Z"
     }
   ],
-  "lastActive": "2026-07-17T19:14:04Z",
-  "lastSync": "2026-07-17T20:40:57Z"
+  "lastActive": "2026-07-17T20:37:20Z",
+  "lastSync": "2026-07-17T21:01:44.126Z"
 }
