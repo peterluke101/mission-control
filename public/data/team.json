@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T01:41:02Z",
+  "updatedAt": "2026-07-17T03:03:21Z",
   "members": [
     {
       "id": "pete",
@@ -18,7 +18,7 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-16T19:39:35Z",
+      "lastActive": "2026-07-16T23:53:13Z",
       "currentTask": "PostReady PR velocity (mobile polish, cancel retention, Batch tab)"
     },
     {
@@ -29,10 +29,10 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-17T01:41:02Z",
-      "currentTask": "Monitoring data — goals/activity current through PR #529 (Jul 16, 2026-07-16T23:53:13Z)",
-      "lastSeen": "2026-07-17T01:41:02Z"
+      "lastActive": "2026-07-17T03:03:21Z",
+      "currentTask": "Monitoring data — goals/activity current through PR #529 (Jul 16)",
+      "lastSeen": "2026-07-17T03:03:21Z"
     }
   ],
-  "lastActive": "2026-07-16T19:39:35Z"
+  "lastActive": "2026-07-16T23:53:13Z"
 }
