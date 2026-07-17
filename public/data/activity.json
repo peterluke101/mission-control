@@ -1,14 +1,5 @@
 [
   {
-    "id": "a110",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #533 — Create Video: two-column workspace (form left, sticky delivery right)",
-    "description": "Redesigned Create Video with a two-column layout: creative form on the left, sticky delivery panel locked on the right for a cleaner, always-accessible UX.",
-    "date": "2026-07-17T05:52:29Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a111",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +78,15 @@
     "title": "PostReady: PR #543 — Drop 'We email you when done' pill from Batch tab",
     "description": "Removed the 'We email you when done' informational pill from the Batch tab to reduce clutter and simplify the batch run UI.",
     "date": "2026-07-17T17:18:33Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a120",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #544 — Per-prompt 'Text on the image' for Batch",
+    "description": "Added per-prompt 'Text on the image' option to Batch mode, allowing each prompt in a batch to specify its own image text overlay independently.",
+    "date": "2026-07-17T17:32:42Z",
     "actor": "Ares"
   }
 ]
