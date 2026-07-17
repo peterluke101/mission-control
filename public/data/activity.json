@@ -1,23 +1,5 @@
 [
   {
-    "id": "a120",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #544 — Per-prompt 'Text on the image' for Batch",
-    "description": "Added per-prompt 'Text on the image' option to Batch mode, allowing each prompt in a batch to specify its own image text overlay independently.",
-    "date": "2026-07-17T17:32:42Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a121",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #545 — Line up the prompt card with the run panel on Batch",
-    "description": "Fixed Batch tab layout so the prompt card aligns correctly with the run panel.",
-    "date": "2026-07-17T18:03:22Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a122",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +69,24 @@
     "title": "PostReady: PR #553 — Show client logo in dashboard header",
     "description": "The dashboard header now displays the client's logo, personalizing the portal for each business using PostReady.",
     "date": "2026-07-17T21:23:20Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a130",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #554 — Don't reject a website typed without http://",
+    "description": "Relaxed website URL validation to accept domains entered without http:// prefix, auto-normalizing them so users aren't blocked by a formatting requirement.",
+    "date": "2026-07-17T21:48:07Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a131",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
+    "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
+    "date": "2026-07-17T21:58:49Z",
     "actor": "Ares"
   }
 ]
