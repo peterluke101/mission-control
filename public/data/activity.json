@@ -1,23 +1,5 @@
 [
   {
-    "id": "a114",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #537 — Video: replace destination picker with two-tile shape control",
-    "description": "Replaced the destination picker on the video page with a cleaner two-tile shape control for selecting video format/aspect ratio.",
-    "date": "2026-07-17T06:13:31Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a115",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #538 — Derive video shape from connected accounts",
-    "description": "Video shape (aspect ratio) now derives automatically from connected social accounts, removing manual selection and defaulting to the correct format for each destination.",
-    "date": "2026-07-17T06:28:27Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a116",
     "type": "improvement",
     "project": "PostReady",
@@ -87,6 +69,24 @@
     "title": "PostReady: PR #547 — Expand the Create Post preview once an image exists",
     "description": "The Create Post preview panel now expands automatically once a generated image is present, surfacing the result more prominently in the result rail.",
     "date": "2026-07-17T18:32:18Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a124",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #548 — Stop AI images rendering garbled signs, logos and brand badges",
+    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text. Evoke famous places by light and skyline only; ban readable text, logos, badges, and signs in prompts. Prompt-only fix.",
+    "date": "2026-07-17T18:45:36Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a125",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #549 — Rewrite Pro Prompt as a Seedream-tuned visual-spec compiler (Phase 1)",
+    "description": "Rewrote Pro Prompt's image-side to match Seedream 4.5 prompting style: concise, front-loaded (subject + action first), explicit object counts, positive geometry contracts per domain, one light source, quoted exact text only when wanted, and one short scene-specific restriction instead of long negative lists.",
+    "date": "2026-07-17T19:14:04Z",
     "actor": "Ares"
   }
 ]
