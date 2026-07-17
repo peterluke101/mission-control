@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-17T05:04:28Z",
-  "weekTarget": "PR #530 — Mobile P2+P3: labeled card actions, honest tab labels, tighter copy (Jul 17)",
+  "lastUpdated": "2026-07-17T06:28:27Z",
+  "weekTarget": "PR #538 — Two-column workspace across Create/Batch/Video + smart video shape from accounts (Jul 17)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -225,9 +225,9 @@
           "id": "g4.8",
           "title": "Video quality + Batch UX + retention + mobile polish",
           "status": "active",
-          "progress": 75,
+          "progress": 88,
           "owner": "Ares",
-          "note": "Video Phase 0+1: single-clip progress, cost + timings, VIDEO_MODEL seam (PR #519, Jul 15). Best-of-3 source frame QC via GPT-4o vision inspection (PR #522, Jul 15). Batch parity: library image picker, add-text toggle, manual-mode default (PR #523, Jul 15). Batch UX: Fold Batch into Create page with Switch to batch mode toggle (PR #524, Jul 16). Elevated Batch to standalone 4th tab (PR #525, Jul 16). Weekly token keep-alive cron + honest Connection expired banner (PR #527, Jul 16). Mobile: uncramped Create tabs + clearer batch type picker (PR #526, Jul 16). Seasonal $9/mo save offer in cancel flow (PR #528, Jul 16). Mobile P1: thumb-zone action bars, preamble compression, loading discipline (PR #529, Jul 16). Mobile P2+P3: labeled card actions, honest tab labels, tighter copy (PR #530, Jul 17)."
+          "note": "Two-column workspace shipped across Create/Batch/Video (PRs #531-#534). Video shape auto-derived from accounts (PR #538). Mobile polish wave 1+2+3 complete."
         }
       ]
     }
