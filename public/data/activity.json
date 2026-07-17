@@ -1,14 +1,5 @@
 [
   {
-    "id": "a116",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #540 — Tidy Create Video form — merge helpers, rail photos, collapse direction",
-    "description": "Cleaned up the Create Video form: merged helper text into labels, added rail photo thumbnails for visual reference, and collapsed the direction field to reduce visual noise.",
-    "date": "2026-07-17T16:40:59Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a117",
     "type": "fix",
     "project": "PostReady",
@@ -76,7 +67,7 @@
     "type": "fix",
     "project": "PostReady",
     "title": "PostReady: PR #548 — Stop AI images rendering garbled signs, logos and brand badges",
-    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text. Evoke famous places by light and skyline only; ban readable text, logos, badges, and signs in prompts. Prompt-only fix.",
+    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text. Evoke famous places by light and skyline only; ban readable text, logos, badges, and signs in prompts.",
     "date": "2026-07-17T18:45:36Z",
     "actor": "Ares"
   },
@@ -87,6 +78,15 @@
     "title": "PostReady: PR #549 — Rewrite Pro Prompt as a Seedream-tuned visual-spec compiler (Phase 1)",
     "description": "Rewrote Pro Prompt's image-side to match Seedream 4.5 prompting style: concise, front-loaded (subject + action first), explicit object counts, positive geometry contracts per domain, one light source, quoted exact text only when wanted, and one short scene-specific restriction instead of long negative lists.",
     "date": "2026-07-17T19:14:04Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a126",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #550 — Show/hide eye toggle on password fields",
+    "description": "Added show/hide eye toggle button to password input fields, letting users reveal or mask their password as they type.",
+    "date": "2026-07-17T20:37:20Z",
     "actor": "Ares"
   }
 ]
