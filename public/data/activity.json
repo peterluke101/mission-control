@@ -1,23 +1,5 @@
 [
   {
-    "id": "a111",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #534 — Create Post: two-column workspace (brief left, result right)",
-    "description": "Redesigned Create Post with a two-column layout: post brief on the left, generated result on the right — matching the two-column pattern across Batch and Video pages.",
-    "date": "2026-07-17T06:00:42Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a112",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #535 — Fix: Quick/Extended duration pills overflow in video delivery panel",
-    "description": "Fixed Quick/Extended duration pill buttons overflowing the video delivery panel on smaller viewports.",
-    "date": "2026-07-17T06:06:11Z",
-    "actor": "Ares"
-  },
-  {
     "id": "a113",
     "type": "fix",
     "project": "PostReady",
@@ -32,7 +14,7 @@
     "project": "PostReady",
     "title": "PostReady: PR #537 — Video: replace destination picker with two-tile shape control",
     "description": "Replaced the destination picker on the video page with a cleaner two-tile shape control for selecting video format/aspect ratio.",
-    "date": "2026-07-17T06:13:50Z",
+    "date": "2026-07-17T06:13:31Z",
     "actor": "Ares"
   },
   {
@@ -87,6 +69,24 @@
     "title": "PostReady: PR #544 — Per-prompt 'Text on the image' for Batch",
     "description": "Added per-prompt 'Text on the image' option to Batch mode, allowing each prompt in a batch to specify its own image text overlay independently.",
     "date": "2026-07-17T17:32:42Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a121",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #545 — Line up the prompt card with the run panel on Batch",
+    "description": "Fixed Batch tab layout so the prompt card aligns correctly with the run panel.",
+    "date": "2026-07-17T18:03:22Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a122",
+    "type": "improvement",
+    "project": "PostReady",
+    "title": "PostReady: PR #546 — Stack the Create Post preview so it fits the result rail",
+    "description": "Stacked the Create Post preview layout so the generated result fits cleanly within the result rail on all viewports.",
+    "date": "2026-07-17T18:10:45Z",
     "actor": "Ares"
   }
 ]
