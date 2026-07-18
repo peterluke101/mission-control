@@ -1,11 +1,11 @@
 [
   {
-    "id": "a124",
+    "id": "a134",
     "type": "fix",
     "project": "PostReady",
-    "title": "PostReady: PR #548 — Stop AI images rendering garbled signs, logos and brand badges",
-    "description": "Tightened Pro Prompt and image no-branding guard to eliminate garbled landmark signs, fake brand badges, and doubled text.",
-    "date": "2026-07-17T18:45:36Z",
+    "title": "PostReady: PR #558 — Align Connect button on Connect Socials cards",
+    "description": "Fixed alignment of the Connect button on Connect Socials cards for consistent layout across all connected social platform cards.",
+    "date": "2026-07-18T19:19:46Z",
     "actor": "Ares"
   },
   {
