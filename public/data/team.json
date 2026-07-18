@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T22:23:10Z",
+  "updatedAt": "2026-07-18T00:32:40Z",
   "members": [
     {
       "id": "pete",
@@ -18,8 +18,8 @@
       "status": "active",
       "avatar": "⚡",
       "model": "claude-sonnet-4-5",
-      "lastActive": "2026-07-17T22:09:20Z",
-      "currentTask": "PostReady gradient polish: per-platform + available card gradients (PR #556 shipped Jul 17)"
+      "lastActive": "2026-07-17T22:27:33Z",
+      "currentTask": "PostReady gradient polish: premium frosted social cards shipped (PR #557, Jul 17)"
     },
     {
       "id": "librarian",
@@ -29,11 +29,11 @@
       "status": "active",
       "avatar": "📚",
       "model": "claude-haiku-4-5",
-      "lastActive": "2026-07-17T22:23:10Z",
-      "currentTask": "Monitoring data — goals/activity current through PR #556 (Jul 17)",
-      "lastSeen": "2026-07-17T22:23:10Z"
+      "lastActive": "2026-07-18T00:32:40Z",
+      "currentTask": "Monitoring data — goals/activity current through PR #557 (Jul 17)",
+      "lastSeen": "2026-07-18T00:32:40Z"
     }
   ],
   "lastActive": "2026-07-17T22:09:20Z",
-  "lastSync": "2026-07-17T22:23:10Z"
+  "lastSync": "2026-07-18T00:32:40Z"
 }
