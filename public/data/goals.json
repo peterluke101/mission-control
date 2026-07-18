@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-07-18T21:35:45Z",
+  "lastUpdated": "2026-07-18T22:02:06Z",
   "weekTarget": "PR #565 — fix homepage TikTok link points at our handle (Jul 18)",
   "activeProjects": [
     "Mission Control",
@@ -233,5 +233,5 @@
       "weekTarget": "PR #564 — remove platform counts from copy + sell post packs, not AI images (Jul 18)"
     }
   ],
-  "updatedAt": "2026-07-18T21:35:45Z"
+  "updatedAt": "2026-07-18T22:02:06Z"
 }
