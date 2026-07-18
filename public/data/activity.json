@@ -1,5 +1,41 @@
 [
   {
+    "id": "a138",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #564 — Remove platform counts from copy + sell post packs, not AI images",
+    "description": "Removed platform count metrics from marketing copy and reframed the product value proposition around selling post packs rather than raw AI image generation.",
+    "date": "2026-07-18T20:57:01Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a137",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #563 — Redesign pack meter as a stat card",
+    "description": "Redesigned the post pack usage meter as a stat card component for a cleaner, more informative display of pack consumption and remaining allowance.",
+    "date": "2026-07-18T20:43:43Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a136",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #562 — Add post-pack explainer to pricing page",
+    "description": "Added a post-pack explainer section to the pricing page to help users understand how post pack allowances work across tiers.",
+    "date": "2026-07-18T20:37:03Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a135",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #561 — Pack usage meter reads the plan tier's allowance",
+    "description": "Fixed the pack usage meter to correctly read the allowance for the user's actual plan tier rather than a hardcoded or incorrect value.",
+    "date": "2026-07-18T20:28:51Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a134",
     "type": "fix",
     "project": "PostReady",
@@ -9,66 +45,12 @@
     "actor": "Ares"
   },
   {
-    "id": "a125",
+    "id": "a133",
     "type": "improvement",
     "project": "PostReady",
-    "title": "PostReady: PR #549 — Rewrite Pro Prompt as a Seedream-tuned visual-spec compiler (Phase 1)",
-    "description": "Rewrote Pro Prompt image-side to match Seedream 4.5 prompting style: front-loaded subject+action, explicit object counts, positive geometry contracts, one light source, quoted exact text only when wanted.",
-    "date": "2026-07-17T19:14:04Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a126",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #550 — Show/hide eye toggle on password fields",
-    "description": "Added show/hide eye toggle button to password input fields, letting users reveal or mask their password as they type.",
-    "date": "2026-07-17T20:37:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a127",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #551 — Stop captions all sounding the same",
-    "description": "Updated caption generation to vary tone, structure, and phrasing so batch captions no longer sound repetitive or formulaic.",
-    "date": "2026-07-17T21:09:26Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a128",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #552 — Show business name above Sign out, not owner name",
-    "description": "Dashboard header now displays the client business name above the Sign out link instead of the owner's personal name, improving multi-client clarity.",
-    "date": "2026-07-17T21:11:16Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a129",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #553 — Show client logo in dashboard header",
-    "description": "The dashboard header now displays the client's logo, personalizing the portal for each business using PostReady.",
-    "date": "2026-07-17T21:23:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a130",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #554 — Don't reject a website typed without http://",
-    "description": "Relaxed website URL validation to accept domains entered without http:// prefix, auto-normalizing them so users aren't blocked by a formatting requirement.",
-    "date": "2026-07-17T21:48:07Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a131",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
-    "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
-    "date": "2026-07-17T21:58:49Z",
+    "title": "PostReady: PR #557 — Premium frosted social cards (subtle per-platform gradient system)",
+    "description": "Connected social platform cards upgraded to a premium frosted glass aesthetic with a subtle, refined per-platform gradient system — more polished than the bold Design 4 gradients.",
+    "date": "2026-07-17T22:27:33Z",
     "actor": "Ares"
   },
   {
@@ -81,12 +63,30 @@
     "actor": "Ares"
   },
   {
-    "id": "a133",
-    "type": "improvement",
+    "id": "a131",
+    "type": "feature",
     "project": "PostReady",
-    "title": "PostReady: PR #557 — Premium frosted social cards (subtle per-platform gradient system)",
-    "description": "Connected social platform cards upgraded to a premium frosted glass aesthetic with a subtle, refined per-platform gradient system — more polished than the bold Design 4 gradients.",
-    "date": "2026-07-17T22:27:33Z",
+    "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
+    "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
+    "date": "2026-07-17T21:58:49Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a130",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #554 — Don't reject a website typed without http://",
+    "description": "Relaxed website URL validation to accept domains entered without http:// prefix, auto-normalizing them so users aren't blocked by a formatting requirement.",
+    "date": "2026-07-17T21:48:07Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a129",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #553 — Show client logo in dashboard header",
+    "description": "The dashboard header now displays the client's logo, personalizing the portal for each business using PostReady.",
+    "date": "2026-07-17T21:23:20Z",
     "actor": "Ares"
   }
 ]
