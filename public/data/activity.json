@@ -1,5 +1,14 @@
 [
   {
+    "id": "a139",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #565 — Fix homepage TikTok link points at our handle",
+    "description": "Fixed the TikTok link on the homepage to correctly point to PostReady's own TikTok handle rather than an incorrect or placeholder URL.",
+    "date": "2026-07-18T21:35:45Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a138",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #554 — Don't reject a website typed without http://",
     "description": "Relaxed website URL validation to accept domains entered without http:// prefix, auto-normalizing them so users aren't blocked by a formatting requirement.",
     "date": "2026-07-17T21:48:07Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a129",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #553 — Show client logo in dashboard header",
-    "description": "The dashboard header now displays the client's logo, personalizing the portal for each business using PostReady.",
-    "date": "2026-07-17T21:23:20Z",
     "actor": "Ares"
   }
 ]
