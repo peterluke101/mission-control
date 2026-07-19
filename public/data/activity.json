@@ -1,5 +1,14 @@
 [
   {
+    "id": "a140",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #586 — Auto-QA gate on generated images with one corrected retry",
+    "description": "Added an automatic quality-assurance gate that evaluates generated images and triggers a corrected retry when quality does not meet the threshold, reducing bad outputs reaching users.",
+    "date": "2026-07-19T17:06:24Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a139",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
     "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
     "date": "2026-07-17T21:58:49Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a130",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #554 — Don't reject a website typed without http://",
-    "description": "Relaxed website URL validation to accept domains entered without http:// prefix, auto-normalizing them so users aren't blocked by a formatting requirement.",
-    "date": "2026-07-17T21:48:07Z",
     "actor": "Ares"
   }
 ]
