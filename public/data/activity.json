@@ -1,5 +1,23 @@
 [
   {
+    "id": "a144",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #591 — Post analytics (metrics collection cron + pack Results card)",
+    "description": "Added post analytics infrastructure: a metrics collection cron job and a pack Results card so users can see performance data for their published posts.",
+    "date": "2026-07-22T01:48:40Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a143",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #590 — Prompt-based text-intent detection routes to text model",
+    "description": "Added prompt-based text-intent detection that automatically routes text-heavy prompts to the appropriate text model, improving output quality for text-centric content.",
+    "date": "2026-07-22T01:28:17Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a142",
     "type": "fix",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #561 — Pack usage meter reads the plan tier's allowance",
     "description": "Fixed the pack usage meter to correctly read the allowance for the user's actual plan tier rather than a hardcoded or incorrect value.",
     "date": "2026-07-18T20:28:51Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a134",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #558 — Align Connect button on Connect Socials cards",
-    "description": "Fixed alignment of the Connect button on Connect Socials cards for consistent layout across all connected social platform cards.",
-    "date": "2026-07-18T19:19:46Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a133",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #557 — Premium frosted social cards (subtle per-platform gradient system)",
-    "description": "Connected social platform cards upgraded to a premium frosted glass aesthetic with a subtle, refined per-platform gradient system — more polished than the bold Design 4 gradients.",
-    "date": "2026-07-17T22:27:33Z",
     "actor": "Ares"
   }
 ]
