@@ -1,5 +1,23 @@
 [
   {
+    "id": "a146",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #593 — Onboarding requires business name + auto-generates first post",
+    "description": "Onboarding now requires a business name before proceeding (Next button disabled until entered), and automatically generates the user's first post during setup to reduce time-to-value.",
+    "date": "2026-07-22T02:35:56Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a145",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #592 — Weekly digest email (the retention loop)",
+    "description": "Added a Monday-morning weekly digest email per active client showing post reach, engagement stats, top post, pack usage, and days since last post — closing the retention loop.",
+    "date": "2026-07-22T02:22:09Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a144",
     "type": "feature",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #563 — Redesign pack meter as a stat card",
     "description": "Redesigned the post pack usage meter as a stat card component for a cleaner, more informative display of pack consumption and remaining allowance.",
     "date": "2026-07-18T20:43:43Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a136",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #562 — Add post-pack explainer to pricing page",
-    "description": "Added a post-pack explainer section to the pricing page to help users understand how post pack allowances work across tiers.",
-    "date": "2026-07-18T20:37:03Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a135",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #561 — Pack usage meter reads the plan tier's allowance",
-    "description": "Fixed the pack usage meter to correctly read the allowance for the user's actual plan tier rather than a hardcoded or incorrect value.",
-    "date": "2026-07-18T20:28:51Z",
     "actor": "Ares"
   }
 ]
