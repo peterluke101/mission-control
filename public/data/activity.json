@@ -1,5 +1,14 @@
 [
   {
+    "id": "a147",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #594 — Fix metrics collector IG reach call + Graph error visibility",
+    "description": "Fixed the Instagram metrics collector — IG reach API call corrected and Graph API errors are now surfaced with visibility, improving reliability of the post analytics cron job.",
+    "date": "2026-07-22T16:09:20Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a146",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #564 — Remove platform counts from copy + sell post packs, not AI images",
     "description": "Removed platform count metrics from marketing copy and reframed the product value proposition around selling post packs rather than raw AI image generation.",
     "date": "2026-07-18T20:57:01Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a137",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #563 — Redesign pack meter as a stat card",
-    "description": "Redesigned the post pack usage meter as a stat card component for a cleaner, more informative display of pack consumption and remaining allowance.",
-    "date": "2026-07-18T20:43:43Z",
     "actor": "Ares"
   }
 ]
