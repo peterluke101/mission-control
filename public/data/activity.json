@@ -1,5 +1,14 @@
 [
   {
+    "id": "a142",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #588 — Restore Stripe apiVersion to unbreak prod deploys",
+    "description": "Fixed a Stripe apiVersion mismatch between code and pnpm-lock that was breaking production deploys, restoring deployment stability.",
+    "date": "2026-07-22T01:01:33Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a141",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #557 — Premium frosted social cards (subtle per-platform gradient system)",
     "description": "Connected social platform cards upgraded to a premium frosted glass aesthetic with a subtle, refined per-platform gradient system — more polished than the bold Design 4 gradients.",
     "date": "2026-07-17T22:27:33Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a132",
-    "type": "improvement",
-    "project": "PostReady",
-    "title": "PostReady: PR #556 — Bolder platform gradients + gradient on available cards",
-    "description": "Strengthened per-platform gradient intensity on connected social cards and extended the gradient treatment to available (not-yet-connected) platform cards.",
-    "date": "2026-07-17T22:09:20Z",
     "actor": "Ares"
   }
 ]
