@@ -1,5 +1,14 @@
 [
   {
+    "id": "a141",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #587 — Quality instrumentation (generation_events + publish-ready metric)",
+    "description": "Added quality instrumentation tracking generation_events and a publish-ready metric to monitor and improve image generation quality over time.",
+    "date": "2026-07-22T00:56:44Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a140",
     "type": "feature",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #556 — Bolder platform gradients + gradient on available cards",
     "description": "Strengthened per-platform gradient intensity on connected social cards and extended the gradient treatment to available (not-yet-connected) platform cards.",
     "date": "2026-07-17T22:09:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a131",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #555 — Connected social cards: per-platform gradients (Design 4)",
-    "description": "Connected social platform cards now use per-platform gradient backgrounds (Design 4), giving each platform a distinct visual identity on the dashboard.",
-    "date": "2026-07-17T21:58:49Z",
     "actor": "Ares"
   }
 ]
