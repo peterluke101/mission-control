@@ -1,5 +1,14 @@
 [
   {
+    "id": "a148",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #595 — 'Write another caption' button",
+    "description": "Added a 'Write another caption' button so users can regenerate captions inline without restarting the creation flow, improving iteration speed.",
+    "date": "2026-07-23T02:05:34Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a147",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #565 — Fix homepage TikTok link points at our handle",
     "description": "Fixed the TikTok link on the homepage to correctly point to PostReady's own TikTok handle rather than an incorrect or placeholder URL.",
     "date": "2026-07-18T21:35:45Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a138",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #564 — Remove platform counts from copy + sell post packs, not AI images",
-    "description": "Removed platform count metrics from marketing copy and reframed the product value proposition around selling post packs rather than raw AI image generation.",
-    "date": "2026-07-18T20:57:01Z",
     "actor": "Ares"
   }
 ]
