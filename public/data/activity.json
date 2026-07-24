@@ -1,5 +1,14 @@
 [
   {
+    "id": "a152",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #601 — Fix captions to expand on-image text, not describe the artwork",
+    "description": "Fixed a bug where text-on-image posts got captions that described the visual design (e.g. 'Bold simplicity speaks volumes') instead of expanding on the on-image message (e.g. 'Still posting at midnight?'). Captions now correctly riff on the text content of the post.",
+    "date": "2026-07-24T17:47:13Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a151",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #590 — Prompt-based text-intent detection routes to text model",
     "description": "Added prompt-based text-intent detection that automatically routes text-heavy prompts to the appropriate text model, improving output quality for text-centric content.",
     "date": "2026-07-22T01:28:17Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a142",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #588 — Restore Stripe apiVersion to unbreak prod deploys",
-    "description": "Fixed a Stripe apiVersion mismatch between code and pnpm-lock that was breaking production deploys, restoring deployment stability.",
-    "date": "2026-07-22T01:01:33Z",
     "actor": "Ares"
   }
 ]
