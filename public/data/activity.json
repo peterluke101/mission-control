@@ -1,5 +1,23 @@
 [
   {
+    "id": "a150",
+    "type": "feature",
+    "project": "PostReady",
+    "title": "PostReady: PR #598 — Snap→Post: camera button, HEIC→JPEG, photo-first mobile",
+    "description": "Added a Take a Photo button (mobile-only) that opens the device camera directly via capture=\"environment\". Also added client-side HEIC→JPEG conversion via heic2any to fix iPhone photo upload failures.",
+    "date": "2026-07-24T16:30:22Z",
+    "actor": "Ares"
+  },
+  {
+    "id": "a149",
+    "type": "perf",
+    "project": "PostReady",
+    "title": "PostReady: PR #597 — Stream dashboard shell, fold billing into profile query",
+    "description": "Performance improvement: getProfile() now fetches plan_status and subscription_period_end together, eliminating a serial Supabase round trip before the first byte of the dashboard shell is streamed.",
+    "date": "2026-07-24T16:23:49Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a148",
     "type": "feature",
     "project": "PostReady",
@@ -69,24 +87,6 @@
     "title": "PostReady: PR #587 — Quality instrumentation (generation_events + publish-ready metric)",
     "description": "Added quality instrumentation tracking generation_events and a publish-ready metric to monitor and improve image generation quality over time.",
     "date": "2026-07-22T00:56:44Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a140",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #586 — Auto-QA gate on generated images with one corrected retry",
-    "description": "Added an automatic quality-assurance gate that evaluates generated images and triggers a corrected retry when quality does not meet the threshold, reducing bad outputs reaching users.",
-    "date": "2026-07-19T17:06:24Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a139",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #565 — Fix homepage TikTok link points at our handle",
-    "description": "Fixed the TikTok link on the homepage to correctly point to PostReady's own TikTok handle rather than an incorrect or placeholder URL.",
-    "date": "2026-07-18T21:35:45Z",
     "actor": "Ares"
   }
 ]
