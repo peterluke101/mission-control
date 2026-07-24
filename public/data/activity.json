@@ -1,5 +1,14 @@
 [
   {
+    "id": "a151",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #599 — Trim dashboard header + six rotating hero lines",
+    "description": "Dashboard header trimmed for cleaner UX, and the landing page hero now cycles through six rotating headline variants to improve engagement.",
+    "date": "2026-07-24T17:02:00Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a150",
     "type": "feature",
     "project": "PostReady",
@@ -21,8 +30,8 @@
     "id": "a148",
     "type": "feature",
     "project": "PostReady",
-    "title": "PostReady: PR #595 — 'Write another caption' button",
-    "description": "Added a 'Write another caption' button so users can regenerate captions inline without restarting the creation flow, improving iteration speed.",
+    "title": "PostReady: PR #595 — Write another caption button",
+    "description": "Added a \"Write another caption\" button so users can regenerate captions inline without restarting the creation flow, improving iteration speed.",
     "date": "2026-07-23T02:05:34Z",
     "actor": "Ares"
   },
@@ -40,7 +49,7 @@
     "type": "feature",
     "project": "PostReady",
     "title": "PostReady: PR #593 — Onboarding requires business name + auto-generates first post",
-    "description": "Onboarding now requires a business name before proceeding (Next button disabled until entered), and automatically generates the user's first post during setup to reduce time-to-value.",
+    "description": "Onboarding now requires a business name before proceeding, and automatically generates the first post during setup to reduce time-to-value.",
     "date": "2026-07-22T02:35:56Z",
     "actor": "Ares"
   },
@@ -49,7 +58,7 @@
     "type": "feature",
     "project": "PostReady",
     "title": "PostReady: PR #592 — Weekly digest email (the retention loop)",
-    "description": "Added a Monday-morning weekly digest email per active client showing post reach, engagement stats, top post, pack usage, and days since last post — closing the retention loop.",
+    "description": "Added a Monday-morning weekly digest email per active client showing reach, engagement, top post, pack usage, and days since last post.",
     "date": "2026-07-22T02:22:09Z",
     "actor": "Ares"
   },
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #588 — Restore Stripe apiVersion to unbreak prod deploys",
     "description": "Fixed a Stripe apiVersion mismatch between code and pnpm-lock that was breaking production deploys, restoring deployment stability.",
     "date": "2026-07-22T01:01:33Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a141",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #587 — Quality instrumentation (generation_events + publish-ready metric)",
-    "description": "Added quality instrumentation tracking generation_events and a publish-ready metric to monitor and improve image generation quality over time.",
-    "date": "2026-07-22T00:56:44Z",
     "actor": "Ares"
   }
 ]
