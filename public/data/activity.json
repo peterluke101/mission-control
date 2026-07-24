@@ -1,5 +1,14 @@
 [
   {
+    "id": "a153",
+    "type": "fix",
+    "project": "PostReady",
+    "title": "PostReady: PR #602 — Fix multi-scene video Cloudflare subrequest limit via fal webhooks",
+    "description": "Fixed multi-scene video generation which was failing due to Cloudflare's 50 subrequest limit. Switched scene rendering to fal webhooks instead of direct calls, eliminating the subrequest bottleneck.",
+    "date": "2026-07-24T20:40:46Z",
+    "actor": "Ares"
+  },
+  {
     "id": "a152",
     "type": "fix",
     "project": "PostReady",
@@ -78,15 +87,6 @@
     "title": "PostReady: PR #591 — Post analytics (metrics collection cron + pack Results card)",
     "description": "Added post analytics infrastructure: a metrics collection cron job and a pack Results card so users can see performance data for their published posts.",
     "date": "2026-07-22T01:48:40Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a143",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #590 — Prompt-based text-intent detection routes to text model",
-    "description": "Added prompt-based text-intent detection that automatically routes text-heavy prompts to the appropriate text model, improving output quality for text-centric content.",
-    "date": "2026-07-22T01:28:17Z",
     "actor": "Ares"
   }
 ]
