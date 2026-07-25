@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a163",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #612 — Cap video batches at 3 per run",
+      "description": "Fixed video batch limits — video runs are now capped at 3 (vs 15 for images) to prevent burning expensive credits on unreviewed runs. Image batch limits unchanged.",
+      "date": "2026-07-25T22:12:56Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a162",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #603 — Review-to-post quote-card builder",
       "description": "Added a review-to-post quote-card builder that turns client reviews into branded, social-ready quote cards, making it easy to convert testimonials into polished posts.",
       "date": "2026-07-24T23:22:34Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a153",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #602 — Fix multi-scene video Cloudflare subrequest limit via fal webhooks",
-      "description": "Fixed multi-scene video generation which was failing due to Cloudflare's 50 subrequest limit. Switched scene rendering to fal webhooks instead of direct calls.",
-      "date": "2026-07-24T20:40:46Z",
       "actor": "Ares"
     }
   ]
