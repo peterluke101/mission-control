@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a160",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #609 — Fix second reference photo ignored when adding multiple files",
+      "description": "Fixed a bug where adding a second reference photo (or dropping multiple files) caused the first upload to be silently dropped due to HEIC-conversion pipeline ordering.",
+      "date": "2026-07-25T20:35:34Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a159",
       "type": "fix",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #599 — Trim dashboard header + six rotating hero lines",
       "description": "Dashboard header trimmed for cleaner UX, and the landing page hero now cycles through six rotating headline variants.",
       "date": "2026-07-24T17:02:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a150",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #598 — Snap→Post: camera button, HEIC→JPEG, photo-first mobile",
-      "description": "Added a Take a Photo button (mobile-only) opening device camera directly. Added HEIC→JPEG conversion to fix iPhone photo upload failures.",
-      "date": "2026-07-24T16:30:22Z",
       "actor": "Ares"
     }
   ]
