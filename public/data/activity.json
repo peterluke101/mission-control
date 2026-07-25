@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a159",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #608 — Fix HEIC conversion in all image inputs (reference photos, character photo, prompt studio)",
+      "description": "Extended HEIC→JPEG conversion to cover all image input paths — reference photos, character photo, and Prompt Studio — fixing iPhone photo upload failures across the app.",
+      "date": "2026-07-25T19:59:06Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a158",
       "type": "fix",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #598 — Snap→Post: camera button, HEIC→JPEG, photo-first mobile",
       "description": "Added a Take a Photo button (mobile-only) opening device camera directly. Added HEIC→JPEG conversion to fix iPhone photo upload failures.",
       "date": "2026-07-24T16:30:22Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a149",
-      "type": "perf",
-      "project": "PostReady",
-      "title": "PostReady: PR #597 — Stream dashboard shell, fold billing into profile query",
-      "description": "getProfile() now fetches plan status and subscription data together, eliminating a serial Supabase round trip before the dashboard shell streams.",
-      "date": "2026-07-24T16:23:49Z",
       "actor": "Ares"
     }
   ]
