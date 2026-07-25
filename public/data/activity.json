@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "id": "a162",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #611 — Schedule 'Where to post' defaults to all connected accounts (opt-out chips)",
+      "description": "Schedule form now defaults to all connected accounts pre-selected, with opt-out chips so users can deselect specific platforms instead of opting in each time.",
+      "date": "2026-07-25T21:39:24Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a161",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #610 — Batch quantity chips + collapsed prompt cards",
+      "description": "Added quantity chips to the batch creation flow and collapsed prompt cards for a cleaner, more scannable batch workspace UX.",
+      "date": "2026-07-25T21:35:25Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a160",
       "type": "fix",
       "project": "PostReady",
@@ -50,7 +68,7 @@
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #604 — Fix multi-scene video captions cover the whole video",
-      "description": "Fixed multi-scene video captions which were not covering the full video duration. Captions now span the entire video correctly (PR #600 follow-up).",
+      "description": "Fixed multi-scene video captions which were not covering the full video duration. Captions now span the entire video correctly.",
       "date": "2026-07-24T23:24:52Z",
       "actor": "Ares"
     },
@@ -70,24 +88,6 @@
       "title": "PostReady: PR #602 — Fix multi-scene video Cloudflare subrequest limit via fal webhooks",
       "description": "Fixed multi-scene video generation which was failing due to Cloudflare's 50 subrequest limit. Switched scene rendering to fal webhooks instead of direct calls.",
       "date": "2026-07-24T20:40:46Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a152",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #601 — Fix captions to expand on-image text, not describe the artwork",
-      "description": "Fixed a bug where text-on-image posts got captions describing the visual design instead of expanding on the on-image message.",
-      "date": "2026-07-24T17:47:13Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a151",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #599 — Trim dashboard header + six rotating hero lines",
-      "description": "Dashboard header trimmed for cleaner UX, and the landing page hero now cycles through six rotating headline variants.",
-      "date": "2026-07-24T17:02:00Z",
       "actor": "Ares"
     }
   ]
