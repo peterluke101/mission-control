@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "id": "a158",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #607 — Fix caption y_offset floor (captions never burned)",
+      "description": "Fixed a bug where caption y_offset of -220 exceeded fal's -200 floor, causing captions to silently never burn onto the video.",
+      "date": "2026-07-25T15:54:15Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a157",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #605 — Animate homepage How-it-works demo (self-playing Pro Prompt loop)",
+      "description": "Added a self-playing animated demo loop on the homepage How-it-works section, showcasing Pro Prompt in action without user interaction.",
+      "date": "2026-07-25T15:45:49Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a156",
       "type": "fix",
       "project": "PostReady",
@@ -70,24 +88,6 @@
       "title": "PostReady: PR #597 — Stream dashboard shell, fold billing into profile query",
       "description": "getProfile() now fetches plan status and subscription data together, eliminating a serial Supabase round trip before the dashboard shell streams.",
       "date": "2026-07-24T16:23:49Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a148",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #595 — Write another caption button",
-      "description": "Added a Write another caption button so users can regenerate captions inline without restarting the creation flow.",
-      "date": "2026-07-23T02:05:34Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a147",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #594 — Fix metrics collector IG reach call + Graph error visibility",
-      "description": "Fixed the Instagram metrics collector — IG reach API call corrected and Graph API errors surfaced with visibility.",
-      "date": "2026-07-22T16:09:20Z",
       "actor": "Ares"
     }
   ]
