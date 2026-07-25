@@ -1,92 +1,94 @@
-[
-  {
-    "id": "a155",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #604 — Fix multi-scene video captions cover the whole video",
-    "description": "Fixed multi-scene video captions which were not covering the full video duration. Captions now span the entire video correctly (PR #600 follow-up).",
-    "date": "2026-07-24T23:24:52Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a154",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #603 — Review-to-post quote-card builder",
-    "description": "Added a review-to-post quote-card builder that turns client reviews into branded, social-ready quote cards, making it easy to convert testimonials into polished posts.",
-    "date": "2026-07-24T23:22:34Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a153",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #602 — Fix multi-scene video Cloudflare subrequest limit via fal webhooks",
-    "description": "Fixed multi-scene video generation which was failing due to Cloudflare's 50 subrequest limit. Switched scene rendering to fal webhooks instead of direct calls.",
-    "date": "2026-07-24T20:40:46Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a152",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #601 — Fix captions to expand on-image text, not describe the artwork",
-    "description": "Fixed a bug where text-on-image posts got captions describing the visual design instead of expanding on the on-image message.",
-    "date": "2026-07-24T17:47:13Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a151",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #599 — Trim dashboard header + six rotating hero lines",
-    "description": "Dashboard header trimmed for cleaner UX, and the landing page hero now cycles through six rotating headline variants.",
-    "date": "2026-07-24T17:02:00Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a150",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #598 — Snap→Post: camera button, HEIC→JPEG, photo-first mobile",
-    "description": "Added a Take a Photo button (mobile-only) opening device camera directly. Added HEIC→JPEG conversion to fix iPhone photo upload failures.",
-    "date": "2026-07-24T16:30:22Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a149",
-    "type": "perf",
-    "project": "PostReady",
-    "title": "PostReady: PR #597 — Stream dashboard shell, fold billing into profile query",
-    "description": "getProfile() now fetches plan status and subscription data together, eliminating a serial Supabase round trip before the dashboard shell streams.",
-    "date": "2026-07-24T16:23:49Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a148",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #595 — Write another caption button",
-    "description": "Added a Write another caption button so users can regenerate captions inline without restarting the creation flow.",
-    "date": "2026-07-23T02:05:34Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a147",
-    "type": "fix",
-    "project": "PostReady",
-    "title": "PostReady: PR #594 — Fix metrics collector IG reach call + Graph error visibility",
-    "description": "Fixed the Instagram metrics collector — IG reach API call corrected and Graph API errors surfaced with visibility.",
-    "date": "2026-07-22T16:09:20Z",
-    "actor": "Ares"
-  },
-  {
-    "id": "a146",
-    "type": "feature",
-    "project": "PostReady",
-    "title": "PostReady: PR #593 — Onboarding requires business name + auto-generates first post",
-    "description": "Onboarding now requires a business name before proceeding, and automatically generates the first post during setup to reduce time-to-value.",
-    "date": "2026-07-22T02:35:56Z",
-    "actor": "Ares"
-  }
-]
+{
+  "events": [
+    {
+      "id": "a156",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #606 — Surface fal auto-subtitle error bodies in caption failures",
+      "description": "Fixed caption failure handling — fal auto-subtitle errors are now surfaced with full error body visibility, improving debuggability of subtitle generation failures.",
+      "date": "2026-07-25T14:34:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a155",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #604 — Fix multi-scene video captions cover the whole video",
+      "description": "Fixed multi-scene video captions which were not covering the full video duration. Captions now span the entire video correctly (PR #600 follow-up).",
+      "date": "2026-07-24T23:24:52Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a154",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #603 — Review-to-post quote-card builder",
+      "description": "Added a review-to-post quote-card builder that turns client reviews into branded, social-ready quote cards, making it easy to convert testimonials into polished posts.",
+      "date": "2026-07-24T23:22:34Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a153",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #602 — Fix multi-scene video Cloudflare subrequest limit via fal webhooks",
+      "description": "Fixed multi-scene video generation which was failing due to Cloudflare's 50 subrequest limit. Switched scene rendering to fal webhooks instead of direct calls.",
+      "date": "2026-07-24T20:40:46Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a152",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #601 — Fix captions to expand on-image text, not describe the artwork",
+      "description": "Fixed a bug where text-on-image posts got captions describing the visual design instead of expanding on the on-image message.",
+      "date": "2026-07-24T17:47:13Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a151",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #599 — Trim dashboard header + six rotating hero lines",
+      "description": "Dashboard header trimmed for cleaner UX, and the landing page hero now cycles through six rotating headline variants.",
+      "date": "2026-07-24T17:02:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a150",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #598 — Snap→Post: camera button, HEIC→JPEG, photo-first mobile",
+      "description": "Added a Take a Photo button (mobile-only) opening device camera directly. Added HEIC→JPEG conversion to fix iPhone photo upload failures.",
+      "date": "2026-07-24T16:30:22Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a149",
+      "type": "perf",
+      "project": "PostReady",
+      "title": "PostReady: PR #597 — Stream dashboard shell, fold billing into profile query",
+      "description": "getProfile() now fetches plan status and subscription data together, eliminating a serial Supabase round trip before the dashboard shell streams.",
+      "date": "2026-07-24T16:23:49Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a148",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #595 — Write another caption button",
+      "description": "Added a Write another caption button so users can regenerate captions inline without restarting the creation flow.",
+      "date": "2026-07-23T02:05:34Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a147",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #594 — Fix metrics collector IG reach call + Graph error visibility",
+      "description": "Fixed the Instagram metrics collector — IG reach API call corrected and Graph API errors surfaced with visibility.",
+      "date": "2026-07-22T16:09:20Z",
+      "actor": "Ares"
+    }
+  ]
+}
