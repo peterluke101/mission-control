@@ -1,6 +1,33 @@
 {
   "events": [
     {
+      "id": "a176",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #625 — Use owner's single-raster dark sidebar lockup",
+      "description": "Replaced the composed dark sidebar logo with the owner's preferred single-raster lockup — coral rocket speech-bubble + white \"Zippity\" + coral \"One\" — so the mark and wordmark are pixel-perfect every time.",
+      "date": "2026-07-26T22:59:41Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a175",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #624 — Remove white card behind sidebar logo (dark lockup)",
+      "description": "Fixed the dark sidebar logo: removed the white rounded card wrapping the wordmark so the logo sits directly on the black sidebar with the coral rocket mark, white Zippity text, and coral One — matching the owner's mockup.",
+      "date": "2026-07-26T22:40:09Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a174",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #623 — Crop Video setup empty-state art to match Batch settings panel height",
+      "description": "Fixed the Video setup panel's placeholder illustration which rendered as a tall block, pushing all content below it far down. Cropped and constrained the art so the Video panel now matches the compact Batch settings block height.",
+      "date": "2026-07-26T22:32:17Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a173",
       "type": "fix",
       "project": "PostReady",
@@ -61,33 +88,6 @@
       "title": "PostReady: PR #616 — Restyle Create page to match owner mockup",
       "description": "Restyled the Create page layout and visuals to match the owner's design mockup, improving consistency and polish across the main content-creation flow.",
       "date": "2026-07-26T20:47:11Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a166",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #615 — Text styles: Hook / Headline / Quote overlays",
-      "description": "Added three text-style overlays (Hook, Headline, Quote) to the image/video creation flow, giving users quick typographic presets that burn directly onto generated content.",
-      "date": "2026-07-26T20:18:10Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a165",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #614 — Coral outline for active create-type tab (not filled background)",
-      "description": "Fixed the active create-type tab indicator — switched from a filled background to a coral outline so the active tab is visually distinct without dominating the UI.",
-      "date": "2026-07-26T01:16:24Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a164",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #613 — Accurate batch-video wait copy (5 min per video, lands in Post Packs)",
-      "description": "Updated batch-video in-progress copy to accurately reflect the 5-minute-per-video wait time and that completed videos land in Post Packs, reducing user confusion during long batch runs.",
-      "date": "2026-07-26T01:10:29Z",
       "actor": "Ares"
     }
   ]
