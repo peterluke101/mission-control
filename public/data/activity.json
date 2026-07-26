@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "id": "a165",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #614 — Coral outline for active create-type tab (not filled background)",
+      "description": "Fixed the active create-type tab indicator — switched from a filled background to a coral outline so the active tab is visually distinct without dominating the UI.",
+      "date": "2026-07-26T01:16:24Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a164",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #613 — Accurate batch-video wait copy (5 min per video, lands in Post Packs)",
+      "description": "Updated batch-video in-progress copy to accurately reflect the 5-minute-per-video wait time and that completed videos land in Post Packs, reducing user confusion during long batch runs.",
+      "date": "2026-07-26T01:10:29Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a163",
       "type": "fix",
       "project": "PostReady",
@@ -70,24 +88,6 @@
       "title": "PostReady: PR #606 — Surface fal auto-subtitle error bodies in caption failures",
       "description": "Fixed caption failure handling — fal auto-subtitle errors are now surfaced with full error body visibility, improving debuggability of subtitle generation failures.",
       "date": "2026-07-25T14:34:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a155",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #604 — Fix multi-scene video captions cover the whole video",
-      "description": "Fixed multi-scene video captions which were not covering the full video duration. Captions now span the entire video correctly.",
-      "date": "2026-07-24T23:24:52Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a154",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #603 — Review-to-post quote-card builder",
-      "description": "Added a review-to-post quote-card builder that turns client reviews into branded, social-ready quote cards, making it easy to convert testimonials into polished posts.",
-      "date": "2026-07-24T23:22:34Z",
       "actor": "Ares"
     }
   ]
