@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a168",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #617 — Polish: bigger centered sidebar logo + dark packs-usage card",
+      "description": "Polished the dashboard sidebar with a larger centered logo and restyled the packs-usage card with a dark theme, improving visual hierarchy and brand presence.",
+      "date": "2026-07-26T21:13:05Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a167",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #608 — Fix HEIC conversion in all image inputs (reference photos, character photo, prompt studio)",
       "description": "Extended HEIC→JPEG conversion to cover all image input paths — reference photos, character photo, and Prompt Studio — fixing iPhone photo upload failures across the app.",
       "date": "2026-07-25T19:59:06Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a158",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #607 — Fix caption y_offset floor (captions never burned)",
-      "description": "Fixed a bug where caption y_offset of -220 exceeded fal's -200 floor, causing captions to silently never burn onto the video.",
-      "date": "2026-07-25T15:54:15Z",
       "actor": "Ares"
     }
   ]
