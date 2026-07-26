@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a166",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #615 — Text styles: Hook / Headline / Quote overlays",
+      "description": "Added three text-style overlays (Hook, Headline, Quote) to the image/video creation flow, giving users quick typographic presets that burn directly onto generated content.",
+      "date": "2026-07-26T20:18:10Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a165",
       "type": "fix",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #605 — Animate homepage How-it-works demo (self-playing Pro Prompt loop)",
       "description": "Added a self-playing animated demo loop on the homepage How-it-works section, showcasing Pro Prompt in action without user interaction.",
       "date": "2026-07-25T15:45:49Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a156",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #606 — Surface fal auto-subtitle error bodies in caption failures",
-      "description": "Fixed caption failure handling — fal auto-subtitle errors are now surfaced with full error body visibility, improving debuggability of subtitle generation failures.",
-      "date": "2026-07-25T14:34:00Z",
       "actor": "Ares"
     }
   ]
