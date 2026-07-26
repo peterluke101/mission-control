@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a171",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #620 — Remove duplicate \"Choose from Post Packs\" button from upload dropzone",
+      "description": "Fixed a UX issue where the \"Choose from Post Packs\" button appeared twice in the upload dropzone, cleaning up the Upload tab after its redesign in PR #619.",
+      "date": "2026-07-26T21:44:38Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a170",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #611 — Schedule 'Where to post' defaults to all connected accounts (opt-out chips)",
       "description": "Schedule form now defaults to all connected accounts pre-selected, with opt-out chips so users can deselect specific platforms instead of opting in each time.",
       "date": "2026-07-25T21:39:24Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a161",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #610 — Batch quantity chips + collapsed prompt cards",
-      "description": "Added quantity chips to the batch creation flow and collapsed prompt cards for a cleaner, more scannable batch workspace UX.",
-      "date": "2026-07-25T21:35:25Z",
       "actor": "Ares"
     }
   ]
