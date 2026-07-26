@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "id": "a167",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #616 — Restyle Create page to match owner mockup",
+      "description": "Restyled the Create page layout and visuals to match the owner's design mockup, improving consistency and polish across the main content-creation flow.",
+      "date": "2026-07-26T20:47:11Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a166",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #607 — Fix caption y_offset floor (captions never burned)",
       "description": "Fixed a bug where caption y_offset of -220 exceeded fal's -200 floor, causing captions to silently never burn onto the video.",
       "date": "2026-07-25T15:54:15Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a157",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #605 — Animate homepage How-it-works demo (self-playing Pro Prompt loop)",
-      "description": "Added a self-playing animated demo loop on the homepage How-it-works section, showcasing Pro Prompt in action without user interaction.",
-      "date": "2026-07-25T15:45:49Z",
       "actor": "Ares"
     }
   ]
