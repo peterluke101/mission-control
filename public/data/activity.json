@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "id": "a173",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #622 — Fix top-align Batch settings panel with start of batch form",
+      "description": "Fixed vertical alignment of the Batch settings panel so it top-aligns with the start of the batch form, improving layout consistency in the two-column workspace.",
+      "date": "2026-07-26T22:12:32Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a172",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #621 — Placeholder art for the empty Video setup preview",
+      "description": "Added placeholder art to the empty Video setup preview panel, giving users a clear visual cue that the preview will appear here once a video is generated.",
+      "date": "2026-07-26T22:12:29Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a171",
       "type": "fix",
       "project": "PostReady",
@@ -70,24 +88,6 @@
       "title": "PostReady: PR #613 — Accurate batch-video wait copy (5 min per video, lands in Post Packs)",
       "description": "Updated batch-video in-progress copy to accurately reflect the 5-minute-per-video wait time and that completed videos land in Post Packs, reducing user confusion during long batch runs.",
       "date": "2026-07-26T01:10:29Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a163",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #612 — Cap video batches at 3 per run",
-      "description": "Fixed video batch limits — video runs are now capped at 3 (vs 15 for images) to prevent burning expensive credits on unreviewed runs. Image batch limits unchanged.",
-      "date": "2026-07-25T22:12:56Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a162",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #611 — Schedule 'Where to post' defaults to all connected accounts (opt-out chips)",
-      "description": "Schedule form now defaults to all connected accounts pre-selected, with opt-out chips so users can deselect specific platforms instead of opting in each time.",
-      "date": "2026-07-25T21:39:24Z",
       "actor": "Ares"
     }
   ]
