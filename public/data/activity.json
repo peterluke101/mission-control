@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "id": "a170",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #619 — Redesign Upload tab to match owner mockup",
+      "description": "Redesigned the Upload tab to match the owner's design mockup, completing the visual overhaul of all main creation tabs for a cohesive dashboard experience.",
+      "date": "2026-07-26T21:40:11Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a169",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #618 — Extend Create redesign to Video, Batch & Upload tabs",
+      "description": "Extended the new Create page design language to the Video, Batch, and Upload tabs so the full creation workspace shares a consistent layout and visual style.",
+      "date": "2026-07-26T21:21:12Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a168",
       "type": "feature",
       "project": "PostReady",
@@ -70,24 +88,6 @@
       "title": "PostReady: PR #610 — Batch quantity chips + collapsed prompt cards",
       "description": "Added quantity chips to the batch creation flow and collapsed prompt cards for a cleaner, more scannable batch workspace UX.",
       "date": "2026-07-25T21:35:25Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a160",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #609 — Fix second reference photo ignored when adding multiple files",
-      "description": "Fixed a bug where adding a second reference photo (or dropping multiple files) caused the first upload to be silently dropped due to HEIC-conversion pipeline ordering.",
-      "date": "2026-07-25T20:35:34Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a159",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #608 — Fix HEIC conversion in all image inputs (reference photos, character photo, prompt studio)",
-      "description": "Extended HEIC→JPEG conversion to cover all image input paths — reference photos, character photo, and Prompt Studio — fixing iPhone photo upload failures across the app.",
-      "date": "2026-07-25T19:59:06Z",
       "actor": "Ares"
     }
   ]
