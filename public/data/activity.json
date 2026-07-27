@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "id": "a171",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #620 — Remove duplicate \"Choose from Post Packs\" button from upload dropzone",
-      "description": "Fixed a UX issue where the \"Choose from Post Packs\" button appeared twice in the upload dropzone, cleaning up the Upload tab after its redesign in PR #619.",
-      "date": "2026-07-26T21:44:38Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a172",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #621 — Placeholder art for the empty Video setup preview",
-      "description": "Added placeholder art to the empty Video setup preview panel, giving users a clear visual cue that the preview will appear here once a video is generated.",
-      "date": "2026-07-26T22:12:29Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a173",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +70,24 @@
       "title": "PostReady: PR #629 — Redesign post-detail page",
       "description": "Redesigned the post-detail ('Your post is ready') page to match the new create-area design system, giving the full posting flow a consistent visual identity.",
       "date": "2026-07-27T04:35:13Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a181",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #630 — Text style panel polish (brand swatch alignment + Placement row)",
+      "description": "Polished the text style panel with improved brand swatch alignment and a cleaner Placement row, refining the typography overlay controls introduced in the Create area redesign.",
+      "date": "2026-07-27T04:45:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a182",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #631 — Cap Schedule post-picker grid at 12 with \"Show more\"",
+      "description": "Capped the Schedule page's post-picker grid at 12 items and added a \"Show more\" button, keeping the scheduling flow uncluttered for users with many saved posts.",
+      "date": "2026-07-27T04:45:49Z",
       "actor": "Ares"
     }
   ]
