@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a173",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #622 — Fix top-align Batch settings panel with start of batch form",
-      "description": "Fixed vertical alignment of the Batch settings panel so it top-aligns with the start of the batch form, improving layout consistency in the two-column workspace.",
-      "date": "2026-07-26T22:12:32Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a174",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #631 — Cap Schedule post-picker grid at 12 with \"Show more\"",
       "description": "Capped the Schedule page's post-picker grid at 12 items and added a \"Show more\" button, keeping the scheduling flow uncluttered for users with many saved posts.",
       "date": "2026-07-27T04:45:49Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a183",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #632 — Fix text style chips always visible + Hook honours accent colour",
+      "description": "Fixed text overlay controls so style chips are always visible, and ensured the Hook text style correctly applies the brand accent colour rather than falling back to default.",
+      "date": "2026-07-27T05:03:07Z",
       "actor": "Ares"
     }
   ]
