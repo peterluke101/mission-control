@@ -82,12 +82,12 @@
       "actor": "Ares"
     },
     {
-      "id": "a167",
+      "id": "a177",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #616 — Restyle Create page to match owner mockup",
-      "description": "Restyled the Create page layout and visuals to match the owner's design mockup, improving consistency and polish across the main content-creation flow.",
-      "date": "2026-07-26T20:47:11Z",
+      "title": "PostReady: PR #626 — Coral H1 icons on Connect Socials, Settings & Post Packs",
+      "description": "Added coral-colored H1 section icons to the Connect Socials, Settings, and Post Packs pages, providing visual consistency with the coral accent system across the dashboard.",
+      "date": "2026-07-26T23:09:48Z",
       "actor": "Ares"
     }
   ]
