@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a174",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #623 — Crop Video setup empty-state art to match Batch settings panel height",
-      "description": "Fixed the Video setup panel's placeholder illustration which rendered as a tall block, pushing all content below it far down. Cropped and constrained the art so the Video panel now matches the compact Batch settings block height.",
-      "date": "2026-07-26T22:32:17Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a175",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #632 — Fix text style chips always visible + Hook honours accent colour",
       "description": "Fixed text overlay controls so style chips are always visible, and ensured the Hook text style correctly applies the brand accent colour rather than falling back to default.",
       "date": "2026-07-27T05:03:07Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a184",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #633 — Text style panel round 2: artistic accent hint, placement layout, brand swatch ring",
+      "description": "Second pass on the text style panel: added an artistic accent hint, refined the placement layout, and added a brand swatch ring — further polishing the typography overlay controls in the Create area redesign.",
+      "date": "2026-07-27T05:27:57Z",
       "actor": "Ares"
     }
   ]
