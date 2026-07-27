@@ -1,57 +1,12 @@
 {
   "events": [
     {
-      "id": "a176",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #625 — Use owner's single-raster dark sidebar lockup",
-      "description": "Replaced the composed dark sidebar logo with the owner's preferred single-raster lockup — coral rocket speech-bubble + white \"Zippity\" + coral \"One\" — so the mark and wordmark are pixel-perfect every time.",
-      "date": "2026-07-26T22:59:41Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a175",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #624 — Remove white card behind sidebar logo (dark lockup)",
-      "description": "Fixed the dark sidebar logo: removed the white rounded card wrapping the wordmark so the logo sits directly on the black sidebar with the coral rocket mark, white Zippity text, and coral One — matching the owner's mockup.",
-      "date": "2026-07-26T22:40:09Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a174",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #623 — Crop Video setup empty-state art to match Batch settings panel height",
-      "description": "Fixed the Video setup panel's placeholder illustration which rendered as a tall block, pushing all content below it far down. Cropped and constrained the art so the Video panel now matches the compact Batch settings block height.",
-      "date": "2026-07-26T22:32:17Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a173",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #622 — Fix top-align Batch settings panel with start of batch form",
-      "description": "Fixed vertical alignment of the Batch settings panel so it top-aligns with the start of the batch form, improving layout consistency in the two-column workspace.",
-      "date": "2026-07-26T22:12:32Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a172",
+      "id": "a169",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #621 — Placeholder art for the empty Video setup preview",
-      "description": "Added placeholder art to the empty Video setup preview panel, giving users a clear visual cue that the preview will appear here once a video is generated.",
-      "date": "2026-07-26T22:12:29Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a171",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #620 — Remove duplicate \"Choose from Post Packs\" button from upload dropzone",
-      "description": "Fixed a UX issue where the \"Choose from Post Packs\" button appeared twice in the upload dropzone, cleaning up the Upload tab after its redesign in PR #619.",
-      "date": "2026-07-26T21:44:38Z",
+      "title": "PostReady: PR #618 — Extend Create redesign to Video, Batch & Upload tabs",
+      "description": "Extended the new Create page design language to the Video, Batch, and Upload tabs so the full creation workspace shares a consistent layout and visual style.",
+      "date": "2026-07-26T21:21:12Z",
       "actor": "Ares"
     },
     {
@@ -64,21 +19,57 @@
       "actor": "Ares"
     },
     {
-      "id": "a169",
-      "type": "feature",
+      "id": "a171",
+      "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #618 — Extend Create redesign to Video, Batch & Upload tabs",
-      "description": "Extended the new Create page design language to the Video, Batch, and Upload tabs so the full creation workspace shares a consistent layout and visual style.",
-      "date": "2026-07-26T21:21:12Z",
+      "title": "PostReady: PR #620 — Remove duplicate \"Choose from Post Packs\" button from upload dropzone",
+      "description": "Fixed a UX issue where the \"Choose from Post Packs\" button appeared twice in the upload dropzone, cleaning up the Upload tab after its redesign in PR #619.",
+      "date": "2026-07-26T21:44:38Z",
       "actor": "Ares"
     },
     {
-      "id": "a168",
+      "id": "a172",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #617 — Polish: bigger centered sidebar logo + dark packs-usage card",
-      "description": "Polished the dashboard sidebar with a larger centered logo and restyled the packs-usage card with a dark theme, improving visual hierarchy and brand presence.",
-      "date": "2026-07-26T21:13:05Z",
+      "title": "PostReady: PR #621 — Placeholder art for the empty Video setup preview",
+      "description": "Added placeholder art to the empty Video setup preview panel, giving users a clear visual cue that the preview will appear here once a video is generated.",
+      "date": "2026-07-26T22:12:29Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a173",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #622 — Fix top-align Batch settings panel with start of batch form",
+      "description": "Fixed vertical alignment of the Batch settings panel so it top-aligns with the start of the batch form, improving layout consistency in the two-column workspace.",
+      "date": "2026-07-26T22:12:32Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a174",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #623 — Crop Video setup empty-state art to match Batch settings panel height",
+      "description": "Fixed the Video setup panel's placeholder illustration which rendered as a tall block, pushing all content below it far down. Cropped and constrained the art so the Video panel now matches the compact Batch settings block height.",
+      "date": "2026-07-26T22:32:17Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a175",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #624 — Remove white card behind sidebar logo (dark lockup)",
+      "description": "Fixed the dark sidebar logo: removed the white rounded card wrapping the wordmark so the logo sits directly on the black sidebar with the coral rocket mark, white Zippity text, and coral One — matching the owner's mockup.",
+      "date": "2026-07-26T22:40:09Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a176",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #625 — Use owner's single-raster dark sidebar lockup",
+      "description": "Replaced the composed dark sidebar logo with the owner's preferred single-raster lockup — coral rocket speech-bubble + white \"Zippity\" + coral \"One\" — so the mark and wordmark are pixel-perfect every time.",
+      "date": "2026-07-26T22:59:41Z",
       "actor": "Ares"
     },
     {
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #626 — Coral H1 icons on Connect Socials, Settings & Post Packs",
       "description": "Added coral-colored H1 section icons to the Connect Socials, Settings, and Post Packs pages, providing visual consistency with the coral accent system across the dashboard.",
       "date": "2026-07-26T23:09:48Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a178",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #627 — Stop How-it-works image flicker on mobile scroll",
+      "description": "Fixed a mobile UX bug where the How-it-works section images would flicker during scroll, improving visual stability of the landing page on mobile devices.",
+      "date": "2026-07-27T03:04:45Z",
       "actor": "Ares"
     }
   ]
