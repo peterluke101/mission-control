@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a170",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #619 — Redesign Upload tab to match owner mockup",
-      "description": "Redesigned the Upload tab to match the owner's design mockup, completing the visual overhaul of all main creation tabs for a cohesive dashboard experience.",
-      "date": "2026-07-26T21:40:11Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a171",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #628 — Restyle Schedule, Connect Socials and Settings to the create-area design system",
       "description": "Restyled the Schedule, Connect Socials, and Settings pages to use the same modern design system introduced in the Create page redesign, giving the full app a consistent visual language.",
       "date": "2026-07-27T03:25:33Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a180",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #629 — Redesign post-detail page",
+      "description": "Redesigned the post-detail ('Your post is ready') page to match the new create-area design system, giving the full posting flow a consistent visual identity.",
+      "date": "2026-07-27T04:35:13Z",
       "actor": "Ares"
     }
   ]
