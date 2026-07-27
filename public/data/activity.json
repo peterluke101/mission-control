@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a169",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #618 — Extend Create redesign to Video, Batch & Upload tabs",
-      "description": "Extended the new Create page design language to the Video, Batch, and Upload tabs so the full creation workspace shares a consistent layout and visual style.",
-      "date": "2026-07-26T21:21:12Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a170",
       "type": "feature",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #627 — Stop How-it-works image flicker on mobile scroll",
       "description": "Fixed a mobile UX bug where the How-it-works section images would flicker during scroll, improving visual stability of the landing page on mobile devices.",
       "date": "2026-07-27T03:04:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a179",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #628 — Restyle Schedule, Connect Socials and Settings to the create-area design system",
+      "description": "Restyled the Schedule, Connect Socials, and Settings pages to use the same modern design system introduced in the Create page redesign, giving the full app a consistent visual language.",
+      "date": "2026-07-27T03:25:33Z",
       "actor": "Ares"
     }
   ]
