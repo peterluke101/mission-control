@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a175",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #624 — Remove white card behind sidebar logo (dark lockup)",
-      "description": "Fixed the dark sidebar logo: removed the white rounded card wrapping the wordmark so the logo sits directly on the black sidebar with the coral rocket mark, white Zippity text, and coral One — matching the owner's mockup.",
-      "date": "2026-07-26T22:40:09Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a176",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #633 — Text style panel round 2: artistic accent hint, placement layout, brand swatch ring",
       "description": "Second pass on the text style panel: added an artistic accent hint, refined the placement layout, and added a brand swatch ring — further polishing the typography overlay controls in the Create area redesign.",
       "date": "2026-07-27T05:27:57Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a185",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #634 — Add Clear control to the idea prompt (image + video)",
+      "description": "Added a Clear control to the idea prompt input on both the image and video creation flows, letting users quickly reset their prompt without manually selecting and deleting text.",
+      "date": "2026-07-27T15:51:14Z",
       "actor": "Ares"
     }
   ]
