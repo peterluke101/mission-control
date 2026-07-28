@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a178",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #627 — Stop How-it-works image flicker on mobile scroll",
-      "description": "Fixed a mobile UX bug where the How-it-works section images would flicker during scroll, improving visual stability of the landing page on mobile devices.",
-      "date": "2026-07-27T03:04:45Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a179",
       "type": "feature",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #636 — Redesign post-detail engagement + video cards (Post performance)",
       "description": "Redesigned the post-detail engagement section and video cards on the Post performance page, giving the analytics view a polished, consistent look aligned with the new design system.",
       "date": "2026-07-28T16:50:54Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a188",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #637 — Hover-to-reveal engagement on posted pack cards",
+      "description": "Added hover-to-reveal engagement stats on posted pack cards, surfacing likes, comments, and reach inline without navigating to the full post-detail page.",
+      "date": "2026-07-28T17:19:18Z",
       "actor": "Ares"
     }
   ]
