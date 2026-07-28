@@ -1,19 +1,10 @@
 {
   "events": [
     {
-      "id": "a177",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #626 \u2014 Coral H1 icons on Connect Socials, Settings & Post Packs",
-      "description": "Added coral-colored H1 section icons to the Connect Socials, Settings, and Post Packs pages, providing visual consistency with the coral accent system across the dashboard.",
-      "date": "2026-07-26T23:09:48Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a178",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #627 \u2014 Stop How-it-works image flicker on mobile scroll",
+      "title": "PostReady: PR #627 — Stop How-it-works image flicker on mobile scroll",
       "description": "Fixed a mobile UX bug where the How-it-works section images would flicker during scroll, improving visual stability of the landing page on mobile devices.",
       "date": "2026-07-27T03:04:45Z",
       "actor": "Ares"
@@ -22,7 +13,7 @@
       "id": "a179",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #628 \u2014 Restyle Schedule, Connect Socials and Settings to the create-area design system",
+      "title": "PostReady: PR #628 — Restyle Schedule, Connect Socials and Settings to the create-area design system",
       "description": "Restyled the Schedule, Connect Socials, and Settings pages to use the same modern design system introduced in the Create page redesign, giving the full app a consistent visual language.",
       "date": "2026-07-27T03:25:33Z",
       "actor": "Ares"
@@ -31,7 +22,7 @@
       "id": "a180",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #629 \u2014 Redesign post-detail page",
+      "title": "PostReady: PR #629 — Redesign post-detail page",
       "description": "Redesigned the post-detail (\"Your post is ready\") page to match the new create-area design system, giving the full posting flow a consistent visual identity.",
       "date": "2026-07-27T04:35:13Z",
       "actor": "Ares"
@@ -40,7 +31,7 @@
       "id": "a181",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #630 \u2014 Text style panel polish (brand swatch alignment + Placement row)",
+      "title": "PostReady: PR #630 — Text style panel polish (brand swatch alignment + Placement row)",
       "description": "Polished the text style panel with improved brand swatch alignment and a cleaner Placement row, refining the typography overlay controls introduced in the Create area redesign.",
       "date": "2026-07-27T04:45:45Z",
       "actor": "Ares"
@@ -49,7 +40,7 @@
       "id": "a182",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #631 \u2014 Cap Schedule post-picker grid at 12 with \"Show more\"",
+      "title": "PostReady: PR #631 — Cap Schedule post-picker grid at 12 with \"Show more\"",
       "description": "Capped the Schedule page's post-picker grid at 12 items and added a \"Show more\" button, keeping the scheduling flow uncluttered for users with many saved posts.",
       "date": "2026-07-27T04:45:49Z",
       "actor": "Ares"
@@ -58,7 +49,7 @@
       "id": "a183",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #632 \u2014 Fix text style chips always visible + Hook honours accent colour",
+      "title": "PostReady: PR #632 — Fix text style chips always visible + Hook honours accent colour",
       "description": "Fixed text overlay controls so style chips are always visible, and ensured the Hook text style correctly applies the brand accent colour rather than falling back to default.",
       "date": "2026-07-27T05:03:07Z",
       "actor": "Ares"
@@ -67,8 +58,8 @@
       "id": "a184",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #633 \u2014 Text style panel round 2: artistic accent hint, placement layout, brand swatch ring",
-      "description": "Second pass on the text style panel: added an artistic accent hint, refined the placement layout, and added a brand swatch ring \u2014 further polishing the typography overlay controls in the Create area redesign.",
+      "title": "PostReady: PR #633 — Text style panel round 2: artistic accent hint, placement layout, brand swatch ring",
+      "description": "Second pass on the text style panel: added an artistic accent hint, refined the placement layout, and added a brand swatch ring — further polishing the typography overlay controls in the Create area redesign.",
       "date": "2026-07-27T05:27:57Z",
       "actor": "Ares"
     },
@@ -76,7 +67,7 @@
       "id": "a185",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #634 \u2014 Add Clear control to the idea prompt (image + video)",
+      "title": "PostReady: PR #634 — Add Clear control to the idea prompt (image + video)",
       "description": "Added a Clear control to the idea prompt input on both the image and video creation flows, letting users quickly reset their prompt without manually selecting and deleting text.",
       "date": "2026-07-27T15:51:14Z",
       "actor": "Ares"
@@ -85,9 +76,18 @@
       "id": "a186",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #635 \u2014 Remove obsolete PostReady-IG Instagram interstitial",
-      "description": "Removed the interstitial modal shown before the Instagram OAuth handoff \u2014 the \"PostReady-IG\" name explanation step is no longer needed, streamlining the Instagram connect flow.",
+      "title": "PostReady: PR #635 — Remove obsolete PostReady-IG Instagram interstitial",
+      "description": "Removed the interstitial modal shown before the Instagram OAuth handoff — the \"PostReady-IG\" name explanation step is no longer needed, streamlining the Instagram connect flow.",
       "date": "2026-07-27T18:40:43Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a187",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #636 — Redesign post-detail engagement + video cards (Post performance)",
+      "description": "Redesigned the post-detail engagement section and video cards on the Post performance page, giving the analytics view a polished, consistent look aligned with the new design system.",
+      "date": "2026-07-28T16:50:54Z",
       "actor": "Ares"
     }
   ]
