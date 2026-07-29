@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a180",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #629 — Redesign post-detail page",
-      "description": "Redesigned the post-detail (\"Your post is ready\") page to match the new create-area design system, giving the full posting flow a consistent visual identity.",
-      "date": "2026-07-27T04:35:13Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a181",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Added Google Analytics 4 (GA4) analytics tag to the site, enabling product usage and funnel tracking across the PostReady web app.",
       "date": "2026-07-29T02:22:38Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a190",
+      "type": "chore",
+      "project": "PostReady",
+      "title": "PostReady: PR #639 — Add PostHog product analytics",
+      "description": "Added PostHog product analytics to the PostReady web app, providing session recording, funnel analysis, and feature flag capabilities alongside the newly added GA4 integration.",
+      "date": "2026-07-29T03:18:27Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-29T02:41:56.939Z"
+  "updatedAt": "2026-07-29T03:41:56Z"
 }
