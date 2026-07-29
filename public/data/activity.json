@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a182",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #631 — Cap Schedule post-picker grid at 12 with \"Show more\"",
-      "description": "Capped the Schedule page's post-picker grid at 12 items and added a \"Show more\" button, keeping the scheduling flow uncluttered for users with many saved posts.",
-      "date": "2026-07-27T04:45:49Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a183",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Fixed a visual glitch where the hero image on the PostReady landing page would ghost or flicker on iOS Safari during scroll, improving mobile first impressions for prospective users.",
       "date": "2026-07-29T19:16:07Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a192",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #642 — Fix violent mobile flicker in FeatureMarquee",
+      "description": "Fixed a severe mobile flicker caused by a competing masked scroller and momentum scroll interaction in the FeatureMarquee component, improving landing page smoothness on iOS and Android.",
+      "date": "2026-07-29T19:36:29Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-29T19:20:00Z"
+  "updatedAt": "2026-07-29T20:45:00Z"
 }
