@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a179",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #628 — Restyle Schedule, Connect Socials and Settings to the create-area design system",
-      "description": "Restyled the Schedule, Connect Socials, and Settings pages to use the same modern design system introduced in the Create page redesign, giving the full app a consistent visual language.",
-      "date": "2026-07-27T03:25:33Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a180",
       "type": "feature",
       "project": "PostReady",
@@ -89,6 +80,16 @@
       "description": "Added hover-to-reveal engagement stats on posted pack cards, surfacing likes, comments, and reach inline without navigating to the full post-detail page.",
       "date": "2026-07-28T17:19:18Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a189",
+      "type": "chore",
+      "project": "PostReady",
+      "title": "PostReady: PR #638 — Add GA4 analytics tag",
+      "description": "Added Google Analytics 4 (GA4) analytics tag to the site, enabling product usage and funnel tracking across the PostReady web app.",
+      "date": "2026-07-29T02:22:38Z",
+      "actor": "Ares"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T02:41:56.939Z"
 }
