@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a181",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #630 — Text style panel polish (brand swatch alignment + Placement row)",
-      "description": "Polished the text style panel with improved brand swatch alignment and a cleaner Placement row, refining the typography overlay controls introduced in the Create area redesign.",
-      "date": "2026-07-27T04:45:45Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a182",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Added PostHog product analytics to the PostReady web app, providing session recording, funnel analysis, and feature flag capabilities alongside the newly added GA4 integration.",
       "date": "2026-07-29T03:18:27Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a191",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #641 — Fix mobile hero image ghosting/flicker on iOS Safari",
+      "description": "Fixed a visual glitch where the hero image on the PostReady landing page would ghost or flicker on iOS Safari during scroll, improving mobile first impressions for prospective users.",
+      "date": "2026-07-29T19:16:07Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-29T03:41:56Z"
+  "updatedAt": "2026-07-29T19:20:00Z"
 }
