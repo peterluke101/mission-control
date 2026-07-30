@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a184",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #633 — Text style panel round 2: artistic accent hint, placement layout, brand swatch ring",
-      "description": "Second pass on the text style panel: added an artistic accent hint, refined the placement layout, and added a brand swatch ring — further polishing the typography overlay controls in the Create area redesign.",
-      "date": "2026-07-27T05:27:57Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a185",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Pinned the prompt-box height on mobile to eliminate the root cause of the persistent landing-page flicker, fully resolving the iOS/Android scroll jank that prior fixes had partially addressed.",
       "date": "2026-07-30T01:34:19Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a194",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #647 — Multi-scene video (Seedance 2.0) + branded end card + 3-color palette",
+      "description": "Rebuilt multi-scene video on Seedance 2.0 for continuity (one reference-to-video job instead of fragile fan-out). Added a deterministic brand layer: business name kept out of Seedance prompts, branded end card with logo and name, and a 3-color palette system for on-screen text overlays.",
+      "date": "2026-07-30T22:12:40Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-30T01:40:00Z"
+  "updatedAt": "2026-07-30T22:22:00Z"
 }
