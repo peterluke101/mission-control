@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a183",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #632 — Fix text style chips always visible + Hook honours accent colour",
-      "description": "Fixed text overlay controls so style chips are always visible, and ensured the Hook text style correctly applies the brand accent colour rather than falling back to default.",
-      "date": "2026-07-27T05:03:07Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a184",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Fixed a severe mobile flicker caused by a competing masked scroller and momentum scroll interaction in the FeatureMarquee component, improving landing page smoothness on iOS and Android.",
       "date": "2026-07-29T19:36:29Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a193",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #644 — Fix: pin prompt-box height on mobile — root cause of landing-page flicker",
+      "description": "Pinned the prompt-box height on mobile to eliminate the root cause of the persistent landing-page flicker, fully resolving the iOS/Android scroll jank that prior fixes had partially addressed.",
+      "date": "2026-07-30T01:34:19Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-29T20:45:00Z"
+  "updatedAt": "2026-07-30T01:40:00Z"
 }
