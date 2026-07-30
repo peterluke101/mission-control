@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a185",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #634 — Add Clear control to the idea prompt (image + video)",
-      "description": "Added a Clear control to the idea prompt input on both the image and video creation flows, letting users quickly reset their prompt without manually selecting and deleting text.",
-      "date": "2026-07-27T15:51:14Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a186",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Rebuilt multi-scene video on Seedance 2.0 for continuity (one reference-to-video job instead of fragile fan-out). Added a deterministic brand layer: business name kept out of Seedance prompts, branded end card with logo and name, and a 3-color palette system for on-screen text overlays.",
       "date": "2026-07-30T22:12:40Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a195",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #648 — Settings polish: masonry cards, icon headers, combined Refer & Redeem, end-card preview fix",
+      "description": "Polished the Settings page with masonry card layout, icon-style section headers, a combined Refer & Redeem panel, and a fix for the end-card preview — improving visual consistency and usability across account management.",
+      "date": "2026-07-30T22:49:04Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-30T22:22:00Z"
+  "updatedAt": "2026-07-30T23:01:48.323Z"
 }
