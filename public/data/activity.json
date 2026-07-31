@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a188",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #637 — Hover-to-reveal engagement on posted pack cards",
-      "description": "Added hover-to-reveal engagement stats on posted pack cards, surfacing likes, comments, and reach inline without navigating to the full post-detail page.",
-      "date": "2026-07-28T17:19:18Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a189",
       "type": "chore",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Redesigned the Create tab image upload area to match the owner mockup, improving the visual consistency and usability of the content creation interface.",
       "date": "2026-07-31T01:08:56Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a198",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #651 — Create tab: ideas dropdown + compact light Pro Prompt strip",
+      "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration alongside a visually streamlined AI prompting interface.",
+      "date": "2026-07-31T01:26:35Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T01:22:05.877Z"
+  "updatedAt": "2026-07-31T01:42:56.452Z"
 }
