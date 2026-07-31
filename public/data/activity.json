@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a195",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #648 — Settings polish: masonry cards, icon headers, combined Refer & Redeem, end-card preview fix",
-      "description": "Polished the Settings page with masonry card layout, icon-style section headers, a combined Refer & Redeem panel, and a fix for the end-card preview — improving visual consistency and usability across account management.",
-      "date": "2026-07-30T22:49:04Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a196",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline (scene frames, Seedance prompt, storyboard generator). Single-scene stays photoreal on Kling. Animated characters pass Seedance's reference filter — the \"no real people\" restriction is gone; people are welcome as animated characters.",
       "date": "2026-07-31T20:52:00Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a205",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #662 — fix(video): actually force animated frames (frames were still photoreal)",
+      "description": "Fixed a bug where animated-scene frames were still rendering as photoreal despite the Animated scenes rebrand in PR #661. The fix ensures the animated art-direction style is correctly enforced through the frame-generation pipeline so scenes render as animated rather than photoreal.",
+      "date": "2026-07-31T21:17:06Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T20:57:00Z"
+  "updatedAt": "2026-07-31T21:20:46Z"
 }
