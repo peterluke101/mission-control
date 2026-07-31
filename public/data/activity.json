@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a186",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #635 — Remove obsolete PostReady-IG Instagram interstitial",
-      "description": "Removed the interstitial modal shown before the Instagram OAuth handoff — the \"PostReady-IG\" name explanation step is no longer needed, streamlining the Instagram connect flow.",
-      "date": "2026-07-27T18:40:43Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a187",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Polished the Settings page with masonry card layout, icon-style section headers, a combined Refer & Redeem panel, and a fix for the end-card preview — improving visual consistency and usability across account management.",
       "date": "2026-07-30T22:49:04Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a196",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #649 — Brand kit polish 2: remove Default platforms, 4th accent, enlargeable previews, bigger end-card logo",
+      "description": "Follow-up to PR #648: removes the Default platforms card, adds a 4th accent color (migration 67), makes end-card previews click-to-enlarge, enlarges the end-card logo with tighter spacing, and compacts the Profile card.",
+      "date": "2026-07-30T23:44:05Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-30T23:01:48.323Z"
+  "updatedAt": "2026-07-31T00:03:52.801Z"
 }
