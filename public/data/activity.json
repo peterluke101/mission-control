@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a193",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #644 — Fix: pin prompt-box height on mobile — root cause of landing-page flicker",
-      "description": "Pinned the prompt-box height on mobile to eliminate the root cause of the persistent landing-page flicker, fully resolving the iOS/Android scroll jank that prior fixes had partially addressed.",
-      "date": "2026-07-30T01:34:19Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a194",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Fixed a bug where the branded end card was not being concatenated to the final video output — the end card now correctly appends as a clip to multi-scene videos.",
       "date": "2026-07-31T16:59:35Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a203",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #660 — fix(video): end card as real MP4 clip (A/V aligned) + fade-in",
+      "description": "Supersedes end-card fix PR #658. Renders the end card app-side as a proper MP4 clip with a silent audio track (video length == audio length), 0.5s fade-in, and matching dimensions, then the worker concatenates the ready clip. Resolves mismatched A/V stream lengths that caused players to stall before showing the end card.",
+      "date": "2026-07-31T20:31:54Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T17:56:34.912Z"
+  "updatedAt": "2026-07-31T20:42:01.724Z"
 }
