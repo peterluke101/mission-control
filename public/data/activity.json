@@ -1,33 +1,6 @@
 {
   "events": [
     {
-      "id": "a189",
-      "type": "chore",
-      "project": "PostReady",
-      "title": "PostReady: PR #638 — Add GA4 analytics tag",
-      "description": "Added Google Analytics 4 (GA4) analytics tag to the site, enabling product usage and funnel tracking across the PostReady web app.",
-      "date": "2026-07-29T02:22:38Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a190",
-      "type": "chore",
-      "project": "PostReady",
-      "title": "PostReady: PR #639 — Add PostHog product analytics",
-      "description": "Added PostHog product analytics to the PostReady web app, providing session recording, funnel analysis, and feature flag capabilities alongside the newly added GA4 integration.",
-      "date": "2026-07-29T03:18:27Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a191",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #641 — Fix mobile hero image ghosting/flicker on iOS Safari",
-      "description": "Fixed a visual glitch where the hero image on the PostReady landing page would ghost or flicker on iOS Safari during scroll, improving mobile first impressions for prospective users.",
-      "date": "2026-07-29T19:16:07Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a192",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +62,34 @@
       "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration alongside a visually streamlined AI prompting interface.",
       "date": "2026-07-31T01:26:35Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a199",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #652 — Create tab: tighten starting-point row + Pro Prompt strip",
+      "description": "Tightened the starting-point row and Pro Prompt strip on the Create tab, refining the layout as part of the ongoing Create area redesign to the owner mockup.",
+      "date": "2026-07-31T02:05:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a200",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #653 — Create tab: Pro Prompt centered + Brand options up + wider form",
+      "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout on the Create tab.",
+      "date": "2026-07-31T02:18:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a201",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop)",
+      "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup for the final desktop configuration.",
+      "date": "2026-07-31T02:26:00Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T01:42:56.452Z"
+  "updatedAt": "2026-07-31T02:41:39.040Z"
 }
