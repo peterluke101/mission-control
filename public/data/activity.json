@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a192",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #642 — Fix violent mobile flicker in FeatureMarquee",
-      "description": "Fixed a severe mobile flicker caused by a competing masked scroller and momentum scroll interaction in the FeatureMarquee component, improving landing page smoothness on iOS and Android.",
-      "date": "2026-07-29T19:36:29Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a193",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup for the final desktop configuration.",
       "date": "2026-07-31T02:26:00Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a202",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #658 — fix(video): end card now actually appends",
+      "description": "Fixed a bug where the branded end card was not being concatenated to the final video output — the end card now correctly appends as a clip to multi-scene videos.",
+      "date": "2026-07-31T16:59:35Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T02:41:39.040Z"
+  "updatedAt": "2026-07-31T17:56:34.912Z"
 }
