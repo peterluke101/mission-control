@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a187",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #636 — Redesign post-detail engagement + video cards (Post performance)",
-      "description": "Redesigned the post-detail engagement section and video cards on the Post performance page, giving the analytics view a polished, consistent look aligned with the new design system.",
-      "date": "2026-07-28T16:50:54Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a188",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Follow-up to PR #648: removes the Default platforms card, adds a 4th accent color (migration 67), makes end-card previews click-to-enlarge, enlarges the end-card logo with tighter spacing, and compacts the Profile card.",
       "date": "2026-07-30T23:44:05Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a197",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #650 — Create (image) tab redesign to the mockup",
+      "description": "Redesigned the Create tab image upload area to match the owner mockup, improving the visual consistency and usability of the content creation interface.",
+      "date": "2026-07-31T01:08:56Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T00:06:23.283Z"
+  "updatedAt": "2026-07-31T01:22:05.877Z"
 }
