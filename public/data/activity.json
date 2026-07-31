@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a194",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #647 — Multi-scene video (Seedance 2.0) + branded end card + 3-color palette",
-      "description": "Rebuilt multi-scene video on Seedance 2.0 for continuity (one reference-to-video job instead of fragile fan-out). Added a deterministic brand layer: business name kept out of Seedance prompts, branded end card with logo and name, and a 3-color palette system for on-screen text overlays.",
-      "date": "2026-07-30T22:12:40Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a195",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Supersedes end-card fix PR #658. Renders the end card app-side as a proper MP4 clip with a silent audio track (video length == audio length), 0.5s fade-in, and matching dimensions, then the worker concatenates the ready clip. Resolves mismatched A/V stream lengths that caused players to stall before showing the end card.",
       "date": "2026-07-31T20:31:54Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a204",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #661 — Multi-scene becomes \"Animated scenes\"",
+      "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline (scene frames, Seedance prompt, storyboard generator). Single-scene stays photoreal on Kling. Animated characters pass Seedance's reference filter — the \"no real people\" restriction is gone; people are welcome as animated characters.",
+      "date": "2026-07-31T20:52:00Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T20:42:01.724Z"
+  "updatedAt": "2026-07-31T20:57:00Z"
 }
