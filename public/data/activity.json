@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a200",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #653 — Create tab: Pro Prompt centered + Brand options up + wider form",
-      "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout.",
-      "date": "2026-07-31T02:18:00Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a201",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Added curated color palette presets and a custom accent color picker to the Carousel Creator editor, enabling branded palette selection per carousel.",
       "date": "2026-08-02T21:22:54Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a210",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #756 — feat(carousel): real AI generation — whole carousel from a prompt + per-card rewrite",
+      "description": "Carousel Creator now generates full carousels from a prompt using AI, with per-card rewrite capability — converting it from a manual editor into an AI-first content creation tool.",
+      "date": "2026-08-02T21:57:08Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T21:42:39.869Z"
+  "updatedAt": "2026-08-02T22:02:00.210Z"
 }
