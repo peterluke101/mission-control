@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a202",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #658 — fix(video): end card now actually appends",
-      "description": "Fixed a bug where the branded end card was not being concatenated to the final video output.",
-      "date": "2026-07-31T16:59:35Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a203",
       "type": "fix",
       "project": "PostReady",
@@ -73,6 +64,15 @@
       "actor": "Ares"
     },
     {
+      "id": "a212",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #755 — feat(carousel): redesign to guide — dark header, tabbed inspector, zoom, card-to-top",
+      "description": "Carousel Creator redesigned with a guided layout: dark header, tabbed inspector panel, zoom controls, and card-to-top navigation — improving the editor UX for building multi-card carousels.",
+      "date": "2026-08-02T21:41:46Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a210",
       "type": "feature",
       "project": "PostReady",
@@ -91,5 +91,5 @@
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T22:44:35.592Z"
+  "updatedAt": "2026-08-02T23:22:13.607Z"
 }
