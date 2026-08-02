@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a201",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop final)",
-      "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup.",
-      "date": "2026-07-31T02:26:00Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a202",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Carousel Creator now generates full carousels from a prompt using AI, with per-card rewrite capability — converting it from a manual editor into an AI-first content creation tool.",
       "date": "2026-08-02T21:57:08Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a211",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #757 — feat(carousel): Save — autosave drafts + reload on open",
+      "description": "Second step of Generate → Save → Publish: carousel work persists. Adds carousels table (migration 68), /api/carousel/draft GET/PUT endpoint, and autosave on every edit with reload on re-open.",
+      "date": "2026-08-02T22:30:27Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T22:02:00.210Z"
+  "updatedAt": "2026-08-02T22:44:35.592Z"
 }
