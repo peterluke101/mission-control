@@ -1,95 +1,107 @@
 {
-  "events": [
+  "entries": [
+    [
+      {
+        "id": "a198",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #651 — Create tab: ideas dropdown + compact light Pro Prompt strip",
+        "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration.",
+        "date": "2026-07-31T01:26:35Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a199",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #652 — Create tab: tighten starting-point row + Pro Prompt strip",
+        "description": "Tightened the starting-point row and Pro Prompt strip on the Create tab, refining the layout as part of the ongoing Create area redesign.",
+        "date": "2026-07-31T02:05:00Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a200",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #653 — Create tab: Pro Prompt centered + Brand options up + wider form",
+        "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout.",
+        "date": "2026-07-31T02:18:00Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a201",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop final)",
+        "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup.",
+        "date": "2026-07-31T02:26:00Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a202",
+        "type": "fix",
+        "project": "PostReady",
+        "title": "PostReady: PR #658 — fix(video): end card now actually appends",
+        "description": "Fixed a bug where the branded end card was not being concatenated to the final video output.",
+        "date": "2026-07-31T16:59:35Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a203",
+        "type": "fix",
+        "project": "PostReady",
+        "title": "PostReady: PR #660 — fix(video): end card as real MP4 clip (A/V aligned) + fade-in",
+        "description": "Renders the end card as a proper MP4 with silent audio track and 0.5s fade-in, resolving A/V stream mismatches that caused players to stall.",
+        "date": "2026-07-31T20:31:54Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a204",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #661 — Multi-scene becomes \"Animated scenes\"",
+        "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline. People are welcome as animated characters.",
+        "date": "2026-07-31T20:52:00Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a205",
+        "type": "fix",
+        "project": "PostReady",
+        "title": "PostReady: PR #662 — fix(video): actually force animated frames",
+        "description": "Fixed animated-scene frames still rendering as photoreal despite the Animated scenes rebrand. Animated art-direction is now correctly enforced through the frame-generation pipeline.",
+        "date": "2026-07-31T21:17:06Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a206",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #713 — feat(pivot): hide customer video behind kill-switch (epic #663 A1)",
+        "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature.",
+        "date": "2026-08-02T16:35:35Z",
+        "actor": "Ares"
+      },
+      {
+        "id": "a207",
+        "type": "feature",
+        "project": "PostReady",
+        "title": "PostReady: PR #752 — feat(carousel): Carousel Creator editor on the Create tab (epic #663 workstream D)",
+        "description": "First build of the Carousel Creator — a horizontal-filmstrip editor living on the Create page as a new \"Create Carousel\" tab. Filmstrip with drag-to-reorder, per-card delete, Add card menu (AI / text / photo / CTA / duplicate / blank), editable card canvas, and inspector panel.",
+        "date": "2026-08-02T18:37:31Z",
+        "actor": "Ares"
+      }
+    ],
+    "2026-08-02T18:43:37.419Z",
     {
-      "id": "a198",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #651 — Create tab: ideas dropdown + compact light Pro Prompt strip",
-      "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration.",
-      "date": "2026-07-31T01:26:35Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a199",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #652 — Create tab: tighten starting-point row + Pro Prompt strip",
-      "description": "Tightened the starting-point row and Pro Prompt strip on the Create tab, refining the layout as part of the ongoing Create area redesign.",
-      "date": "2026-07-31T02:05:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a200",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #653 — Create tab: Pro Prompt centered + Brand options up + wider form",
-      "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout.",
-      "date": "2026-07-31T02:18:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a201",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop final)",
-      "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup.",
-      "date": "2026-07-31T02:26:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a202",
+      "id": "a208",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #658 — fix(video): end card now actually appends",
-      "description": "Fixed a bug where the branded end card was not being concatenated to the final video output.",
-      "date": "2026-07-31T16:59:35Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a203",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #660 — fix(video): end card as real MP4 clip (A/V aligned) + fade-in",
-      "description": "Renders the end card as a proper MP4 with silent audio track and 0.5s fade-in, resolving A/V stream mismatches that caused players to stall.",
-      "date": "2026-07-31T20:31:54Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a204",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #661 — Multi-scene becomes \"Animated scenes\"",
-      "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline. People are welcome as animated characters.",
-      "date": "2026-07-31T20:52:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a205",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #662 — fix(video): actually force animated frames",
-      "description": "Fixed animated-scene frames still rendering as photoreal despite the Animated scenes rebrand. Animated art-direction is now correctly enforced through the frame-generation pipeline.",
-      "date": "2026-07-31T21:17:06Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a206",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #713 — feat(pivot): hide customer video behind kill-switch (epic #663 A1)",
-      "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature.",
-      "date": "2026-08-02T16:35:35Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a207",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #752 — feat(carousel): Carousel Creator editor on the Create tab (epic #663 workstream D)",
-      "description": "First build of the Carousel Creator — a horizontal-filmstrip editor living on the Create page as a new \"Create Carousel\" tab. Filmstrip with drag-to-reorder, per-card delete, Add card menu (AI / text / photo / CTA / duplicate / blank), editable card canvas, and inspector panel.",
-      "date": "2026-08-02T18:37:31Z",
+      "title": "PostReady: PR #753 — fix(carousel): preview stepping + add-card menu; remove Videos from Batch",
+      "description": "Fixed carousel preview not refreshing when stepping through cards (editable prop on CardFace), repaired add-card menu, and removed Videos from Batch mode — post-launch polish for the Carousel Creator.",
+      "date": "2026-08-02T21:02:04Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T18:43:37.419Z"
+  "updatedAt": "2026-08-02T21:22:08.626Z"
 }
