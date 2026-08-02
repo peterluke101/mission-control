@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a196",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #649 — Brand kit polish 2: remove Default platforms, 4th accent, enlargeable previews, bigger end-card logo",
-      "description": "Follow-up to PR #648: removes the Default platforms card, adds a 4th accent color (migration 67), makes end-card previews click-to-enlarge, enlarges the end-card logo with tighter spacing, and compacts the Profile card.",
-      "date": "2026-07-30T23:44:05Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a197",
       "type": "feature",
       "project": "PostReady",
@@ -23,7 +14,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #651 — Create tab: ideas dropdown + compact light Pro Prompt strip",
-      "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration alongside a visually streamlined AI prompting interface.",
+      "description": "Added an ideas dropdown to the Create tab and a compact light-mode Pro Prompt strip, improving the content creation workflow with quick-access prompt inspiration.",
       "date": "2026-07-31T01:26:35Z",
       "actor": "Ares"
     },
@@ -32,7 +23,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #652 — Create tab: tighten starting-point row + Pro Prompt strip",
-      "description": "Tightened the starting-point row and Pro Prompt strip on the Create tab, refining the layout as part of the ongoing Create area redesign to the owner mockup.",
+      "description": "Tightened the starting-point row and Pro Prompt strip on the Create tab, refining the layout as part of the ongoing Create area redesign.",
       "date": "2026-07-31T02:05:00Z",
       "actor": "Ares"
     },
@@ -41,7 +32,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #653 — Create tab: Pro Prompt centered + Brand options up + wider form",
-      "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout on the Create tab.",
+      "description": "Centered the Pro Prompt button below the post preview, moved Brand options up in the hierarchy, and widened the creation form for a cleaner desktop layout.",
       "date": "2026-07-31T02:18:00Z",
       "actor": "Ares"
     },
@@ -49,8 +40,8 @@
       "id": "a201",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop)",
-      "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup for the final desktop configuration.",
+      "title": "PostReady: PR #654 — Create tab: Brand options under the post preview (desktop final)",
+      "description": "Moved Brand options to sit directly under the post preview on desktop, completing the Create tab layout redesign series and matching the owner mockup.",
       "date": "2026-07-31T02:26:00Z",
       "actor": "Ares"
     },
@@ -59,7 +50,7 @@
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #658 — fix(video): end card now actually appends",
-      "description": "Fixed a bug where the branded end card was not being concatenated to the final video output — the end card now correctly appends as a clip to multi-scene videos.",
+      "description": "Fixed a bug where the branded end card was not being concatenated to the final video output.",
       "date": "2026-07-31T16:59:35Z",
       "actor": "Ares"
     },
@@ -68,7 +59,7 @@
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #660 — fix(video): end card as real MP4 clip (A/V aligned) + fade-in",
-      "description": "Supersedes end-card fix PR #658. Renders the end card app-side as a proper MP4 clip with a silent audio track (video length == audio length), 0.5s fade-in, and matching dimensions, then the worker concatenates the ready clip. Resolves mismatched A/V stream lengths that caused players to stall before showing the end card.",
+      "description": "Renders the end card as a proper MP4 with silent audio track and 0.5s fade-in, resolving A/V stream mismatches that caused players to stall.",
       "date": "2026-07-31T20:31:54Z",
       "actor": "Ares"
     },
@@ -77,7 +68,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #661 — Multi-scene becomes \"Animated scenes\"",
-      "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline (scene frames, Seedance prompt, storyboard generator). Single-scene stays photoreal on Kling. Animated characters pass Seedance's reference filter — the \"no real people\" restriction is gone; people are welcome as animated characters.",
+      "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline. People are welcome as animated characters.",
       "date": "2026-07-31T20:52:00Z",
       "actor": "Ares"
     },
@@ -85,11 +76,20 @@
       "id": "a205",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #662 — fix(video): actually force animated frames (frames were still photoreal)",
-      "description": "Fixed a bug where animated-scene frames were still rendering as photoreal despite the Animated scenes rebrand in PR #661. The fix ensures the animated art-direction style is correctly enforced through the frame-generation pipeline so scenes render as animated rather than photoreal.",
+      "title": "PostReady: PR #662 — fix(video): actually force animated frames",
+      "description": "Fixed animated-scene frames still rendering as photoreal despite the Animated scenes rebrand. Animated art-direction is now correctly enforced through the frame-generation pipeline.",
       "date": "2026-07-31T21:17:06Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a206",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #713 — feat(pivot): hide customer video behind kill-switch (epic #663 A1)",
+      "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature. Code cleanup follows in A2-A8 once new video-free hero is live.",
+      "date": "2026-08-02T16:35:35Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-07-31T21:20:46Z"
+  "updatedAt": "2026-08-02T16:41:00Z"
 }
