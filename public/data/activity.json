@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "id": "a197",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #650 — Create (image) tab redesign to the mockup",
-      "description": "Redesigned the Create tab image upload area to match the owner mockup, improving the visual consistency and usability of the content creation interface.",
-      "date": "2026-07-31T01:08:56Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a198",
       "type": "feature",
       "project": "PostReady",
@@ -86,10 +77,19 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #713 — feat(pivot): hide customer video behind kill-switch (epic #663 A1)",
-      "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature. Code cleanup follows in A2-A8 once new video-free hero is live.",
+      "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature.",
       "date": "2026-08-02T16:35:35Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a207",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #752 — feat(carousel): Carousel Creator editor on the Create tab (epic #663 workstream D)",
+      "description": "First build of the Carousel Creator — a horizontal-filmstrip editor living on the Create page as a new \"Create Carousel\" tab. Filmstrip with drag-to-reorder, per-card delete, Add card menu (AI / text / photo / CTA / duplicate / blank), editable card canvas, and inspector panel.",
+      "date": "2026-08-02T18:37:31Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T16:41:00Z"
+  "updatedAt": "2026-08-02T18:43:37.419Z"
 }
