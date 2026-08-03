@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a207",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #752 — feat(carousel): Carousel Creator editor on the Create tab (epic #663 workstream D)",
-      "description": "First build of the Carousel Creator — a horizontal-filmstrip editor living on the Create page as a new \"Create Carousel\" tab. Filmstrip with drag-to-reorder, per-card delete, Add card menu (AI / text / photo / CTA / duplicate / blank), editable card canvas, and inspector panel.",
-      "date": "2026-08-02T18:37:31Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a208",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Added native drag-and-drop desktop image upload to the Carousel Creator, allowing users to drop image files directly onto cards for photo carousel creation.",
       "date": "2026-08-03T01:14:14Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a217",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #762 — feat(carousel): composite uploaded photos into exported PNG",
+      "description": "Carousel Creator now composites user-uploaded photos into the exported PNG at publish time, so photo carousels render correctly in the downloaded output ZIP.",
+      "date": "2026-08-03T02:42:20Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T01:22:11.633Z"
+  "updatedAt": "2026-08-03T02:45:00.000Z"
 }
