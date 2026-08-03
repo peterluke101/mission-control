@@ -1,42 +1,6 @@
 {
   "entries": [
     {
-      "id": "a222",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #771 — fix: Finishing touches layout — tiles fit one row, location link no longer clips",
-      "description": "Fixed the Finishing touches section layout in the Carousel Creator so all tile controls fit on one row and the location link no longer clips off-screen.",
-      "date": "2026-08-03T17:25:58Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a223",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #773 — fix: compact the Pro Prompt strip — button on the right, single row",
-      "description": "Compacted the Pro Prompt strip on the Create tab so the action button sits on the right side in a single row, reducing vertical space and improving the layout.",
-      "date": "2026-08-03T17:41:05Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a224",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #772 — Image prompt tune-up + Seedream 5.0 readiness (behind the flag)",
-      "description": "Tuned image prompt generation for better output quality and added Seedream 5.0 model readiness behind a feature flag, preparing PostReady for the next-generation image model.",
-      "date": "2026-08-03T17:44:26Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a225",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #774 — Carousel caption + hashtag generation (backend) — E6",
-      "description": "Added backend AI generation of captions and hashtags for the Carousel Creator (epic #663 workstream E6), enabling users to auto-generate on-brand copy for each carousel directly from the editor.",
-      "date": "2026-08-03T17:49:37Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a226",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +53,43 @@
       "description": "Replaced hardcoded carousel slide limits with a platform-aware config system (F1), so per-platform maximums (LinkedIn, Instagram, etc.) can be managed centrally without code changes.",
       "date": "2026-08-03T18:13:40Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a232",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #781 — E4: Global carousel controls (non-destructive)",
+      "description": "Added non-destructive global style controls for the Carousel Creator (E4), letting users apply layout, color, and typography overrides across all slides without losing per-card customization.",
+      "date": "2026-08-03T18:24:25Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a233",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #782 — Pro Prompt becomes carousel-aware",
+      "description": "Updated Pro Prompt (Prompt Studio) to understand carousel context — prompting flows now generate structured, slide-aware copy instead of single-post prompts when in Carousel Creator mode.",
+      "date": "2026-08-03T18:34:04Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a234",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #783 — Usage metering for carousels & Motion Posts (H3 #703, G4 #700)",
+      "description": "Pack credit usage is now tracked for Carousel Creator and Motion Post generations, completing epic milestones H3 (#703) and G4 (#700) — both content types are now metered against the user's plan.",
+      "date": "2026-08-03T18:34:40Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a235",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #784 — Smart image-engine routing — Seedream default, gpt-image-2 escalation (#770)",
+      "description": "Implemented smart image-engine routing: Seedream is now the default model for standard image generation, with automatic escalation to gpt-image-2 for prompts requiring detailed text rendering or high-fidelity output.",
+      "date": "2026-08-03T18:36:17Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T18:24:23.767Z"
+  "updatedAt": "2026-08-03T18:40:00Z"
 }
