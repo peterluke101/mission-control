@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a231",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #780 — F1: platform-aware carousel limits (config, not hardcoded)",
-      "description": "Replaced hardcoded carousel slide limits with a platform-aware config system (F1), so per-platform maximums (LinkedIn, Instagram, etc.) can be managed centrally without code changes.",
-      "date": "2026-08-03T18:13:40Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a232",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Built carousel (multi-image) posting for all six platforms wired into the headless publish flow, gated off behind CAROUSEL_PUBLISH_ENABLED (default off) until Meta/LinkedIn production API approval lands. Non-carousel publishing is unchanged.",
       "date": "2026-08-03T19:20:05Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a241",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #790 — Shorten Snapchat card subtitle",
+      "description": "Shortened the subtitle text on the Snapchat platform card for a cleaner, more compact appearance in the carousel.",
+      "date": "2026-08-03T19:32:09Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T19:25:00Z"
+  "updatedAt": "2026-08-03T19:45Z"
 }
