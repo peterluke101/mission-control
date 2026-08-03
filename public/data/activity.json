@@ -1,42 +1,6 @@
 {
   "entries": [
     {
-      "id": "a226",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #775 — Carousel drag-and-drop: file drop onto a card + distinct affordances",
-      "description": "Completed carousel drag-and-drop support: users can now drop image files directly onto individual cards, with distinct visual affordances to distinguish drag areas from card content.",
-      "date": "2026-08-03T17:52:44Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a227",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #776 — G1 · Bring to Life UX & terminology (Motion Post picker)",
-      "description": "Shipped the first milestone of the Bring to Life feature: UX and terminology update introducing the Motion Post picker, giving users a clear entry point for animating static posts into video clips.",
-      "date": "2026-08-03T17:58:25Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a228",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #777 — Default Bring to Life flag OFF until the engine ships",
-      "description": "Set the Bring to Life feature flag to OFF by default so the UX and picker UI are gated until the underlying video-animation engine is production-ready.",
-      "date": "2026-08-03T18:01:11Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a229",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #778 — Wire up carousel caption + hashtag generation UI",
-      "description": "Connected the carousel caption and hashtag generation backend to the Carousel Creator UI, so users can generate on-brand captions and hashtags for each slide directly from the editor.",
-      "date": "2026-08-03T18:02:12Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a230",
       "type": "feature",
       "project": "PostReady",
@@ -68,7 +32,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #782 — Pro Prompt becomes carousel-aware",
-      "description": "Updated Pro Prompt (Prompt Studio) to understand carousel context — prompting flows now generate structured, slide-aware copy instead of single-post prompts when in Carousel Creator mode.",
+      "description": "Updated Pro Prompt to understand carousel context — prompting flows now generate structured, slide-aware copy instead of single-post prompts when in Carousel Creator mode.",
       "date": "2026-08-03T18:34:04Z",
       "actor": "Ares"
     },
@@ -77,7 +41,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #783 — Usage metering for carousels & Motion Posts (H3 #703, G4 #700)",
-      "description": "Pack credit usage is now tracked for Carousel Creator and Motion Post generations, completing epic milestones H3 (#703) and G4 (#700) — both content types are now metered against the user's plan.",
+      "description": "Pack credit usage is now tracked for Carousel Creator and Motion Post generations, completing epic milestones H3 and G4 — both content types are now metered against the user plan.",
       "date": "2026-08-03T18:34:40Z",
       "actor": "Ares"
     },
@@ -85,11 +49,47 @@
       "id": "a235",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #784 — Smart image-engine routing — Seedream default, gpt-image-2 escalation (#770)",
-      "description": "Implemented smart image-engine routing: Seedream is now the default model for standard image generation, with automatic escalation to gpt-image-2 for prompts requiring detailed text rendering or high-fidelity output.",
+      "title": "PostReady: PR #784 — Smart image-engine routing: Seedream default, gpt-image-2 escalation",
+      "description": "Implemented smart image-engine routing: Seedream is the default model for standard image generation, with automatic escalation to gpt-image-2 for prompts requiring detailed text rendering or high-fidelity output.",
       "date": "2026-08-03T18:36:17Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a236",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #785 — Show post date on engagement popover",
+      "description": "Restored the missing post date on the hover engagement card: a subtle \"Posted <date>\" line (calendar icon) now appears under total engagements using the pack earliest publish date.",
+      "date": "2026-08-03T18:42:55Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a237",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #787 — Review quote card renders in natural case, not ALL CAPS",
+      "description": "Fixed the testimonial review-to-post quote card rendering in ALL CAPS. Quote style now uses natural case so testimonials read as typed — more readable and authentic.",
+      "date": "2026-08-03T18:51:25Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a238",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #786 — Carousel → Post Packs materialization + list badge",
+      "description": "A saved carousel now lands in Post Packs as a labeled carousel pack ready to act on (Part A: materialization + list badge). Publishing is Part B, coming next.",
+      "date": "2026-08-03T18:52:37Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a239",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #788 — Review quote: Inter font + longer excerpt (140 chars)",
+      "description": "Follow-up to natural-case fix: swapped Anton for Inter (heavy) on the quote card for cleaner mixed-case readability, and raised the excerpt cap from 60 to 140 chars.",
+      "date": "2026-08-03T19:00:20Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T18:40:00Z"
+  "updatedAt": "2026-08-03T19:05:00Z"
 }
