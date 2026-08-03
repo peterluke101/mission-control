@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a208",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #753 — fix(carousel): preview stepping + add-card menu; remove Videos from Batch",
-      "description": "Fixed carousel preview not refreshing when stepping through cards (editable prop on CardFace), repaired add-card menu, and removed Videos from Batch mode — post-launch polish for the Carousel Creator.",
-      "date": "2026-08-02T21:02:04Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a209",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Carousel Creator now composites user-uploaded photos into the exported PNG at publish time, so photo carousels render correctly in the downloaded output ZIP.",
       "date": "2026-08-03T02:42:20Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a218",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #763 — fix: harden anti-frame guard for Seedream outpaint masters",
+      "description": "Hardened the anti-frame guard for Seedream outpaint master generation to prevent framing artifacts in generated images, improving output quality for image creation workflows.",
+      "date": "2026-08-03T16:25:08Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T02:45:00.000Z"
+  "updatedAt": "2026-08-03T16:42:03.974Z"
 }
