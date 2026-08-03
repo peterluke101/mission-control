@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a211",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #757 — feat(carousel): Save — autosave drafts + reload on open",
-      "description": "Second step of Generate → Save → Publish: carousel work persists. Adds carousels table (migration 68), /api/carousel/draft GET/PUT endpoint, and autosave on every edit with reload on re-open.",
-      "date": "2026-08-02T22:30:27Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a213",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #758 — fix(carousel): move card actions off card, merge AI buttons, bigger logo",
-      "description": "Moved per-card action buttons off the card canvas to avoid overlap with content, merged the two AI action buttons into one, and increased logo size in the Carousel Creator editor.",
-      "date": "2026-08-02T23:42:12Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a214",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "Restyled the \"Finishing touches\" section in the Carousel Creator into a compact single card layout, reducing visual clutter and improving the inspector panel's usability.",
       "date": "2026-08-03T16:52:45Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a222",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #771 — fix: Finishing touches layout — tiles fit one row, location link no longer clips",
+      "description": "Fixed the Finishing touches section layout in the Carousel Creator so all tile controls fit on one row and the location link no longer clips off-screen.",
+      "date": "2026-08-03T17:25:58Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a223",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #773 — fix: compact the Pro Prompt strip — button on the right, single row",
+      "description": "Compacted the Pro Prompt strip on the Create tab so the action button sits on the right side in a single row, reducing vertical space and improving the layout.",
+      "date": "2026-08-03T17:41:05Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T17:22:05.659Z"
+  "updatedAt": "2026-08-03T17:45:00Z"
 }
