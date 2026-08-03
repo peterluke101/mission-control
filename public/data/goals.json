@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-03T19:25:00Z",
+  "lastUpdated": "2026-08-03T19:45Z",
   "weekTarget": "PostReady epic #663 A2-A8 — video pivot code cleanup + Carousel Creator completion",
   "activeProjects": [
     "Mission Control",
@@ -234,14 +234,14 @@
           "id": "g4.9",
           "title": "Video pivot + Carousel Creator — epic #663 (A1+D+E+E4+F1+H3+G4 done, A2-A8 in progress)",
           "status": "active",
-          "progress": 86,
+          "progress": 87,
           "owner": "Ares",
-          "note": "A1 (PR #713): customer video gated behind VIDEO_ENABLED kill-switch (default OFF). Engine preserved for Bring to Life. A2-A8: code cleanup + new video-free hero — in progress. Carousel Creator (workstream D, PR #752) shipped Aug 2 — filmstrip editor with drag-reorder, multi-card types, editable canvas, inspector. PRs #753-#762: carousel fixes, color palettes, guided redesign, AI generation, Save+autosave, card actions, Publish Stage 1, business name + New button, drag-and-drop upload, photo compositing. PR #763: Seedream anti-frame guard (Aug 3). PRs #767-#777 (Aug 3): per-role typography, Brand Kit colors + logo, Finishing touches card, layout + Pro Prompt fixes, image prompt tune-up, caption+hashtag backend E6, file drop onto card, Bring to Life G1 Motion Post picker, Bring to Life flag default OFF. PR #778: carousel caption + hashtag generation UI wired up — full E6 workstream complete (Aug 3). PR #779: full-carousel generation with narrative structure — whole carousel as cohesive story arc (Aug 3, epic #687). PR #780: F1 platform-aware carousel limits via config — per-platform maximums (Instagram, LinkedIn, etc.) managed centrally (Aug 3). PR #781: E4 global carousel controls — non-destructive style overrides applied across all slides (Aug 3). PR #782: Pro Prompt becomes carousel-aware — prompting flows now generate structured slide-aware copy in Carousel Creator mode (Aug 3). PR #783: Usage metering for carousels & Motion Posts (H3 #703, G4 #700) — pack credits tracked for both new content types (Aug 3). PR #784: Smart image-engine routing — Seedream default, gpt-image-2 escalation for text/detail prompts (#770, Aug 3). PR #785: post date on engagement popover (Aug 3). PR #787: review quote natural case fix (Aug 3). PR #786: carousel materializes in Post Packs + list badge (Aug 3). PR #788: Inter font + 140-char excerpt on quote card (Aug 3). PR #789: carousel multi-image publishing per platform, gated off behind CAROUSEL_PUBLISH_ENABLED until API approvals (Aug 3)."
+          "note": "A1 (PR #713): customer video gated behind VIDEO_ENABLED kill-switch (default OFF). Engine preserved for Bring to Life. A2-A8: code cleanup + new video-free hero — in progress. Carousel Creator (workstream D, PR #752) shipped Aug 2 — filmstrip editor with drag-reorder, multi-card types, editable canvas, inspector. PRs #753-#762: carousel fixes, color palettes, guided redesign, AI generation, Save+autosave, card actions, Publish Stage 1, business name + New button, drag-and-drop upload, photo compositing. PR #763: Seedream anti-frame guard (Aug 3). PRs #767-#777 (Aug 3): per-role typography, Brand Kit colors + logo, Finishing touches card, layout + Pro Prompt fixes, image prompt tune-up, caption+hashtag backend E6, file drop onto card, Bring to Life G1 Motion Post picker, Bring to Life flag default OFF. PR #778: carousel caption + hashtag generation UI wired up — full E6 workstream complete (Aug 3). PR #779: full-carousel generation with narrative structure — whole carousel as cohesive story arc (Aug 3, epic #687). PR #780: F1 platform-aware carousel limits via config — per-platform maximums (Instagram, LinkedIn, etc.) managed centrally (Aug 3). PR #781: E4 global carousel controls — non-destructive style overrides applied across all slides (Aug 3). PR #782: Pro Prompt becomes carousel-aware — prompting flows now generate structured slide-aware copy in Carousel Creator mode (Aug 3). PR #783: Usage metering for carousels & Motion Posts (H3 #703, G4 #700) — pack credits tracked for both new content types (Aug 3). PR #784: Smart image-engine routing — Seedream default, gpt-image-2 escalation for text/detail prompts (#770, Aug 3). PR #785: post date on engagement popover (Aug 3). PR #787: review quote natural case fix (Aug 3). PR #786: carousel materializes in Post Packs + list badge (Aug 3). PR #788: Inter font + 140-char excerpt on quote card (Aug 3). PR #789: carousel multi-image publishing per platform, gated off behind CAROUSEL_PUBLISH_ENABLED until API approvals (Aug 3). PR #790: Snapchat card subtitle shortened (Aug 3)."
         }
       ],
       "weekTarget": "PostReady epic #663 A2-A8 — video pivot code cleanup + Carousel Creator completion",
       "updatedAt": "2026-08-03T18:24:23.767Z"
     }
   ],
-  "updatedAt": "2026-08-03T19:25:00Z"
+  "updatedAt": "2026-08-03T19:45Z"
 }
