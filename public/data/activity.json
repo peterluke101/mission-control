@@ -1,51 +1,6 @@
 {
   "entries": [
     {
-      "id": "a214",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #759 — feat(carousel): Stage 1 publish — render cards to real PNGs + Download",
-      "description": "Stage 1 of the Carousel Creator Publish step: renders each carousel card to a real PNG via canvas capture and bundles them into a ZIP for download. Generate → Save → Publish pipeline now has all three stages functional.",
-      "date": "2026-08-02T23:53:55Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a215",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #760 — feat(carousel): real business name on cards + New button",
-      "description": "Carousel Creator now uses the user's real business name on cards instead of placeholder text, and adds a New Carousel button for quickly starting a fresh project.",
-      "date": "2026-08-03T01:02:06Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a216",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #761 — feat(carousel): drag-and-drop desktop image upload",
-      "description": "Added native drag-and-drop desktop image upload to the Carousel Creator, allowing users to drop image files directly onto cards for photo carousel creation.",
-      "date": "2026-08-03T01:14:14Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a217",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #762 — feat(carousel): composite uploaded photos into exported PNG",
-      "description": "Carousel Creator now composites user-uploaded photos into the exported PNG at publish time, so photo carousels render correctly in the downloaded output ZIP.",
-      "date": "2026-08-03T02:42:20Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a218",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #763 — fix: harden anti-frame guard for Seedream outpaint masters",
-      "description": "Hardened the anti-frame guard for Seedream outpaint master generation to prevent framing artifacts in generated images, improving output quality for image creation workflows.",
-      "date": "2026-08-03T16:25:08Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a219",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +44,52 @@
       "description": "Compacted the Pro Prompt strip on the Create tab so the action button sits on the right side in a single row, reducing vertical space and improving the layout.",
       "date": "2026-08-03T17:41:05Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a224",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #772 — Image prompt tune-up + Seedream 5.0 readiness (behind the flag)",
+      "description": "Tuned image prompt generation for better output quality and added Seedream 5.0 model readiness behind a feature flag, preparing PostReady for the next-generation image model.",
+      "date": "2026-08-03T17:44:26Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a225",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #774 — Carousel caption + hashtag generation (backend) — E6",
+      "description": "Added backend AI generation of captions and hashtags for the Carousel Creator (epic #663 workstream E6), enabling users to auto-generate on-brand copy for each carousel directly from the editor.",
+      "date": "2026-08-03T17:49:37Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a226",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #775 — Carousel drag-and-drop: file drop onto a card + distinct affordances",
+      "description": "Completed carousel drag-and-drop support: users can now drop image files directly onto individual cards, with distinct visual affordances to distinguish drag areas from card content.",
+      "date": "2026-08-03T17:52:44Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a227",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #776 — G1 · Bring to Life UX & terminology (Motion Post picker)",
+      "description": "Shipped the first milestone of the Bring to Life feature: UX and terminology update introducing the Motion Post picker, giving users a clear entry point for animating static posts into video clips.",
+      "date": "2026-08-03T17:58:25Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a228",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #777 — Default Bring to Life flag OFF until the engine ships",
+      "description": "Set the Bring to Life feature flag to OFF by default so the UX and picker UI are gated until the underlying video-animation engine is production-ready.",
+      "date": "2026-08-03T18:01:11Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T17:45:00Z"
+  "updatedAt": "2026-08-03T18:02:37.191Z"
 }
