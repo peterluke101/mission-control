@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a236",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #785 — Show post date on engagement popover",
-      "description": "Restored the missing post date on the hover engagement card: a subtle \"Posted <date>\" line (calendar icon) now appears under total engagements using the pack earliest publish date.",
-      "date": "2026-08-03T18:42:55Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a237",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "A finished Motion Post (\"Bring to Life\") can now be saved into Post Packs as its own, separate item — non-destructively. The original still's pack is never touched; the Motion Post gets its own dedicated pack entry.",
       "date": "2026-08-03T22:45:05Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a246",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #796 — Real Living Photo (cinemagraph) single-element motion",
+      "description": "Shipped real Living Photo generation — single-element cinemagraph motion (#764). Bring to Life now supports both full Motion Posts and targeted single-element Living Photos, completing the Bring to Life epic.",
+      "date": "2026-08-03T23:15:51Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T22:55Z"
+  "updatedAt": "2026-08-03T23:25Z"
 }
