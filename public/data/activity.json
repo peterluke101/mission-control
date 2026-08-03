@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "id": "a209",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #754 — feat(carousel): curated color palettes + custom accent",
-      "description": "Added curated color palette presets and a custom accent color picker to the Carousel Creator editor, enabling branded palette selection per carousel.",
-      "date": "2026-08-02T21:22:54Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a212",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #755 — feat(carousel): redesign to guide — dark header, tabbed inspector, zoom, card-to-top",
-      "description": "Carousel Creator redesigned with a guided layout: dark header, tabbed inspector panel, zoom controls, and card-to-top navigation — improving the editor UX for building multi-card carousels.",
-      "date": "2026-08-02T21:41:46Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a210",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #756 — feat(carousel): real AI generation — whole carousel from a prompt + per-card rewrite",
-      "description": "Carousel Creator now generates full carousels from a prompt using AI, with per-card rewrite capability — converting it from a manual editor into an AI-first content creation tool.",
-      "date": "2026-08-02T21:57:08Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a211",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +62,34 @@
       "description": "Hardened the anti-frame guard for Seedream outpaint master generation to prevent framing artifacts in generated images, improving output quality for image creation workflows.",
       "date": "2026-08-03T16:25:08Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a219",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #767 — feat: per-role typography for carousel card renderer",
+      "description": "Added per-role typography to the carousel card renderer so each card role (Headline, Body, CTA, etc.) uses its own font style, improving visual hierarchy in generated carousels.",
+      "date": "2026-08-03T16:44:48Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a220",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #768 — feat(carousel): use the client's real Brand Kit colors and logo",
+      "description": "Carousel Creator now pulls colors and the logo directly from the client's Brand Kit, so every generated carousel is automatically on-brand without manual configuration.",
+      "date": "2026-08-03T16:50:07Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a221",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #769 — feat: restyle \"Finishing touches\" section into a single card",
+      "description": "Restyled the \"Finishing touches\" section in the Carousel Creator into a compact single card layout, reducing visual clutter and improving the inspector panel's usability.",
+      "date": "2026-08-03T16:52:45Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T16:42:03.974Z"
+  "updatedAt": "2026-08-03T17:22:05.659Z"
 }
