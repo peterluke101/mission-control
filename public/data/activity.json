@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a230",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #779 — Full-carousel generation with narrative structure (#687)",
-      "description": "Shipped full-carousel AI generation with a narrative structure — the entire carousel is generated as a cohesive story arc rather than independent per-card prompts, improving content coherence.",
-      "date": "2026-08-03T18:12:07Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a231",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Follow-up to natural-case fix: swapped Anton for Inter (heavy) on the quote card for cleaner mixed-case readability, and raised the excerpt cap from 60 to 140 chars.",
       "date": "2026-08-03T19:00:20Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a240",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #789 — Carousel multi-image publishing per platform (gated off)",
+      "description": "Built carousel (multi-image) posting for all six platforms wired into the headless publish flow, gated off behind CAROUSEL_PUBLISH_ENABLED (default off) until Meta/LinkedIn production API approval lands. Non-carousel publishing is unchanged.",
+      "date": "2026-08-03T19:20:05Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T19:05:00Z"
+  "updatedAt": "2026-08-03T19:25:00Z"
 }
