@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a205",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #662 — fix(video): actually force animated frames",
-      "description": "Fixed animated-scene frames still rendering as photoreal despite the Animated scenes rebrand. Animated art-direction is now correctly enforced through the frame-generation pipeline.",
-      "date": "2026-07-31T21:17:06Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a206",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #713 — feat(pivot): hide customer video behind kill-switch (epic #663 A1)",
-      "description": "Strategic product pivot: customer video gated behind NEXT_PUBLIC_VIDEO_ENABLED kill-switch (default OFF). All video entry points hidden without deleting code — fully reversible. Video engine preserved for future Bring to Life feature.",
-      "date": "2026-08-02T16:35:35Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a207",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "Stage 1 of the Carousel Creator Publish step: renders each carousel card to a real PNG via canvas capture and bundles them into a ZIP for download. Generate → Save → Publish pipeline now has all three stages functional.",
       "date": "2026-08-02T23:53:55Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a215",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #760 — feat(carousel): real business name on cards + New button",
+      "description": "Carousel Creator now uses the user's real business name on cards instead of placeholder text, and adds a New Carousel button for quickly starting a fresh project.",
+      "date": "2026-08-03T01:02:06Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a216",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #761 — feat(carousel): drag-and-drop desktop image upload",
+      "description": "Added native drag-and-drop desktop image upload to the Carousel Creator, allowing users to drop image files directly onto cards for photo carousel creation.",
+      "date": "2026-08-03T01:14:14Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T00:02:00Z"
+  "updatedAt": "2026-08-03T01:22:11.633Z"
 }
