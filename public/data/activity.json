@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a234",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #783 — Usage metering for carousels & Motion Posts (H3 #703, G4 #700)",
-      "description": "Pack credit usage is now tracked for Carousel Creator and Motion Post generations, completing epic milestones H3 and G4 — both content types are now metered against the user plan.",
-      "date": "2026-08-03T18:34:40Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a235",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Wired the Motion Post engine to actually generate Bring to Life videos — the full generation pipeline (prompt → model call → asset storage → result) is now live. Completes epic item #698.",
       "date": "2026-08-03T21:04:47Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a244",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #794 — Motion Post: clean download via proxy + consistent copy",
+      "description": "Two fixes from Pete's first live Motion Post: (1) Download used a direct r2.dev fetch that CORS-blocks — now proxied through /api/generate-video/download so it saves cleanly. (2) Copy mismatch 'Download' vs 'Save it'/'Saving…' — all aligned on Download.",
+      "date": "2026-08-03T22:02:46Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T21:15Z"
+  "updatedAt": "2026-08-03T22:10Z"
 }
