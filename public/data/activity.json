@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "id": "a219",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #767 — feat: per-role typography for carousel card renderer",
-      "description": "Added per-role typography to the carousel card renderer so each card role (Headline, Body, CTA, etc.) uses its own font style, improving visual hierarchy in generated carousels.",
-      "date": "2026-08-03T16:44:48Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a220",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #768 — feat(carousel): use the client's real Brand Kit colors and logo",
-      "description": "Carousel Creator now pulls colors and the logo directly from the client's Brand Kit, so every generated carousel is automatically on-brand without manual configuration.",
-      "date": "2026-08-03T16:50:07Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a221",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #769 — feat: restyle \"Finishing touches\" section into a single card",
-      "description": "Restyled the \"Finishing touches\" section in the Carousel Creator into a compact single card layout, reducing visual clutter and improving the inspector panel's usability.",
-      "date": "2026-08-03T16:52:45Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a222",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +62,34 @@
       "description": "Set the Bring to Life feature flag to OFF by default so the UX and picker UI are gated until the underlying video-animation engine is production-ready.",
       "date": "2026-08-03T18:01:11Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a229",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #778 — Wire up carousel caption + hashtag generation UI",
+      "description": "Connected the carousel caption and hashtag generation backend to the Carousel Creator UI, so users can generate on-brand captions and hashtags for each slide directly from the editor.",
+      "date": "2026-08-03T18:02:12Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a230",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #779 — Full-carousel generation with narrative structure (#687)",
+      "description": "Shipped full-carousel AI generation with a narrative structure — the entire carousel is generated as a cohesive story arc rather than independent per-card prompts, improving content coherence.",
+      "date": "2026-08-03T18:12:07Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a231",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #780 — F1: platform-aware carousel limits (config, not hardcoded)",
+      "description": "Replaced hardcoded carousel slide limits with a platform-aware config system (F1), so per-platform maximums (LinkedIn, Instagram, etc.) can be managed centrally without code changes.",
+      "date": "2026-08-03T18:13:40Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T18:02:37.191Z"
+  "updatedAt": "2026-08-03T18:24:23.767Z"
 }
