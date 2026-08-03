@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a235",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #784 — Smart image-engine routing: Seedream default, gpt-image-2 escalation",
-      "description": "Implemented smart image-engine routing: Seedream is the default model for standard image generation, with automatic escalation to gpt-image-2 for prompts requiring detailed text rendering or high-fidelity output.",
-      "date": "2026-08-03T18:36:17Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a236",
       "type": "fix",
       "project": "PostReady",
@@ -86,10 +77,19 @@
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #794 — Motion Post: clean download via proxy + consistent copy",
-      "description": "Two fixes from Pete's first live Motion Post: (1) Download used a direct r2.dev fetch that CORS-blocks — now proxied through /api/generate-video/download so it saves cleanly. (2) Copy mismatch 'Download' vs 'Save it'/'Saving…' — all aligned on Download.",
+      "description": "Two fixes from Pete's first live Motion Post: (1) Download used a direct r2.dev fetch that CORS-blocks — now proxied through /api/generate-video/download so it saves cleanly. (2) Copy mismatch aligned on Download.",
       "date": "2026-08-03T22:02:46Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a245",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #795 — Motion Post saves to Post Packs as own item",
+      "description": "A finished Motion Post (\"Bring to Life\") can now be saved into Post Packs as its own, separate item — non-destructively. The original still's pack is never touched; the Motion Post gets its own dedicated pack entry.",
+      "date": "2026-08-03T22:45:05Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T22:10Z"
+  "updatedAt": "2026-08-03T22:55Z"
 }
