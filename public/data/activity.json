@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a203",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #660 — fix(video): end card as real MP4 clip (A/V aligned) + fade-in",
-      "description": "Renders the end card as a proper MP4 with silent audio track and 0.5s fade-in, resolving A/V stream mismatches that caused players to stall.",
-      "date": "2026-07-31T20:31:54Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a204",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #661 — Multi-scene becomes \"Animated scenes\"",
-      "description": "Rebranded multi-scene video to \"Animated scenes\" and forced animated art style throughout the pipeline. People are welcome as animated characters.",
-      "date": "2026-07-31T20:52:00Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a205",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "Second step of Generate → Save → Publish: carousel work persists. Adds carousels table (migration 68), /api/carousel/draft GET/PUT endpoint, and autosave on every edit with reload on re-open.",
       "date": "2026-08-02T22:30:27Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a213",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #758 — fix(carousel): move card actions off card, merge AI buttons, bigger logo",
+      "description": "Moved per-card action buttons off the card canvas to avoid overlap with content, merged the two AI action buttons into one, and increased logo size in the Carousel Creator editor.",
+      "date": "2026-08-02T23:42:12Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a214",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #759 — feat(carousel): Stage 1 publish — render cards to real PNGs + Download",
+      "description": "Stage 1 of the Carousel Creator Publish step: renders each carousel card to a real PNG via canvas capture and bundles them into a ZIP for download. Generate → Save → Publish pipeline now has all three stages functional.",
+      "date": "2026-08-02T23:53:55Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-02T23:22:13.607Z"
+  "updatedAt": "2026-08-03T00:02:00Z"
 }
