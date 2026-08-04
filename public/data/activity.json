@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a258",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #808 — Admin Seedream 5.0 smoke-test endpoint",
+      "description": "Added an admin-only smoke-test endpoint for Seedream 5.0 integration — allows internal verification of the upgraded image engine before exposing to customers.",
+      "date": "2026-08-04T18:58:09Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a257",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #807 — Landing: $49 → $39.97 price + CTA reword for one-plan pricing",
+      "description": "Updated landing page pricing copy from $49 to $39.97 and reworded the CTA to match the consolidated single-plan pricing ($39.97/mo, everything included). Completes the H2+H5 pricing consolidation changes on the public-facing site.",
+      "date": "2026-08-04T18:55:57Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a256",
       "type": "refactor",
       "project": "PostReady",
@@ -23,7 +41,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #804 — Redesign schedule page to approved mockup",
-      "description": "Schedule page rebuilt to match the approved mockup, aligned with the unified Create area design system shipped across tabs in Jul-Aug.",
+      "description": "Schedule page rebuilt to match the approved mockup, aligned with the unified Create area design system shipped across tabs in Jul–Aug.",
       "date": "2026-08-04T04:18:49Z",
       "actor": "Ares"
     },
@@ -71,25 +89,7 @@
       "description": "Added a 9th Bring to Life effect — Sway (soft, organic camera drift) — completing the 3×3 effect grid. Implemented as a Kling camera-move recipe computed app-side.",
       "date": "2026-08-04T00:49:28Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a248",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #798 — Bring to Life: Atmosphere overlay pack (snow / rain / sun rays / sparkle / mist)",
-      "description": "New Atmosphere effect family: weather/sparkle elements composited over a finished still — Snow, Rain, Sun Rays, Sparkle, Mist. Subject never altered; only the overlay animates.",
-      "date": "2026-08-03T23:59:14Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a247",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #797 — Bring to Life: Before → After reveal (#765)",
-      "description": "New Bring to Life mode: BEFORE image transitions to an AFTER image via deterministic ffmpeg xfade composite. Classic trades/cleaners \"look what we did\" clip. No model render.",
-      "date": "2026-08-03T23:45:09Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-04T05:21:00Z"
+  "updatedAt": "2026-08-04T19:05:00Z"
 }
