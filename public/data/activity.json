@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a239",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #788 — Review quote: Inter font + longer excerpt (140 chars)",
-      "description": "Follow-up to natural-case fix: swapped Anton for Inter (heavy) on the quote card for cleaner mixed-case readability, and raised the excerpt cap from 60 to 140 chars.",
-      "date": "2026-08-03T19:00:20Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a240",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "New Atmosphere effect family for Bring to Life (#766): weather/sparkle elements composited over a finished still — Snow, Rain, Sun Rays, Sparkle, Mist. Subject and scene are never altered; only the overlay animates. Built cinemagraph-style with deterministic Kling recipes computed app-side — no worker change, no ffmpeg, no bundled assets.",
       "date": "2026-08-03T23:59:14Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a249",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #799 — Bring to Life: Sway effect (fills 3×3 effect grid)",
+      "description": "Added a 9th Bring to Life effect — Sway (soft, organic camera drift) — completing the 3×3 effect grid with no blank corner. Implemented as a Kling camera-move recipe computed app-side, no worker redeploy needed.",
+      "date": "2026-08-04T00:49:28Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-04T00:20Z"
+  "updatedAt": "2026-08-04T01:41:57Z"
 }
