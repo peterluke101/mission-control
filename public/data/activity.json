@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a237",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #787 — Review quote card renders in natural case, not ALL CAPS",
-      "description": "Fixed the testimonial review-to-post quote card rendering in ALL CAPS. Quote style now uses natural case so testimonials read as typed — more readable and authentic.",
-      "date": "2026-08-03T18:51:25Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a238",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #786 — Carousel → Post Packs materialization + list badge",
-      "description": "A saved carousel now lands in Post Packs as a labeled carousel pack ready to act on (Part A: materialization + list badge). Publishing is Part B, coming next.",
-      "date": "2026-08-03T18:52:37Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a239",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "Shipped real Living Photo generation — single-element cinemagraph motion (#764). Bring to Life now supports both full Motion Posts and targeted single-element Living Photos, completing the Bring to Life epic.",
       "date": "2026-08-03T23:15:51Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a247",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #797 — Bring to Life: Before → After reveal (#765)",
+      "description": "New Bring to Life mode that reveals a BEFORE image transitioning to an AFTER image — the classic trades/cleaners 'look what we did' clip. Deterministic ffmpeg xfade composite (cross-dissolve / wipe), not a model render. No prompt, no generated pixels. Uses same motion_posts ledger row as Motion Post.",
+      "date": "2026-08-03T23:45:09Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a248",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #798 — Bring to Life: Atmosphere overlay pack (snow / rain / sun rays / sparkle / mist)",
+      "description": "New Atmosphere effect family for Bring to Life (#766): weather/sparkle elements composited over a finished still — Snow, Rain, Sun Rays, Sparkle, Mist. Subject and scene are never altered; only the overlay animates. Built cinemagraph-style with deterministic Kling recipes computed app-side — no worker change, no ffmpeg, no bundled assets.",
+      "date": "2026-08-03T23:59:14Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-03T23:25Z"
+  "updatedAt": "2026-08-04T00:20Z"
 }
