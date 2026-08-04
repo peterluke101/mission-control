@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a256",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #806 — Remove dead customer-facing AI video feature (#669)",
+      "description": "Removed dormant customer-facing AI video surfaces that were left behind the VIDEO_ENABLED=off flag after the small-business pivot. Video generation is no longer part of the product.",
+      "date": "2026-08-04T05:00:39Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a246",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Schedule page rebuilt to match the approved mockup, aligned with the unified Create area design system shipped across tabs in Jul-Aug.",
       "date": "2026-08-04T04:18:49Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a255",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #805 — Drop redundant page-level Schedule heading",
-      "description": "Removed the duplicate page-level \"Schedule\" heading from the redesigned Schedule page — clean-up follow-up to PR #804.",
-      "date": "2026-08-04T04:20:06Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-04T03:04Z"
+  "updatedAt": "2026-08-04T05:02:18.623Z"
 }
