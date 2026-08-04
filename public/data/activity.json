@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "id": "a243",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #792 — Motion Post engine: real Bring to Life video generation (#698)",
-      "description": "Wired the Motion Post engine to actually generate Bring to Life videos — the full generation pipeline (prompt → model call → asset storage → result) is now live. Completes epic item #698.",
-      "date": "2026-08-03T21:04:47Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a244",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #794 — Motion Post: clean download via proxy + consistent copy",
-      "description": "Two fixes from Pete's first live Motion Post: (1) Download used a direct r2.dev fetch that CORS-blocks — now proxied through /api/generate-video/download so it saves cleanly. (2) Copy mismatch aligned on Download.",
-      "date": "2026-08-03T22:02:46Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a245",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #795 — Motion Post saves to Post Packs as own item",
-      "description": "A finished Motion Post (\"Bring to Life\") can now be saved into Post Packs as its own, separate item — non-destructively. The original still's pack is never touched; the Motion Post gets its own dedicated pack entry.",
-      "date": "2026-08-03T22:45:05Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a246",
       "type": "feature",
       "project": "PostReady",
@@ -88,6 +61,33 @@
       "title": "PostReady: PR #802 — Redesign Batch Create page to match approved mockup",
       "description": "Batch Create page redesigned to match the approved owner mockup — aligned with the Create tab's design system. Brings Batch's layout, typography, and UI patterns in line with the rest of the app.",
       "date": "2026-08-04T02:46:50Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a253",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #803 — Remove add-on purchase flows (clip packs + image top-ups)",
+      "description": "Stripped all add-on purchase UI — clip packs and image top-up flows removed. Follows the single-plan pricing consolidation (PR #801): one $39.97/mo plan, no à-la-carte purchases.",
+      "date": "2026-08-04T04:04:25Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a254",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #804 — Redesign schedule page to approved mockup",
+      "description": "Schedule page rebuilt to match the approved mockup, aligned with the unified Create area design system shipped across tabs in Jul-Aug.",
+      "date": "2026-08-04T04:18:49Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a255",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #805 — Drop redundant page-level Schedule heading",
+      "description": "Removed the duplicate page-level \"Schedule\" heading from the redesigned Schedule page — clean-up follow-up to PR #804.",
+      "date": "2026-08-04T04:20:06Z",
       "actor": "Ares"
     }
   ],
