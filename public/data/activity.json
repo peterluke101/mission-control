@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a242",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #791 — Motion Post result UI: submit → poll → preview & download (G3 #699)",
-      "description": "Built the full Motion Post result UI — the submit flow now polls for video generation completion, then surfaces a preview player and download button. Completes G3 of the Bring to Life epic (#699).",
-      "date": "2026-08-03T21:02:48Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a243",
       "type": "feature",
       "project": "PostReady",
@@ -73,6 +64,15 @@
       "actor": "Ares"
     },
     {
+      "id": "a251",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #801 — One customer plan: $39.97/mo, unlimited images (fair-use) (H2 #702)",
+      "description": "Collapsed billing to one customer-facing plan: $39.97/mo with a fair-use ceiling of 150 AI images/month (abuse guardrail, 95%+ of users never approach it). Everything customer-facing reads \"unlimited\". No tiers, no add-ons, no upgrade path. 7-day free trial preserved. Full entitlement gating migrated.",
+      "date": "2026-08-04T02:32:47Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a250",
       "type": "feature",
       "project": "PostReady",
@@ -82,14 +82,14 @@
       "actor": "Ares"
     },
     {
-      "id": "a251",
+      "id": "a252",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #801 — One customer plan: $39.97/mo, unlimited images (fair-use) (H2 #702)",
-      "description": "Collapsed billing to one customer-facing plan: $39.97/mo with a fair-use ceiling of 150 AI images/month (abuse guardrail, 95%+ of users never approach it). Everything customer-facing reads \"unlimited\". No tiers, no add-ons, no upgrade path. 7-day free trial preserved. Full entitlement gating migrated.",
-      "date": "2026-08-04T02:32:47Z",
+      "title": "PostReady: PR #802 — Redesign Batch Create page to match approved mockup",
+      "description": "Batch Create page redesigned to match the approved owner mockup — aligned with the Create tab's design system. Brings Batch's layout, typography, and UI patterns in line with the rest of the app.",
+      "date": "2026-08-04T02:46:50Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-04T02:42:42.021Z"
+  "updatedAt": "2026-08-04T03:04Z"
 }
