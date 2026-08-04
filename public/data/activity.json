@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a240",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #789 — Carousel multi-image publishing per platform (gated off)",
-      "description": "Built carousel (multi-image) posting for all six platforms wired into the headless publish flow, gated off behind CAROUSEL_PUBLISH_ENABLED (default off) until Meta/LinkedIn production API approval lands. Non-carousel publishing is unchanged.",
-      "date": "2026-08-03T19:20:05Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a241",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #790 — Shorten Snapchat card subtitle",
-      "description": "Shortened the subtitle text on the Snapchat platform card for a cleaner, more compact appearance in the carousel.",
-      "date": "2026-08-03T19:32:09Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a242",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "Added a 9th Bring to Life effect — Sway (soft, organic camera drift) — completing the 3×3 effect grid with no blank corner. Implemented as a Kling camera-move recipe computed app-side, no worker redeploy needed.",
       "date": "2026-08-04T00:49:28Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a250",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #800 — Pricing page: one plan ($39.97/mo, everything included) (H5 #705)",
+      "description": "Rebuilt the pricing page around a single plan: $39.97/month, everything included, 7-day free trial. Replaces the 3-column Starter/Pro/Business tier comparison. Headline value is Unlimited (unlimited AI images + unlimited posting with own photos). Annual billing and add-ons removed.",
+      "date": "2026-08-04T02:32:54Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a251",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #801 — One customer plan: $39.97/mo, unlimited images (fair-use) (H2 #702)",
+      "description": "Collapsed billing to one customer-facing plan: $39.97/mo with a fair-use ceiling of 150 AI images/month (abuse guardrail, 95%+ of users never approach it). Everything customer-facing reads \"unlimited\". No tiers, no add-ons, no upgrade path. 7-day free trial preserved. Full entitlement gating migrated.",
+      "date": "2026-08-04T02:32:47Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-04T01:41:57Z"
+  "updatedAt": "2026-08-04T02:42:42.021Z"
 }
