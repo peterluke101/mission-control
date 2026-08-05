@@ -1,6 +1,87 @@
 {
   "entries": [
     {
+      "id": "a269",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #819 — Wire carousel props into pack publish surface (#695/#696)",
+      "description": "Carousel data (slide count, captions, images) now flows fully into the Post Packs publish surface, completing the end-to-end carousel → publish pipeline.",
+      "date": "2026-08-05T05:04:35Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a268",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #817 — Manual download-all-cards + copy-caption fallback for carousels (#696)",
+      "description": "Added a download-all-cards action for carousels and a copy-caption fallback so users can always get their carousel content even when direct publishing is pending platform API approval.",
+      "date": "2026-08-05T04:59:05Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a267",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #816 — Onboarding pivot: business category drives content suggestions (#707)",
+      "description": "Onboarding now uses the selected business category to drive post and content suggestions, giving new users more relevant starting ideas immediately after sign-up.",
+      "date": "2026-08-05T04:58:57Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a266",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #818 — D5: \"Add Photo\" (editable canvas) vs \"Upload Finished Card\" (as-is) (#682)",
+      "description": "Added two distinct card-addition flows in Carousel Creator: \"Add Photo\" opens the editable canvas for styled slides; \"Upload Finished Card\" accepts finished artwork as-is for direct use.",
+      "date": "2026-08-05T04:58:50Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a265",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #811 — Motion Post explicit preview→publish path (#699)",
+      "description": "Motion Post flow now has a clear explicit preview→publish path, giving users a final review step before their Motion Post is submitted for publishing.",
+      "date": "2026-08-05T04:56:46Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a264",
+      "type": "test",
+      "project": "PostReady",
+      "title": "PostReady: PR #812 — Unit tests for carousel platform-limit and Bring-to-Life logic (#710)",
+      "description": "Added unit test coverage for carousel platform-limit enforcement and Bring to Life generation logic — catches regressions as features evolve.",
+      "date": "2026-08-05T04:56:40Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a263",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #813 — I2: purge stale AI-video copy from FAQ/signup, add carousel + Motion Post guidance (#708)",
+      "description": "Removed outdated AI-video references from FAQ and signup screens. Added fresh guidance for Carousel Creator and Motion Post features in their place.",
+      "date": "2026-08-05T04:56:33Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a262",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #815 — Over-limit carousel resolution UX — never silently truncate (#695)",
+      "description": "Added explicit UX for when a carousel exceeds per-platform slide limits — user is prompted to resolve rather than having slides silently dropped.",
+      "date": "2026-08-05T04:56:26Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a261",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #814 — Carousel template library (E5, #691)",
+      "description": "Added a carousel template library — curated starter templates for common carousel formats, helping users kick off carousel creation without starting from scratch.",
+      "date": "2026-08-05T04:56:19Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a260",
       "type": "refactor",
       "project": "PostReady",
@@ -8,88 +89,7 @@
       "description": "Copy rewrite across all trial and subscription messaging to reflect the no-video, single-plan reality ($39.97/mo). Completes the full one-plan copy consolidation after H2+H5 pricing changes.",
       "date": "2026-08-05T03:02:45Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a259",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #809 — Speed up text renders + raise save masters timeout",
-      "description": "Performance improvements to text rendering speed and raised timeout ceiling for the save masters flow, improving reliability of long-running generation saves.",
-      "date": "2026-08-05T01:48:33Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a258",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #808 — Admin Seedream 5.0 smoke-test endpoint",
-      "description": "Added an admin-only smoke-test endpoint for Seedream 5.0 integration — allows internal verification of the upgraded image engine before exposing to customers.",
-      "date": "2026-08-04T18:58:09Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a257",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #807 — Landing: $49 → $39.97 price + CTA reword for one-plan pricing",
-      "description": "Updated landing page pricing copy from $49 to $39.97 and reworded the CTA to match the consolidated single-plan pricing ($39.97/mo, everything included). Completes the H2+H5 pricing consolidation changes on the public-facing site.",
-      "date": "2026-08-04T18:55:57Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a256",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #806 — Remove dead customer-facing AI video feature (#669)",
-      "description": "Removed dormant customer-facing AI video surfaces that were left behind the VIDEO_ENABLED=off flag after the small-business pivot. Video generation is no longer part of the product.",
-      "date": "2026-08-04T05:00:39Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a255",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #805 — Remove redundant page-level Schedule heading",
-      "description": "Removed redundant Schedule page heading that duplicated the sidebar nav label, aligning with the redesigned Schedule page (PR #804) and the unified Create-area design system.",
-      "date": "2026-08-04T04:20:06Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a254",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #804 — Redesign schedule page to approved mockup",
-      "description": "Schedule page rebuilt to match the approved mockup, aligned with the unified Create area design system shipped across tabs in Jul–Aug.",
-      "date": "2026-08-04T04:18:49Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a253",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #803 — Remove add-on purchase flows (clip packs + image top-ups)",
-      "description": "Stripped all add-on purchase UI — clip packs and image top-up flows removed. Follows the single-plan pricing consolidation (PR #801): one $39.97/mo plan, no à-la-carte purchases.",
-      "date": "2026-08-04T04:04:25Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a252",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #802 — Redesign Batch Create page to match approved mockup",
-      "description": "Batch Create page redesigned to match the approved owner mockup — aligned with the Create tab's design system.",
-      "date": "2026-08-04T02:46:50Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a251",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #801 — One customer plan: $39.97/mo, unlimited images (fair-use) (H2 #702)",
-      "description": "Collapsed billing to one customer-facing plan: $39.97/mo with a fair-use ceiling of 150 AI images/month. Everything customer-facing reads \"unlimited\". No tiers, no add-ons.",
-      "date": "2026-08-04T02:32:47Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-05T03:02:45Z"
+  "updatedAt": "2026-08-05T05:25:00Z"
 }
