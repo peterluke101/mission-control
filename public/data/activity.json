@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a260",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #810 — Rewrite trial/subscription copy for no-video, one-plan reality (#706)",
+      "description": "Copy rewrite across all trial and subscription messaging to reflect the no-video, single-plan reality ($39.97/mo). Completes the full one-plan copy consolidation after H2+H5 pricing changes.",
+      "date": "2026-08-05T03:02:45Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a259",
       "type": "refactor",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Collapsed billing to one customer-facing plan: $39.97/mo with a fair-use ceiling of 150 AI images/month. Everything customer-facing reads \"unlimited\". No tiers, no add-ons.",
       "date": "2026-08-04T02:32:47Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a250",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #800 — Pricing page: one plan ($39.97/mo, everything included) (H5 #705)",
-      "description": "Rebuilt the pricing page around a single plan: $39.97/month, everything included, 7-day free trial. Replaces the 3-column Starter/Pro/Business tier comparison.",
-      "date": "2026-08-04T02:32:54Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-05T01:48:33Z"
+  "updatedAt": "2026-08-05T03:02:45Z"
 }
