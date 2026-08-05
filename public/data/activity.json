@@ -1,6 +1,60 @@
 {
   "entries": [
     {
+      "id": "a275",
+      "type": "docs",
+      "project": "PostReady",
+      "title": "PostReady: PR #825 — GBP API access application package (#585)",
+      "description": "Added documentation package for applying for Google Business Profile API access, enabling PostReady to support GBP posting as a platform in future.",
+      "date": "2026-08-05T14:15:44Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a274",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #824 — I5: Carousel editor accessibility (keyboard reorder, focus, SR labels)",
+      "description": "Carousel editor now supports keyboard-driven slide reordering, proper focus management, and screen-reader labels — meeting baseline accessibility standards.",
+      "date": "2026-08-05T14:09:27Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a273",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #823 — Per-card AI image generate/regenerate for carousels (E2, #688)",
+      "description": "Each carousel card now supports individual AI image generation and regeneration, letting users refine specific slides without regenerating the full carousel.",
+      "date": "2026-08-05T13:56:55Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a272",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #822 — Carousel export format presets — square/portrait/landscape (D9, #686)",
+      "description": "Carousel Creator now offers one-tap export format presets (square 1:1, portrait 4:5, landscape 16:9) so users can match the right aspect ratio for each platform.",
+      "date": "2026-08-05T13:49:13Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a271",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #821 — D7: Image fit controls for carousel cards — no stretch (#684)",
+      "description": "Carousel cards now have image fit controls (cover/contain/fill) so uploaded photos never stretch or distort — each card maintains correct composition.",
+      "date": "2026-08-05T13:38:13Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a270",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #820 — Multi-file batch upload → ordered carousel cards (#683)",
+      "description": "Users can now batch-upload multiple image files and they automatically become ordered carousel slides, dramatically speeding up photo-carousel creation.",
+      "date": "2026-08-05T13:29:43Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a269",
       "type": "feature",
       "project": "PostReady",
@@ -35,61 +89,7 @@
       "description": "Added two distinct card-addition flows in Carousel Creator: \"Add Photo\" opens the editable canvas for styled slides; \"Upload Finished Card\" accepts finished artwork as-is for direct use.",
       "date": "2026-08-05T04:58:50Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a265",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #811 — Motion Post explicit preview→publish path (#699)",
-      "description": "Motion Post flow now has a clear explicit preview→publish path, giving users a final review step before their Motion Post is submitted for publishing.",
-      "date": "2026-08-05T04:56:46Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a264",
-      "type": "test",
-      "project": "PostReady",
-      "title": "PostReady: PR #812 — Unit tests for carousel platform-limit and Bring-to-Life logic (#710)",
-      "description": "Added unit test coverage for carousel platform-limit enforcement and Bring to Life generation logic — catches regressions as features evolve.",
-      "date": "2026-08-05T04:56:40Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a263",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #813 — I2: purge stale AI-video copy from FAQ/signup, add carousel + Motion Post guidance (#708)",
-      "description": "Removed outdated AI-video references from FAQ and signup screens. Added fresh guidance for Carousel Creator and Motion Post features in their place.",
-      "date": "2026-08-05T04:56:33Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a262",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #815 — Over-limit carousel resolution UX — never silently truncate (#695)",
-      "description": "Added explicit UX for when a carousel exceeds per-platform slide limits — user is prompted to resolve rather than having slides silently dropped.",
-      "date": "2026-08-05T04:56:26Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a261",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #814 — Carousel template library (E5, #691)",
-      "description": "Added a carousel template library — curated starter templates for common carousel formats, helping users kick off carousel creation without starting from scratch.",
-      "date": "2026-08-05T04:56:19Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a260",
-      "type": "refactor",
-      "project": "PostReady",
-      "title": "PostReady: PR #810 — Rewrite trial/subscription copy for no-video, one-plan reality (#706)",
-      "description": "Copy rewrite across all trial and subscription messaging to reflect the no-video, single-plan reality ($39.97/mo). Completes the full one-plan copy consolidation after H2+H5 pricing changes.",
-      "date": "2026-08-05T03:02:45Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-05T05:25:00Z"
+  "updatedAt": "2026-08-05T16:45:00Z"
 }
