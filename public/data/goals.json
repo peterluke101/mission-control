@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-05T16:45:00Z",
-  "weekTarget": "PostReady — single-plan copy consolidation complete (PR #810) + performance polish (PR #809) after Carousel Creator + Bring to Life epic",
+  "lastUpdated": "2026-08-05T22:27:57Z",
+  "weekTarget": "PostReady — Carousel Creator sprint complete: batch upload, image fit controls, export presets, per-card AI gen, accessibility (PRs #809-825)",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -244,5 +244,5 @@
       "updatedAt": "2026-08-05T16:45:00Z"
     }
   ],
-  "updatedAt": "2026-08-05T16:45:00Z"
+  "updatedAt": "2026-08-05T22:27:57Z"
 }
