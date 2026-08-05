@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a259",
+      "type": "refactor",
+      "project": "PostReady",
+      "title": "PostReady: PR #809 — Speed up text renders + raise save masters timeout",
+      "description": "Performance improvements to text rendering speed and raised timeout ceiling for the save masters flow, improving reliability of long-running generation saves.",
+      "date": "2026-08-05T01:48:33Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a258",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #800 — Pricing page: one plan ($39.97/mo, everything included) (H5 #705)",
       "description": "Rebuilt the pricing page around a single plan: $39.97/month, everything included, 7-day free trial. Replaces the 3-column Starter/Pro/Business tier comparison.",
       "date": "2026-08-04T02:32:54Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a249",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #799 — Bring to Life: Sway effect (fills 3×3 effect grid)",
-      "description": "Added a 9th Bring to Life effect — Sway (soft, organic camera drift) — completing the 3×3 effect grid. Implemented as a Kling camera-move recipe computed app-side.",
-      "date": "2026-08-04T00:49:28Z",
       "actor": "Ares"
     }
   ],
