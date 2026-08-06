@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a277",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #827 — GBP Phase 2: Local Posts publish path (behind flag)",
+      "description": "GBP Local Posts publish path implemented behind a feature flag — allows PostReady to publish directly to Google Business Profile once GBP API access is approved.",
+      "date": "2026-08-06T03:37:01Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a276",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #826 — GBP Phase 1: foundation + OAuth connect + diagnostic (behind flag)",
+      "description": "GBP platform foundation: OAuth connect flow, diagnostic tooling, and all core infrastructure for Google Business Profile integration — gated behind feature flag awaiting API approval.",
+      "date": "2026-08-06T03:23:18Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a275",
       "type": "docs",
       "project": "PostReady",
@@ -71,25 +89,7 @@
       "description": "Added a download-all-cards action for carousels and a copy-caption fallback so users can always get their carousel content even when direct publishing is pending platform API approval.",
       "date": "2026-08-05T04:59:05Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a267",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #816 — Onboarding pivot: business category drives content suggestions (#707)",
-      "description": "Onboarding now uses the selected business category to drive post and content suggestions, giving new users more relevant starting ideas immediately after sign-up.",
-      "date": "2026-08-05T04:58:57Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a266",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #818 — D5: \"Add Photo\" (editable canvas) vs \"Upload Finished Card\" (as-is) (#682)",
-      "description": "Added two distinct card-addition flows in Carousel Creator: \"Add Photo\" opens the editable canvas for styled slides; \"Upload Finished Card\" accepts finished artwork as-is for direct use.",
-      "date": "2026-08-05T04:58:50Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-05T16:45:00Z"
+  "updatedAt": "2026-08-06T03:47:08.543Z"
 }
