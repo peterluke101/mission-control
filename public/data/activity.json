@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a278",
+      "type": "docs",
+      "project": "PostReady",
+      "title": "PostReady: PR #828 — GBP OAuth verification + demo-video gate (#585)",
+      "description": "GBP documentation: OAuth verification flow guidance and demo-video gating added for GBP platform integration. Part of the GBP API access approval track.",
+      "date": "2026-08-07T01:53:08Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a277",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Carousel data (slide count, captions, images) now flows fully into the Post Packs publish surface, completing the end-to-end carousel → publish pipeline.",
       "date": "2026-08-05T05:04:35Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a268",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #817 — Manual download-all-cards + copy-caption fallback for carousels (#696)",
-      "description": "Added a download-all-cards action for carousels and a copy-caption fallback so users can always get their carousel content even when direct publishing is pending platform API approval.",
-      "date": "2026-08-05T04:59:05Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-06T03:48:37.360Z"
+  "updatedAt": "2026-08-07T02:10:00.000Z"
 }
