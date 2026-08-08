@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a283",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #840 — Fix atmosphere fragments fighting the intensity lever",
+      "description": "Atmosphere fragment intensity lever conflict resolved in Bring to Life feature — fragments now correctly respond to the intensity control without competing with each other.",
+      "date": "2026-08-08T22:10:08Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a282",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Carousel editor now supports keyboard-driven slide reordering, proper focus management, and screen-reader labels — meeting baseline accessibility standards.",
       "date": "2026-08-05T14:09:27Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a273",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #823 — Per-card AI image generate/regenerate for carousels (E2, #688)",
-      "description": "Each carousel card now supports individual AI image generation and regeneration, letting users refine specific slides without regenerating the full carousel.",
-      "date": "2026-08-05T13:56:55Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-08T17:55:00.000Z"
+  "updatedAt": "2026-08-08T22:22:52.578Z"
 }
