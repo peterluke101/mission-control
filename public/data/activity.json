@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a281",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #834 — Soften fair-use ceilings and back 'unlimited' in Terms",
+      "description": "Fair-use limits softened and 'unlimited' positioning backed by updated Terms of Service, keeping single-plan pricing consistent and defensible.",
+      "date": "2026-08-08T17:01:14Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a280",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #833 — Stop naming a 'Starter' plan to customers (copy fix)",
+      "description": "Removed all references to a 'Starter' plan in customer-facing copy — consistent with the single-plan $39.97/mo pricing rollout.",
+      "date": "2026-08-08T17:01:03Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a279",
       "type": "feature",
       "project": "PostReady",
@@ -71,25 +89,7 @@
       "description": "Carousel Creator now offers one-tap export format presets (square 1:1, portrait 4:5, landscape 16:9) so users can match the right aspect ratio for each platform.",
       "date": "2026-08-05T13:49:13Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a271",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #821 — D7: Image fit controls for carousel cards — no stretch (#684)",
-      "description": "Carousel cards now have image fit controls (cover/contain/fill) so uploaded photos never stretch or distort — each card maintains correct composition.",
-      "date": "2026-08-05T13:38:13Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a270",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #820 — Multi-file batch upload → ordered carousel cards (#683)",
-      "description": "Users can now batch-upload multiple image files and they automatically become ordered carousel slides, dramatically speeding up photo-carousel creation.",
-      "date": "2026-08-05T13:29:43Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-08T16:24:00.000Z"
+  "updatedAt": "2026-08-08T17:10:00.000Z"
 }
