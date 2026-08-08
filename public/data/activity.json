@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a282",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #839 — Add public /contact page",
+      "description": "A public-facing /contact page added to PostReady, providing a direct outreach path for prospects and clients.",
+      "date": "2026-08-08T17:41:07Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a281",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Each carousel card now supports individual AI image generation and regeneration, letting users refine specific slides without regenerating the full carousel.",
       "date": "2026-08-05T13:56:55Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a272",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #822 — Carousel export format presets — square/portrait/landscape (D9, #686)",
-      "description": "Carousel Creator now offers one-tap export format presets (square 1:1, portrait 4:5, landscape 16:9) so users can match the right aspect ratio for each platform.",
-      "date": "2026-08-05T13:49:13Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-08T17:10:00.000Z"
+  "updatedAt": "2026-08-08T17:55:00.000Z"
 }
