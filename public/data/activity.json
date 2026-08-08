@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a279",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #838 — Confetti and Fireflies atmosphere overlays (Bring to Life)",
+      "description": "Two new Bring to Life atmosphere overlays — Confetti and Fireflies — added to PostReady, expanding the creative effects suite for motion posts.",
+      "date": "2026-08-08T16:23:12Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a278",
       "type": "docs",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Users can now batch-upload multiple image files and they automatically become ordered carousel slides, dramatically speeding up photo-carousel creation.",
       "date": "2026-08-05T13:29:43Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a269",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #819 — Wire carousel props into pack publish surface (#695/#696)",
-      "description": "Carousel data (slide count, captions, images) now flows fully into the Post Packs publish surface, completing the end-to-end carousel → publish pipeline.",
-      "date": "2026-08-05T05:04:35Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-08T00:02:54.000Z"
+  "updatedAt": "2026-08-08T16:24:00.000Z"
 }
