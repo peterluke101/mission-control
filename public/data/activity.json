@@ -1,66 +1,12 @@
 {
   "entries": [
     {
-      "id": "a290",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #847 — Make Fireflies slow, dense and magical (Bring to Life)",
-      "description": "Fireflies atmosphere overlay tuned for slower, denser, more magical motion — quality refinement for the Bring to Life effects suite.",
-      "date": "2026-08-09T03:51:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a289",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #846 — Match prompt panel to its dark neighbours (UI polish)",
-      "description": "The prompt panel now matches the dark UI surrounding it, fixing a visual inconsistency in the Create area.",
-      "date": "2026-08-09T03:42:51Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a288",
+      "id": "a282",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #845 — Alert on new content reports (compliance sprint complete)",
-      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint. Ensures the 48-hour NCII response promise is actionable, not just stated.",
-      "date": "2026-08-09T03:09:31Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a287",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #844 — Likeness consent on upload + public content-report route",
-      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations — building trust and legal defensibility for PostReady.",
-      "date": "2026-08-09T02:39:15Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a286",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #843 — Asset provenance capture + honest AI ownership terms",
-      "description": "Compliance sprint: PostReady now records the provenance of generated assets and updates Terms to clearly state AI-generated content ownership — transparency and legal clarity for users.",
-      "date": "2026-08-09T02:24:52Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a285",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #842 — Show the prompt a pack was made from",
-      "description": "Post packs now display the original prompt they were generated from, giving users a clear record of what creative direction produced each pack.",
-      "date": "2026-08-09T02:04:28Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a284",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #841 — Fix dialogs scrollable on mobile (tall dialogs unusable)",
-      "description": "Tall dialogs are now scrollable on mobile, fixing an accessibility/usability regression where modal content was cut off on small screens.",
-      "date": "2026-08-09T00:15:27Z",
+      "title": "PostReady: PR #839 — Add public /contact page",
+      "description": "A public-facing /contact page added to PostReady, providing a direct outreach path for prospects and clients.",
+      "date": "2026-08-08T17:41:07Z",
       "actor": "Ares"
     },
     {
@@ -73,21 +19,75 @@
       "actor": "Ares"
     },
     {
-      "id": "a282",
-      "type": "feature",
+      "id": "a284",
+      "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #839 — Add public /contact page",
-      "description": "A public-facing /contact page added to PostReady, providing a direct outreach path for prospects and clients.",
-      "date": "2026-08-08T17:41:07Z",
+      "title": "PostReady: PR #841 — Fix dialogs scrollable on mobile (tall dialogs unusable)",
+      "description": "Tall dialogs are now scrollable on mobile, fixing an accessibility/usability regression where modal content was cut off on small screens.",
+      "date": "2026-08-09T00:15:27Z",
       "actor": "Ares"
     },
     {
-      "id": "a281",
+      "id": "a285",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #842 — Show the prompt a pack was made from",
+      "description": "Post packs now display the original prompt they were generated from, giving users a clear record of what creative direction produced each pack.",
+      "date": "2026-08-09T02:04:28Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a286",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #843 — Asset provenance capture + honest AI ownership terms",
+      "description": "Compliance sprint: PostReady now records the provenance of generated assets and updates Terms to clearly state AI-generated content ownership — transparency and legal clarity for users.",
+      "date": "2026-08-09T02:24:52Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a287",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #844 — Likeness consent on upload + public content-report route",
+      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations — building trust and legal defensibility for PostReady.",
+      "date": "2026-08-09T02:39:15Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a288",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #845 — Alert on new content reports (compliance sprint complete)",
+      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint. Ensures the 48-hour NCII response promise is actionable, not just stated.",
+      "date": "2026-08-09T03:09:31Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a289",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #834 — Soften fair-use ceilings and back 'unlimited' in Terms",
-      "description": "Fair-use limits softened and 'unlimited' positioning backed by updated Terms of Service, keeping single-plan pricing consistent and defensible.",
-      "date": "2026-08-08T17:01:14Z",
+      "title": "PostReady: PR #846 — Match prompt panel to its dark neighbours (UI polish)",
+      "description": "The prompt panel now matches the dark UI surrounding it, fixing a visual inconsistency in the Create area.",
+      "date": "2026-08-09T03:42:51Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a290",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #847 — Make Fireflies slow, dense and magical (Bring to Life)",
+      "description": "Fireflies atmosphere overlay tuned for slower, denser, more magical motion — quality refinement for the Bring to Life effects suite.",
+      "date": "2026-08-09T03:51:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a291",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #848 — Fireflies are insects, not orbs (Bring to Life)",
+      "description": "Visual fidelity fix for the Fireflies Bring to Life effect — fireflies now rendered as elongated, insect-like shapes rather than round orbs.",
+      "date": "2026-08-09T04:45:47Z",
       "actor": "Ares"
     }
   ]
