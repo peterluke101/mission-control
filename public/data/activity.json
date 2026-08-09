@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a282",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #839 — Add public /contact page",
-      "description": "A public-facing /contact page added to PostReady, providing a direct outreach path for prospects and clients.",
-      "date": "2026-08-08T17:41:07Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a283",
       "type": "fix",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #848 — Fireflies are insects, not orbs (Bring to Life)",
       "description": "Visual fidelity fix for the Fireflies Bring to Life effect — fireflies now rendered as elongated, insect-like shapes rather than round orbs.",
       "date": "2026-08-09T04:45:47Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a292",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #849 — Rebuild Fireflies against reference footage (Bring to Life)",
+      "description": "Fireflies effect rebuilt from scratch against reference footage — closer to target visuals after prior iterative fixes on insect shape and motion.",
+      "date": "2026-08-09T15:29:59Z",
       "actor": "Ares"
     }
   ]
