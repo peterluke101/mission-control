@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a283",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #840 — Fix atmosphere fragments fighting the intensity lever",
-      "description": "Atmosphere fragment intensity lever conflict resolved in Bring to Life feature — fragments now correctly respond to the intensity control without competing with each other.",
-      "date": "2026-08-08T22:10:08Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a284",
       "type": "fix",
       "project": "PostReady",
@@ -89,6 +80,16 @@
       "description": "Fireflies effect rebuilt from scratch against reference footage — closer to target visuals after prior iterative fixes on insect shape and motion.",
       "date": "2026-08-09T15:29:59Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a293",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #850 — Stop negative prompt deleting the Fireflies (Bring to Life)",
+      "description": "Fix: the negative prompt was inadvertently suppressing the fireflies effect in Bring to Life — now corrected so the negative prompt no longer interferes with firefly generation.",
+      "date": "2026-08-09T16:10:33Z",
+      "actor": "Ares"
     }
-  ]
+  ],
+  "updatedAt": "2026-08-09T16:45:00.000Z"
 }
