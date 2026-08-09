@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "id": "a286",
+      "id": "a287",
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #843 — Asset provenance capture + honest AI ownership terms",
@@ -10,25 +10,25 @@
       "actor": "Ares"
     },
     {
-      "id": "a287",
+      "id": "a288",
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #844 — Likeness consent on upload + public content-report route",
-      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations — building trust and legal defensibility for PostReady.",
+      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations.",
       "date": "2026-08-09T02:39:15Z",
       "actor": "Ares"
     },
     {
-      "id": "a288",
+      "id": "a289",
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: PR #845 — Alert on new content reports (compliance sprint complete)",
-      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint. Ensures the 48-hour NCII response promise is actionable, not just stated.",
+      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint.",
       "date": "2026-08-09T03:09:31Z",
       "actor": "Ares"
     },
     {
-      "id": "a289",
+      "id": "a290",
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #846 — Match prompt panel to its dark neighbours (UI polish)",
@@ -37,7 +37,7 @@
       "actor": "Ares"
     },
     {
-      "id": "a290",
+      "id": "a291",
       "type": "fix",
       "project": "PostReady",
       "title": "PostReady: PR #847 — Make Fireflies slow, dense and magical (Bring to Life)",
@@ -46,50 +46,50 @@
       "actor": "Ares"
     },
     {
-      "id": "a291",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #848 — Fireflies are insects, not orbs (Bring to Life)",
-      "description": "Visual fidelity fix for the Fireflies Bring to Life effect — fireflies now rendered as elongated, insect-like shapes rather than round orbs.",
-      "date": "2026-08-09T04:45:47Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a292",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #849 — Rebuild Fireflies against reference footage (Bring to Life)",
-      "description": "Fireflies effect rebuilt from scratch against reference footage — closer to target visuals after prior iterative fixes on insect shape and motion.",
-      "date": "2026-08-09T15:29:59Z",
+      "title": "PostReady: PR #848 — Fireflies are insects, not orbs (Bring to Life)",
+      "description": "Visual fidelity fix — fireflies now rendered as elongated, insect-like shapes rather than round orbs.",
+      "date": "2026-08-09T04:45:47Z",
       "actor": "Ares"
     },
     {
       "id": "a293",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #850 — Stop negative prompt deleting the Fireflies (Bring to Life)",
-      "description": "Fix: the negative prompt was inadvertently suppressing the fireflies effect in Bring to Life — now corrected so the negative prompt no longer interferes with firefly generation.",
-      "date": "2026-08-09T16:10:33Z",
+      "title": "PostReady: PR #849 — Rebuild Fireflies against reference footage (Bring to Life)",
+      "description": "Fireflies effect rebuilt from scratch against reference footage after iterative shape and motion fixes.",
+      "date": "2026-08-09T15:29:59Z",
       "actor": "Ares"
     },
     {
       "id": "a294",
-      "type": "update",
+      "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #851 — Park the Fireflies atmosphere option (Bring to Life)",
-      "description": "After multiple iterations, the Fireflies atmosphere overlay has been parked — removed from the active effect suite for now. Engine preserved for future revival once the visual quality meets the bar.",
-      "date": "2026-08-09T16:33:22Z",
+      "title": "PostReady: PR #850 — Stop negative prompt deleting the Fireflies (Bring to Life)",
+      "description": "Fix: the negative prompt was inadvertently suppressing the fireflies effect — now corrected.",
+      "date": "2026-08-09T16:10:33Z",
       "actor": "Ares"
     },
     {
       "id": "a295",
+      "type": "update",
+      "project": "PostReady",
+      "title": "PostReady: PR #851 — Park the Fireflies atmosphere option (Bring to Life)",
+      "description": "Fireflies atmosphere overlay removed from active suite after iterative quality work. Engine preserved for future revival.",
+      "date": "2026-08-09T16:33:22Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a296",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #852 — Stop the builder toolbar running off the screen (carousel)",
-      "description": "Fix: the carousel builder toolbar was overflowing off-screen — now correctly contained within the viewport for all screen sizes.",
-      "date": "2026-08-09T20:40:47Z",
+      "title": "PostReady: PR #853 — Slim carousel top bar to four primary actions",
+      "description": "Carousel builder toolbar slimmed from seven actions to four primary ones — cleaner, less cluttered editor UI.",
+      "date": "2026-08-09T20:56:23Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T21:03:00.000Z"
+  "updatedAt": "2026-08-09T21:30:00.000Z"
 }
