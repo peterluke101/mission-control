@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-08T00:02:54.000Z",
-  "weekTarget": "PostReady — platform approvals: LinkedIn appeal in progress (API denied Jul 18, case CRM:015285036736798) + Meta/IG/FB App Review pending (submitted Jul 28); GBP Phase 1+2 shipped behind flag (PRs #826-828)",
+  "lastUpdated": "2026-08-09T03:03:29.077Z",
+  "weekTarget": "PostReady — compliance sprint: likeness consent + asset provenance + content-report route (PRs #841-#844); platform approvals pending: LinkedIn appeal (CRM:015285036736798) + Meta/IG/FB App Review",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -244,5 +244,5 @@
       "updatedAt": "2026-08-09T02:42:25Z"
     }
   ],
-  "updatedAt": "2026-08-09T02:42:25Z"
+  "updatedAt": "2026-08-09T03:03:29.077Z"
 }
