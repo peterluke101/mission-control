@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a285",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #842 — Show the prompt a pack was made from",
+      "description": "Post packs now display the original prompt they were generated from, giving users a clear record of what creative direction produced each pack.",
+      "date": "2026-08-09T02:04:28Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a284",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "GBP platform foundation: OAuth connect flow, diagnostic tooling, and all core infrastructure for Google Business Profile integration — gated behind feature flag awaiting API approval.",
       "date": "2026-08-06T03:23:18Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a275",
-      "type": "docs",
-      "project": "PostReady",
-      "title": "PostReady: PR #825 — GBP API access application package (#585)",
-      "description": "Added documentation package for applying for Google Business Profile API access, enabling PostReady to support GBP posting as a platform in future.",
-      "date": "2026-08-05T14:15:44Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T00:21:29.452Z"
+  "updatedAt": "2026-08-09T02:21:00.000Z"
 }
