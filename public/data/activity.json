@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a287",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #843 — Asset provenance capture + honest AI ownership terms",
-      "description": "Compliance sprint: PostReady now records the provenance of generated assets and updates Terms to clearly state AI-generated content ownership — transparency and legal clarity for users.",
-      "date": "2026-08-09T02:24:52Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a288",
       "type": "feature",
       "project": "PostReady",
@@ -85,11 +76,20 @@
       "id": "a296",
       "type": "fix",
       "project": "PostReady",
+      "title": "PostReady: PR #852 — Stop carousel builder toolbar running off screen",
+      "description": "Carousel editor viewport overflow fixed — builder toolbar no longer runs off the screen on standard viewports.",
+      "date": "2026-08-09T20:40:47Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a297",
+      "type": "update",
+      "project": "PostReady",
       "title": "PostReady: PR #853 — Slim carousel top bar to four primary actions",
       "description": "Carousel builder toolbar slimmed from seven actions to four primary ones — cleaner, less cluttered editor UI.",
       "date": "2026-08-09T20:56:23Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T21:30:00.000Z"
+  "updatedAt": "2026-08-09T21:50:00.000Z"
 }
