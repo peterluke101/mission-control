@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a287",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #844 — Likeness consent on upload + public content-report route",
+      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations — building trust and legal defensibility for PostReady.",
+      "date": "2026-08-09T02:39:15Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a286",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #843 — Asset provenance capture + honest AI ownership terms",
+      "description": "Compliance sprint: PostReady now records the provenance of generated assets and updates Terms to clearly state AI-generated content ownership — transparency and legal clarity for users.",
+      "date": "2026-08-09T02:24:52Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a285",
       "type": "feature",
       "project": "PostReady",
@@ -71,25 +89,6 @@
       "description": "GBP documentation: OAuth verification flow guidance and demo-video gating added for GBP platform integration. Part of the GBP API access approval track.",
       "date": "2026-08-07T01:53:08Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a277",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #827 — GBP Phase 2: Local Posts publish path (behind flag)",
-      "description": "GBP Local Posts publish path implemented behind a feature flag — allows PostReady to publish directly to Google Business Profile once GBP API access is approved.",
-      "date": "2026-08-06T03:37:01Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a276",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #826 — GBP Phase 1: foundation + OAuth connect + diagnostic (behind flag)",
-      "description": "GBP platform foundation: OAuth connect flow, diagnostic tooling, and all core infrastructure for Google Business Profile integration — gated behind feature flag awaiting API approval.",
-      "date": "2026-08-06T03:23:18Z",
-      "actor": "Ares"
     }
-  ],
-  "updatedAt": "2026-08-09T02:21:00.000Z"
+  ]
 }
