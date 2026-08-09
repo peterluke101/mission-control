@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a285",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #842 — Show the prompt a pack was made from",
-      "description": "Post packs now display the original prompt they were generated from, giving users a clear record of what creative direction produced each pack.",
-      "date": "2026-08-09T02:04:28Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a286",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "After multiple iterations, the Fireflies atmosphere overlay has been parked — removed from the active effect suite for now. Engine preserved for future revival once the visual quality meets the bar.",
       "date": "2026-08-09T16:33:22Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a295",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #852 — Stop the builder toolbar running off the screen (carousel)",
+      "description": "Fix: the carousel builder toolbar was overflowing off-screen — now correctly contained within the viewport for all screen sizes.",
+      "date": "2026-08-09T20:40:47Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T16:45:00.000Z"
+  "updatedAt": "2026-08-09T21:03:00.000Z"
 }
