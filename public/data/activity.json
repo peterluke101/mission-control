@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a284",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #841 — Fix dialogs scrollable on mobile (tall dialogs unusable)",
-      "description": "Tall dialogs are now scrollable on mobile, fixing an accessibility/usability regression where modal content was cut off on small screens.",
-      "date": "2026-08-09T00:15:27Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a285",
       "type": "feature",
       "project": "PostReady",
@@ -88,6 +79,15 @@
       "title": "PostReady: PR #850 — Stop negative prompt deleting the Fireflies (Bring to Life)",
       "description": "Fix: the negative prompt was inadvertently suppressing the fireflies effect in Bring to Life — now corrected so the negative prompt no longer interferes with firefly generation.",
       "date": "2026-08-09T16:10:33Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a294",
+      "type": "update",
+      "project": "PostReady",
+      "title": "PostReady: PR #851 — Park the Fireflies atmosphere option (Bring to Life)",
+      "description": "After multiple iterations, the Fireflies atmosphere overlay has been parked — removed from the active effect suite for now. Engine preserved for future revival once the visual quality meets the bar.",
+      "date": "2026-08-09T16:33:22Z",
       "actor": "Ares"
     }
   ],
