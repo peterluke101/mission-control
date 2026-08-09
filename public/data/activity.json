@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a284",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #841 — Fix dialogs scrollable on mobile (tall dialogs unusable)",
+      "description": "Tall dialogs are now scrollable on mobile, fixing an accessibility/usability regression where modal content was cut off on small screens.",
+      "date": "2026-08-09T00:15:27Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a283",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Added documentation package for applying for Google Business Profile API access, enabling PostReady to support GBP posting as a platform in future.",
       "date": "2026-08-05T14:15:44Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a274",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #824 — I5: Carousel editor accessibility (keyboard reorder, focus, SR labels)",
-      "description": "Carousel editor now supports keyboard-driven slide reordering, proper focus management, and screen-reader labels — meeting baseline accessibility standards.",
-      "date": "2026-08-05T14:09:27Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-08T22:22:52.578Z"
+  "updatedAt": "2026-08-09T00:21:29.452Z"
 }
