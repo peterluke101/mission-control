@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a288",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #844 — Likeness consent on upload + public content-report route",
-      "description": "Compliance sprint: users now consent to likeness rights at upload time, and a public /report endpoint lets anyone flag content violations.",
-      "date": "2026-08-09T02:39:15Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a289",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Carousel builder toolbar slimmed from seven actions to four primary ones — cleaner, less cluttered editor UI.",
       "date": "2026-08-09T20:56:23Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a298",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #854 — Remove duplicated chrome in carousel builder header",
+      "description": "Carousel builder header cleanup — removed duplicated chrome that was left over after the toolbar slim-down in PR #853.",
+      "date": "2026-08-09T23:33:20Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T21:50:00.000Z"
+  "updatedAt": "2026-08-09T23:40:00.000Z"
 }
