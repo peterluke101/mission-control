@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a288",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #845 — Alert on new content reports (compliance sprint complete)",
+      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint. Ensures the 48-hour NCII response promise is actionable, not just stated.",
+      "date": "2026-08-09T03:09:31Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a287",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #838 — Confetti and Fireflies atmosphere overlays (Bring to Life)",
       "description": "Two new Bring to Life atmosphere overlays — Confetti and Fireflies — added to PostReady, expanding the creative effects suite for motion posts.",
       "date": "2026-08-08T16:23:12Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a278",
-      "type": "docs",
-      "project": "PostReady",
-      "title": "PostReady: PR #828 — GBP OAuth verification + demo-video gate (#585)",
-      "description": "GBP documentation: OAuth verification flow guidance and demo-video gating added for GBP platform integration. Part of the GBP API access approval track.",
-      "date": "2026-08-07T01:53:08Z",
       "actor": "Ares"
     }
   ]
