@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a296",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #852 — Stop carousel builder toolbar running off screen",
-      "description": "Carousel editor viewport overflow fixed — builder toolbar no longer runs off the screen on standard viewports.",
-      "date": "2026-08-09T20:40:47Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a297",
       "type": "update",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Connect Socials page updated: connected cards styled dark for visual consistency, progress banner and overflow menu added.",
       "date": "2026-08-10T19:51:03Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a306",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #896 — Settings timezone picker + honest billing and referral copy",
+      "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
+      "date": "2026-08-10T22:44:06Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-10T19:51:03Z"
+  "updatedAt": "2026-08-10T23:05:00Z"
 }
