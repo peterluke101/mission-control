@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "id": "a292",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #848 — Fireflies are insects, not orbs (Bring to Life)",
-      "description": "Visual fidelity fix — fireflies now rendered as elongated, insect-like shapes rather than round orbs.",
-      "date": "2026-08-09T04:45:47Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a293",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #849 — Rebuild Fireflies against reference footage (Bring to Life)",
-      "description": "Fireflies effect rebuilt from scratch against reference footage after iterative shape and motion fixes.",
-      "date": "2026-08-09T15:29:59Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a294",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #850 — Stop negative prompt deleting the Fireflies (Bring to Life)",
-      "description": "Fix: the negative prompt was inadvertently suppressing the fireflies effect — now corrected.",
-      "date": "2026-08-09T16:10:33Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a295",
       "type": "update",
       "project": "PostReady",
@@ -89,7 +62,34 @@
       "description": "Landing page copy fix — page was inadvertently positioning PostReady as a social media manager replacement; repositioned to clarify its distinct value proposition.",
       "date": "2026-08-10T16:28:50Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a302",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #892 — Manual timezone override + schedule travel fix",
+      "description": "Fix: manual timezone override added to Schedule page; travel no longer silently shifts the schedule when crossing time zones.",
+      "date": "2026-08-10T19:04:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a303",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #893 — Teammate invite for customer accounts",
+      "description": "New feature: customers can now invite a teammate onto their own PostReady account, enabling multi-user collaboration.",
+      "date": "2026-08-10T19:06:44Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a304",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #894 — Carousel export size icons + download label",
+      "description": "Carousel export sizes now displayed as shape icons (visual); labels clarified to indicate these are download-only export presets.",
+      "date": "2026-08-10T19:19:23Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-10T16:35:00.000Z"
+  "updatedAt": "2026-08-10T19:41:06Z"
 }
