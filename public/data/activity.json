@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a290",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #846 — Match prompt panel to its dark neighbours (UI polish)",
-      "description": "The prompt panel now matches the dark UI surrounding it, fixing a visual inconsistency in the Create area.",
-      "date": "2026-08-09T03:42:51Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a291",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Carousel builder rebuilt as a three-pane workspace with a vertical card rail for easier navigation and editing.",
       "date": "2026-08-10T00:32:40Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a300",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #856 — Fix carousel rail labels and header (vs mockup)",
+      "description": "Two defects introduced with the three-pane change (#855): card label styles were overridden by the old rule, and the header was misaligned — caught by comparing a live screenshot against the mockup.",
+      "date": "2026-08-10T00:45:09Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-10T00:45:00.000Z"
+  "updatedAt": "2026-08-10T01:01:44.523Z"
 }
