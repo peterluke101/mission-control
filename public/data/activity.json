@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a289",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #845 — Alert on new content reports (compliance sprint complete)",
-      "description": "PostReady now emails support@zippityone.com when a /report submission arrives, completing the compliance sprint.",
-      "date": "2026-08-09T03:09:31Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a290",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Carousel builder header cleanup — removed duplicated chrome that was left over after the toolbar slim-down in PR #853.",
       "date": "2026-08-09T23:33:20Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a299",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #855 — Three-pane workspace with vertical card rail",
+      "description": "Carousel builder rebuilt as a three-pane workspace with a vertical card rail for easier navigation and editing.",
+      "date": "2026-08-10T00:32:40Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-09T23:40:00.000Z"
+  "updatedAt": "2026-08-10T00:45:00.000Z"
 }
