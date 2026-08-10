@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a291",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #847 — Make Fireflies slow, dense and magical (Bring to Life)",
-      "description": "Fireflies atmosphere overlay tuned for slower, denser, more magical motion — quality refinement for the Bring to Life effects suite.",
-      "date": "2026-08-09T03:51:00Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a292",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Two defects introduced with the three-pane change (#855): card label styles were overridden by the old rule, and the header was misaligned — caught by comparing a live screenshot against the mockup.",
       "date": "2026-08-10T00:45:09Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a301",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #890 — Landing copy: stop reading as social media manager replacement",
+      "description": "Landing page copy fix — page was inadvertently positioning PostReady as a social media manager replacement; repositioned to clarify its distinct value proposition.",
+      "date": "2026-08-10T16:28:50Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-10T01:21:00.000Z"
+  "updatedAt": "2026-08-10T16:35:00.000Z"
 }
