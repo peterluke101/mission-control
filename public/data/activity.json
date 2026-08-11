@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "id": "a297",
-      "type": "update",
-      "project": "PostReady",
-      "title": "PostReady: PR #853 — Slim carousel top bar to four primary actions",
-      "description": "Carousel builder toolbar slimmed from seven actions to four primary ones — cleaner, less cluttered editor UI.",
-      "date": "2026-08-09T20:56:23Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a298",
       "type": "fix",
       "project": "PostReady",
@@ -89,7 +80,16 @@
       "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
       "date": "2026-08-10T22:44:06Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a307",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #898 — Slim Plan & billing card to customer-relevant fields",
+      "description": "Settings Plan & billing card stripped down to only what a customer needs to see — cleaner, less cluttered settings experience.",
+      "date": "2026-08-11T17:22:00Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-10T23:05:00Z"
+  "updatedAt": "2026-08-11T17:42:00Z"
 }
