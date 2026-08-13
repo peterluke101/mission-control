@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a313",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #906 — Fix constraint that silently locked out every paying customer",
+      "description": "Critical hotfix: removed the data constraint that was silently preventing every paying customer from accessing their PostReady account.",
+      "date": "2026-08-13T20:15:02Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a310",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Fix: manual timezone override added to Schedule page; travel no longer silently shifts the schedule when crossing time zones.",
       "date": "2026-08-10T19:04:45Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a301",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #890 — Landing copy: stop reading as social media manager replacement",
-      "description": "Landing page copy fix — page was inadvertently positioning PostReady as a social media manager replacement; repositioned to clarify its distinct value proposition.",
-      "date": "2026-08-10T16:28:50Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-13T19:20:00Z"
+  "updatedAt": "2026-08-13T20:30:00Z"
 }
