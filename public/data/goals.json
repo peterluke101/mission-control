@@ -240,9 +240,9 @@
           "updatedAt": "2026-08-13T18:40:00Z"
         }
       ],
-      "weekTarget": "PostReady — compliance sprint complete (PRs #841–#845); UI polish PRs #846–#852 (dark prompt panel, magical fireflies, insect-shape, rebuilt from reference, negative-prompt fix, Fireflies parked, carousel toolbar viewport fix); PRs #853–#856 carousel builder cleanup (slim top bar, remove duplicate chrome, three-pane workspace with vertical card rail, rail label + header fix vs mockup); PR #890 landing copy repositioned; PR #892 timezone fix; PR #893 teammate invite; PR #894 carousel export icons; platform approvals pending: LinkedIn appeal + Meta/IG/FB App Review PR #895 Connect Socials dark cards; PR #896 settings timezone picker + honest billing copy; PR #898 slim billing card; PR #901 brand-kit Video end card hidden.",
-      "updatedAt": "2026-08-12T18:28:23Z",
-      "lastUpdated": "2026-08-12T18:28:23Z"
+      "weekTarget": "PostReady — compliance sprint complete (PRs #841–#845); UI polish PRs #846–#852 (dark prompt panel, magical fireflies, insect-shape, rebuilt from reference, negative-prompt fix, Fireflies parked, carousel toolbar viewport fix); PRs #853–#856 carousel builder cleanup (slim top bar, remove duplicate chrome, three-pane workspace with vertical card rail, rail label + header fix vs mockup); PR #890 landing copy repositioned; PR #892 timezone override + travel-move fix; PR #893 teammate invite for customer accounts; PR #894 carousel export shape icons + download label; PR #895 Connect Socials dark cards + progress banner; PR #896 settings timezone picker + honest billing copy; PR #898 slim Plan & billing card; PR #901 brand-kit Video end card hidden; PR #902 introductory pricing replaces free trial; PR #903 Connect Socials shows platforms pending publish approval; platform approvals pending: LinkedIn appeal + Meta/IG/FB App Review.",
+      "updatedAt": "2026-08-13T18:40:00Z",
+      "lastUpdated": "2026-08-13T18:40:00Z"
     }
   ],
   "updatedAt": "2026-08-13T18:40:00Z"
