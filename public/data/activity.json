@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a310",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #903 — Show which platforms can't publish yet",
+      "description": "Connect Socials page now surfaces platforms that are connected but not yet live for publishing, reducing user confusion during API approval period.",
+      "date": "2026-08-13T17:18:18Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a309",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #902 — Introductory pricing replaces 7-day free trial",
+      "description": "Pricing page switched from free-trial model to introductory pricing, aligning with single-plan positioning.",
+      "date": "2026-08-13T17:16:30Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a299",
       "type": "feature",
       "project": "PostReady",
@@ -71,25 +89,7 @@
       "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
       "date": "2026-08-10T22:44:06Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a307",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #898 — Slim Plan & billing card to customer-relevant fields",
-      "description": "Settings Plan & billing card stripped down to only what a customer needs to see — cleaner, less cluttered settings experience.",
-      "date": "2026-08-11T17:22:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a308",
-      "type": "chore",
-      "project": "PostReady",
-      "title": "PostReady: PR #901 — Hide Video end card designer (brand-kit cleanup)",
-      "description": "Brand-kit: hid the Video end card designer component (kept code, not deleted). Carousel Creator and GBP remain the active design surface.",
-      "date": "2026-08-12T18:24:24Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-12T20:01:00Z"
+  "updatedAt": "2026-08-13T17:18:18Z"
 }
