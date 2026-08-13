@@ -19,57 +19,30 @@
       "actor": "Ares"
     },
     {
-      "id": "a299",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #855 — Three-pane workspace with vertical card rail",
-      "description": "Carousel builder rebuilt as a three-pane workspace with a vertical card rail for easier navigation and editing.",
-      "date": "2026-08-10T00:32:40Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a300",
+      "id": "a312",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #856 — Fix carousel rail labels and header (vs mockup)",
-      "description": "Two defects introduced with the three-pane change (#855): card label styles were overridden by the old rule, and the header was misaligned — caught by comparing a live screenshot against the mockup.",
-      "date": "2026-08-10T00:45:09Z",
+      "title": "PostReady: PR #901 — Hide Video end card in brand kit",
+      "description": "Brand kit Video end card hidden — Bring to Life feature gates this via engine rather than brand-kit configuration.",
+      "date": "2026-08-12T15:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a301",
+      "id": "a311",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #890 — Landing copy: stop reading as social media manager replacement",
-      "description": "Landing page copy fix — page was inadvertently positioning PostReady as a social media manager replacement; repositioned to clarify its distinct value proposition.",
-      "date": "2026-08-10T16:28:50Z",
+      "title": "PostReady: PR #898 — Slim Plan & Billing card",
+      "description": "Plan & Billing settings card slimmed down for cleaner layout in the single-plan pricing model.",
+      "date": "2026-08-11T15:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a302",
+      "id": "a306",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #892 — Manual timezone override + schedule travel fix",
-      "description": "Fix: manual timezone override added to Schedule page; travel no longer silently shifts the schedule when crossing time zones.",
-      "date": "2026-08-10T19:04:45Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a303",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #893 — Teammate invite for customer accounts",
-      "description": "New feature: customers can now invite a teammate onto their own PostReady account, enabling multi-user collaboration.",
-      "date": "2026-08-10T19:06:44Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a304",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #894 — Carousel export size icons + download label",
-      "description": "Carousel export sizes now displayed as shape icons (visual); labels clarified to indicate these are download-only export presets.",
-      "date": "2026-08-10T19:19:23Z",
+      "title": "PostReady: PR #896 — Settings timezone picker + honest billing and referral copy",
+      "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
+      "date": "2026-08-10T22:44:06Z",
       "actor": "Ares"
     },
     {
@@ -82,14 +55,41 @@
       "actor": "Ares"
     },
     {
-      "id": "a306",
+      "id": "a304",
       "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: PR #896 — Settings timezone picker + honest billing and referral copy",
-      "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
-      "date": "2026-08-10T22:44:06Z",
+      "title": "PostReady: PR #894 — Carousel export size icons + download label",
+      "description": "Carousel export sizes now displayed as shape icons (visual); labels clarified to indicate these are download-only export presets.",
+      "date": "2026-08-10T19:19:23Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a303",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #893 — Teammate invite for customer accounts",
+      "description": "New feature: customers can now invite a teammate onto their own PostReady account, enabling multi-user collaboration.",
+      "date": "2026-08-10T19:06:44Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a302",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #892 — Manual timezone override + schedule travel fix",
+      "description": "Fix: manual timezone override added to Schedule page; travel no longer silently shifts the schedule when crossing time zones.",
+      "date": "2026-08-10T19:04:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a301",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #890 — Landing copy: stop reading as social media manager replacement",
+      "description": "Landing page copy fix — page was inadvertently positioning PostReady as a social media manager replacement; repositioned to clarify its distinct value proposition.",
+      "date": "2026-08-10T16:28:50Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-13T17:18:18Z"
+  "updatedAt": "2026-08-13T19:20:00Z"
 }
