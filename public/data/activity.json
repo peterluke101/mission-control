@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a315",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #909 — Coach user on page checklist sends them to",
+      "description": "After the activation checklist guides new users to a key page, contextual coaching copy now explains what to do there — reducing drop-off in the onboarding flow.",
+      "date": "2026-08-14T01:16:59Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a314",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Carousel export sizes now displayed as shape icons (visual); labels clarified to indicate these are download-only export presets.",
       "date": "2026-08-10T19:19:23Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a303",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #893 — Teammate invite for customer accounts",
-      "description": "New feature: customers can now invite a teammate onto their own PostReady account, enabling multi-user collaboration.",
-      "date": "2026-08-10T19:06:44Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T01:01:00Z"
+  "updatedAt": "2026-08-14T02:01:00Z"
 }
