@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a318",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #912 — Point every customer-facing address at the one monitored inbox",
+      "description": "All customer-facing email addresses now route to the single monitored inbox, ensuring no customer communication is missed.",
+      "date": "2026-08-14T18:34:27Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a317",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Plan & Billing settings card slimmed down for cleaner layout in the single-plan pricing model.",
       "date": "2026-08-11T15:00:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a306",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #896 — Settings timezone picker + honest billing and referral copy",
-      "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
-      "date": "2026-08-10T22:44:06Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T18:20:00Z"
+  "updatedAt": "2026-08-14T18:45:00Z"
 }
