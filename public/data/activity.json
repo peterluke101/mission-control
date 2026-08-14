@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a320",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #914 — Cut onboarding from six screens to two",
+      "description": "Onboarding flow condensed from six screens to two, dramatically reducing friction for new users getting started with PostReady.",
+      "date": "2026-08-14T19:20:01Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a319",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Pricing page switched from free-trial model to introductory pricing, aligning with single-plan positioning.",
       "date": "2026-08-13T17:16:30Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a312",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #901 — Hide Video end card in brand kit",
-      "description": "Brand kit Video end card hidden — Bring to Life feature gates this via engine rather than brand-kit configuration.",
-      "date": "2026-08-12T15:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T19:05:00Z"
+  "updatedAt": "2026-08-14T20:01:00Z"
 }
