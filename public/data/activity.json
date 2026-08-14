@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a317",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #911 — Daily operations brief to info@zippityone.com",
+      "description": "Automated daily operations brief email delivered to the primary business inbox — keeps Pete informed of platform activity without requiring manual dashboard checks.",
+      "date": "2026-08-14T17:56:12Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a316",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #910 — Admin alerts routed to correct email address",
+      "description": "Admin alert emails now route to the address Pete actually reads, ensuring critical system notifications reach him reliably.",
+      "date": "2026-08-14T17:52:45Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a315",
       "type": "feature",
       "project": "PostReady",
@@ -71,25 +89,7 @@
       "description": "Profile card gets a timezone picker for accurate local-time scheduling; billing and referral copy updated to be accurate and honest.",
       "date": "2026-08-10T22:44:06Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a305",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #895 — Dark connected cards, progress banner, overflow menu",
-      "description": "Connect Socials page updated: connected cards styled dark for visual consistency, progress banner and overflow menu added.",
-      "date": "2026-08-10T19:51:03Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a304",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #894 — Carousel export size icons + download label",
-      "description": "Carousel export sizes now displayed as shape icons (visual); labels clarified to indicate these are download-only export presets.",
-      "date": "2026-08-10T19:19:23Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T02:01:00Z"
+  "updatedAt": "2026-08-14T18:20:00Z"
 }
