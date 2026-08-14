@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "a322",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #916 — Match Snapchat tile to grid",
+      "description": "Snapchat tile in the Connect Socials grid now matches the layout of other platform tiles, giving a visually consistent grid.",
+      "date": "2026-08-14T22:40:36Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a321",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #915 — One welcome popup, business name at signup",
+      "description": "Onboarding wizard replaced with a single welcome popup; business name is collected at signup to personalise the product from the first moment.",
+      "date": "2026-08-14T22:22:35Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a320",
       "type": "feature",
       "project": "PostReady",
@@ -71,25 +89,7 @@
       "description": "Critical hotfix: removed the data constraint that was silently preventing every paying customer from accessing their PostReady account.",
       "date": "2026-08-13T20:15:02Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a310",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #903 — Show which platforms can't publish yet",
-      "description": "Connect Socials page now surfaces platforms that are connected but not yet live for publishing, reducing user confusion during API approval period.",
-      "date": "2026-08-13T17:18:18Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a309",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #902 — Introductory pricing replaces 7-day free trial",
-      "description": "Pricing page switched from free-trial model to introductory pricing, aligning with single-plan positioning.",
-      "date": "2026-08-13T17:16:30Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T20:01:00Z"
+  "updatedAt": "2026-08-14T23:01:00Z"
 }
