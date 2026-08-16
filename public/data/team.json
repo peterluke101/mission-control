@@ -4,7 +4,7 @@
       "id": "pete",
       "name": "Pete",
       "role": "Owner",
-      "emoji": "👤",
+      "emoji": "\ud83d\udc64",
       "model": null,
       "type": "human",
       "status": "active",
@@ -13,23 +13,23 @@
     {
       "id": "ares",
       "name": "Ares",
-      "emoji": "⚡",
+      "emoji": "\u26a1",
       "role": "Lead Agent",
       "model": "claude-sonnet-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-08-16T18:50:00Z"
+      "lastActive": "2026-08-16T19:28:31Z"
     },
     {
       "id": "librarian",
       "name": "Librarian",
-      "emoji": "📚",
+      "emoji": "\ud83d\udcda",
       "role": "Data Steward",
       "model": "claude-haiku-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-08-16T19:21:53.001Z"
+      "lastActive": "2026-08-16T19:45:00Z"
     }
   ],
-  "updatedAt": "2026-08-16T19:21:53.001Z"
+  "updatedAt": "2026-08-16T19:45:00Z"
 }
