@@ -1,10 +1,82 @@
 {
   "entries": [
     {
+      "id": "a329",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #929 — Land on pack after saving",
+      "description": "After a user saves a post to a pack, they are now redirected directly to that pack instead of being left to navigate there themselves.",
+      "date": "2026-08-16T19:28:31Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a328",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #928 — Onboarding hint foundation + create-first Post Packs hint",
+      "description": "Shared onboarding hint machinery (#922) plus the first real hint: a contextual nudge on the Post Packs page guiding new users to create their first pack (#923).",
+      "date": "2026-08-16T19:28:28Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a327",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #931 — Warn before link goes into caption signature",
+      "description": "Caption signature is appended to every post on every channel. PR #931 warns users before a booking URL silently turns every X post into a link post (penalised with lower reach and higher cost).",
+      "date": "2026-08-16T19:26:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a326",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #930 — Fix X quota registry for pay-per-use",
+      "description": "X retired Free/Basic/Pro tiers on 6 Feb 2026. Pete's account is pay-per-use. PR #930 corrects the quota registry so X shows no artificial monthly cap.",
+      "date": "2026-08-16T19:25:57Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a325",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #920 — Fallback publishing: graceful platform degradation",
+      "description": "Defines what the publish flow degrades into when a platform is unavailable — graceful fallback so a temporary platform outage doesn't kill the whole publish run.",
+      "date": "2026-08-16T18:35:29Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a324",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #919 — Platform quota registry",
+      "description": "Know platform publishing ceilings before a customer hits them. Quota registry tracks per-platform post limits so PostReady can warn before a customer exceeds them.",
+      "date": "2026-08-16T18:06:59Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a323",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #917 — TikTok marked private-accounts only until audit",
+      "description": "TikTok publishing gated behind a 'Private accounts only' notice pending TikTok's platform audit. Transparent disclosure to users before they connect.",
+      "date": "2026-08-16T01:34:36Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a322",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #916 — Match Snapchat tile to grid",
+      "description": "Snapchat platform tile resized and aligned to match the grid it sits in on the Connect Socials page — visual consistency fix.",
+      "date": "2026-08-14T22:40:36Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a321",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #915 \u2014 One welcome popup, business name at signup",
+      "title": "PostReady: PR #915 — One welcome popup, business name at signup",
       "description": "Onboarding wizard replaced with a single welcome popup; business name is collected at signup to personalise the product from the first moment.",
       "date": "2026-08-14T22:22:35Z",
       "actor": "Ares"
@@ -13,83 +85,11 @@
       "id": "a320",
       "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: PR #914 \u2014 Cut onboarding from six screens to two",
+      "title": "PostReady: PR #914 — Cut onboarding from six screens to two",
       "description": "Onboarding flow condensed from six screens to two, dramatically reducing friction for new users getting started with PostReady.",
       "date": "2026-08-14T19:20:01Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a319",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #913 \u2014 Carousel Builder three-column redesign",
-      "description": "Carousel Builder workspace redesigned to a three-column layout, improving editorial flow and giving creators more space to work with cards and settings side by side.",
-      "date": "2026-08-14T18:54:39Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a318",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #912 \u2014 Point every customer-facing address at the one monitored inbox",
-      "description": "All customer-facing email addresses now route to the single monitored inbox, ensuring no customer communication is missed.",
-      "date": "2026-08-14T18:34:27Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a317",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #911 \u2014 Daily operations brief to info@zippityone.com",
-      "description": "Automated daily operations brief email delivered to the primary business inbox \u2014 keeps Pete informed of platform activity without requiring manual dashboard checks.",
-      "date": "2026-08-14T17:56:12Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a316",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #910 \u2014 Admin alerts routed to correct email address",
-      "description": "Admin alert emails now route to the address Pete actually reads, ensuring critical system notifications reach him reliably.",
-      "date": "2026-08-14T17:52:45Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a326",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #930 \u2014 Fix X quota registry for pay-per-use",
-      "description": "X retired Free/Basic/Pro tiers on 6 Feb 2026. Pete's account is pay-per-use. PR #930 corrects the quota registry so X shows no artificial monthly cap.",
-      "date": "2026-08-16T19:25:57Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a327",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #931 \u2014 Warn before link goes into caption signature",
-      "description": "Caption signature is appended to every post on every channel. PR #931 warns users before a booking URL silently turns every X post into a link post (penalised with lower reach and higher cost).",
-      "date": "2026-08-16T19:26:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a328",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #928 \u2014 Onboarding hint foundation + create-first Post Packs hint",
-      "description": "Shared onboarding hint machinery (#922) plus the first real hint: a contextual nudge on the Post Packs page guiding new users to create their first pack (#923).",
-      "date": "2026-08-16T19:28:28Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a329",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #929 \u2014 Land on pack after saving",
-      "description": "After a user saves a post to a pack, they are now redirected directly to that pack instead of being left to navigate there themselves.",
-      "date": "2026-08-16T19:28:31Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-16T19:45:00Z"
+  "updatedAt": "2026-08-16T20:45:00Z"
 }
