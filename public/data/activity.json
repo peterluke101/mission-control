@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a324",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #919 — Platform quota registry",
+      "description": "Internal registry of per-platform publishing ceilings so PostReady knows the limits before a customer hits them — prevents silent failures at platform API quota boundaries.",
+      "date": "2026-08-16T18:06:59Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a323",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "After the activation checklist guides new users to a key page, contextual coaching copy now explains what to do there — reducing drop-off in the onboarding flow.",
       "date": "2026-08-14T01:16:59Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a314",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #908 — Activation checklist + first-post celebration",
-      "description": "New user activation flow: setup checklist guides first-time users through key steps, with a celebration moment on first post to improve activation rates.",
-      "date": "2026-08-14T00:52:51Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-16T02:10:00Z"
+  "updatedAt": "2026-08-16T18:20:00Z"
 }
