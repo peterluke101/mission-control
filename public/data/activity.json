@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a323",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #917 — TikTok: mark private accounts only until TikTok audit",
+      "description": "TikTok connection in Connect Socials marked as private-accounts-only pending the ongoing TikTok regulatory audit, surfacing the restriction clearly to users.",
+      "date": "2026-08-16T01:34:36Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a322",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "New user activation flow: setup checklist guides first-time users through key steps, with a celebration moment on first post to improve activation rates.",
       "date": "2026-08-14T00:52:51Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a313",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #906 — Fix constraint that silently locked out every paying customer",
-      "description": "Critical hotfix: removed the data constraint that was silently preventing every paying customer from accessing their PostReady account.",
-      "date": "2026-08-13T20:15:02Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-14T23:01:00Z"
+  "updatedAt": "2026-08-16T02:10:00Z"
 }
