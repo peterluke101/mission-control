@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a325",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #920 — Fallback publishing as graceful degradation",
+      "description": "Fallback publishing path is now the degraded flow for PostReady — platform failures degrade gracefully instead of hard-failing customer posts.",
+      "date": "2026-08-16T18:35:29Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a324",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Admin alert emails now route to the address Pete actually reads, ensuring critical system notifications reach him reliably.",
       "date": "2026-08-14T17:52:45Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a315",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #909 — Coach user on page checklist sends them to",
-      "description": "After the activation checklist guides new users to a key page, contextual coaching copy now explains what to do there — reducing drop-off in the onboarding flow.",
-      "date": "2026-08-14T01:16:59Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-16T18:20:00Z"
+  "updatedAt": "2026-08-16T18:50:00Z"
 }
