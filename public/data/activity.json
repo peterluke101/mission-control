@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a332",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #938 — Warn which X account is being connected, name it after connect",
+      "description": "X account connection flow now warns the user which X account they are about to connect, and displays the account name after the connection is complete.",
+      "date": "2026-08-17T21:07:10Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a331",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "TikTok publishing gated behind a 'Private accounts only' notice pending TikTok's platform audit. Transparent disclosure to users before they connect.",
       "date": "2026-08-16T01:34:36Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a322",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #916 — Match Snapchat tile to grid",
-      "description": "Snapchat platform tile resized and aligned to match the grid it sits in on the Connect Socials page — visual consistency fix.",
-      "date": "2026-08-14T22:40:36Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-17T18:02:27.990Z"
+  "updatedAt": "2026-08-17T21:21:51Z"
 }
