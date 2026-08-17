@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a331",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #937 — Batch images render at medium quality regardless of tier",
+      "description": "Batch image generation now renders at medium quality for all tiers, ensuring consistent output quality across carousel and batch jobs regardless of account tier.",
+      "date": "2026-08-17T17:55:58Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a330",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Snapchat platform tile resized and aligned to match the grid it sits in on the Connect Socials page — visual consistency fix.",
       "date": "2026-08-14T22:40:36Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a321",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #915 — One welcome popup, business name at signup",
-      "description": "Onboarding wizard replaced with a single welcome popup; business name is collected at signup to personalise the product from the first moment.",
-      "date": "2026-08-14T22:22:35Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-17T16:23:00Z"
+  "updatedAt": "2026-08-17T18:02:27.990Z"
 }
