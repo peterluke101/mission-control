@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "id": "a332",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #938 — Warn which X account is being connected, name it after connect",
-      "description": "X account connection flow now warns the user which X account they are about to connect, and displays the account name after the connection is complete.",
-      "date": "2026-08-17T21:07:10Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a331",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #937 — Batch images render at medium quality regardless of tier",
-      "description": "Batch image generation now renders at medium quality for all tiers, ensuring consistent output quality across carousel and batch jobs regardless of account tier.",
-      "date": "2026-08-17T17:55:58Z",
-      "actor": "Ares"
-    },
-    {
       "id": "a330",
       "type": "feature",
       "project": "PostReady",
@@ -89,7 +71,25 @@
       "description": "TikTok publishing gated behind a 'Private accounts only' notice pending TikTok's platform audit. Transparent disclosure to users before they connect.",
       "date": "2026-08-16T01:34:36Z",
       "actor": "Ares"
+    },
+    {
+      "id": "a333",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #939 — fix: stop passing off a bare signature as a written caption",
+      "description": "Prevents bare caption signatures from being treated as written captions — ensures caption generation always produces real content.",
+      "date": "2026-08-18T01:03:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a334",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #940 — feat: mark videos in the schedule queue and post picker",
+      "description": "Videos in the schedule queue and post picker are now clearly marked, making it easier to distinguish video vs. image posts.",
+      "date": "2026-08-18T01:10:24Z",
+      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-17T21:21:51Z"
+  "updatedAt": "2026-08-18T01:22:00Z"
 }
