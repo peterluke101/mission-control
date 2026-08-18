@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a335",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #941 — feat: show how far a schedule actually reaches while you pick",
+      "description": "The schedule post-picker now shows users exactly how far out their schedule extends as they select platforms, giving clear visibility into scheduling coverage before publishing.",
+      "date": "2026-08-18T05:30:02Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a334",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "X retired Free/Basic/Pro tiers on 6 Feb 2026. Pete's account is pay-per-use. PR #930 corrects the quota registry so X shows no artificial monthly cap.",
       "date": "2026-08-16T19:25:57Z",
       "actor": "Ares"
-    },
-    {
-      "id": "a325",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #920 — Fallback publishing: graceful platform degradation",
-      "description": "Defines what the publish flow degrades into when a platform is unavailable — graceful fallback so a temporary platform outage doesn't kill the whole publish run.",
-      "date": "2026-08-16T18:35:29Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-18T01:22:00Z"
+  "updatedAt": "2026-08-18T05:30:27Z"
 }
