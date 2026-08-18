@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "id": "a334",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #940 — feat: mark videos in the schedule queue and post picker",
+      "description": "Videos in the schedule queue and post picker are now clearly marked, making it easier to distinguish video vs. image posts.",
+      "date": "2026-08-18T01:10:24Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a333",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #939 — fix: stop passing off a bare signature as a written caption",
+      "description": "Prevents bare caption signatures from being treated as written captions — ensures caption generation always produces real content.",
+      "date": "2026-08-18T01:03:45Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a332",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: PR #938 — fix: warn which X account is being connected, and name it after connect",
+      "description": "Users now see which X (Twitter) account they are connecting before and after the OAuth flow, reducing confusion during account setup.",
+      "date": "2026-08-17T21:07:10Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "a331",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #937 — Batch images render at medium quality regardless of tier",
+      "description": "Batch image generation now renders at medium quality for all tiers, ensuring consistent output quality across the board.",
+      "date": "2026-08-17T17:55:58Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a330",
       "type": "feature",
       "project": "PostReady",
@@ -52,42 +88,6 @@
       "title": "PostReady: PR #920 — Fallback publishing: graceful platform degradation",
       "description": "Defines what the publish flow degrades into when a platform is unavailable — graceful fallback so a temporary platform outage doesn't kill the whole publish run.",
       "date": "2026-08-16T18:35:29Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a324",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #919 — Platform quota registry",
-      "description": "Know platform publishing ceilings before a customer hits them. Quota registry tracks per-platform post limits so PostReady can warn before a customer exceeds them.",
-      "date": "2026-08-16T18:06:59Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a323",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #917 — TikTok marked private-accounts only until audit",
-      "description": "TikTok publishing gated behind a 'Private accounts only' notice pending TikTok's platform audit. Transparent disclosure to users before they connect.",
-      "date": "2026-08-16T01:34:36Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a333",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #939 — fix: stop passing off a bare signature as a written caption",
-      "description": "Prevents bare caption signatures from being treated as written captions — ensures caption generation always produces real content.",
-      "date": "2026-08-18T01:03:45Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a334",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #940 — feat: mark videos in the schedule queue and post picker",
-      "description": "Videos in the schedule queue and post picker are now clearly marked, making it easier to distinguish video vs. image posts.",
-      "date": "2026-08-18T01:10:24Z",
       "actor": "Ares"
     }
   ],
