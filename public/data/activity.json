@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a336",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: PR #942 — feat: one-tap demo posts to all six platforms",
+      "description": "The homepage demo animation now shows all six platforms (including Facebook and Threads) animating to Posted in full brand colour. Cascade timing fixed to a constant ~800ms stagger regardless of platform count.",
+      "date": "2026-08-18T22:44:15Z",
+      "actor": "Ares"
+    },
+    {
       "id": "a335",
       "type": "feature",
       "project": "PostReady",
@@ -79,15 +88,6 @@
       "title": "PostReady: PR #931 — Warn before link goes into caption signature",
       "description": "Caption signature is appended to every post on every channel. PR #931 warns users before a booking URL silently turns every X post into a link post (penalised with lower reach and higher cost).",
       "date": "2026-08-16T19:26:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a326",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #930 — Fix X quota registry for pay-per-use",
-      "description": "X retired Free/Basic/Pro tiers on 6 Feb 2026. Pete's account is pay-per-use. PR #930 corrects the quota registry so X shows no artificial monthly cap.",
-      "date": "2026-08-16T19:25:57Z",
       "actor": "Ares"
     }
   ],
