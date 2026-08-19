@@ -1,95 +1,95 @@
 {
   "entries": [
     {
-      "id": "a336",
+      "id": "r10",
       "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #942 — feat: one-tap demo posts to all six platforms",
-      "description": "The homepage demo animation now shows all six platforms (including Facebook and Threads) animating to Posted in full brand colour. Cascade timing fixed to a constant ~800ms stagger regardless of platform count.",
-      "date": "2026-08-18T22:44:15Z",
+      "project": "Juvenis Medical",
+      "title": "Juvenis: PR #42 — post-review polish",
+      "description": "Legible mobile CTAs, tappable footer phone numbers, tel link + sitemap cleanup merged to peptidesandhormones.com.",
+      "date": "2026-07-02T18:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a335",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #941 — feat: show how far a schedule actually reaches while you pick",
-      "description": "The schedule post-picker now shows users exactly how far out their schedule extends as they select platforms, giving clear visibility into scheduling coverage before publishing.",
-      "date": "2026-08-18T05:30:02Z",
+      "id": "r9",
+      "type": "upgrade",
+      "project": "Mission Control",
+      "title": "Mission Control: main agent upgraded to claude-sonnet-5",
+      "description": "NanoClaw main agent container updated to claude-sonnet-5. Librarian continues on claude-haiku-4-5 for cost efficiency.",
+      "date": "2026-06-30T20:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a334",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #940 — feat: mark videos in the schedule queue and post picker",
-      "description": "Videos in the schedule queue and post picker are now clearly marked, making it easier to distinguish video vs. image posts.",
-      "date": "2026-08-18T01:10:24Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a333",
+      "id": "r8",
       "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #939 — fix: stop passing off a bare signature as a written caption",
-      "description": "Prevents bare caption signatures from being treated as written captions — ensures caption generation always produces real content.",
-      "date": "2026-08-18T01:03:45Z",
+      "project": "Juvenis Medical",
+      "title": "Juvenis: PR #41 — mobile appointment CTA overflow fix",
+      "description": "Fixed appointment CTA overflowing on mobile screens at peptidesandhormones.com.",
+      "date": "2026-06-28T18:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a332",
+      "id": "r7",
+      "type": "feature",
+      "project": "Juvenis Medical",
+      "title": "Juvenis: PR #40 — Zoho booking replaced with phone CTAs",
+      "description": "Removed Zoho online booking form site-wide and replaced with phone-call CTAs for a cleaner, more direct patient contact flow.",
+      "date": "2026-06-27T18:00:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r6",
+      "type": "feature",
+      "project": "Mission Control",
+      "title": "Mission Control: iMessage bridge added",
+      "description": "iMessage channel bridge integrated into NanoClaw. Deployed May 22.",
+      "date": "2026-05-22T12:00:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r5",
+      "type": "feature",
+      "project": "Mission Control",
+      "title": "Mission Control: Haiku Librarian + per-task model routing live",
+      "description": "feat/per-task-model-routing merged and container rebuilt. Librarian now runs on claude-haiku-4-5. Cost-aware routing active across all scheduled tasks.",
+      "date": "2026-05-19T07:47:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r4",
       "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: PR #938 — fix: warn which X account is being connected, and name it after connect",
-      "description": "Users now see which X (Twitter) account they are connecting before and after the OAuth flow, reducing confusion during account setup.",
-      "date": "2026-08-17T21:07:10Z",
+      "project": "Mission Control",
+      "title": "Mission Control: Telegram code block formatting",
+      "description": "Two formatting fixes shipped to NanoClaw main — code blocks in Telegram are now copyable commands.",
+      "date": "2026-05-14T17:30:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a331",
+      "id": "r3",
       "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #937 — Batch images render at medium quality regardless of tier",
-      "description": "Batch image generation now renders at medium quality for all tiers, ensuring consistent output quality across the board.",
-      "date": "2026-08-17T17:55:58Z",
+      "project": "Mission Control",
+      "title": "Mission Control: A2 unified Telegram ↔ MC memory",
+      "description": "Unified memory layer between Telegram and Mission Control dock live. Agent context is now shared across channels.",
+      "date": "2026-05-13T19:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a330",
+      "id": "r2",
       "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #936 — Batch throughput: stop rendering masters inline",
-      "description": "Batch rendering now skips inline master rendering and no longer crashes mid-wave, improving stability for high-volume carousel generation.",
-      "date": "2026-08-17T16:19:34Z",
+      "project": "Juvenis Medical",
+      "title": "Juvenis: PRs #37-39 — SEO bundle + video badge removal",
+      "description": "SEO bundle (meta, headshot compression, schema) and video badge removal merged to peptidesandhormones.com. Site load improved.",
+      "date": "2026-05-12T18:00:00Z",
       "actor": "Ares"
     },
     {
-      "id": "a329",
+      "id": "r1",
       "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #929 — Land on pack after saving",
-      "description": "After a user saves a post to a pack, they are now redirected directly to that pack instead of being left to navigate there themselves.",
-      "date": "2026-08-16T19:28:31Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a328",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #928 — Onboarding hint foundation + create-first Post Packs hint",
-      "description": "Shared onboarding hint machinery (#922) plus the first real hint: a contextual nudge on the Post Packs page guiding new users to create their first pack (#923).",
-      "date": "2026-08-16T19:28:28Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "a327",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: PR #931 — Warn before link goes into caption signature",
-      "description": "Caption signature is appended to every post on every channel. PR #931 warns users before a booking URL silently turns every X post into a link post (penalised with lower reach and higher cost).",
-      "date": "2026-08-16T19:26:00Z",
+      "project": "Mission Control",
+      "title": "Mission Control: Observational Memory v1 merged",
+      "description": "PR #1 merged — conversation-analysis on agent stop. Opt-in via OBSERVATIONAL_MEMORY=on. 315/315 tests pass.",
+      "date": "2026-05-12T20:00:00Z",
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-18T22:44:15Z"
+  "updatedAt": "2026-08-19T02:05:00.000Z"
 }
