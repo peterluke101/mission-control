@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-19T02:05:00.000Z",
-  "weekTarget": "Mission Control: Tailscale Funnel + dock buffering still pending; Librarian running every 20 min. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved for build (Pete to sign up + get API token). peterlukedigital: case studies and services pages ongoing.",
+  "lastUpdated": "2026-08-24T09:30:00.000Z",
+  "weekTarget": "PostReady: TikTok live Aug 21, static rendering shipped. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -90,7 +90,7 @@
       "priority": "high",
       "progress": 65,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2.",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. Juvenis is first paying client on PostReady.",
       "subgoals": [
         {
           "id": "g2.1",
@@ -104,9 +104,9 @@
           "id": "g2.2",
           "title": "Dr. Paul social content strategy",
           "status": "active",
-          "progress": 65,
+          "progress": 70,
           "owner": "Ares",
-          "note": "GEO action plan delivered May 20."
+          "note": "GEO action plan delivered May 20. PostReady platform live with TikTok — Juvenis on board as first paying client."
         },
         {
           "id": "g2.3",
@@ -128,30 +128,31 @@
     },
     {
       "id": "g3",
-      "title": "peterlukedigital — Personal Portfolio",
+      "title": "peterlukedigital — Personal Portfolio & PostReady",
       "status": "active",
       "priority": "medium",
-      "progress": 72,
+      "progress": 80,
       "owner": "Pete",
-      "note": "Portfolio site for Pete digital services business. Case study updated Apr 25-27.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, 5 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
-          "title": "Site live and current",
+          "title": "PostReady beta — agency social content portal",
           "status": "active",
-          "progress": 80,
-          "owner": "Pete"
+          "progress": 85,
+          "owner": "Pete",
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) all merged."
         },
         {
           "id": "g3.2",
-          "title": "Services + case studies updated",
+          "title": "peterlukedigital portfolio site current",
           "status": "active",
-          "progress": 65,
+          "progress": 75,
           "owner": "Pete",
           "note": "Case study updated Apr 2026 — brand kit deliverables, sitemap + canonical SEO fixed."
         }
       ]
     }
   ],
-  "updatedAt": "2026-08-19T02:05:00.000Z"
+  "updatedAt": "2026-08-24T09:30:00.000Z"
 }
