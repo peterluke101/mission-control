@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "id": "r15",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: prerender public pages + static HTML deploy",
+      "description": "PRs #947–948 merged: marketing and auth pages now served as static HTML; remaining public pages prerendered. Performance + reliability improvements.",
+      "date": "2026-08-25T00:39:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r12",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: hashtag parser fix",
+      "description": "PR #945 merged: treat # as a hashtag separator and stop duplicating the parser.",
+      "date": "2026-08-21T14:34:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r14",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: TikTok fully live — Content Posting audit approved",
+      "description": "PR #944 merged: TikTok channel is now live in PostReady. Content Posting audit passed. Juvenis Medical is the first paying client on the platform.",
+      "date": "2026-08-21T13:52:00Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r13",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: bulk delete post packs with undo",
+      "description": "PR #943 merged: bulk delete for post packs with storage cleanup and an undo window.",
+      "date": "2026-08-20T02:15:00Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r10",
       "type": "feature",
       "project": "Juvenis Medical",
@@ -53,43 +89,7 @@
       "description": "feat/per-task-model-routing merged and container rebuilt. Librarian now runs on claude-haiku-4-5. Cost-aware routing active across all scheduled tasks.",
       "date": "2026-05-19T07:47:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r4",
-      "type": "fix",
-      "project": "Mission Control",
-      "title": "Mission Control: Telegram code block formatting",
-      "description": "Two formatting fixes shipped to NanoClaw main — code blocks in Telegram are now copyable commands.",
-      "date": "2026-05-14T17:30:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r3",
-      "type": "feature",
-      "project": "Mission Control",
-      "title": "Mission Control: A2 unified Telegram ↔ MC memory",
-      "description": "Unified memory layer between Telegram and Mission Control dock live. Agent context is now shared across channels.",
-      "date": "2026-05-13T19:00:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r2",
-      "type": "feature",
-      "project": "Juvenis Medical",
-      "title": "Juvenis: PRs #37-39 — SEO bundle + video badge removal",
-      "description": "SEO bundle (meta, headshot compression, schema) and video badge removal merged to peptidesandhormones.com. Site load improved.",
-      "date": "2026-05-12T18:00:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r1",
-      "type": "feature",
-      "project": "Mission Control",
-      "title": "Mission Control: Observational Memory v1 merged",
-      "description": "PR #1 merged — conversation-analysis on agent stop. Opt-in via OBSERVATIONAL_MEMORY=on. 315/315 tests pass.",
-      "date": "2026-05-12T20:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-19T02:05:00.000Z"
+  "updatedAt": "2026-08-24T09:30:00.000Z"
 }
