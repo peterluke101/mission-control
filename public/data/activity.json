@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "r18",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: brand kit save fix",
+      "description": "PR #951 merged: stop the brand kit from reporting a successful save that never actually happened.",
+      "date": "2026-08-25T22:10:49Z",
+      "actor": "Ares"
+    },
+    {
+      "id": "r17",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: reference photo explainer copy",
+      "description": "PR #950 merged: clarify plainly what a reference photo does and what it does not do in the UI.",
+      "date": "2026-08-25T21:52:33Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r16",
       "type": "feature",
       "project": "PostReady",
@@ -16,15 +34,6 @@
       "title": "PostReady: prerender public pages + static HTML deploy",
       "description": "PRs #947–948 merged: marketing and auth pages now served as static HTML; remaining public pages prerendered. Performance + reliability improvements.",
       "date": "2026-08-25T00:39:00Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r12",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: hashtag parser fix",
-      "description": "PR #945 merged: treat # as a hashtag separator and stop duplicating the parser.",
-      "date": "2026-08-21T14:34:00Z",
       "actor": "Ares"
     },
     {
@@ -80,16 +89,7 @@
       "description": "Removed Zoho online booking form site-wide and replaced with phone-call CTAs for a cleaner, more direct patient contact flow.",
       "date": "2026-06-27T18:00:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r6",
-      "type": "feature",
-      "project": "Mission Control",
-      "title": "Mission Control: iMessage bridge added",
-      "description": "iMessage channel bridge integrated into NanoClaw. Deployed May 22.",
-      "date": "2026-05-22T12:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-25T20:05:00.000Z"
+  "updatedAt": "2026-08-25T23:03:28.951Z"
 }
