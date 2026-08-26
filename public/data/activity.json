@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r22",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: crop photos around a point the customer picks",
+      "description": "PR #955 merged: fixed crop logic so photos crop around the point the customer selects, not the busiest pixel region — preventing heads being cut off in published posts.",
+      "date": "2026-08-26T22:32:16Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r21",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "PR #943 merged: bulk delete for post packs with storage cleanup and an undo window.",
       "date": "2026-08-20T02:15:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r10",
-      "type": "feature",
-      "project": "Juvenis Medical",
-      "title": "Juvenis: PR #42 — post-review polish",
-      "description": "Legible mobile CTAs, tappable footer phone numbers, tel link + sitemap cleanup merged to peptidesandhormones.com.",
-      "date": "2026-07-02T18:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-26T05:05:00Z"
+  "updatedAt": "2026-08-27T00:05:00Z"
 }
