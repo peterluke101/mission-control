@@ -11,6 +11,7 @@ import {
   Zap,
   ClipboardList,
   ScrollText,
+  Github,
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { cn } from '@/lib/utils';
@@ -25,6 +26,7 @@ export function Sidebar() {
     { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard, shortcode: 'HQ', badge: null },
     { href: '/team', label: 'Team', icon: Users, shortcode: 'TMR', badge: null },
     { href: '/work', label: 'Work', icon: ClipboardList, shortcode: 'WRK', badge: null },
+    { href: '/repos', label: 'Repos', icon: Github, shortcode: 'GIT', badge: null },
     { href: '/documents', label: 'Documents', icon: FileText, shortcode: 'DOC', badge: null },
     { href: '/logs', label: 'Logs', icon: ScrollText, shortcode: 'LOG', badge: null },
     { href: '/money', label: 'Money', icon: DollarSign, shortcode: 'MON', badge: null },
