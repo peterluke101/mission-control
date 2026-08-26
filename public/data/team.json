@@ -18,7 +18,7 @@
       "model": "claude-sonnet-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-08-26T00:32:30Z"
+      "lastActive": "2026-08-26T02:43:07Z"
     },
     {
       "id": "librarian",
@@ -28,8 +28,8 @@
       "model": "claude-haiku-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-08-26T15:07:27.389Z"
+      "lastActive": "2026-08-26T17:34:38.000Z"
     }
   ],
-  "updatedAt": "2026-08-26T15:07:27.389Z"
+  "updatedAt": "2026-08-26T17:34:38.000Z"
 }
