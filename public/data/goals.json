@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-25T23:02:11.314Z",
-  "weekTarget": "PostReady: Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped, UX polish PRs #950–#951 merged. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
+  "lastUpdated": "2026-08-26T00:20:00Z",
+  "weekTarget": "PostReady: PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped, UX polish PRs #950–#951 merged. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -131,17 +131,17 @@
       "title": "peterlukedigital — Personal Portfolio & PostReady",
       "status": "active",
       "priority": "medium",
-      "progress": 82,
+      "progress": 83,
       "owner": "Pete",
-      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 8 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 9 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
           "title": "PostReady beta — agency social content portal",
           "status": "active",
-          "progress": 89,
+          "progress": 90,
           "owner": "Pete",
-          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) merged. Threads live Aug 25 (#949) — Meta approved threads_basic + threads_content_publish 8 days early; Instagram and Facebook permissions renewed in same submission. UX polish Aug 25: #950 (reference photo explainer), #951 (brand kit save fix)."
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) merged. Threads live Aug 25 (#949) — Meta approved threads_basic + threads_content_publish 8 days early; Instagram and Facebook permissions renewed in same submission. UX polish Aug 25: #950 (reference photo explainer), #951 (brand kit save fix). Reference-photo label fix Aug 26: #952."
         },
         {
           "id": "g3.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-08-25T23:02:11.314Z"
+  "updatedAt": "2026-08-26T00:20:00Z"
 }
