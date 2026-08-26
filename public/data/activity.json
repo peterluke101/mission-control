@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r20",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: Prompt Studio no longer forbids the label it was asked to describe",
+      "description": "PR #953 merged: fixed Prompt Studio blocking the very label it was instructed to produce.",
+      "date": "2026-08-26T00:32:30Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r19",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "NanoClaw main agent container updated to claude-sonnet-5. Librarian continues on claude-haiku-4-5 for cost efficiency.",
       "date": "2026-06-30T20:00:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r8",
-      "type": "fix",
-      "project": "Juvenis Medical",
-      "title": "Juvenis: PR #41 — mobile appointment CTA overflow fix",
-      "description": "Fixed appointment CTA overflowing on mobile screens at peptidesandhormones.com.",
-      "date": "2026-06-28T18:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-26T00:20:00Z"
+  "updatedAt": "2026-08-26T01:20:52Z"
 }
