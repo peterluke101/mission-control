@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r21",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: photos attached in Prompt Studio now reach the image model",
+      "description": "PR #954 merged: images attached in Prompt Studio are now passed to the vision model, enabling photo-aware label and caption generation.",
+      "date": "2026-08-26T02:43:07Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r20",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "Legible mobile CTAs, tappable footer phone numbers, tel link + sitemap cleanup merged to peptidesandhormones.com.",
       "date": "2026-07-02T18:00:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r9",
-      "type": "upgrade",
-      "project": "Mission Control",
-      "title": "Mission Control: main agent upgraded to claude-sonnet-5",
-      "description": "NanoClaw main agent container updated to claude-sonnet-5. Librarian continues on claude-haiku-4-5 for cost efficiency.",
-      "date": "2026-06-30T20:00:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-26T01:20:52Z"
+  "updatedAt": "2026-08-26T05:05:00Z"
 }
