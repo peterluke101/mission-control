@@ -1,35 +1,8 @@
 {
   "team": [
-    {
-      "id": "pete",
-      "name": "Pete",
-      "role": "Owner",
-      "emoji": "👤",
-      "model": null,
-      "type": "human",
-      "status": "active",
-      "lastActive": "2026-08-26T23:51:42Z"
-    },
-    {
-      "id": "ares",
-      "name": "Ares",
-      "emoji": "⚡",
-      "role": "Lead Agent",
-      "model": "claude-sonnet-4-5",
-      "type": "agent",
-      "status": "active",
-      "lastActive": "2026-08-26T23:51:42Z"
-    },
-    {
-      "id": "librarian",
-      "name": "Librarian",
-      "emoji": "📚",
-      "role": "Data Steward",
-      "model": "claude-haiku-4-5",
-      "type": "agent",
-      "status": "active",
-      "lastActive": "2026-08-27T01:01:55Z"
-    }
+    { "id": "pete", "name": "Pete", "role": "Owner", "emoji": "👤", "model": null, "type": "human", "status": "active", "lastActive": "2026-08-26T23:51:42Z" },
+    { "id": "ares", "name": "Ares", "emoji": "⚡", "role": "Lead Agent", "model": "claude-sonnet-4-5", "type": "agent", "status": "active", "lastActive": "2026-08-26T23:51:42Z" },
+    { "id": "librarian", "name": "Librarian", "emoji": "📚", "role": "Data Steward", "model": "claude-haiku-4-5", "type": "agent", "status": "active", "lastActive": "2026-08-27T00:00:00Z" }
   ],
-  "updatedAt": "2026-08-27T01:01:55Z"
+  "updatedAt": "2026-08-27T00:00:00Z"
 }
