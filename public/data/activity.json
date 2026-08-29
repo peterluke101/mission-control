@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r24",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: add many files to Post Packs in one pass",
+      "description": "PR #957 merged: users can now add multiple files to a Post Pack in a single action, removing the one-at-a-time friction.",
+      "date": "2026-08-29T00:51:44Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r23",
       "type": "fix",
       "project": "PostReady",
@@ -68,7 +77,7 @@
       "type": "feature",
       "project": "PostReady",
       "title": "PostReady: prerender public pages + static HTML deploy",
-      "description": "PRs #947–948 merged: marketing and auth pages now served as static HTML; remaining public pages prerendered. Performance + reliability improvements.",
+      "description": "PRs #947-948 merged: marketing and auth pages now served as static HTML; remaining public pages prerendered. Performance + reliability improvements.",
       "date": "2026-08-25T00:39:00Z",
       "actor": "Ares"
     },
@@ -82,5 +91,5 @@
       "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-27T00:00:00Z"
+  "updatedAt": "2026-08-29T01:10:00Z"
 }
