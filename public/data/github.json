@@ -1,57 +1,14 @@
 {
-  "syncedAt": "2026-08-29T18:21:25.209Z",
+  "syncedAt": "2026-08-29T21:40:02.658Z",
   "owner": "peterluke101",
   "summary": {
     "repoCount": 16,
     "activeRepoCount": 8,
     "archivedRepoCount": 8,
     "openIssueCount": 26,
-    "openPRCount": 10
+    "openPRCount": 11
   },
   "repos": [
-    {
-      "name": "mission-control",
-      "fullName": "peterluke101/mission-control",
-      "description": null,
-      "visibility": "public",
-      "archived": false,
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-29T18:01:50Z",
-      "updatedAt": "2026-08-29T18:02:08Z",
-      "htmlUrl": "https://github.com/peterluke101/mission-control",
-      "openIssueCount": 0,
-      "openPRCount": 2,
-      "branchCount": 4,
-      "topics": [],
-      "language": "TypeScript",
-      "issues": [],
-      "pullRequests": [
-        {
-          "number": 3,
-          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "feat/mc-chat-dock",
-          "base": "feat/v2-data-pipeline",
-          "createdAt": "2026-05-13T14:24:35Z",
-          "updatedAt": "2026-05-14T05:49:46Z",
-          "url": "https://github.com/peterluke101/mission-control/pull/3"
-        },
-        {
-          "number": 2,
-          "title": "feat(repos): add Repos & Issues dashboard page",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "feat/repos-issues-page",
-          "base": "main",
-          "createdAt": "2026-05-13T13:14:37Z",
-          "updatedAt": "2026-05-13T13:14:37Z",
-          "url": "https://github.com/peterluke101/mission-control/pull/2"
-        }
-      ]
-    },
     {
       "name": "juvenis-medical",
       "fullName": "peterluke101/juvenis-medical",
@@ -59,12 +16,12 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-08-29T18:00:54Z",
+      "pushedAt": "2026-08-29T21:27:22Z",
       "updatedAt": "2026-07-02T21:51:59Z",
       "htmlUrl": "https://github.com/peterluke101/juvenis-medical",
       "openIssueCount": 9,
-      "openPRCount": 3,
-      "branchCount": 9,
+      "openPRCount": 4,
+      "branchCount": 10,
       "topics": [],
       "language": "HTML",
       "issues": [
@@ -177,6 +134,18 @@
       ],
       "pullRequests": [
         {
+          "number": 44,
+          "title": "Phase 2: hormones hub scaffold (no copy final)",
+          "state": "open",
+          "draft": true,
+          "author": "peterluke101",
+          "head": "cursor/phase2-hormones-hub-scaffold-9a50",
+          "base": "main",
+          "createdAt": "2026-08-29T21:01:05Z",
+          "updatedAt": "2026-08-29T21:27:28Z",
+          "url": "https://github.com/peterluke101/juvenis-medical/pull/44"
+        },
+        {
           "number": 43,
           "title": "Phase 1: hormone-first copy and metadata (no new pages)",
           "state": "open",
@@ -185,7 +154,7 @@
           "head": "cursor/hormone-first-phase1-9492",
           "base": "main",
           "createdAt": "2026-08-29T18:01:06Z",
-          "updatedAt": "2026-08-29T18:11:09Z",
+          "updatedAt": "2026-08-29T19:18:21Z",
           "url": "https://github.com/peterluke101/juvenis-medical/pull/43"
         },
         {
@@ -211,6 +180,49 @@
           "createdAt": "2026-05-05T18:39:08Z",
           "updatedAt": "2026-05-05T22:01:42Z",
           "url": "https://github.com/peterluke101/juvenis-medical/pull/4"
+        }
+      ]
+    },
+    {
+      "name": "mission-control",
+      "fullName": "peterluke101/mission-control",
+      "description": null,
+      "visibility": "public",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-29T21:21:56Z",
+      "updatedAt": "2026-08-29T21:22:00Z",
+      "htmlUrl": "https://github.com/peterluke101/mission-control",
+      "openIssueCount": 0,
+      "openPRCount": 2,
+      "branchCount": 4,
+      "topics": [],
+      "language": "TypeScript",
+      "issues": [],
+      "pullRequests": [
+        {
+          "number": 3,
+          "title": "feat(chat): in-dashboard chat dock with voice + attachments",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/mc-chat-dock",
+          "base": "feat/v2-data-pipeline",
+          "createdAt": "2026-05-13T14:24:35Z",
+          "updatedAt": "2026-05-14T05:49:46Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "feat(repos): add Repos & Issues dashboard page",
+          "state": "open",
+          "draft": false,
+          "author": "peterluke101",
+          "head": "feat/repos-issues-page",
+          "base": "main",
+          "createdAt": "2026-05-13T13:14:37Z",
+          "updatedAt": "2026-05-13T13:14:37Z",
+          "url": "https://github.com/peterluke101/mission-control/pull/2"
         }
       ]
     },
