@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r25",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: carousel photo upload no longer refused",
+      "description": "PR #958 merged: fixed a bug that caused carousel photo uploads to be refused for every customer.",
+      "date": "2026-08-29T01:01:57Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r24",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "PRs #947-948 merged: marketing and auth pages now served as static HTML; remaining public pages prerendered. Performance + reliability improvements.",
       "date": "2026-08-25T00:39:00Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r14",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: TikTok fully live — Content Posting audit approved",
-      "description": "PR #944 merged: TikTok channel is now live in PostReady. Content Posting audit passed. Juvenis Medical is the first paying client on the platform.",
-      "date": "2026-08-21T13:52:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-29T01:10:00Z"
+  "updatedAt": "2026-08-29T01:42:39.694Z"
 }
