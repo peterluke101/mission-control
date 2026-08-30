@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r29",
+      "type": "feature",
+      "project": "PostReady",
+      "title": "PostReady: Create screen given back to the work",
+      "description": "PR #962 merged: redesigned the Create screen to prioritise the user's content and workflow rather than UI chrome — keeps focus on the post being built.",
+      "date": "2026-08-30T18:22:50Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r28",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "PR #952 merged: fixed bug where a reference photo would blank the label instead of reproducing it correctly.",
       "date": "2026-08-26T00:04:38Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r18",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: brand kit save fix",
-      "description": "PR #951 merged: stop the brand kit from reporting a successful save that never actually happened.",
-      "date": "2026-08-25T22:10:49Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-30T17:00:14Z"
+  "updatedAt": "2026-08-30T18:35:00Z"
 }
