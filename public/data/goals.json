@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-30T15:41:26.424Z",
-  "weekTarget": "PostReady: PR #958 (carousel photo upload refused for every customer) merged Aug 29. PR #957 (add many files to Post Packs in one pass) merged Aug 29. PR #956 (Google Business shows connected once it is) merged Aug 26. PR #954 (photos reach image model) + PR #953 (Prompt Studio label fix) + PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959 (reference photo inspires image — never copied) merged Aug 30. PR #955 (crop to customer-picked point — head cutoff fix) still open. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
+  "lastUpdated": "2026-08-30T15:44:13Z",
+  "weekTarget": "PostReady: PR #958 (carousel photo upload refused for every customer) merged Aug 29. PR #957 (add many files to Post Packs in one pass) merged Aug 29. PR #956 (Google Business shows connected once it is) merged Aug 26. PR #954 (photos reach image model) + PR #953 (Prompt Studio label fix) + PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959 (reference photo inspires image — never copied) merged Aug 30. PR #960 (copy: \"Just the vibe\" on reference-photo mode picker) merged Aug 30. PR #955 (crop to customer-picked point — head cutoff fix) still open. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -133,7 +133,7 @@
       "priority": "medium",
       "progress": 86,
       "owner": "Pete",
-      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 14 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 15 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
@@ -141,7 +141,7 @@
           "status": "active",
           "progress": 94,
           "owner": "Pete",
-          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) merged. Threads live Aug 25 (#949) — Meta approved 8 days early. UX polish Aug 25: #950-#951. Reference-photo label fix Aug 26: #952. Prompt Studio label fix Aug 26: #953. Photos now reach image model Aug 26: #954. Crop to customer-picked point Aug 26: #955 (open). Google Business shown as connected Aug 26: #956. Add many files to Post Packs Aug 29: #957. Carousel photo upload fix Aug 29: #958. Reference photo inspires image (never copied) Aug 30: #959."
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) merged. Threads live Aug 25 (#949) — Meta approved 8 days early. UX polish Aug 25: #950-#951. Reference-photo label fix Aug 26: #952. Prompt Studio label fix Aug 26: #953. Photos now reach image model Aug 26: #954. Crop to customer-picked point Aug 26: #955 (open). Google Business shown as connected Aug 26: #956. Add many files to Post Packs Aug 29: #957. Carousel photo upload fix Aug 29: #958. Reference photo inspires image (never copied) Aug 30: #959. Copy polish (just the vibe) Aug 30: #960."
         },
         {
           "id": "g3.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-08-30T15:41:26.424Z"
+  "updatedAt": "2026-08-30T15:44:13Z"
 }
