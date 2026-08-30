@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r27",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: 'Just the vibe' copy change on reference-photo mode picker",
+      "description": "PR #960 merged: one-line copy change — 'The look I want' renamed to 'Just the vibe' to match how customers actually describe handing over a reference photo. Behaviour unchanged.",
+      "date": "2026-08-30T15:44:13Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r26",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "PR #950 merged: clarify plainly what a reference photo does and what it does not do in the UI.",
       "date": "2026-08-25T21:52:33Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r16",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: Threads channel live — Meta approved all permissions",
-      "description": "PR #949 merged: Meta approved threads_basic and threads_content_publish eight days early. All seven existing Instagram and Facebook permissions renewed in the same submission.",
-      "date": "2026-08-25T19:51:00Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-30T15:41:26.424Z"
+  "updatedAt": "2026-08-30T15:44:13Z"
 }
