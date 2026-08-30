@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "r28",
+      "type": "fix",
+      "project": "PostReady",
+      "title": "PostReady: 'Create my post' made the obvious primary CTA",
+      "description": "PR #961 merged: redesigned the post-creation CTA so 'Create my post' is visually dominant and unmissable — reduces friction at the key conversion step.",
+      "date": "2026-08-30T17:00:14Z",
+      "actor": "Ares"
+    },
+    {
       "id": "r27",
       "type": "fix",
       "project": "PostReady",
@@ -80,16 +89,7 @@
       "description": "PR #951 merged: stop the brand kit from reporting a successful save that never actually happened.",
       "date": "2026-08-25T22:10:49Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r17",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: reference photo explainer copy",
-      "description": "PR #950 merged: clarify plainly what a reference photo does and what it does not do in the UI.",
-      "date": "2026-08-25T21:52:33Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-30T15:44:13Z"
+  "updatedAt": "2026-08-30T17:00:14Z"
 }
