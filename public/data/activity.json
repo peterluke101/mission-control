@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r30",
+      "project": "PostReady",
+      "type": "pr_merged",
+      "description": "PR #963 merged: the entire reference-photo drop zone now accepts a drag-and-drop, not just the individual photo tiles — makes the interaction more intuitive.",
+      "date": "2026-08-30T20:29:16Z",
+      "author": "Ares"
+    },
+    {
       "id": "r29",
       "type": "feature",
       "project": "PostReady",
@@ -80,16 +88,7 @@
       "description": "PR #953 merged: fixed Prompt Studio blocking the very label it was instructed to produce.",
       "date": "2026-08-26T00:32:30Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r19",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: reproduce label from reference photo instead of blanking it",
-      "description": "PR #952 merged: fixed bug where a reference photo would blank the label instead of reproducing it correctly.",
-      "date": "2026-08-26T00:04:38Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-30T18:35:00Z"
+  "updatedAt": "2026-08-30T20:35:00Z"
 }
