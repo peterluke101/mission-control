@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "r32",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #966 merged: fixed a silent bug where batch upload was dropping files it never captioned — users can now upload batches without losing captions.",
+      "date": "2026-08-30T21:38:18Z",
+      "author": "Ares"
+    },
+    {
+      "id": "r31",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #964 merged: captions that fail to write now surface a clear error and offer a retry option instead of silently failing.",
+      "date": "2026-08-30T21:23:01Z",
+      "author": "Ares"
+    },
+    {
       "id": "r30",
       "project": "PostReady",
       "type": "pr_merged",
@@ -70,25 +86,7 @@
       "description": "PR #956 merged: fixed the dashboard so Google Business Profile correctly reports as connected after OAuth, rather than showing disconnected.",
       "date": "2026-08-26T23:51:42Z",
       "actor": "Ares"
-    },
-    {
-      "id": "r21",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: photos attached in Prompt Studio now reach the image model",
-      "description": "PR #954 merged: images attached in Prompt Studio are now passed to the vision model, enabling photo-aware label and caption generation.",
-      "date": "2026-08-26T02:43:07Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r20",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: Prompt Studio no longer forbids the label it was asked to describe",
-      "description": "PR #953 merged: fixed Prompt Studio blocking the very label it was instructed to produce.",
-      "date": "2026-08-26T00:32:30Z",
-      "actor": "Ares"
     }
   ],
-  "updatedAt": "2026-08-30T20:35:00Z"
+  "updatedAt": "2026-08-30T21:41:42.086Z"
 }
