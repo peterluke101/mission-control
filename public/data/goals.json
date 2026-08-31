@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-31T01:21:52.846Z",
-  "weekTarget": "PostReady: PR #958 (carousel photo upload refused for every customer) merged Aug 29. PR #957 (add many files to Post Packs in one pass) merged Aug 29. PR #956 (Google Business shows connected once it is) merged Aug 26. PR #954 (photos reach image model) + PR #953 (Prompt Studio label fix) + PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959 (reference photo inspires image — never copied) merged Aug 30. PR #960 (copy: \"Just the vibe\" on reference-photo mode picker) merged Aug 30. PR #961 (\"Create my post\" CTA polish) merged Aug 30. PR #962 (Create screen given back to the work) merged Aug 30. PR #963 (whole reference-photo area accepts a drop, not just tiles) merged Aug 30. PR #964 (caption write-failure now visible + retryable) merged Aug 30. PR #966 (batch upload no longer silently drops uncaptioned files) merged Aug 30. PR #955 (crop to customer-picked point — head cutoff fix) still open. Juvenis: Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending. PR #967 (batch upload queue stall — single file can no longer block entire queue) merged Aug 31.",
+  "lastUpdated": "2026-08-31T17:01:00.000Z",
+  "weekTarget": "PostReady: PR #958 (carousel photo upload refused for every customer) merged Aug 29. PR #957 (add many files to Post Packs in one pass) merged Aug 29. PR #956 (Google Business shows connected once it is) merged Aug 26. PR #954 (photos reach image model) + PR #953 (Prompt Studio label fix) + PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959 (reference photo inspires image — never copied) merged Aug 30. PR #960 (copy: \"Just the vibe\" on reference-photo mode picker) merged Aug 30. PR #961 (\"Create my post\" CTA prominence) merged Aug 30. PR #962 (Create screen given back to the work) merged Aug 30. PR #963 (whole reference-photo area accepts a drop, not just tiles) merged Aug 30. PR #964 (caption write-failure now visible + retryable) merged Aug 30. PR #966 (batch upload no longer silently drops uncaptioned files) merged Aug 30. PR #967 (batch upload queue stall — single file can no longer block entire queue) merged Aug 31. PR #955 (crop to customer-picked point — head cutoff fix) still open. Juvenis: PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -88,17 +88,17 @@
       "title": "Juvenis Medical — Website & Social",
       "status": "active",
       "priority": "high",
-      "progress": 65,
+      "progress": 68,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. Juvenis is first paying client on PostReady.",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. Juvenis is first paying client on PostReady.",
       "subgoals": [
         {
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 90,
+          "progress": 93,
           "owner": "Ares",
-          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2)."
+          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2). PR #46: hormone-first rebuild from Dr. Paul's clinical answers (Aug 31)."
         },
         {
           "id": "g2.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-08-31T01:21:52.846Z"
+  "updatedAt": "2026-08-31T17:01:00.000Z"
 }
