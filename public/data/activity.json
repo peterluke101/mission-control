@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r39",
+      "project": "PostReady",
+      "type": "feature",
+      "description": "PR #970 merged: Save Image locked for unpaid users — clear no-card-required copy added to signup so free users understand the value gate before hitting it.",
+      "date": "2026-09-01T17:46:49Z",
+      "author": "Ares"
+    },
+    {
       "id": "r38",
       "project": "PostReady",
       "type": "feature",
@@ -71,15 +79,7 @@
       "description": "PR #962 merged: redesigned the Create screen to prioritise the user's content and workflow rather than UI chrome — keeps focus on the post being built.",
       "date": "2026-08-30T18:22:50Z",
       "author": "Ares"
-    },
-    {
-      "id": "r28",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #961 merged: redesigned the post-creation CTA so 'Create my post' is visually dominant and unmissable — reduces friction at the key conversion step.",
-      "date": "2026-08-30T17:00:14Z",
-      "author": "Ares"
     }
   ],
-  "updatedAt": "2026-09-01T05:05:00.000Z"
+  "updatedAt": "2026-09-01T18:47:00Z"
 }
