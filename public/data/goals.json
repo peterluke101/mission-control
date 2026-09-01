@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-08-31T17:01:00.000Z",
-  "weekTarget": "PostReady: PR #958 (carousel photo upload refused for every customer) merged Aug 29. PR #957 (add many files to Post Packs in one pass) merged Aug 29. PR #956 (Google Business shows connected once it is) merged Aug 26. PR #954 (photos reach image model) + PR #953 (Prompt Studio label fix) + PR #952 (reference-photo label fix) merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959 (reference photo inspires image — never copied) merged Aug 30. PR #960 (copy: \"Just the vibe\" on reference-photo mode picker) merged Aug 30. PR #961 (\"Create my post\" CTA prominence) merged Aug 30. PR #962 (Create screen given back to the work) merged Aug 30. PR #963 (whole reference-photo area accepts a drop, not just tiles) merged Aug 30. PR #964 (caption write-failure now visible + retryable) merged Aug 30. PR #966 (batch upload no longer silently drops uncaptioned files) merged Aug 30. PR #967 (batch upload queue stall — single file can no longer block entire queue) merged Aug 31. PR #955 (crop to customer-picked point — head cutoff fix) still open. Juvenis: PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
+  "lastUpdated": "2026-09-01T05:05:00.000Z",
+  "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -88,17 +88,17 @@
       "title": "Juvenis Medical — Website & Social",
       "status": "active",
       "priority": "high",
-      "progress": 68,
+      "progress": 73,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. Juvenis is first paying client on PostReady.",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Juvenis is first paying client on PostReady.",
       "subgoals": [
         {
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 93,
+          "progress": 97,
           "owner": "Ares",
-          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2). PR #46: hormone-first rebuild from Dr. Paul's clinical answers (Aug 31)."
+          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2). PR #46: hormone-first rebuild (Aug 31). PRs #43-48: hormone-first phases 1–3 to main (Sep 1). PR #47: FDA hormone-therapy boxed-warning blog (Sep 1)."
         },
         {
           "id": "g2.2",
@@ -131,17 +131,17 @@
       "title": "peterlukedigital — Personal Portfolio & PostReady",
       "status": "active",
       "priority": "medium",
-      "progress": 88,
+      "progress": 89,
       "owner": "Pete",
-      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 17 PRs merged since Aug 19. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 18 PRs merged since Aug 19. PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
           "title": "PostReady beta — agency social content portal",
           "status": "active",
-          "progress": 96,
+          "progress": 97,
           "owner": "Pete",
-          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Bulk delete (#943), hashtag parser fix (#945), static HTML rendering (#947-948) merged. Threads live Aug 25 (#949) — Meta approved 8 days early. UX polish Aug 25: #950-#951. Reference-photo label fix Aug 26: #952. Prompt Studio label fix Aug 26: #953. Photos now reach image model Aug 26: #954. Crop to customer-picked point Aug 26: #955 (open). Google Business shown as connected Aug 26: #956. Add many files to Post Packs Aug 29: #957. Carousel photo upload fix Aug 29: #958. Reference photo inspires image (never copied) Aug 30: #959. Copy polish (just the vibe) Aug 30: #960. \"Create my post\" CTA prominence Aug 30: #961. Create screen UX Aug 30: #962. Reference-photo drop zone expanded Aug 30: #963. Batch upload silent file drop fix Aug 30: #966. Caption write-failure now surfaces + retryable Aug 30: #964. Batch upload queue stall fix Aug 31: #967."
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Threads live Aug 25 (#949). UX polish Aug 25-30: #950-#967. Batch upload queue stall fix Aug 31: #967. Try-before-pay Sep 1: #969 (generate packs without card, pay to post). PR #955 (crop to customer-picked point) still open."
         },
         {
           "id": "g3.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-08-31T17:01:00.000Z"
+  "updatedAt": "2026-09-01T05:05:00.000Z"
 }
