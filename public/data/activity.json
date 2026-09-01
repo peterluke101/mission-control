@@ -1,6 +1,30 @@
 {
   "entries": [
     {
+      "id": "r38",
+      "project": "PostReady",
+      "type": "feature",
+      "description": "PR #969 merged: try-before-pay launched — users can generate full post packs without a payment card, then pay only when they are ready to post.",
+      "date": "2026-09-01T04:48:41Z",
+      "author": "Ares"
+    },
+    {
+      "id": "r37",
+      "project": "Juvenis Medical",
+      "type": "content",
+      "description": "PR #47 merged: published FDA hormone-therapy boxed-warning blog with Dr. Paul's edits approved — first editorial blog post on the Juvenis site.",
+      "date": "2026-09-01T04:34:48Z",
+      "author": "Ares"
+    },
+    {
+      "id": "r36",
+      "project": "Juvenis Medical",
+      "type": "feature",
+      "description": "PRs #43-48 merged: hormone-first site rebuild phases 1–3 shipped to main — hormone-first copy + metadata, hormones hub with menopause/thyroid/GH/TRT/BHRT expansions, and a trust scaffold.",
+      "date": "2026-09-01T04:30:42Z",
+      "author": "Ares"
+    },
+    {
       "id": "r34",
       "project": "Juvenis Medical",
       "type": "feature",
@@ -42,49 +66,20 @@
     },
     {
       "id": "r29",
-      "type": "feature",
       "project": "PostReady",
-      "title": "PostReady: Create screen given back to the work",
+      "type": "feature",
       "description": "PR #962 merged: redesigned the Create screen to prioritise the user's content and workflow rather than UI chrome — keeps focus on the post being built.",
       "date": "2026-08-30T18:22:50Z",
-      "actor": "Ares"
+      "author": "Ares"
     },
     {
       "id": "r28",
-      "type": "fix",
       "project": "PostReady",
-      "title": "PostReady: 'Create my post' made the obvious primary CTA",
+      "type": "fix",
       "description": "PR #961 merged: redesigned the post-creation CTA so 'Create my post' is visually dominant and unmissable — reduces friction at the key conversion step.",
       "date": "2026-08-30T17:00:14Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r27",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: 'Just the vibe' copy change on reference-photo mode picker",
-      "description": "PR #960 merged: one-line copy change — 'The look I want' renamed to 'Just the vibe' to match how customers actually describe handing over a reference photo. Behaviour unchanged.",
-      "date": "2026-08-30T15:44:13Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r26",
-      "type": "feature",
-      "project": "PostReady",
-      "title": "PostReady: reference photo inspires a new image — never copied",
-      "description": "PR #959 merged: reference photos now inspire the image generation without being directly copied, ensuring originality while preserving style intent.",
-      "date": "2026-08-30T15:36:57Z",
-      "actor": "Ares"
-    },
-    {
-      "id": "r25",
-      "type": "fix",
-      "project": "PostReady",
-      "title": "PostReady: carousel photo upload no longer refused",
-      "description": "PR #958 merged: fixed a bug that caused carousel photo uploads to be refused for every customer.",
-      "date": "2026-08-29T01:01:57Z",
-      "actor": "Ares"
+      "author": "Ares"
     }
   ],
-  "updatedAt": "2026-08-31T17:01:00.000Z"
+  "updatedAt": "2026-09-01T05:05:00.000Z"
 }
