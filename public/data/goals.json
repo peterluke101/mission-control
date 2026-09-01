@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-09-01T05:05:00.000Z",
-  "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
+  "lastUpdated": "2026-09-01T18:16:45Z",
+  "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image for unpaid users, no-card copy on signup) merged Sep 1. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -133,7 +133,7 @@
       "priority": "medium",
       "progress": 89,
       "owner": "Pete",
-      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 18 PRs merged since Aug 19. PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 19 PRs merged since Aug 19. PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image + no-card copy) merged Sep 1. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
@@ -141,7 +141,7 @@
           "status": "active",
           "progress": 97,
           "owner": "Pete",
-          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Threads live Aug 25 (#949). UX polish Aug 25-30: #950-#967. Batch upload queue stall fix Aug 31: #967. Try-before-pay Sep 1: #969 (generate packs without card, pay to post). PR #955 (crop to customer-picked point) still open."
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Threads live Aug 25 (#949). UX polish Aug 25-30: #950-#967. Batch upload queue stall fix Aug 31: #967. Try-before-pay Sep 1: #969 (generate packs without card, pay to post). PR #970: lock Save Image for unpaid users + no-card copy on signup. PR #955 (crop to customer-picked point) still open."
         },
         {
           "id": "g3.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-01T05:05:00.000Z"
+  "updatedAt": "2026-09-01T18:16:45Z"
 }
