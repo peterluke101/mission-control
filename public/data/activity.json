@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r40",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #971 opened: Add Bill as the ZippityOne closer on homepage, pricing, and signup pages.",
+      "date": "2026-09-03T04:02:35Z",
+      "author": "Pete"
+    },
+    {
       "id": "r39",
       "project": "PostReady",
       "type": "feature",
@@ -71,15 +79,7 @@
       "description": "PR #963 merged: the entire reference-photo drop zone now accepts a drag-and-drop, not just the individual photo tiles — makes the interaction more intuitive.",
       "date": "2026-08-30T20:29:16Z",
       "author": "Ares"
-    },
-    {
-      "id": "r29",
-      "project": "PostReady",
-      "type": "feature",
-      "description": "PR #962 merged: redesigned the Create screen to prioritise the user's content and workflow rather than UI chrome — keeps focus on the post being built.",
-      "date": "2026-08-30T18:22:50Z",
-      "author": "Ares"
     }
   ],
-  "updatedAt": "2026-09-01T18:47:00Z"
+  "updatedAt": "2026-09-03T04:40:00Z"
 }
