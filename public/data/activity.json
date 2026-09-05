@@ -1,14 +1,6 @@
 {
   "entries": [
     {
-      "id": "r41",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #972 opened: fix Facebook carousel posting all cards once instead of showing cover twice — UX polish for carousel sharing.",
-      "date": "2026-09-03T21:42:44Z",
-      "author": "Pete"
-    },
-    {
       "id": "r40",
       "project": "PostReady",
       "type": "pr_opened",
@@ -79,7 +71,15 @@
       "description": "PR #964 merged: captions that fail to write now surface a clear error and offer a retry option instead of silently failing.",
       "date": "2026-08-30T21:23:01Z",
       "author": "Ares"
+    },
+    {
+      "id": "r42",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #973 merged: fixed Facebook single-image one-click posts publishing to both feed and story — now posts to feed only, as expected.",
+      "date": "2026-09-05T21:55:56Z",
+      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-03T22:01:00Z"
+  "updatedAt": "2026-09-05T22:30:00Z"
 }
