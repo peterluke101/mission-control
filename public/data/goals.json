@@ -1,7 +1,7 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-09-05T22:30:00Z",
-  "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image for unpaid users, no-card copy on signup) merged Sep 1. PR #971 (Add Bill as ZippityOne closer on homepage + pricing) open. PR #972 (fix Facebook carousel — all cards once) merged Sep 5. PR #973 (fix Facebook single-image one-click posts — feed only, not feed+story) merged Sep 5. PR #955 (crop to customer-picked point) still open. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
+  "lastUpdated": "2026-09-05T23:10:00Z",
+  "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image for unpaid users, no-card copy on signup) merged Sep 1. PR #971 (Add Bill as ZippityOne closer on homepage + pricing) open. PR #972 (fix Facebook carousel — all cards once) merged Sep 5. PR #973 (fix Facebook single-image one-click posts — feed only, not feed+story) merged Sep 5. PR #974 (Post lock converted, Pro Bring-to-Life capped at 50, free own-video hook) merged Sep 5. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. PR #49 (FDA testosterone boxed-warning blog) merged Sep 5. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
     "Juvenis Medical",
@@ -88,17 +88,17 @@
       "title": "Juvenis Medical — Website & Social",
       "status": "active",
       "priority": "high",
-      "progress": 73,
+      "progress": 74,
       "owner": "Ares",
-      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. Juvenis is first paying client on PostReady.",
+      "note": "Client site live at peptidesandhormones.com. GEO strategy plan delivered. Google Workspace integration and Buffer MCP approved for build. PR #42 (post-review polish) merged Jul 2. PR #46 (hormone-first rebuild from Dr. Paul's clinical answers) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. PR #49 (FDA testosterone boxed-warning blog) merged Sep 5. Juvenis is first paying client on PostReady.",
       "subgoals": [
         {
           "id": "g2.1",
           "title": "Website updates and brand consistency",
           "status": "active",
-          "progress": 97,
+          "progress": 98,
           "owner": "Ares",
-          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2). PR #46: hormone-first rebuild (Aug 31). PRs #43-48: hormone-first phases 1–3 to main (Sep 1). PR #47: FDA hormone-therapy boxed-warning blog (Sep 1)."
+          "note": "PRs #37-39 merged May 12. PR #40: phone CTAs (Jun 27). PR #41: mobile CTA fix (Jun 28). PR #42: post-review polish (Jul 2). PR #46: hormone-first rebuild (Aug 31). PRs #43-48: hormone-first phases 1–3 to main (Sep 1). PR #47: FDA hormone-therapy boxed-warning blog (Sep 1). PR #49: FDA testosterone boxed-warning blog (Sep 5)."
         },
         {
           "id": "g2.2",
@@ -131,17 +131,17 @@
       "title": "peterlukedigital — Personal Portfolio & PostReady",
       "status": "active",
       "priority": "medium",
-      "progress": 90,
+      "progress": 91,
       "owner": "Pete",
-      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 19 PRs merged since Aug 19. PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image + no-card copy) merged Sep 1. PR #972 (Facebook carousel fix) and PR #973 (Facebook single-image fix) merged Sep 5. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
+      "note": "PostReady (postready.net) now in beta — social content portal for agencies. TikTok live Aug 21, Threads live Aug 25 (Meta approved early — 8 days ahead of schedule). 19 PRs merged since Aug 19. PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image + no-card copy) merged Sep 1. PR #972 (Facebook carousel fix), PR #973 (Facebook single-image fix), and PR #974 (Post lock converted, Pro Bring-to-Life 50, free own-video hook) merged Sep 5. Juvenis Medical is first paying client. peterlukedigital portfolio site stable.",
       "subgoals": [
         {
           "id": "g3.1",
           "title": "PostReady beta — agency social content portal",
           "status": "active",
-          "progress": 97,
+          "progress": 98,
           "owner": "Pete",
-          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Threads live Aug 25 (#949). UX polish Aug 25-30: #950-#967. Batch upload queue stall fix Aug 31: #967. Try-before-pay Sep 1: #969 (generate packs without card, pay to post). PR #970: lock Save Image for unpaid users + no-card copy on signup. PR #971 open: Add Bill as ZippityOne closer on homepage, pricing, and signup. PR #972 merged Sep 5: fix Facebook carousel (all cards once). PR #973 merged Sep 5: fix Facebook single-image one-click posts (feed only). PR #955 (crop to customer-picked point) still open."
+          "note": "Live at postready-beta.vercel.app. TikTok live Aug 21 (#944). Threads live Aug 25 (#949). UX polish Aug 25-30: #950-#967. Batch upload queue stall fix Aug 31: #967. Try-before-pay Sep 1: #969 (generate packs without card, pay to post). PR #970: lock Save Image for unpaid users + no-card copy on signup. PR #971 open: Add Bill as ZippityOne closer on homepage, pricing, and signup. PR #972 merged Sep 5: fix Facebook carousel (all cards once). PR #973 merged Sep 5: fix Facebook single-image one-click posts (feed only). PR #974 merged Sep 5: Post lock converted, Pro Bring-to-Life capped at 50, free own-video hook. PR #955 (crop to customer-picked point) still open."
         },
         {
           "id": "g3.2",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-05T22:30:00Z"
+  "updatedAt": "2026-09-05T23:10:00Z"
 }
