@@ -1,6 +1,38 @@
 {
   "entries": [
     {
+      "id": "r44",
+      "project": "Juvenis Medical",
+      "type": "content",
+      "description": "PR #49 merged: published FDA testosterone boxed-warning blog — educational post on testosterone therapy safety and risk disclosure for the Juvenis site.",
+      "date": "2026-09-05T22:55:02Z",
+      "author": "Ares"
+    },
+    {
+      "id": "r43",
+      "project": "PostReady",
+      "type": "feature",
+      "description": "PR #974 merged: product update — Post lock converted, Pro Bring-to-Life pack capped at 50, and free users can now use their own video hook.",
+      "date": "2026-09-05T22:53:43Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r42",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #973 merged: fixed Facebook single-image one-click posts publishing to both feed and story — now posts to feed only, as expected.",
+      "date": "2026-09-05T21:55:56Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r41",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #972 merged: fixed Facebook carousel posts publishing the cover card twice — all cards now post once each in the correct order.",
+      "date": "2026-09-05T21:47:28Z",
+      "author": "Pete"
+    },
+    {
       "id": "r40",
       "project": "PostReady",
       "type": "pr_opened",
@@ -47,39 +79,7 @@
       "description": "PR #46 merged: hormone-first rebuild of the Juvenis Medical site — restructured from Dr. Paul's clinical answers, putting hormones front and centre.",
       "date": "2026-08-31T16:25:55Z",
       "author": "Ares"
-    },
-    {
-      "id": "r33",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #967 merged: fixed a stall in the batch upload queue — a single failing file could block the entire queue, now each file is handled independently.",
-      "date": "2026-08-31T00:37:31Z",
-      "author": "Ares"
-    },
-    {
-      "id": "r32",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #966 merged: fixed a silent bug where batch upload was dropping files it never captioned — users can now upload batches without losing captions.",
-      "date": "2026-08-30T21:38:18Z",
-      "author": "Ares"
-    },
-    {
-      "id": "r31",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #964 merged: captions that fail to write now surface a clear error and offer a retry option instead of silently failing.",
-      "date": "2026-08-30T21:23:01Z",
-      "author": "Ares"
-    },
-    {
-      "id": "r42",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #973 merged: fixed Facebook single-image one-click posts publishing to both feed and story — now posts to feed only, as expected.",
-      "date": "2026-09-05T21:55:56Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-05T22:30:00Z"
+  "updatedAt": "2026-09-05T23:10:00Z"
 }
