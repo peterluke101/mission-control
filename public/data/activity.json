@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r45",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #975 merged: hardened X (Twitter) image publishing — compresses images under 5 MB and retries on 503 errors for more reliable posting.",
+      "date": "2026-09-07T22:16:29Z",
+      "author": "Ares"
+    },
+    {
       "id": "r44",
       "project": "Juvenis Medical",
       "type": "content",
@@ -71,15 +79,7 @@
       "description": "PRs #43-48 merged: hormone-first site rebuild phases 1–3 shipped to main — hormone-first copy + metadata, hormones hub with menopause/thyroid/GH/TRT/BHRT expansions, and a trust scaffold.",
       "date": "2026-09-01T04:30:42Z",
       "author": "Ares"
-    },
-    {
-      "id": "r34",
-      "project": "Juvenis Medical",
-      "type": "feature",
-      "description": "PR #46 merged: hormone-first rebuild of the Juvenis Medical site — restructured from Dr. Paul's clinical answers, putting hormones front and centre.",
-      "date": "2026-08-31T16:25:55Z",
-      "author": "Ares"
     }
   ],
-  "updatedAt": "2026-09-05T23:10:00Z"
+  "updatedAt": "2026-09-08T01:30:00Z"
 }
