@@ -1,6 +1,6 @@
 {
   "mission": "Build and grow client services: websites, branding, social content, and marketing assets",
-  "lastUpdated": "2026-09-10T05:10:00Z",
+  "lastUpdated": "2026-09-10T22:02:40Z",
   "weekTarget": "PostReady: PR #958 (carousel photo upload refused) merged Aug 29. PR #957 (add many files to Post Packs) merged Aug 29. PR #956 (Google Business connected) merged Aug 26. PR #954+#953+#952 merged Aug 26. Threads live Aug 25 (Meta approved early), TikTok + static rendering shipped. PR #959-#967 merged Aug 30–31 (reference photo, copy polish, CTA, Create screen, drag-drop, caption errors, batch upload fixes). PR #969 (try-before-pay: generate packs without a card, pay to post) merged Sep 1. PR #970 (lock Save Image for unpaid users, no-card copy on signup) merged Sep 1. PR #971 (Add Bill as ZippityOne closer on homepage + pricing) open. PR #972 (fix Facebook carousel — all cards once) merged Sep 5. PR #973 (fix Facebook single-image one-click posts — feed only, not feed+story) merged Sep 5. PR #974 (Post lock converted, Pro Bring-to-Life capped at 50, free own-video hook) merged Sep 5. PR #975 (harden X image publishing — compress under 5MB + 503 retry) merged Sep 7. PR #976 (align FAQ + pricing copy with try-before-pay Standard/Pro BTL) merged Sep 9. PR #977 (ZippityOne ops brief weekly) merged Sep 9. PR #978 (landing polish: cool off-white + pricing hierarchy) merged Sep 10. PR #955 (crop to customer-picked point) still open. Juvenis: PR #46 (hormone-first rebuild) merged Aug 31. PRs #43-48 (hormone-first phases 1–3 to main + Dr. Paul's locked answers) merged Sep 1. PR #47 (FDA hormone-therapy boxed-warning blog, Paul-approved) merged Sep 1. PR #49 (FDA testosterone boxed-warning blog) merged Sep 5. Google Workspace OAuth awaiting Dr Paul consent; Buffer MCP approved (Pete to sign up + get API token). Mission Control: Tailscale Funnel + dock buffering still pending.",
   "activeProjects": [
     "Mission Control",
@@ -15,7 +15,7 @@
       "priority": "critical",
       "progress": 96,
       "owner": "Ares",
-      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. June 5 container image lost + recovered. June 30 main agent upgraded to claude-sonnet-5. Tailscale Funnel + dock buffering still pending.",
+      "note": "Chat dock + A2 unified memory live. Observational Memory v1 merged. Per-task model routing deployed May 19 — Haiku Librarian live. June 5 container image lost + recovered. June 30 main agent upgraded to claude-sonnet-5. github.json live-sync automation running since Aug 25 (tracks open PRs, repo stats in real time). Agent-Ops daily backup repo launched Sep 5. Tailscale Funnel + dock buffering still pending.",
       "subgoals": [
         {
           "id": "g1.1",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-10T01:43:56Z"
+  "updatedAt": "2026-09-10T22:02:40Z"
 }
