@@ -3,9 +3,9 @@
     {
       "id": "r48",
       "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #978 opened (HOLD merge): Landing polish — cool off-white #F7F8FA replaces cream/peach page wash, pricing hierarchy improvements. Held pending Pete review.",
-      "date": "2026-09-10T01:20:25Z",
+      "type": "feature",
+      "description": "PR #978 merged: landing polish — cool off-white #F7F8FA replaces cream/peach page wash; pricing hierarchy improvements for better conversion clarity.",
+      "date": "2026-09-10T04:32:58Z",
       "author": "Pete"
     },
     {
@@ -81,5 +81,5 @@
       "author": "Ares"
     }
   ],
-  "updatedAt": "2026-09-10T01:43:56Z"
+  "updatedAt": "2026-09-10T05:10:00Z"
 }
