@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r50",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #979 opened (HOLD): Free-account promo codes unlock ZippityOne posting — allows free users to redeem promo codes and post via ZippityOne without paying.",
+      "date": "2026-09-10T23:28:05Z",
+      "author": "Pete"
+    },
+    {
       "id": "r48",
       "project": "PostReady",
       "type": "feature",
@@ -71,15 +79,7 @@
       "description": "PR #972 merged: fixed Facebook carousel posts publishing the cover card twice — all cards now post once each in the correct order.",
       "date": "2026-09-05T21:47:28Z",
       "author": "Pete"
-    },
-    {
-      "id": "r40",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #971 opened: Add Bill as the ZippityOne closer on homepage, pricing, and signup pages.",
-      "date": "2026-09-03T04:02:35Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-10T22:02:40Z"
+  "updatedAt": "2026-09-10T23:40:00Z"
 }
