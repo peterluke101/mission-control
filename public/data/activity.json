@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "r52",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #985 opened: Add Enhance / Relight on Create upload-own-image — allows users to enhance or relight a photo they upload via the Create screen.",
+      "date": "2026-09-10T23:45:30Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r51",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #984 opened: fix(ui) — trim Create Upload tile and drop BTL metering from the upload strip for a cleaner upload experience.",
+      "date": "2026-09-10T23:45:16Z",
+      "author": "Pete"
+    },
+    {
       "id": "r50",
       "project": "PostReady",
       "type": "pr_opened",
@@ -63,23 +79,7 @@
       "description": "PR #974 merged: product update — Post lock converted, Pro Bring-to-Life pack capped at 50, and free users can now use their own video hook.",
       "date": "2026-09-05T22:53:43Z",
       "author": "Pete"
-    },
-    {
-      "id": "r42",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #973 merged: fixed Facebook single-image one-click posts publishing to both feed and story — now posts to feed only, as expected.",
-      "date": "2026-09-05T21:55:56Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r41",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #972 merged: fixed Facebook carousel posts publishing the cover card twice — all cards now post once each in the correct order.",
-      "date": "2026-09-05T21:47:28Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-10T23:40:00Z"
+  "updatedAt": "2026-09-11T00:01:44Z"
 }
