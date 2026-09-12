@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r55",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #992 opened: Instrument PostHog conversion events — adds analytics tracking for key conversion actions (signup, pack created, unlock) to measure funnel performance.",
+      "date": "2026-09-11T23:14:17Z",
+      "author": "Pete"
+    },
+    {
       "id": "r54",
       "project": "PostReady",
       "type": "fix",
@@ -71,15 +79,7 @@
       "description": "PR #49 merged: published FDA testosterone boxed-warning blog — educational post on testosterone therapy safety and risk disclosure for the Juvenis site.",
       "date": "2026-09-05T22:55:02Z",
       "author": "Ares"
-    },
-    {
-      "id": "r49",
-      "project": "Mission Control",
-      "type": "feature",
-      "description": "Agent-Ops daily backup repo launched — automatically commits a snapshot of work completed each day, creating a persistent audit trail of deliverables.",
-      "date": "2026-09-05T21:55:49Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-11T01:12:00Z"
+  "updatedAt": "2026-09-12T01:03:18Z"
 }
