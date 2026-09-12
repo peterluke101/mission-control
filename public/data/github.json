@@ -1,12 +1,12 @@
 {
-  "syncedAt": "2026-09-12T19:11:31.573Z",
+  "syncedAt": "2026-09-12T22:11:16.947Z",
   "owner": "peterluke101",
   "summary": {
     "repoCount": 16,
     "activeRepoCount": 8,
     "archivedRepoCount": 8,
-    "openIssueCount": 27,
-    "openPRCount": 10
+    "openIssueCount": 26,
+    "openPRCount": 9
   },
   "repos": [
     {
@@ -16,8 +16,8 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-09-12T19:01:32Z",
-      "updatedAt": "2026-09-12T19:01:36Z",
+      "pushedAt": "2026-09-12T21:36:54Z",
+      "updatedAt": "2026-09-12T21:36:58Z",
       "htmlUrl": "https://github.com/peterluke101/mission-control",
       "openIssueCount": 0,
       "openPRCount": 2,
@@ -59,26 +59,15 @@
       "visibility": "public",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-09-12T18:38:38Z",
-      "updatedAt": "2026-07-02T22:04:24Z",
+      "pushedAt": "2026-09-12T21:09:37Z",
+      "updatedAt": "2026-09-12T21:09:41Z",
       "htmlUrl": "https://github.com/peterluke101/peptide-calc-build",
-      "openIssueCount": 18,
-      "openPRCount": 6,
-      "branchCount": 92,
+      "openIssueCount": 17,
+      "openPRCount": 5,
+      "branchCount": 93,
       "topics": [],
       "language": "HTML",
       "issues": [
-        {
-          "number": 255,
-          "title": "IA: Schedule is home — kill Compass tab, collapse Add Peptide, move catalog to Learn/Research",
-          "state": "open",
-          "labels": [],
-          "author": "peterluke101",
-          "createdAt": "2026-09-12T18:12:01Z",
-          "updatedAt": "2026-09-12T18:12:01Z",
-          "url": "https://github.com/peterluke101/peptide-calc-build/issues/255",
-          "commentCount": 0
-        },
         {
           "number": 180,
           "title": "Bug: Cost tracker date input hardcoded color-scheme:light — always light in dark mode",
@@ -310,18 +299,6 @@
         }
       ],
       "pullRequests": [
-        {
-          "number": 256,
-          "title": "IA: Schedule is home — kill Compass tab, collapse Add Peptide, catalog to Research (#255)",
-          "state": "open",
-          "draft": false,
-          "author": "peterluke101",
-          "head": "cursor/ia-schedule-home-255-899e",
-          "base": "main",
-          "createdAt": "2026-09-12T18:20:36Z",
-          "updatedAt": "2026-09-12T18:43:51Z",
-          "url": "https://github.com/peterluke101/peptide-calc-build/pull/256"
-        },
         {
           "number": 231,
           "title": "feat(ui): replace text pill with small info icon, add to Schedule tab",
