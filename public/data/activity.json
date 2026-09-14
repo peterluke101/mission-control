@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r56",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #994 merged: fix(upload) — iPhone HEIC/HEIF images uploaded on the Create screen are now accepted and converted to JPEG/PNG automatically before processing.",
+      "date": "2026-09-14T20:10:25Z",
+      "author": "Pete"
+    },
+    {
       "id": "r55",
       "project": "PostReady",
       "type": "pr_opened",
@@ -71,15 +79,7 @@
       "description": "PR #975 merged: hardened X (Twitter) image publishing — compresses images under 5 MB and retries on 503 errors for more reliable posting.",
       "date": "2026-09-07T22:16:29Z",
       "author": "Ares"
-    },
-    {
-      "id": "r44",
-      "project": "Juvenis Medical",
-      "type": "content",
-      "description": "PR #49 merged: published FDA testosterone boxed-warning blog — educational post on testosterone therapy safety and risk disclosure for the Juvenis site.",
-      "date": "2026-09-05T22:55:02Z",
-      "author": "Ares"
     }
   ],
-  "updatedAt": "2026-09-12T01:03:18Z"
+  "updatedAt": "2026-09-14T20:18:00Z"
 }
