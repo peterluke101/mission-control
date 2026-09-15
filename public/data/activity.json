@@ -1,11 +1,27 @@
 {
   "entries": [
     {
-      "id": "r57",
+      "id": "r59",
       "project": "PostReady",
       "type": "pr_opened",
-      "description": "PR #996 opened: fix — carousel packs now publish all slides on Facebook, Instagram, LinkedIn, and X (closes issue #995).",
-      "date": "2026-09-15T00:18:46Z",
+      "description": "PR #998 opened: fix — repair Kyra's HEIC carousel pack in place (no re-export needed — patches existing pack data without losing user work).",
+      "date": "2026-09-15T01:59:04Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r58",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #997 merged: fix(carousel) — convert iPhone HEIC photos to JPEG/PNG before storing photo cards, so carousels built from HEIC uploads render correctly on all platforms.",
+      "date": "2026-09-15T01:48:59Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r57",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #996 merged: fix — carousel packs now publish all slides on Facebook, Instagram, LinkedIn, and X (closes issue #995 where only the first slide was sent).",
+      "date": "2026-09-15T01:06:31Z",
       "author": "Pete"
     },
     {
@@ -63,23 +79,7 @@
       "description": "PR #978 merged: landing polish — cool off-white #F7F8FA replaces cream/peach page wash; pricing hierarchy improvements for better conversion clarity.",
       "date": "2026-09-10T04:32:58Z",
       "author": "Pete"
-    },
-    {
-      "id": "r47",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #977 merged: ZippityOne ops brief changed from daily to weekly — reduces noise and keeps the brief actionable.",
-      "date": "2026-09-09T12:48:59Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r46",
-      "project": "PostReady",
-      "type": "content",
-      "description": "PR #976 merged: aligned FAQ + pricing copy with try-before-pay Standard/Pro BTL — consistent messaging across homepage and pricing page.",
-      "date": "2026-09-09T12:39:54Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-15T00:36:07.165Z"
+  "updatedAt": "2026-09-15T02:10:00Z"
 }
