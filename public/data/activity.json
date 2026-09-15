@@ -3,9 +3,9 @@
     {
       "id": "r59",
       "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #998 opened: fix — repair Kyra's HEIC carousel pack in place (no re-export needed — patches existing pack data without losing user work).",
-      "date": "2026-09-15T01:59:04Z",
+      "type": "fix",
+      "description": "PR #998 merged: fix — repair Kyra's HEIC carousel pack in place (keep cover); patches existing pack data without re-export, preserving user work.",
+      "date": "2026-09-15T02:09:59Z",
       "author": "Pete"
     },
     {
@@ -81,5 +81,5 @@
       "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-15T02:10:00Z"
+  "updatedAt": "2026-09-15T02:30:00Z"
 }
