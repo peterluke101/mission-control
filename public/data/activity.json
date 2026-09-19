@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r61",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #1001 opened: Offer change — $9.99 first month then $39.97/month, free path removed. Introductory period halved; requires a matching Stripe coupon update to avoid billing mismatch.",
+      "date": "2026-09-19T14:27:25Z",
+      "author": "Pete"
+    },
+    {
       "id": "r60",
       "project": "PostReady",
       "type": "fix",
@@ -71,15 +79,7 @@
       "description": "PR #985 opened: Add Enhance / Relight on Create upload-own-image — allows users to enhance or relight a photo they upload via the Create screen.",
       "date": "2026-09-10T23:45:30Z",
       "author": "Pete"
-    },
-    {
-      "id": "r51",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #979 (HOLD) and PR #984 opened — free-account promo codes for ZippityOne posting (held) and Create Upload tile trim queued.",
-      "date": "2026-09-10T23:28:05Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-18T15:00:00Z"
+  "updatedAt": "2026-09-19T14:45:00Z"
 }
