@@ -8,7 +8,7 @@
       "model": null,
       "type": "human",
       "status": "active",
-      "lastActive": "2026-09-19T14:27:25Z"
+      "lastActive": "2026-09-20T19:22:15Z"
     },
     {
       "id": "ares",
@@ -28,9 +28,9 @@
       "model": "claude-haiku-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-09-20T21:41:32Z"
+      "lastActive": "2026-09-20T22:03:45Z"
     }
   ],
-  "updatedAt": "2026-09-20T21:41:32Z",
-  "lastUpdated": "2026-09-20T21:41:32Z"
+  "updatedAt": "2026-09-20T22:03:45Z",
+  "lastUpdated": "2026-09-20T22:03:45Z"
 }
