@@ -15,7 +15,7 @@
       "name": "Ares",
       "emoji": "⚡",
       "role": "Lead Agent",
-      "model": "claude-sonnet-4-5",
+      "model": "claude-sonnet-5",
       "type": "agent",
       "status": "active",
       "lastActive": "2026-09-19T14:45:00Z"
@@ -28,9 +28,9 @@
       "model": "claude-haiku-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-09-27T17:37:52.160Z"
+      "lastActive": "2026-09-27T17:42:04.187Z"
     }
   ],
-  "updatedAt": "2026-09-27T17:37:52.160Z",
-  "lastUpdated": "2026-09-27T17:37:52.160Z"
+  "updatedAt": "2026-09-27T17:42:04.187Z",
+  "lastUpdated": "2026-09-27T17:42:04.187Z"
 }
