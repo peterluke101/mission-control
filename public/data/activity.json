@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r62",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1003 merged: fix — $9.99 intro coupon now persists on every repeat checkout session for never-paid customers (was dropping off after first attempt); paid customers correctly excluded.",
+      "date": "2026-09-27T20:18:52Z",
+      "author": "Pete"
+    },
+    {
       "id": "r61",
       "project": "PostReady",
       "type": "pr_opened",
@@ -71,15 +79,7 @@
       "description": "PR #984 merged: fix(ui) — trimmed Create Upload tile and dropped BTL metering from the upload strip for a cleaner create experience.",
       "date": "2026-09-11T00:34:45Z",
       "author": "Pete"
-    },
-    {
-      "id": "r52",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #985 opened: Add Enhance / Relight on Create upload-own-image — allows users to enhance or relight a photo they upload via the Create screen.",
-      "date": "2026-09-10T23:45:30Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-19T14:45:00Z"
+  "updatedAt": "2026-09-27T22:15:00Z"
 }
