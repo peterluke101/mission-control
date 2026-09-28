@@ -1,6 +1,38 @@
 {
   "entries": [
     {
+      "id": "r66",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1007 merged: fix — fail checkout closed when Stripe customer search errors, preventing partial checkout states and broken billing flows.",
+      "date": "2026-09-28T13:54:25Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r65",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1006 merged: fix — fail checkout closed when Stripe billing history errors, ensuring checkout state is cleanly rolled back on API failure.",
+      "date": "2026-09-28T13:49:28Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r64",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1005 merged: Add About page, refresh three setup guides, and fix LinkedIn copy for improved onboarding and credibility.",
+      "date": "2026-09-28T13:44:33Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r63",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1004 merged: fix — keep intro offer off when a real charge is buried under $0 invoices, so paid customers are not incorrectly offered the $9.99 intro price.",
+      "date": "2026-09-28T13:42:19Z",
+      "author": "Pete"
+    },
+    {
       "id": "r62",
       "project": "PostReady",
       "type": "fix",
@@ -47,39 +79,7 @@
       "description": "PR #996 merged: fix — carousel packs now publish all slides on Facebook, Instagram, LinkedIn, and X (closes issue #995 where only the first slide was sent).",
       "date": "2026-09-15T01:06:31Z",
       "author": "Pete"
-    },
-    {
-      "id": "r56",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #994 merged: fix(upload) — iPhone HEIC/HEIF images uploaded on the Create screen are now accepted and converted to JPEG/PNG automatically before processing.",
-      "date": "2026-09-14T20:10:25Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r55",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #992 opened: Instrument PostHog conversion events — adds analytics tracking for key conversion actions (signup, pack created, unlock) to measure funnel performance.",
-      "date": "2026-09-11T23:14:17Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r54",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #989 merged: fix(upload) — Browse files now correctly opens the file picker on the Create → Upload own image flow (root-cause: sr-only input was not clickable).",
-      "date": "2026-09-11T00:49:55Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r53",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #984 merged: fix(ui) — trimmed Create Upload tile and dropped BTL metering from the upload strip for a cleaner create experience.",
-      "date": "2026-09-11T00:34:45Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-27T22:15:00Z"
+  "updatedAt": "2026-09-28T14:00:00Z"
 }
