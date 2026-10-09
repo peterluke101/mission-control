@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "r70",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1011 merged: Hold the hero proof tiles one extra second — proof tile animation timing extended for better visual impression.",
+      "date": "2026-10-09T21:40:42Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r69",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1010 merged: Show each platform's real shape after the hero posts — hero proof tiles now render platform-accurate aspect ratios.",
+      "date": "2026-10-09T21:28:42Z",
+      "author": "Pete"
+    },
+    {
       "id": "r68",
       "project": "PostReady",
       "type": "feat",
@@ -63,23 +79,7 @@
       "description": "PR #1001 opened: Offer change — $9.99 first month then $39.97/month, free path removed. Introductory period halved; requires a matching Stripe coupon update to avoid billing mismatch.",
       "date": "2026-09-19T14:27:25Z",
       "author": "Pete"
-    },
-    {
-      "id": "r60",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1000 merged: fix — swap HEIC decoder (heic2any → libheif-js) so modern iPhone photos uploaded to Create correctly decode and process instead of failing silently.",
-      "date": "2026-09-18T14:45:02Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r59",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #998 merged: fix — repair Kyra's HEIC carousel pack in place (keep cover); patches existing pack data without re-export, preserving user work.",
-      "date": "2026-09-15T02:09:59Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-10-03T00:00:00Z"
+  "updatedAt": "2026-10-09T22:00:00Z"
 }
