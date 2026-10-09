@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "r68",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1009 merged: Change homepage hero button to show \"$9.99 to start\", reinforcing the intro offer throughout the conversion path.",
+      "date": "2026-10-02T23:32:11Z",
+      "author": "Pete"
+    },
+    {
+      "id": "r67",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #1008 opened: Lead marketing CTAs with $9.99 and start checkout for signed-in visitors — reduces friction for returning users.",
+      "date": "2026-09-28T17:15:22Z",
+      "author": "Pete"
+    },
+    {
       "id": "r66",
       "project": "PostReady",
       "type": "fix",
@@ -63,23 +79,7 @@
       "description": "PR #998 merged: fix — repair Kyra's HEIC carousel pack in place (keep cover); patches existing pack data without re-export, preserving user work.",
       "date": "2026-09-15T02:09:59Z",
       "author": "Pete"
-    },
-    {
-      "id": "r58",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #997 merged: fix(carousel) — convert iPhone HEIC photos to JPEG/PNG before storing photo cards, so carousels built from HEIC uploads render correctly on all platforms.",
-      "date": "2026-09-15T01:48:59Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r57",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #996 merged: fix — carousel packs now publish all slides on Facebook, Instagram, LinkedIn, and X (closes issue #995 where only the first slide was sent).",
-      "date": "2026-09-15T01:06:31Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-09-28T14:00:00Z"
+  "updatedAt": "2026-10-03T00:00:00Z"
 }
