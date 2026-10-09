@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "id": "r71",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #1012 opened: Make the hero proof easier to read on a phone — improving mobile readability of hero social proof tiles.",
+      "date": "2026-10-09T22:00:26Z",
+      "author": "Pete"
+    },
+    {
       "id": "r70",
       "project": "PostReady",
       "type": "feat",
@@ -71,15 +79,7 @@
       "description": "PR #1003 merged: fix — $9.99 intro coupon now persists on every repeat checkout session for never-paid customers (was dropping off after first attempt); paid customers correctly excluded.",
       "date": "2026-09-27T20:18:52Z",
       "author": "Pete"
-    },
-    {
-      "id": "r61",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #1001 opened: Offer change — $9.99 first month then $39.97/month, free path removed. Introductory period halved; requires a matching Stripe coupon update to avoid billing mismatch.",
-      "date": "2026-09-19T14:27:25Z",
-      "author": "Pete"
     }
   ],
-  "updatedAt": "2026-10-09T22:00:00Z"
+  "updatedAt": "2026-10-09T22:20:00Z"
 }
