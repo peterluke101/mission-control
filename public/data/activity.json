@@ -1,11 +1,20 @@
 {
+  "updatedAt": "2026-10-09T23:00:00Z",
   "entries": [
+    {
+      "id": "r72",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1013 merged: fix — missing video preview thumbnails on iPhone upload now resolved; Safari/iOS video files render correctly in the media picker.",
+      "date": "2026-10-09T22:17:46Z",
+      "author": "Pete"
+    },
     {
       "id": "r71",
       "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #1012 opened: Make the hero proof easier to read on a phone — improving mobile readability of hero social proof tiles.",
-      "date": "2026-10-09T22:00:26Z",
+      "type": "fix",
+      "description": "PR #1012 merged: fix — hero proof tiles made easier to read on a phone; mobile layout and text sizing improved for social proof section.",
+      "date": "2026-10-09T22:01:46Z",
       "author": "Pete"
     },
     {
@@ -71,15 +80,6 @@
       "description": "PR #1004 merged: fix — keep intro offer off when a real charge is buried under $0 invoices, so paid customers are not incorrectly offered the $9.99 intro price.",
       "date": "2026-09-28T13:42:19Z",
       "author": "Pete"
-    },
-    {
-      "id": "r62",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1003 merged: fix — $9.99 intro coupon now persists on every repeat checkout session for never-paid customers (was dropping off after first attempt); paid customers correctly excluded.",
-      "date": "2026-09-27T20:18:52Z",
-      "author": "Pete"
     }
-  ],
-  "updatedAt": "2026-10-09T22:20:00Z"
+  ]
 }
