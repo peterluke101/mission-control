@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-09T23:00:00Z",
+  "updatedAt": "2026-10-10T00:20:00Z",
   "entries": [
+    {
+      "id": "r73",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #1014 opened: Mobile quick wins (approved design review items) — batch of mobile UX improvements from approved design review.",
+      "date": "2026-10-10T00:01:14Z",
+      "author": "Pete"
+    },
     {
       "id": "r72",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "feat",
       "description": "PR #1005 merged: Add About page, refresh three setup guides, and fix LinkedIn copy for improved onboarding and credibility.",
       "date": "2026-09-28T13:44:33Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r63",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1004 merged: fix — keep intro offer off when a real charge is buried under $0 invoices, so paid customers are not incorrectly offered the $9.99 intro price.",
-      "date": "2026-09-28T13:42:19Z",
       "author": "Pete"
     }
   ]
