@@ -8,7 +8,7 @@
       "model": null,
       "type": "human",
       "status": "active",
-      "lastActive": "2026-10-10T12:32:14Z"
+      "lastActive": "2026-10-11T14:02:57Z"
     },
     {
       "id": "ares",
@@ -18,7 +18,7 @@
       "model": "claude-sonnet-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-10-10T12:32:14Z"
+      "lastActive": "2026-10-11T14:30:00Z"
     },
     {
       "id": "librarian",
@@ -28,9 +28,9 @@
       "model": "claude-haiku-4-5",
       "type": "agent",
       "status": "active",
-      "lastActive": "2026-10-11T17:52:02.877Z"
+      "lastActive": "2026-10-11T18:41:25.000Z"
     }
   ],
-  "updatedAt": "2026-10-11T17:52:02.877Z",
-  "lastUpdated": "2026-10-11T17:52:02.877Z"
+  "updatedAt": "2026-10-11T18:41:25.000Z",
+  "lastUpdated": "2026-10-11T18:41:25.000Z"
 }
