@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-10T13:00:00Z",
+  "updatedAt": "2026-10-11T14:30:00Z",
   "entries": [
+    {
+      "id": "r75",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1016 merged: Fix cramped mobile header on marketing pages — header layout on phone widths now fits wordmark, Pricing, Log in, and CTA button without wrapping or overflow.",
+      "date": "2026-10-11T14:02:57Z",
+      "author": "Pete"
+    },
     {
       "id": "r74",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "fix",
       "description": "PR #1007 merged: fix — fail checkout closed when Stripe customer search errors, preventing partial checkout states and broken billing flows.",
       "date": "2026-09-28T13:54:25Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r65",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1006 merged: fix — fail checkout closed when Stripe billing history errors, ensuring checkout state is cleanly rolled back on API failure.",
-      "date": "2026-09-28T13:49:28Z",
       "author": "Pete"
     }
   ]
