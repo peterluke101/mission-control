@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-11T14:30:00Z",
+  "updatedAt": "2026-10-11T23:30:00Z",
   "entries": [
+    {
+      "id": "r76",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1017 merged: fix — pause upload cleanup cron (kill switch); urgent fix to stop the daily cleanup job from permanently deleting user uploads, including internal account videos and unposted ready packs.",
+      "date": "2026-10-11T23:26:16Z",
+      "author": "Pete"
+    },
     {
       "id": "r75",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "pr_opened",
       "description": "PR #1008 opened: Lead marketing CTAs with $9.99 and start checkout for signed-in visitors — reduces friction for returning users.",
       "date": "2026-09-28T17:15:22Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r66",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1007 merged: fix — fail checkout closed when Stripe customer search errors, preventing partial checkout states and broken billing flows.",
-      "date": "2026-09-28T13:54:25Z",
       "author": "Pete"
     }
   ]
