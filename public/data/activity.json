@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-11T23:30:00Z",
+  "updatedAt": "2026-10-12T02:15:00Z",
   "entries": [
+    {
+      "id": "r77",
+      "project": "PostReady",
+      "type": "pr_opened",
+      "description": "PR #1018 opened: fix — safe upload retention (90 days after posting, never internal/admin/unposted); follows kill-switch merge to implement a proper retention policy protecting user uploads.",
+      "date": "2026-10-11T23:34:55Z",
+      "author": "Pete"
+    },
     {
       "id": "r76",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "feat",
       "description": "PR #1009 merged: Change homepage hero button to show \"$9.99 to start\", reinforcing the intro offer throughout the conversion path.",
       "date": "2026-10-02T23:32:11Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r67",
-      "project": "PostReady",
-      "type": "pr_opened",
-      "description": "PR #1008 opened: Lead marketing CTAs with $9.99 and start checkout for signed-in visitors — reduces friction for returning users.",
-      "date": "2026-09-28T17:15:22Z",
       "author": "Pete"
     }
   ]
