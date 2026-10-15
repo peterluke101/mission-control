@@ -27,7 +27,8 @@
       "role": "Data Steward",
       "model": "claude-haiku-4-5",
       "type": "agent",
-      "status": "active"
+      "status": "active",
+      "lastActive": "2026-10-15T17:42:30Z"
     }
   ]
 }
