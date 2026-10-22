@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-12T02:15:00Z",
+  "updatedAt": "2026-10-22T03:20:00Z",
   "entries": [
+    {
+      "id": "r78",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1001 merged: Offer change — $9.99 first month, then $39.97/month + 1 free AI pack; free path removed. Pricing and offer structure updated site-wide.",
+      "date": "2026-10-22T03:17:51Z",
+      "author": "Pete"
+    },
     {
       "id": "r77",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "feat",
       "description": "PR #1010 merged: Show each platform's real shape after the hero posts — hero proof tiles now render platform-accurate aspect ratios.",
       "date": "2026-10-09T21:28:42Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r68",
-      "project": "PostReady",
-      "type": "feat",
-      "description": "PR #1009 merged: Change homepage hero button to show \"$9.99 to start\", reinforcing the intro offer throughout the conversion path.",
-      "date": "2026-10-02T23:32:11Z",
       "author": "Pete"
     }
   ]
