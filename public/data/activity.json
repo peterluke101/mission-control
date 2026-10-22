@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-22T03:20:00Z",
+  "updatedAt": "2026-10-22T14:55:00Z",
   "entries": [
+    {
+      "id": "r79",
+      "project": "PostReady",
+      "type": "feat",
+      "description": "PR #1019 merged: Instagram Story posting + TikTok \"Save for Story\" — new vertical-format publishing paths for both platforms.",
+      "date": "2026-10-22T14:40:00Z",
+      "author": "Pete"
+    },
     {
       "id": "r78",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "feat",
       "description": "PR #1011 merged: Hold the hero proof tiles one extra second — proof tile animation timing extended for better visual impression.",
       "date": "2026-10-09T21:40:42Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r69",
-      "project": "PostReady",
-      "type": "feat",
-      "description": "PR #1010 merged: Show each platform's real shape after the hero posts — hero proof tiles now render platform-accurate aspect ratios.",
-      "date": "2026-10-09T21:28:42Z",
       "author": "Pete"
     }
   ]
