@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-22T14:55:00Z",
+  "updatedAt": "2026-10-23T17:30:00Z",
   "entries": [
+    {
+      "id": "r80",
+      "project": "PostReady",
+      "type": "fix",
+      "description": "PR #1020 merged: fix — Safari Log in tap + stale HTML cache; resolves Safari-specific login button unresponsiveness and HTML caching issue.",
+      "date": "2026-10-23T16:07:54Z",
+      "author": "Pete"
+    },
     {
       "id": "r79",
       "project": "PostReady",
@@ -71,14 +79,6 @@
       "type": "fix",
       "description": "PR #1012 merged: fix — hero proof tiles made easier to read on a phone; mobile layout and text sizing improved for social proof section.",
       "date": "2026-10-09T22:01:46Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r70",
-      "project": "PostReady",
-      "type": "feat",
-      "description": "PR #1011 merged: Hold the hero proof tiles one extra second — proof tile animation timing extended for better visual impression.",
-      "date": "2026-10-09T21:40:42Z",
       "author": "Pete"
     }
   ]
