@@ -1,11 +1,19 @@
 {
-  "updatedAt": "2026-10-23T17:30:00Z",
+  "updatedAt": "2026-10-29T23:01:24.000Z",
   "entries": [
+    {
+      "id": "r81",
+      "project": "Teamster App",
+      "type": "feat",
+      "description": "PR #1 merged: feat/ticket-floorplan \u2014 Ticket floor-plan card with booth pin + sharp closeup; new app for Freeman rigging crew launched Oct 26.",
+      "date": "2026-10-26T17:08:58Z",
+      "author": "Pete"
+    },
     {
       "id": "r80",
       "project": "PostReady",
       "type": "fix",
-      "description": "PR #1020 merged: fix — Safari Log in tap + stale HTML cache; resolves Safari-specific login button unresponsiveness and HTML caching issue.",
+      "description": "PR #1020 merged: fix \u2014 Safari Log in tap + stale HTML cache; resolves Safari-specific login button unresponsiveness and HTML caching issue.",
       "date": "2026-10-23T16:07:54Z",
       "author": "Pete"
     },
@@ -13,7 +21,7 @@
       "id": "r79",
       "project": "PostReady",
       "type": "feat",
-      "description": "PR #1019 merged: Instagram Story posting + TikTok \"Save for Story\" — new vertical-format publishing paths for both platforms.",
+      "description": "PR #1019 merged: Instagram Story posting + TikTok \"Save for Story\" \u2014 new vertical-format publishing paths for both platforms.",
       "date": "2026-10-22T14:40:00Z",
       "author": "Pete"
     },
@@ -21,7 +29,7 @@
       "id": "r78",
       "project": "PostReady",
       "type": "feat",
-      "description": "PR #1001 merged: Offer change — $9.99 first month, then $39.97/month + 1 free AI pack; free path removed. Pricing and offer structure updated site-wide.",
+      "description": "PR #1001 merged: Offer change \u2014 $9.99 first month, then $39.97/month + 1 free AI pack; free path removed. Pricing and offer structure updated site-wide.",
       "date": "2026-10-22T03:17:51Z",
       "author": "Pete"
     },
@@ -29,7 +37,7 @@
       "id": "r77",
       "project": "PostReady",
       "type": "pr_opened",
-      "description": "PR #1018 opened: fix — safe upload retention (90 days after posting, never internal/admin/unposted); follows kill-switch merge to implement a proper retention policy protecting user uploads.",
+      "description": "PR #1018 opened: fix \u2014 safe upload retention (90 days after posting, never internal/admin/unposted); follows kill-switch merge to implement a proper retention policy protecting user uploads.",
       "date": "2026-10-11T23:34:55Z",
       "author": "Pete"
     },
@@ -37,7 +45,7 @@
       "id": "r76",
       "project": "PostReady",
       "type": "fix",
-      "description": "PR #1017 merged: fix — pause upload cleanup cron (kill switch); urgent fix to stop the daily cleanup job from permanently deleting user uploads, including internal account videos and unposted ready packs.",
+      "description": "PR #1017 merged: fix \u2014 pause upload cleanup cron (kill switch); urgent fix to stop the daily cleanup job from permanently deleting user uploads, including internal account videos and unposted ready packs.",
       "date": "2026-10-11T23:26:16Z",
       "author": "Pete"
     },
@@ -45,7 +53,7 @@
       "id": "r75",
       "project": "PostReady",
       "type": "fix",
-      "description": "PR #1016 merged: Fix cramped mobile header on marketing pages — header layout on phone widths now fits wordmark, Pricing, Log in, and CTA button without wrapping or overflow.",
+      "description": "PR #1016 merged: Fix cramped mobile header on marketing pages \u2014 header layout on phone widths now fits wordmark, Pricing, Log in, and CTA button without wrapping or overflow.",
       "date": "2026-10-11T14:02:57Z",
       "author": "Pete"
     },
@@ -53,7 +61,7 @@
       "id": "r74",
       "project": "PostReady",
       "type": "feat",
-      "description": "PR #1015 merged: Auto-rotate sample posts in hero; restore faster feature strip scroll — homepage animation and feature tour feel more dynamic.",
+      "description": "PR #1015 merged: Auto-rotate sample posts in hero; restore faster feature strip scroll \u2014 homepage animation and feature tour feel more dynamic.",
       "date": "2026-10-10T12:32:14Z",
       "author": "Pete"
     },
@@ -61,7 +69,7 @@
       "id": "r73",
       "project": "PostReady",
       "type": "feat",
-      "description": "PR #1014 merged: Mobile quick wins — batch of approved design review improvements; mobile layout and UX polish across key surfaces.",
+      "description": "PR #1014 merged: Mobile quick wins \u2014 batch of approved design review improvements; mobile layout and UX polish across key surfaces.",
       "date": "2026-10-10T12:22:17Z",
       "author": "Pete"
     },
@@ -69,16 +77,8 @@
       "id": "r72",
       "project": "PostReady",
       "type": "fix",
-      "description": "PR #1013 merged: fix — missing video preview thumbnails on iPhone upload now resolved; Safari/iOS video files render correctly in the media picker.",
+      "description": "PR #1013 merged: fix \u2014 missing video preview thumbnails on iPhone upload now resolved; Safari/iOS video files render correctly in the media picker.",
       "date": "2026-10-09T22:17:46Z",
-      "author": "Pete"
-    },
-    {
-      "id": "r71",
-      "project": "PostReady",
-      "type": "fix",
-      "description": "PR #1012 merged: fix — hero proof tiles made easier to read on a phone; mobile layout and text sizing improved for social proof section.",
-      "date": "2026-10-09T22:01:46Z",
       "author": "Pete"
     }
   ]
